@@ -5,7 +5,7 @@
         "api",
         "amazon",
         "selling-partner",
-        "sp-api",
+        "sp-api"
     ],
     "license": "MIT",
     "require": {
