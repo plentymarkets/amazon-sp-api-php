@@ -15,7 +15,7 @@
  * OpenAPI spec version: v1
  */
 
-namespace Plentymarkets\AmazonSellingPartnerAPI\Models;
+namespace Plenty\AmazonSellingPartnerAPI\Models;
 
 /**
  * Interface abstracting model access.

@@ -15,11 +15,11 @@
  * OpenAPI spec version: v0
  */
 
-namespace Plentymarkets\AmazonSellingPartnerAPI\Models\Catalog;
+namespace Plenty\AmazonSellingPartnerAPI\Models\Catalog;
 
 use ArrayAccess;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
-use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plenty\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plenty\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * Image Class Doc Comment.
@@ -47,8 +47,8 @@ class Image extends Categories implements ModelInterface, ArrayAccess
      */
     protected static $swaggerTypes = [
         'url' => 'string',
-'height' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Catalog\DecimalWithUnits',
-'width' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Catalog\DecimalWithUnits',    ];
+'height' => '\Plenty\AmazonSellingPartnerAPI\Models\Catalog\DecimalWithUnits',
+'width' => '\Plenty\AmazonSellingPartnerAPI\Models\Catalog\DecimalWithUnits',    ];
 
     /**
      * Array of property to format mappings. Used for (de)serialization.
@@ -222,7 +222,7 @@ class Image extends Categories implements ModelInterface, ArrayAccess
     /**
      * Gets height.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Catalog\DecimalWithUnits
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Catalog\DecimalWithUnits
      */
     public function getHeight()
     {
@@ -232,7 +232,7 @@ class Image extends Categories implements ModelInterface, ArrayAccess
     /**
      * Sets height.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Catalog\DecimalWithUnits $height height
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Catalog\DecimalWithUnits $height height
      *
      * @return $this
      */
@@ -246,7 +246,7 @@ class Image extends Categories implements ModelInterface, ArrayAccess
     /**
      * Gets width.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Catalog\DecimalWithUnits
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Catalog\DecimalWithUnits
      */
     public function getWidth()
     {
@@ -256,7 +256,7 @@ class Image extends Categories implements ModelInterface, ArrayAccess
     /**
      * Sets width.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Catalog\DecimalWithUnits $width width
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Catalog\DecimalWithUnits $width width
      *
      * @return $this
      */

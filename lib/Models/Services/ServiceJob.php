@@ -15,11 +15,11 @@
  * OpenAPI spec version: v1
  */
 
-namespace Plentymarkets\AmazonSellingPartnerAPI\Models\Services;
+namespace Plenty\AmazonSellingPartnerAPI\Models\Services;
 
 use ArrayAccess;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
-use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plenty\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plenty\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * ServiceJob Class Doc Comment.
@@ -47,18 +47,18 @@ class ServiceJob implements ModelInterface, ArrayAccess
      */
     protected static $swaggerTypes = [
         'create_time' => '\DateTime',
-'service_job_id' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Services\ServiceJobId',
+'service_job_id' => '\Plenty\AmazonSellingPartnerAPI\Models\Services\ServiceJobId',
 'service_job_status' => 'string',
-'scope_of_work' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Services\ScopeOfWork',
-'seller' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Services\Seller',
-'service_job_provider' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Services\ServiceJobProvider',
-'preferred_appointment_times' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Services\AppointmentTime[]',
-'appointments' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Services\Appointment[]',
-'service_order_id' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Services\OrderId',
+'scope_of_work' => '\Plenty\AmazonSellingPartnerAPI\Models\Services\ScopeOfWork',
+'seller' => '\Plenty\AmazonSellingPartnerAPI\Models\Services\Seller',
+'service_job_provider' => '\Plenty\AmazonSellingPartnerAPI\Models\Services\ServiceJobProvider',
+'preferred_appointment_times' => '\Plenty\AmazonSellingPartnerAPI\Models\Services\AppointmentTime[]',
+'appointments' => '\Plenty\AmazonSellingPartnerAPI\Models\Services\Appointment[]',
+'service_order_id' => '\Plenty\AmazonSellingPartnerAPI\Models\Services\OrderId',
 'marketplace_id' => 'string',
-'buyer' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Services\Buyer',
-'associated_items' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Services\AssociatedItem[]',
-'service_location' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Services\ServiceLocation',    ];
+'buyer' => '\Plenty\AmazonSellingPartnerAPI\Models\Services\Buyer',
+'associated_items' => '\Plenty\AmazonSellingPartnerAPI\Models\Services\AssociatedItem[]',
+'service_location' => '\Plenty\AmazonSellingPartnerAPI\Models\Services\ServiceLocation',    ];
 
     /**
      * Array of property to format mappings. Used for (de)serialization.
@@ -315,7 +315,7 @@ self::SERVICE_JOB_STATUS_PAYMENT_DECLINED,        ];
     /**
      * Gets service_job_id.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Services\ServiceJobId
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Services\ServiceJobId
      */
     public function getServiceJobId()
     {
@@ -325,7 +325,7 @@ self::SERVICE_JOB_STATUS_PAYMENT_DECLINED,        ];
     /**
      * Sets service_job_id.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Services\ServiceJobId $service_job_id service_job_id
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Services\ServiceJobId $service_job_id service_job_id
      *
      * @return $this
      */
@@ -367,7 +367,7 @@ self::SERVICE_JOB_STATUS_PAYMENT_DECLINED,        ];
     /**
      * Gets scope_of_work.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Services\ScopeOfWork
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Services\ScopeOfWork
      */
     public function getScopeOfWork()
     {
@@ -377,7 +377,7 @@ self::SERVICE_JOB_STATUS_PAYMENT_DECLINED,        ];
     /**
      * Sets scope_of_work.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Services\ScopeOfWork $scope_of_work scope_of_work
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Services\ScopeOfWork $scope_of_work scope_of_work
      *
      * @return $this
      */
@@ -391,7 +391,7 @@ self::SERVICE_JOB_STATUS_PAYMENT_DECLINED,        ];
     /**
      * Gets seller.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Services\Seller
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Services\Seller
      */
     public function getSeller()
     {
@@ -401,7 +401,7 @@ self::SERVICE_JOB_STATUS_PAYMENT_DECLINED,        ];
     /**
      * Sets seller.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Services\Seller $seller seller
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Services\Seller $seller seller
      *
      * @return $this
      */
@@ -415,7 +415,7 @@ self::SERVICE_JOB_STATUS_PAYMENT_DECLINED,        ];
     /**
      * Gets service_job_provider.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Services\ServiceJobProvider
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Services\ServiceJobProvider
      */
     public function getServiceJobProvider()
     {
@@ -425,7 +425,7 @@ self::SERVICE_JOB_STATUS_PAYMENT_DECLINED,        ];
     /**
      * Sets service_job_provider.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Services\ServiceJobProvider $service_job_provider service_job_provider
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Services\ServiceJobProvider $service_job_provider service_job_provider
      *
      * @return $this
      */
@@ -439,7 +439,7 @@ self::SERVICE_JOB_STATUS_PAYMENT_DECLINED,        ];
     /**
      * Gets preferred_appointment_times.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Services\AppointmentTime[]
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Services\AppointmentTime[]
      */
     public function getPreferredAppointmentTimes()
     {
@@ -449,7 +449,7 @@ self::SERVICE_JOB_STATUS_PAYMENT_DECLINED,        ];
     /**
      * Sets preferred_appointment_times.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Services\AppointmentTime[] $preferred_appointment_times A list of appointment windows preferred by the buyer. Included only if the buyer selected appointment windows when creating the order.
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Services\AppointmentTime[] $preferred_appointment_times A list of appointment windows preferred by the buyer. Included only if the buyer selected appointment windows when creating the order.
      *
      * @return $this
      */
@@ -463,7 +463,7 @@ self::SERVICE_JOB_STATUS_PAYMENT_DECLINED,        ];
     /**
      * Gets appointments.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Services\Appointment[]
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Services\Appointment[]
      */
     public function getAppointments()
     {
@@ -473,7 +473,7 @@ self::SERVICE_JOB_STATUS_PAYMENT_DECLINED,        ];
     /**
      * Sets appointments.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Services\Appointment[] $appointments a list of appointments
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Services\Appointment[] $appointments a list of appointments
      *
      * @return $this
      */
@@ -487,7 +487,7 @@ self::SERVICE_JOB_STATUS_PAYMENT_DECLINED,        ];
     /**
      * Gets service_order_id.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Services\OrderId
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Services\OrderId
      */
     public function getServiceOrderId()
     {
@@ -497,7 +497,7 @@ self::SERVICE_JOB_STATUS_PAYMENT_DECLINED,        ];
     /**
      * Sets service_order_id.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Services\OrderId $service_order_id service_order_id
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Services\OrderId $service_order_id service_order_id
      *
      * @return $this
      */
@@ -535,7 +535,7 @@ self::SERVICE_JOB_STATUS_PAYMENT_DECLINED,        ];
     /**
      * Gets buyer.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Services\Buyer
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Services\Buyer
      */
     public function getBuyer()
     {
@@ -545,7 +545,7 @@ self::SERVICE_JOB_STATUS_PAYMENT_DECLINED,        ];
     /**
      * Sets buyer.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Services\Buyer $buyer buyer
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Services\Buyer $buyer buyer
      *
      * @return $this
      */
@@ -559,7 +559,7 @@ self::SERVICE_JOB_STATUS_PAYMENT_DECLINED,        ];
     /**
      * Gets associated_items.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Services\AssociatedItem[]
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Services\AssociatedItem[]
      */
     public function getAssociatedItems()
     {
@@ -569,7 +569,7 @@ self::SERVICE_JOB_STATUS_PAYMENT_DECLINED,        ];
     /**
      * Sets associated_items.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Services\AssociatedItem[] $associated_items a list of items associated with the service job
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Services\AssociatedItem[] $associated_items a list of items associated with the service job
      *
      * @return $this
      */
@@ -583,7 +583,7 @@ self::SERVICE_JOB_STATUS_PAYMENT_DECLINED,        ];
     /**
      * Gets service_location.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Services\ServiceLocation
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Services\ServiceLocation
      */
     public function getServiceLocation()
     {
@@ -593,7 +593,7 @@ self::SERVICE_JOB_STATUS_PAYMENT_DECLINED,        ];
     /**
      * Sets service_location.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Services\ServiceLocation $service_location service_location
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Services\ServiceLocation $service_location service_location
      *
      * @return $this
      */

@@ -15,11 +15,11 @@
  * OpenAPI spec version: v1
  */
 
-namespace Plentymarkets\AmazonSellingPartnerAPI\Models\Solicitations;
+namespace Plenty\AmazonSellingPartnerAPI\Models\Solicitations;
 
 use ArrayAccess;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
-use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plenty\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plenty\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * CreateProductReviewAndSellerFeedbackSolicitationResponse Class Doc Comment.
@@ -46,7 +46,7 @@ class CreateProductReviewAndSellerFeedbackSolicitationResponse implements ModelI
      * @var string[]
      */
     protected static $swaggerTypes = [
-        'errors' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Solicitations\ErrorList',    ];
+        'errors' => '\Plenty\AmazonSellingPartnerAPI\Models\Solicitations\ErrorList',    ];
 
     /**
      * Array of property to format mappings. Used for (de)serialization.
@@ -186,7 +186,7 @@ class CreateProductReviewAndSellerFeedbackSolicitationResponse implements ModelI
     /**
      * Gets errors.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Solicitations\ErrorList
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Solicitations\ErrorList
      */
     public function getErrors()
     {
@@ -196,7 +196,7 @@ class CreateProductReviewAndSellerFeedbackSolicitationResponse implements ModelI
     /**
      * Sets errors.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Solicitations\ErrorList $errors errors
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Solicitations\ErrorList $errors errors
      *
      * @return $this
      */

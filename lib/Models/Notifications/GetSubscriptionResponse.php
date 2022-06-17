@@ -15,11 +15,11 @@
  * OpenAPI spec version: v1
  */
 
-namespace Plentymarkets\AmazonSellingPartnerAPI\Models\Notifications;
+namespace Plenty\AmazonSellingPartnerAPI\Models\Notifications;
 
 use ArrayAccess;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
-use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plenty\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plenty\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * GetSubscriptionResponse Class Doc Comment.
@@ -46,8 +46,8 @@ class GetSubscriptionResponse implements ModelInterface, ArrayAccess
      * @var string[]
      */
     protected static $swaggerTypes = [
-        'payload' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Notifications\Subscription',
-'errors' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Notifications\ErrorList',    ];
+        'payload' => '\Plenty\AmazonSellingPartnerAPI\Models\Notifications\Subscription',
+'errors' => '\Plenty\AmazonSellingPartnerAPI\Models\Notifications\ErrorList',    ];
 
     /**
      * Array of property to format mappings. Used for (de)serialization.
@@ -192,7 +192,7 @@ class GetSubscriptionResponse implements ModelInterface, ArrayAccess
     /**
      * Gets payload.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Notifications\Subscription
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Notifications\Subscription
      */
     public function getPayload()
     {
@@ -202,7 +202,7 @@ class GetSubscriptionResponse implements ModelInterface, ArrayAccess
     /**
      * Sets payload.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Notifications\Subscription $payload payload
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Notifications\Subscription $payload payload
      *
      * @return $this
      */
@@ -216,7 +216,7 @@ class GetSubscriptionResponse implements ModelInterface, ArrayAccess
     /**
      * Gets errors.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Notifications\ErrorList
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Notifications\ErrorList
      */
     public function getErrors()
     {
@@ -226,7 +226,7 @@ class GetSubscriptionResponse implements ModelInterface, ArrayAccess
     /**
      * Sets errors.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Notifications\ErrorList $errors errors
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Notifications\ErrorList $errors errors
      *
      * @return $this
      */

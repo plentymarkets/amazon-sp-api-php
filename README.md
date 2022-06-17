@@ -44,31 +44,31 @@ $options = [
     'refresh_token' => '', // Aztr|...
     'client_id' => '', // App ID from Seller Central, amzn1.sellerapps.app.cfbfac4a-......
     'client_secret' => '', // The corresponding Client Secret
-    'region' => \Plentymarkets\AmazonSellingPartnerAPI\SellingPartnerRegion::$EUROPE, // or NORTH_AMERICA / FAR_EAST
+    'region' => \Plenty\AmazonSellingPartnerAPI\SellingPartnerRegion::$EUROPE, // or NORTH_AMERICA / FAR_EAST
     'access_key' => '', // Access Key of AWS IAM User, for example AKIAABCDJKEHFJDS
     'secret_key' => '', // Secret Key of AWS IAM User
-    'endpoint' => \Plentymarkets\AmazonSellingPartnerAPI\SellingPartnerEndpoint::$EUROPE, // or NORTH_AMERICA / FAR_EAST
+    'endpoint' => \Plenty\AmazonSellingPartnerAPI\SellingPartnerEndpoint::$EUROPE, // or NORTH_AMERICA / FAR_EAST
     'role_arn' => '', // AWS IAM Role ARN for example: arn:aws:iam::123456789:role/Your-Role-Name
 ];
-$accessToken = \Plentymarkets\AmazonSellingPartnerAPI\SellingPartnerOAuth::getAccessTokenFromRefreshToken(
+$accessToken = \Plenty\AmazonSellingPartnerAPI\SellingPartnerOAuth::getAccessTokenFromRefreshToken(
     $options['refresh_token'],
     $options['client_id'],
     $options['client_secret']
 );
-$assumedRole = \Plentymarkets\AmazonSellingPartnerAPI\AssumeRole::assume(
+$assumedRole = \Plenty\AmazonSellingPartnerAPI\AssumeRole::assume(
     $options['region'],
     $options['access_key'],
     $options['secret_key'],
     $options['role_arn'],
 );
-$config = \Plentymarkets\AmazonSellingPartnerAPI\Configuration::getDefaultConfiguration();
+$config = \Plenty\AmazonSellingPartnerAPI\Configuration::getDefaultConfiguration();
 $config->setHost($options['endpoint']);
 $config->setAccessToken($accessToken);
 $config->setAccessKey($assumedRole->getAccessKeyId());
 $config->setSecretKey($assumedRole->getSecretAccessKey());
 $config->setRegion($options['region']);
 $config->setSecurityToken($assumedRole->getSessionToken());
-$apiInstance = new \Plentymarkets\AmazonSellingPartnerAPI\Api\CatalogApi($config);
+$apiInstance = new \Plenty\AmazonSellingPartnerAPI\Api\CatalogApi($config);
 $marketplace_id = 'A1PA6795UKMFR9';
 $asin = 'B0002ZFTJA';
 
@@ -89,23 +89,23 @@ $options = [
     'refresh_token' => '', // Aztr|...
     'client_id' => '', // App ID from Seller Central, amzn1.sellerapps.app.cfbfac4a-......
     'client_secret' => '', // The corresponding Client Secret
-    'region' => \Plentymarkets\AmazonSellingPartnerAPI\SellingPartnerRegion::$EUROPE, // or NORTH_AMERICA / FAR_EAST
+    'region' => \Plenty\AmazonSellingPartnerAPI\SellingPartnerRegion::$EUROPE, // or NORTH_AMERICA / FAR_EAST
     'access_key' => '', // Access Key of AWS IAM User, for example AKIAABCDJKEHFJDS
     'secret_key' => '', // Secret Key of AWS IAM User
-    'endpoint' => \Plentymarkets\AmazonSellingPartnerAPI\SellingPartnerEndpoint::$EUROPE, // or NORTH_AMERICA / FAR_EAST
+    'endpoint' => \Plenty\AmazonSellingPartnerAPI\SellingPartnerEndpoint::$EUROPE, // or NORTH_AMERICA / FAR_EAST
 ];
-$accessToken = \Plentymarkets\AmazonSellingPartnerAPI\SellingPartnerOAuth::getAccessTokenFromRefreshToken(
+$accessToken = \Plenty\AmazonSellingPartnerAPI\SellingPartnerOAuth::getAccessTokenFromRefreshToken(
     $options['refresh_token'],
     $options['client_id'],
     $options['client_secret']
 );
-$config = \Plentymarkets\AmazonSellingPartnerAPI\Configuration::getDefaultConfiguration();
+$config = \Plenty\AmazonSellingPartnerAPI\Configuration::getDefaultConfiguration();
 $config->setHost($options['endpoint']);
 $config->setAccessToken($accessToken);
 $config->setAccessKey($options['access_key']);
 $config->setSecretKey($options['secret_key']);
 $config->setRegion($options['region']);
-$apiInstance = new \Plentymarkets\AmazonSellingPartnerAPI\Api\CatalogApi($config);
+$apiInstance = new \Plenty\AmazonSellingPartnerAPI\Api\CatalogApi($config);
 $marketplace_id = 'A1PA6795UKMFR9';
 $asin = 'B0002ZFTJA';
 

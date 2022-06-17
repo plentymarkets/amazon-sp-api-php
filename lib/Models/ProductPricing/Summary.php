@@ -15,11 +15,11 @@
  * OpenAPI spec version: v0
  */
 
-namespace Plentymarkets\AmazonSellingPartnerAPI\Models\ProductPricing;
+namespace Plenty\AmazonSellingPartnerAPI\Models\ProductPricing;
 
 use ArrayAccess;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
-use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plenty\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plenty\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * Summary Class Doc Comment.
@@ -47,12 +47,12 @@ class Summary implements ModelInterface, ArrayAccess
      */
     protected static $swaggerTypes = [
         'total_offer_count' => 'int',
-'number_of_offers' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\ProductPricing\NumberOfOffers',
-'lowest_prices' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\ProductPricing\LowestPrices',
-'buy_box_prices' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\ProductPricing\BuyBoxPrices',
-'list_price' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\ProductPricing\MoneyType',
-'suggested_lower_price_plus_shipping' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\ProductPricing\MoneyType',
-'buy_box_eligible_offers' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\ProductPricing\BuyBoxEligibleOffers',
+'number_of_offers' => '\Plenty\AmazonSellingPartnerAPI\Models\ProductPricing\NumberOfOffers',
+'lowest_prices' => '\Plenty\AmazonSellingPartnerAPI\Models\ProductPricing\LowestPrices',
+'buy_box_prices' => '\Plenty\AmazonSellingPartnerAPI\Models\ProductPricing\BuyBoxPrices',
+'list_price' => '\Plenty\AmazonSellingPartnerAPI\Models\ProductPricing\MoneyType',
+'suggested_lower_price_plus_shipping' => '\Plenty\AmazonSellingPartnerAPI\Models\ProductPricing\MoneyType',
+'buy_box_eligible_offers' => '\Plenty\AmazonSellingPartnerAPI\Models\ProductPricing\BuyBoxEligibleOffers',
 'offers_available_time' => '\DateTime',    ];
 
     /**
@@ -256,7 +256,7 @@ class Summary implements ModelInterface, ArrayAccess
     /**
      * Gets number_of_offers.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\ProductPricing\NumberOfOffers
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\ProductPricing\NumberOfOffers
      */
     public function getNumberOfOffers()
     {
@@ -266,7 +266,7 @@ class Summary implements ModelInterface, ArrayAccess
     /**
      * Sets number_of_offers.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\ProductPricing\NumberOfOffers $number_of_offers number_of_offers
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\ProductPricing\NumberOfOffers $number_of_offers number_of_offers
      *
      * @return $this
      */
@@ -280,7 +280,7 @@ class Summary implements ModelInterface, ArrayAccess
     /**
      * Gets lowest_prices.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\ProductPricing\LowestPrices
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\ProductPricing\LowestPrices
      */
     public function getLowestPrices()
     {
@@ -290,7 +290,7 @@ class Summary implements ModelInterface, ArrayAccess
     /**
      * Sets lowest_prices.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\ProductPricing\LowestPrices $lowest_prices lowest_prices
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\ProductPricing\LowestPrices $lowest_prices lowest_prices
      *
      * @return $this
      */
@@ -304,7 +304,7 @@ class Summary implements ModelInterface, ArrayAccess
     /**
      * Gets buy_box_prices.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\ProductPricing\BuyBoxPrices
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\ProductPricing\BuyBoxPrices
      */
     public function getBuyBoxPrices()
     {
@@ -314,7 +314,7 @@ class Summary implements ModelInterface, ArrayAccess
     /**
      * Sets buy_box_prices.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\ProductPricing\BuyBoxPrices $buy_box_prices buy_box_prices
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\ProductPricing\BuyBoxPrices $buy_box_prices buy_box_prices
      *
      * @return $this
      */
@@ -328,7 +328,7 @@ class Summary implements ModelInterface, ArrayAccess
     /**
      * Gets list_price.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\ProductPricing\MoneyType
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\ProductPricing\MoneyType
      */
     public function getListPrice()
     {
@@ -338,7 +338,7 @@ class Summary implements ModelInterface, ArrayAccess
     /**
      * Sets list_price.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\ProductPricing\MoneyType $list_price list_price
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\ProductPricing\MoneyType $list_price list_price
      *
      * @return $this
      */
@@ -352,7 +352,7 @@ class Summary implements ModelInterface, ArrayAccess
     /**
      * Gets suggested_lower_price_plus_shipping.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\ProductPricing\MoneyType
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\ProductPricing\MoneyType
      */
     public function getSuggestedLowerPricePlusShipping()
     {
@@ -362,7 +362,7 @@ class Summary implements ModelInterface, ArrayAccess
     /**
      * Sets suggested_lower_price_plus_shipping.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\ProductPricing\MoneyType $suggested_lower_price_plus_shipping suggested_lower_price_plus_shipping
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\ProductPricing\MoneyType $suggested_lower_price_plus_shipping suggested_lower_price_plus_shipping
      *
      * @return $this
      */
@@ -376,7 +376,7 @@ class Summary implements ModelInterface, ArrayAccess
     /**
      * Gets buy_box_eligible_offers.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\ProductPricing\BuyBoxEligibleOffers
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\ProductPricing\BuyBoxEligibleOffers
      */
     public function getBuyBoxEligibleOffers()
     {
@@ -386,7 +386,7 @@ class Summary implements ModelInterface, ArrayAccess
     /**
      * Sets buy_box_eligible_offers.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\ProductPricing\BuyBoxEligibleOffers $buy_box_eligible_offers buy_box_eligible_offers
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\ProductPricing\BuyBoxEligibleOffers $buy_box_eligible_offers buy_box_eligible_offers
      *
      * @return $this
      */

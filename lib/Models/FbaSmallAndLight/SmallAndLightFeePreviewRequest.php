@@ -15,11 +15,11 @@
  * OpenAPI spec version: v1
  */
 
-namespace Plentymarkets\AmazonSellingPartnerAPI\Models\FbaSmallAndLight;
+namespace Plenty\AmazonSellingPartnerAPI\Models\FbaSmallAndLight;
 
 use ArrayAccess;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
-use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plenty\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plenty\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * SmallAndLightFeePreviewRequest Class Doc Comment.
@@ -46,8 +46,8 @@ class SmallAndLightFeePreviewRequest implements ModelInterface, ArrayAccess
      * @var string[]
      */
     protected static $swaggerTypes = [
-        'marketplace_id' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\FbaSmallAndLight\MarketplaceId',
-'items' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\FbaSmallAndLight\Item[]',    ];
+        'marketplace_id' => '\Plenty\AmazonSellingPartnerAPI\Models\FbaSmallAndLight\MarketplaceId',
+'items' => '\Plenty\AmazonSellingPartnerAPI\Models\FbaSmallAndLight\Item[]',    ];
 
     /**
      * Array of property to format mappings. Used for (de)serialization.
@@ -199,7 +199,7 @@ class SmallAndLightFeePreviewRequest implements ModelInterface, ArrayAccess
     /**
      * Gets marketplace_id.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\FbaSmallAndLight\MarketplaceId
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\FbaSmallAndLight\MarketplaceId
      */
     public function getMarketplaceId()
     {
@@ -209,7 +209,7 @@ class SmallAndLightFeePreviewRequest implements ModelInterface, ArrayAccess
     /**
      * Sets marketplace_id.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\FbaSmallAndLight\MarketplaceId $marketplace_id marketplace_id
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\FbaSmallAndLight\MarketplaceId $marketplace_id marketplace_id
      *
      * @return $this
      */
@@ -223,7 +223,7 @@ class SmallAndLightFeePreviewRequest implements ModelInterface, ArrayAccess
     /**
      * Gets items.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\FbaSmallAndLight\Item[]
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\FbaSmallAndLight\Item[]
      */
     public function getItems()
     {
@@ -233,7 +233,7 @@ class SmallAndLightFeePreviewRequest implements ModelInterface, ArrayAccess
     /**
      * Sets items.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\FbaSmallAndLight\Item[] $items a list of items for which to retrieve fee estimates (limit: 25)
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\FbaSmallAndLight\Item[] $items a list of items for which to retrieve fee estimates (limit: 25)
      *
      * @return $this
      */

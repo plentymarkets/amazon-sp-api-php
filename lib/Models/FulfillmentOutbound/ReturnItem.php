@@ -15,11 +15,11 @@
  * OpenAPI spec version: 2020-07-01
  */
 
-namespace Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound;
+namespace Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound;
 
 use ArrayAccess;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
-use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plenty\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plenty\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * ReturnItem Class Doc Comment.
@@ -52,10 +52,10 @@ class ReturnItem implements ModelInterface, ArrayAccess
 'seller_return_reason_code' => 'string',
 'return_comment' => 'string',
 'amazon_return_reason_code' => 'string',
-'status' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\FulfillmentReturnItemStatus',
-'status_changed_date' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\Timestamp',
+'status' => '\Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\FulfillmentReturnItemStatus',
+'status_changed_date' => '\Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\Timestamp',
 'return_authorization_id' => 'string',
-'return_received_condition' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\ReturnItemDisposition',
+'return_received_condition' => '\Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\ReturnItemDisposition',
 'fulfillment_center_id' => 'string',    ];
 
     /**
@@ -409,7 +409,7 @@ class ReturnItem implements ModelInterface, ArrayAccess
     /**
      * Gets status.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\FulfillmentReturnItemStatus
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\FulfillmentReturnItemStatus
      */
     public function getStatus()
     {
@@ -419,7 +419,7 @@ class ReturnItem implements ModelInterface, ArrayAccess
     /**
      * Sets status.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\FulfillmentReturnItemStatus $status status
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\FulfillmentReturnItemStatus $status status
      *
      * @return $this
      */
@@ -433,7 +433,7 @@ class ReturnItem implements ModelInterface, ArrayAccess
     /**
      * Gets status_changed_date.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\Timestamp
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\Timestamp
      */
     public function getStatusChangedDate()
     {
@@ -443,7 +443,7 @@ class ReturnItem implements ModelInterface, ArrayAccess
     /**
      * Sets status_changed_date.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\Timestamp $status_changed_date status_changed_date
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\Timestamp $status_changed_date status_changed_date
      *
      * @return $this
      */
@@ -481,7 +481,7 @@ class ReturnItem implements ModelInterface, ArrayAccess
     /**
      * Gets return_received_condition.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\ReturnItemDisposition
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\ReturnItemDisposition
      */
     public function getReturnReceivedCondition()
     {
@@ -491,7 +491,7 @@ class ReturnItem implements ModelInterface, ArrayAccess
     /**
      * Sets return_received_condition.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\ReturnItemDisposition $return_received_condition return_received_condition
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\ReturnItemDisposition $return_received_condition return_received_condition
      *
      * @return $this
      */

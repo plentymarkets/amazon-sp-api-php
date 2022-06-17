@@ -15,11 +15,11 @@
  * OpenAPI spec version: v1
  */
 
-namespace Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping;
+namespace Plenty\AmazonSellingPartnerAPI\Models\Shipping;
 
 use ArrayAccess;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
-use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plenty\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plenty\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * Label Class Doc Comment.
@@ -46,8 +46,8 @@ class Label implements ModelInterface, ArrayAccess
      * @var string[]
      */
     protected static $swaggerTypes = [
-        'label_stream' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\LabelStream',
-'label_specification' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\LabelSpecification',    ];
+        'label_stream' => '\Plenty\AmazonSellingPartnerAPI\Models\Shipping\LabelStream',
+'label_specification' => '\Plenty\AmazonSellingPartnerAPI\Models\Shipping\LabelSpecification',    ];
 
     /**
      * Array of property to format mappings. Used for (de)serialization.
@@ -192,7 +192,7 @@ class Label implements ModelInterface, ArrayAccess
     /**
      * Gets label_stream.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\LabelStream
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Shipping\LabelStream
      */
     public function getLabelStream()
     {
@@ -202,7 +202,7 @@ class Label implements ModelInterface, ArrayAccess
     /**
      * Sets label_stream.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\LabelStream $label_stream label_stream
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Shipping\LabelStream $label_stream label_stream
      *
      * @return $this
      */
@@ -216,7 +216,7 @@ class Label implements ModelInterface, ArrayAccess
     /**
      * Gets label_specification.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\LabelSpecification
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Shipping\LabelSpecification
      */
     public function getLabelSpecification()
     {
@@ -226,7 +226,7 @@ class Label implements ModelInterface, ArrayAccess
     /**
      * Sets label_specification.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\LabelSpecification $label_specification label_specification
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Shipping\LabelSpecification $label_specification label_specification
      *
      * @return $this
      */

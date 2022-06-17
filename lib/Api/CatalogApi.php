@@ -13,16 +13,16 @@
  * OpenAPI spec version: v0
  */
 
-namespace Plentymarkets\AmazonSellingPartnerAPI\Api;
+namespace Plenty\AmazonSellingPartnerAPI\Api;
 
-use Plentymarkets\AmazonSellingPartnerAPI\ApiException;
-use Plentymarkets\AmazonSellingPartnerAPI\Configuration;
-use Plentymarkets\AmazonSellingPartnerAPI\HeaderSelector;
-use Plentymarkets\AmazonSellingPartnerAPI\Helpers\SellingPartnerApiRequest;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\Catalog\GetCatalogItemResponse;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\Catalog\ListCatalogCategoriesResponse;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\Catalog\ListCatalogItemsResponse;
-use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plenty\AmazonSellingPartnerAPI\ApiException;
+use Plenty\AmazonSellingPartnerAPI\Configuration;
+use Plenty\AmazonSellingPartnerAPI\HeaderSelector;
+use Plenty\AmazonSellingPartnerAPI\Helpers\SellingPartnerApiRequest;
+use Plenty\AmazonSellingPartnerAPI\Models\Catalog\GetCatalogItemResponse;
+use Plenty\AmazonSellingPartnerAPI\Models\Catalog\ListCatalogCategoriesResponse;
+use Plenty\AmazonSellingPartnerAPI\Models\Catalog\ListCatalogItemsResponse;
+use Plenty\AmazonSellingPartnerAPI\ObjectSerializer;
 use GuzzleHttp\Client;
 use GuzzleHttp\ClientInterface;
 use GuzzleHttp\Psr7\Request;
@@ -76,7 +76,7 @@ class CatalogApi
      * @throws ApiException             on non-2xx response
      * @throws InvalidArgumentException
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Catalog\GetCatalogItemResponse
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Catalog\GetCatalogItemResponse
      */
     public function getCatalogItem($marketplace_id, $asin)
     {
@@ -94,7 +94,7 @@ class CatalogApi
      * @throws ApiException             on non-2xx response
      * @throws InvalidArgumentException
      *
-     * @return array of \Plentymarkets\AmazonSellingPartnerAPI\Models\Catalog\GetCatalogItemResponse, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Plenty\AmazonSellingPartnerAPI\Models\Catalog\GetCatalogItemResponse, HTTP status code, HTTP response headers (array of strings)
      */
     public function getCatalogItemWithHttpInfo($marketplace_id, $asin)
     {
@@ -195,7 +195,7 @@ class CatalogApi
      * @throws ApiException             on non-2xx response
      * @throws InvalidArgumentException
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Catalog\ListCatalogCategoriesResponse
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Catalog\ListCatalogCategoriesResponse
      */
     public function listCatalogCategories($marketplace_id, $asin = null, $seller_sku = null)
     {
@@ -214,7 +214,7 @@ class CatalogApi
      * @throws ApiException             on non-2xx response
      * @throws InvalidArgumentException
      *
-     * @return array of \Plentymarkets\AmazonSellingPartnerAPI\Models\Catalog\ListCatalogCategoriesResponse, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Plenty\AmazonSellingPartnerAPI\Models\Catalog\ListCatalogCategoriesResponse, HTTP status code, HTTP response headers (array of strings)
      */
     public function listCatalogCategoriesWithHttpInfo($marketplace_id, $asin = null, $seller_sku = null)
     {
@@ -318,7 +318,7 @@ class CatalogApi
      * @throws ApiException             on non-2xx response
      * @throws InvalidArgumentException
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Catalog\ListCatalogItemsResponse
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Catalog\ListCatalogItemsResponse
      */
     public function listCatalogItems($marketplace_id, $query = null, $query_context_id = null, $seller_sku = null, $upc = null, $ean = null, $isbn = null, $jan = null)
     {
@@ -342,7 +342,7 @@ class CatalogApi
      * @throws ApiException             on non-2xx response
      * @throws InvalidArgumentException
      *
-     * @return array of \Plentymarkets\AmazonSellingPartnerAPI\Models\Catalog\ListCatalogItemsResponse, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Plenty\AmazonSellingPartnerAPI\Models\Catalog\ListCatalogItemsResponse, HTTP status code, HTTP response headers (array of strings)
      */
     public function listCatalogItemsWithHttpInfo($marketplace_id, $query = null, $query_context_id = null, $seller_sku = null, $upc = null, $ean = null, $isbn = null, $jan = null)
     {

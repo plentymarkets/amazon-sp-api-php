@@ -15,11 +15,11 @@
  * OpenAPI spec version: v1
  */
 
-namespace Plentymarkets\AmazonSellingPartnerAPI\Models\Services;
+namespace Plenty\AmazonSellingPartnerAPI\Models\Services;
 
 use ArrayAccess;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
-use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plenty\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plenty\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * RescheduleAppointmentRequest Class Doc Comment.
@@ -46,8 +46,8 @@ class RescheduleAppointmentRequest implements ModelInterface, ArrayAccess
      * @var string[]
      */
     protected static $swaggerTypes = [
-        'appointment_time' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Services\AppointmentTimeInput',
-'reschedule_reason_code' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Services\RescheduleReasonCode',    ];
+        'appointment_time' => '\Plenty\AmazonSellingPartnerAPI\Models\Services\AppointmentTimeInput',
+'reschedule_reason_code' => '\Plenty\AmazonSellingPartnerAPI\Models\Services\RescheduleReasonCode',    ];
 
     /**
      * Array of property to format mappings. Used for (de)serialization.
@@ -199,7 +199,7 @@ class RescheduleAppointmentRequest implements ModelInterface, ArrayAccess
     /**
      * Gets appointment_time.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Services\AppointmentTimeInput
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Services\AppointmentTimeInput
      */
     public function getAppointmentTime()
     {
@@ -209,7 +209,7 @@ class RescheduleAppointmentRequest implements ModelInterface, ArrayAccess
     /**
      * Sets appointment_time.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Services\AppointmentTimeInput $appointment_time appointment_time
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Services\AppointmentTimeInput $appointment_time appointment_time
      *
      * @return $this
      */
@@ -223,7 +223,7 @@ class RescheduleAppointmentRequest implements ModelInterface, ArrayAccess
     /**
      * Gets reschedule_reason_code.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Services\RescheduleReasonCode
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Services\RescheduleReasonCode
      */
     public function getRescheduleReasonCode()
     {
@@ -233,7 +233,7 @@ class RescheduleAppointmentRequest implements ModelInterface, ArrayAccess
     /**
      * Sets reschedule_reason_code.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Services\RescheduleReasonCode $reschedule_reason_code reschedule_reason_code
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Services\RescheduleReasonCode $reschedule_reason_code reschedule_reason_code
      *
      * @return $this
      */

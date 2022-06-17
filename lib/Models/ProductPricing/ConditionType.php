@@ -15,7 +15,7 @@
  * OpenAPI spec version: v0
  */
 
-namespace Plentymarkets\AmazonSellingPartnerAPI\Models\ProductPricing;
+namespace Plenty\AmazonSellingPartnerAPI\Models\ProductPricing;
 
 /**
  * ConditionType Class Doc Comment.

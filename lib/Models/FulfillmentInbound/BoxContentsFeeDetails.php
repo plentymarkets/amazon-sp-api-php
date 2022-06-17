@@ -15,11 +15,11 @@
  * OpenAPI spec version: v0
  */
 
-namespace Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound;
+namespace Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound;
 
 use ArrayAccess;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
-use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plenty\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plenty\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * BoxContentsFeeDetails Class Doc Comment.
@@ -46,9 +46,9 @@ class BoxContentsFeeDetails implements ModelInterface, ArrayAccess
      * @var string[]
      */
     protected static $swaggerTypes = [
-        'total_units' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\Quantity',
-'fee_per_unit' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\Amount',
-'total_fee' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\Amount',    ];
+        'total_units' => '\Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\Quantity',
+'fee_per_unit' => '\Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\Amount',
+'total_fee' => '\Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\Amount',    ];
 
     /**
      * Array of property to format mappings. Used for (de)serialization.
@@ -198,7 +198,7 @@ class BoxContentsFeeDetails implements ModelInterface, ArrayAccess
     /**
      * Gets total_units.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\Quantity
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\Quantity
      */
     public function getTotalUnits()
     {
@@ -208,7 +208,7 @@ class BoxContentsFeeDetails implements ModelInterface, ArrayAccess
     /**
      * Sets total_units.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\Quantity $total_units total_units
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\Quantity $total_units total_units
      *
      * @return $this
      */
@@ -222,7 +222,7 @@ class BoxContentsFeeDetails implements ModelInterface, ArrayAccess
     /**
      * Gets fee_per_unit.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\Amount
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\Amount
      */
     public function getFeePerUnit()
     {
@@ -232,7 +232,7 @@ class BoxContentsFeeDetails implements ModelInterface, ArrayAccess
     /**
      * Sets fee_per_unit.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\Amount $fee_per_unit fee_per_unit
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\Amount $fee_per_unit fee_per_unit
      *
      * @return $this
      */
@@ -246,7 +246,7 @@ class BoxContentsFeeDetails implements ModelInterface, ArrayAccess
     /**
      * Gets total_fee.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\Amount
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\Amount
      */
     public function getTotalFee()
     {
@@ -256,7 +256,7 @@ class BoxContentsFeeDetails implements ModelInterface, ArrayAccess
     /**
      * Sets total_fee.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\Amount $total_fee total_fee
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\Amount $total_fee total_fee
      *
      * @return $this
      */

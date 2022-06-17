@@ -15,11 +15,11 @@
  * OpenAPI spec version: v0
  */
 
-namespace Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment;
+namespace Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment;
 
 use ArrayAccess;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
-use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plenty\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plenty\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * AdditionalInputs Class Doc Comment.
@@ -47,7 +47,7 @@ class AdditionalInputs implements ModelInterface, ArrayAccess
      */
     protected static $swaggerTypes = [
         'additional_input_field_name' => 'string',
-'seller_input_definition' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\SellerInputDefinition',    ];
+'seller_input_definition' => '\Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\SellerInputDefinition',    ];
 
     /**
      * Array of property to format mappings. Used for (de)serialization.
@@ -216,7 +216,7 @@ class AdditionalInputs implements ModelInterface, ArrayAccess
     /**
      * Gets seller_input_definition.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\SellerInputDefinition
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\SellerInputDefinition
      */
     public function getSellerInputDefinition()
     {
@@ -226,7 +226,7 @@ class AdditionalInputs implements ModelInterface, ArrayAccess
     /**
      * Sets seller_input_definition.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\SellerInputDefinition $seller_input_definition seller_input_definition
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\SellerInputDefinition $seller_input_definition seller_input_definition
      *
      * @return $this
      */

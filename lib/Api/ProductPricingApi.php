@@ -13,14 +13,14 @@
  * OpenAPI spec version: v0
  */
 
-namespace Plentymarkets\AmazonSellingPartnerAPI\Api;
+namespace Plenty\AmazonSellingPartnerAPI\Api;
 
-use Plentymarkets\AmazonSellingPartnerAPI\Configuration;
-use Plentymarkets\AmazonSellingPartnerAPI\HeaderSelector;
-use Plentymarkets\AmazonSellingPartnerAPI\Helpers\SellingPartnerApiRequest;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\ProductPricing\GetOffersResponse;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\ProductPricing\GetPricingResponse;
-use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plenty\AmazonSellingPartnerAPI\Configuration;
+use Plenty\AmazonSellingPartnerAPI\HeaderSelector;
+use Plenty\AmazonSellingPartnerAPI\Helpers\SellingPartnerApiRequest;
+use Plenty\AmazonSellingPartnerAPI\Models\ProductPricing\GetOffersResponse;
+use Plenty\AmazonSellingPartnerAPI\Models\ProductPricing\GetPricingResponse;
+use Plenty\AmazonSellingPartnerAPI\ObjectSerializer;
 use GuzzleHttp\Client;
 use GuzzleHttp\ClientInterface;
 use GuzzleHttp\Psr7\Request;
@@ -71,10 +71,10 @@ class ProductPricingApi
      * @param string[] $asins          A list of up to twenty Amazon Standard Identification Number (ASIN) values used to identify items in the given marketplace. (optional)
      * @param string[] $skus           A list of up to twenty seller SKU values used to identify items in the given marketplace. (optional)
      *
-     * @throws \Plentymarkets\AmazonSellingPartnerAPI\ApiException on non-2xx response
+     * @throws \Plenty\AmazonSellingPartnerAPI\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\ProductPricing\GetPricingResponse
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\ProductPricing\GetPricingResponse
      */
     public function getCompetitivePricing($marketplace_id, $item_type, $asins = null, $skus = null)
     {
@@ -91,14 +91,14 @@ class ProductPricingApi
      * @param string[] $asins          A list of up to twenty Amazon Standard Identification Number (ASIN) values used to identify items in the given marketplace. (optional)
      * @param string[] $skus           A list of up to twenty seller SKU values used to identify items in the given marketplace. (optional)
      *
-     * @throws \Plentymarkets\AmazonSellingPartnerAPI\ApiException on non-2xx response
+     * @throws \Plenty\AmazonSellingPartnerAPI\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      *
-     * @return array of \Plentymarkets\AmazonSellingPartnerAPI\Models\ProductPricing\GetPricingResponse, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Plenty\AmazonSellingPartnerAPI\Models\ProductPricing\GetPricingResponse, HTTP status code, HTTP response headers (array of strings)
      */
     public function getCompetitivePricingWithHttpInfo($marketplace_id, $item_type, $asins = null, $skus = null)
     {
-        $returnType = '\Plentymarkets\AmazonSellingPartnerAPI\Models\ProductPricing\GetPricingResponse';
+        $returnType = '\Plenty\AmazonSellingPartnerAPI\Models\ProductPricing\GetPricingResponse';
         $request = $this->getCompetitivePricingRequest($marketplace_id, $item_type, $asins, $skus);
 
         return $this->sendRequest($request, GetPricingResponse::class);
@@ -140,7 +140,7 @@ class ProductPricingApi
      */
     public function getCompetitivePricingAsyncWithHttpInfo($marketplace_id, $item_type, $asins = null, $skus = null)
     {
-        $returnType = '\Plentymarkets\AmazonSellingPartnerAPI\Models\ProductPricing\GetPricingResponse';
+        $returnType = '\Plenty\AmazonSellingPartnerAPI\Models\ProductPricing\GetPricingResponse';
         $request = $this->getCompetitivePricingRequest($marketplace_id, $item_type, $asins, $skus);
 
         return $this->sendRequestAsync($request, GetPricingResponse::class);
@@ -209,10 +209,10 @@ class ProductPricingApi
      * @param string $item_condition Filters the offer listings to be considered based on item condition. Possible values: New, Used, Collectible, Refurbished, Club. (required)
      * @param string $asin           The Amazon Standard Identification Number (ASIN) of the item. (required)
      *
-     * @throws \Plentymarkets\AmazonSellingPartnerAPI\ApiException on non-2xx response
+     * @throws \Plenty\AmazonSellingPartnerAPI\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\ProductPricing\GetOffersResponse
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\ProductPricing\GetOffersResponse
      */
     public function getItemOffers($marketplace_id, $item_condition, $asin)
     {
@@ -228,14 +228,14 @@ class ProductPricingApi
      * @param string $item_condition Filters the offer listings to be considered based on item condition. Possible values: New, Used, Collectible, Refurbished, Club. (required)
      * @param string $asin           The Amazon Standard Identification Number (ASIN) of the item. (required)
      *
-     * @throws \Plentymarkets\AmazonSellingPartnerAPI\ApiException on non-2xx response
+     * @throws \Plenty\AmazonSellingPartnerAPI\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      *
-     * @return array of \Plentymarkets\AmazonSellingPartnerAPI\Models\ProductPricing\GetOffersResponse, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Plenty\AmazonSellingPartnerAPI\Models\ProductPricing\GetOffersResponse, HTTP status code, HTTP response headers (array of strings)
      */
     public function getItemOffersWithHttpInfo($marketplace_id, $item_condition, $asin)
     {
-        $returnType = '\Plentymarkets\AmazonSellingPartnerAPI\Models\ProductPricing\GetOffersResponse';
+        $returnType = '\Plenty\AmazonSellingPartnerAPI\Models\ProductPricing\GetOffersResponse';
         $request = $this->getItemOffersRequest($marketplace_id, $item_condition, $asin);
 
         return $this->sendRequest($request, GetOffersResponse::class);
@@ -275,7 +275,7 @@ class ProductPricingApi
      */
     public function getItemOffersAsyncWithHttpInfo($marketplace_id, $item_condition, $asin)
     {
-        $returnType = '\Plentymarkets\AmazonSellingPartnerAPI\Models\ProductPricing\GetOffersResponse';
+        $returnType = '\Plenty\AmazonSellingPartnerAPI\Models\ProductPricing\GetOffersResponse';
         $request = $this->getItemOffersRequest($marketplace_id, $item_condition, $asin);
 
         return $this->sendRequestAsync($request, GetOffersResponse::class);
@@ -342,10 +342,10 @@ class ProductPricingApi
      * @param string $item_condition Filters the offer listings based on item condition. Possible values: New, Used, Collectible, Refurbished, Club. (required)
      * @param string $seller_sku     Identifies an item in the given marketplace. SellerSKU is qualified by the seller&#x27;s SellerId, which is included with every operation that you submit. (required)
      *
-     * @throws \Plentymarkets\AmazonSellingPartnerAPI\ApiException on non-2xx response
+     * @throws \Plenty\AmazonSellingPartnerAPI\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\ProductPricing\GetOffersResponse
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\ProductPricing\GetOffersResponse
      */
     public function getListingOffers($marketplace_id, $item_condition, $seller_sku)
     {
@@ -361,14 +361,14 @@ class ProductPricingApi
      * @param string $item_condition Filters the offer listings based on item condition. Possible values: New, Used, Collectible, Refurbished, Club. (required)
      * @param string $seller_sku     Identifies an item in the given marketplace. SellerSKU is qualified by the seller&#x27;s SellerId, which is included with every operation that you submit. (required)
      *
-     * @throws \Plentymarkets\AmazonSellingPartnerAPI\ApiException on non-2xx response
+     * @throws \Plenty\AmazonSellingPartnerAPI\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      *
-     * @return array of \Plentymarkets\AmazonSellingPartnerAPI\Models\ProductPricing\GetOffersResponse, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Plenty\AmazonSellingPartnerAPI\Models\ProductPricing\GetOffersResponse, HTTP status code, HTTP response headers (array of strings)
      */
     public function getListingOffersWithHttpInfo($marketplace_id, $item_condition, $seller_sku)
     {
-        $returnType = '\Plentymarkets\AmazonSellingPartnerAPI\Models\ProductPricing\GetOffersResponse';
+        $returnType = '\Plenty\AmazonSellingPartnerAPI\Models\ProductPricing\GetOffersResponse';
         $request = $this->getListingOffersRequest($marketplace_id, $item_condition, $seller_sku);
 
         return $this->sendRequest($request, GetOffersResponse::class);
@@ -476,10 +476,10 @@ class ProductPricingApi
      * @param string[] $skus           A list of up to twenty seller SKU values used to identify items in the given marketplace. (optional)
      * @param string   $item_condition Filters the offer listings based on item condition. Possible values: New, Used, Collectible, Refurbished, Club. (optional)
      *
-     * @throws \Plentymarkets\AmazonSellingPartnerAPI\ApiException on non-2xx response
+     * @throws \Plenty\AmazonSellingPartnerAPI\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\ProductPricing\GetPricingResponse
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\ProductPricing\GetPricingResponse
      */
     public function getPricing($marketplace_id, $item_type, $asins = null, $skus = null, $item_condition = null)
     {
@@ -497,10 +497,10 @@ class ProductPricingApi
      * @param string[] $skus           A list of up to twenty seller SKU values used to identify items in the given marketplace. (optional)
      * @param string   $item_condition Filters the offer listings based on item condition. Possible values: New, Used, Collectible, Refurbished, Club. (optional)
      *
-     * @throws \Plentymarkets\AmazonSellingPartnerAPI\ApiException on non-2xx response
+     * @throws \Plenty\AmazonSellingPartnerAPI\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      *
-     * @return array of \Plentymarkets\AmazonSellingPartnerAPI\Models\ProductPricing\GetPricingResponse, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Plenty\AmazonSellingPartnerAPI\Models\ProductPricing\GetPricingResponse, HTTP status code, HTTP response headers (array of strings)
      */
     public function getPricingWithHttpInfo($marketplace_id, $item_type, $asins = null, $skus = null, $item_condition = null)
     {
@@ -547,7 +547,7 @@ class ProductPricingApi
      */
     public function getPricingAsyncWithHttpInfo($marketplace_id, $item_type, $asins = null, $skus = null, $item_condition = null)
     {
-        $returnType = '\Plentymarkets\AmazonSellingPartnerAPI\Models\ProductPricing\GetPricingResponse';
+        $returnType = '\Plenty\AmazonSellingPartnerAPI\Models\ProductPricing\GetPricingResponse';
         $request = $this->getPricingRequest($marketplace_id, $item_type, $asins, $skus, $item_condition);
 
         return $this->sendRequestAsync($request, GetPricingResponse::class);

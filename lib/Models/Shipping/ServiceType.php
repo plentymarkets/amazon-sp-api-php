@@ -15,7 +15,7 @@
  * OpenAPI spec version: v1
  */
 
-namespace Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping;
+namespace Plenty\AmazonSellingPartnerAPI\Models\Shipping;
 
 /**
  * ServiceType Class Doc Comment.

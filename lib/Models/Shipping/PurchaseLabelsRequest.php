@@ -15,11 +15,11 @@
  * OpenAPI spec version: v1
  */
 
-namespace Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping;
+namespace Plenty\AmazonSellingPartnerAPI\Models\Shipping;
 
 use ArrayAccess;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
-use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plenty\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plenty\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * PurchaseLabelsRequest Class Doc Comment.
@@ -46,8 +46,8 @@ class PurchaseLabelsRequest implements ModelInterface, ArrayAccess
      * @var string[]
      */
     protected static $swaggerTypes = [
-        'rate_id' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\RateId',
-'label_specification' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\LabelSpecification',    ];
+        'rate_id' => '\Plenty\AmazonSellingPartnerAPI\Models\Shipping\RateId',
+'label_specification' => '\Plenty\AmazonSellingPartnerAPI\Models\Shipping\LabelSpecification',    ];
 
     /**
      * Array of property to format mappings. Used for (de)serialization.
@@ -199,7 +199,7 @@ class PurchaseLabelsRequest implements ModelInterface, ArrayAccess
     /**
      * Gets rate_id.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\RateId
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Shipping\RateId
      */
     public function getRateId()
     {
@@ -209,7 +209,7 @@ class PurchaseLabelsRequest implements ModelInterface, ArrayAccess
     /**
      * Sets rate_id.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\RateId $rate_id rate_id
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Shipping\RateId $rate_id rate_id
      *
      * @return $this
      */
@@ -223,7 +223,7 @@ class PurchaseLabelsRequest implements ModelInterface, ArrayAccess
     /**
      * Gets label_specification.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\LabelSpecification
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Shipping\LabelSpecification
      */
     public function getLabelSpecification()
     {
@@ -233,7 +233,7 @@ class PurchaseLabelsRequest implements ModelInterface, ArrayAccess
     /**
      * Sets label_specification.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\LabelSpecification $label_specification label_specification
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Shipping\LabelSpecification $label_specification label_specification
      *
      * @return $this
      */

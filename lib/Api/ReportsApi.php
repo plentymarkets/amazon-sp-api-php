@@ -13,23 +13,23 @@
  * OpenAPI spec version: 2020-09-04
  */
 
-namespace Plentymarkets\AmazonSellingPartnerAPI\Api;
+namespace Plenty\AmazonSellingPartnerAPI\Api;
 
-use Plentymarkets\AmazonSellingPartnerAPI\ApiException;
-use Plentymarkets\AmazonSellingPartnerAPI\Configuration;
-use Plentymarkets\AmazonSellingPartnerAPI\HeaderSelector;
-use Plentymarkets\AmazonSellingPartnerAPI\Helpers\SellingPartnerApiRequest;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\Reports\CancelReportResponse;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\Reports\CancelReportScheduleResponse;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\Reports\CreateReportResponse;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\Reports\CreateReportScheduleResponse;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\Reports\CreateReportSpecification;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\Reports\GetReportDocumentResponse;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\Reports\GetReportResponse;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\Reports\GetReportScheduleResponse;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\Reports\GetReportSchedulesResponse;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\Reports\GetReportsResponse;
-use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plenty\AmazonSellingPartnerAPI\ApiException;
+use Plenty\AmazonSellingPartnerAPI\Configuration;
+use Plenty\AmazonSellingPartnerAPI\HeaderSelector;
+use Plenty\AmazonSellingPartnerAPI\Helpers\SellingPartnerApiRequest;
+use Plenty\AmazonSellingPartnerAPI\Models\Reports\CancelReportResponse;
+use Plenty\AmazonSellingPartnerAPI\Models\Reports\CancelReportScheduleResponse;
+use Plenty\AmazonSellingPartnerAPI\Models\Reports\CreateReportResponse;
+use Plenty\AmazonSellingPartnerAPI\Models\Reports\CreateReportScheduleResponse;
+use Plenty\AmazonSellingPartnerAPI\Models\Reports\CreateReportSpecification;
+use Plenty\AmazonSellingPartnerAPI\Models\Reports\GetReportDocumentResponse;
+use Plenty\AmazonSellingPartnerAPI\Models\Reports\GetReportResponse;
+use Plenty\AmazonSellingPartnerAPI\Models\Reports\GetReportScheduleResponse;
+use Plenty\AmazonSellingPartnerAPI\Models\Reports\GetReportSchedulesResponse;
+use Plenty\AmazonSellingPartnerAPI\Models\Reports\GetReportsResponse;
+use Plenty\AmazonSellingPartnerAPI\ObjectSerializer;
 use GuzzleHttp\Client;
 use GuzzleHttp\ClientInterface;
 use GuzzleHttp\Exception\RequestException;
@@ -81,7 +81,7 @@ class ReportsApi
      * @throws \InvalidArgumentException
      * @throws ApiException              on non-2xx response
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Reports\CancelReportResponse
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Reports\CancelReportResponse
      */
     public function cancelReport($report_id)
     {
@@ -98,7 +98,7 @@ class ReportsApi
      * @throws \InvalidArgumentException
      * @throws ApiException              on non-2xx response
      *
-     * @return array of \Plentymarkets\AmazonSellingPartnerAPI\Models\Reports\CancelReportResponse, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Plenty\AmazonSellingPartnerAPI\Models\Reports\CancelReportResponse, HTTP status code, HTTP response headers (array of strings)
      */
     public function cancelReportWithHttpInfo($report_id)
     {
@@ -137,7 +137,7 @@ class ReportsApi
      */
     public function cancelReportAsyncWithHttpInfo($report_id)
     {
-        $returnType = '\Plentymarkets\AmazonSellingPartnerAPI\Models\Reports\CancelReportResponse';
+        $returnType = '\Plenty\AmazonSellingPartnerAPI\Models\Reports\CancelReportResponse';
         $request = $this->cancelReportRequest($report_id);
 
         return $this->sendRequestAsync($request, CancelReportResponse::class);
@@ -186,7 +186,7 @@ class ReportsApi
      * @throws \InvalidArgumentException
      * @throws ApiException              on non-2xx response
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Reports\CancelReportScheduleResponse
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Reports\CancelReportScheduleResponse
      */
     public function cancelReportSchedule($report_schedule_id)
     {
@@ -203,7 +203,7 @@ class ReportsApi
      * @throws \InvalidArgumentException
      * @throws ApiException              on non-2xx response
      *
-     * @return array of \Plentymarkets\AmazonSellingPartnerAPI\Models\Reports\CancelReportScheduleResponse, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Plenty\AmazonSellingPartnerAPI\Models\Reports\CancelReportScheduleResponse, HTTP status code, HTTP response headers (array of strings)
      */
     public function cancelReportScheduleWithHttpInfo($report_schedule_id)
     {
@@ -290,7 +290,7 @@ class ReportsApi
      * @throws ApiException              on non-2xx response
      * @throws \InvalidArgumentException
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Reports\CreateReportResponse
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Reports\CreateReportResponse
      */
     public function createReport(CreateReportSpecification $body)
     {
@@ -307,7 +307,7 @@ class ReportsApi
      * @throws ApiException              on non-2xx response
      * @throws \InvalidArgumentException
      *
-     * @return array of \Plentymarkets\AmazonSellingPartnerAPI\Models\Reports\CreateReportResponse, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Plenty\AmazonSellingPartnerAPI\Models\Reports\CreateReportResponse, HTTP status code, HTTP response headers (array of strings)
      */
     public function createReportWithHttpInfo(CreateReportSpecification $body)
     {
@@ -346,7 +346,7 @@ class ReportsApi
      */
     public function createReportAsyncWithHttpInfo($body)
     {
-        $returnType = '\Plentymarkets\AmazonSellingPartnerAPI\Models\Reports\CreateReportResponse';
+        $returnType = '\Plenty\AmazonSellingPartnerAPI\Models\Reports\CreateReportResponse';
         $request = $this->createReportRequest($body);
 
         return $this->sendRequestAsync($request, CreateReportResponse::class);
@@ -381,12 +381,12 @@ class ReportsApi
     /**
      * Operation createReportSchedule.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Reports\CreateReportScheduleSpecification $body body (required)
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Reports\CreateReportScheduleSpecification $body body (required)
      *
      * @throws \InvalidArgumentException
      * @throws ApiException              on non-2xx response
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Reports\CreateReportScheduleResponse
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Reports\CreateReportScheduleResponse
      */
     public function createReportSchedule($body)
     {
@@ -398,12 +398,12 @@ class ReportsApi
     /**
      * Operation createReportScheduleWithHttpInfo.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Reports\CreateReportScheduleSpecification $body (required)
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Reports\CreateReportScheduleSpecification $body (required)
      *
      * @throws \InvalidArgumentException
      * @throws ApiException              on non-2xx response
      *
-     * @return array of \Plentymarkets\AmazonSellingPartnerAPI\Models\Reports\CreateReportScheduleResponse, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Plenty\AmazonSellingPartnerAPI\Models\Reports\CreateReportScheduleResponse, HTTP status code, HTTP response headers (array of strings)
      */
     public function createReportScheduleWithHttpInfo($body)
     {
@@ -415,7 +415,7 @@ class ReportsApi
     /**
      * Operation createReportScheduleAsync.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Reports\CreateReportScheduleSpecification $body (required)
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Reports\CreateReportScheduleSpecification $body (required)
      *
      * @throws \InvalidArgumentException
      *
@@ -434,7 +434,7 @@ class ReportsApi
     /**
      * Operation createReportScheduleAsyncWithHttpInfo.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Reports\CreateReportScheduleSpecification $body (required)
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Reports\CreateReportScheduleSpecification $body (required)
      *
      * @throws \InvalidArgumentException
      *
@@ -450,7 +450,7 @@ class ReportsApi
     /**
      * Create request for operation 'createReportSchedule'.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Reports\CreateReportScheduleSpecification $body (required)
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Reports\CreateReportScheduleSpecification $body (required)
      *
      * @throws \InvalidArgumentException
      *
@@ -481,7 +481,7 @@ class ReportsApi
      * @throws \InvalidArgumentException
      * @throws ApiException              on non-2xx response
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Reports\GetReportResponse
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Reports\GetReportResponse
      */
     public function getReport($report_id)
     {
@@ -498,7 +498,7 @@ class ReportsApi
      * @throws \InvalidArgumentException
      * @throws ApiException              on non-2xx response
      *
-     * @return array of \Plentymarkets\AmazonSellingPartnerAPI\Models\Reports\GetReportResponse, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Plenty\AmazonSellingPartnerAPI\Models\Reports\GetReportResponse, HTTP status code, HTTP response headers (array of strings)
      */
     public function getReportWithHttpInfo($report_id)
     {
@@ -585,7 +585,7 @@ class ReportsApi
      * @throws \InvalidArgumentException
      * @throws ApiException              on non-2xx response
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Reports\GetReportDocumentResponse
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Reports\GetReportDocumentResponse
      */
     public function getReportDocument($report_document_id)
     {
@@ -602,7 +602,7 @@ class ReportsApi
      * @throws \InvalidArgumentException
      * @throws ApiException              on non-2xx response
      *
-     * @return array of \Plentymarkets\AmazonSellingPartnerAPI\Models\Reports\GetReportDocumentResponse, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Plenty\AmazonSellingPartnerAPI\Models\Reports\GetReportDocumentResponse, HTTP status code, HTTP response headers (array of strings)
      */
     public function getReportDocumentWithHttpInfo($report_document_id)
     {
@@ -689,7 +689,7 @@ class ReportsApi
      * @throws \InvalidArgumentException
      * @throws ApiException              on non-2xx response
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Reports\GetReportScheduleResponse
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Reports\GetReportScheduleResponse
      */
     public function getReportSchedule($report_schedule_id)
     {
@@ -706,7 +706,7 @@ class ReportsApi
      * @throws \InvalidArgumentException
      * @throws ApiException              on non-2xx response
      *
-     * @return array of \Plentymarkets\AmazonSellingPartnerAPI\Models\Reports\GetReportScheduleResponse, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Plenty\AmazonSellingPartnerAPI\Models\Reports\GetReportScheduleResponse, HTTP status code, HTTP response headers (array of strings)
      */
     public function getReportScheduleWithHttpInfo($report_schedule_id)
     {
@@ -793,7 +793,7 @@ class ReportsApi
      * @throws \InvalidArgumentException
      * @throws ApiException              on non-2xx response
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Reports\GetReportSchedulesResponse
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Reports\GetReportSchedulesResponse
      */
     public function getReportSchedules($report_types)
     {
@@ -810,7 +810,7 @@ class ReportsApi
      * @throws \InvalidArgumentException
      * @throws ApiException              on non-2xx response
      *
-     * @return array of \Plentymarkets\AmazonSellingPartnerAPI\Models\Reports\GetReportSchedulesResponse, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Plenty\AmazonSellingPartnerAPI\Models\Reports\GetReportSchedulesResponse, HTTP status code, HTTP response headers (array of strings)
      */
     public function getReportSchedulesWithHttpInfo($report_types)
     {
@@ -852,7 +852,7 @@ class ReportsApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Plentymarkets\AmazonSellingPartnerAPI\Models\Reports\GetReportSchedulesResponse',
+                        '\Plenty\AmazonSellingPartnerAPI\Models\Reports\GetReportSchedulesResponse',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -860,7 +860,7 @@ class ReportsApi
                 case 400:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Plentymarkets\AmazonSellingPartnerAPI\Models\Reports\GetReportSchedulesResponse',
+                        '\Plenty\AmazonSellingPartnerAPI\Models\Reports\GetReportSchedulesResponse',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -868,7 +868,7 @@ class ReportsApi
                 case 401:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Plentymarkets\AmazonSellingPartnerAPI\Models\Reports\GetReportSchedulesResponse',
+                        '\Plenty\AmazonSellingPartnerAPI\Models\Reports\GetReportSchedulesResponse',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -876,7 +876,7 @@ class ReportsApi
                 case 403:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Plentymarkets\AmazonSellingPartnerAPI\Models\Reports\GetReportSchedulesResponse',
+                        '\Plenty\AmazonSellingPartnerAPI\Models\Reports\GetReportSchedulesResponse',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -884,7 +884,7 @@ class ReportsApi
                 case 404:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Plentymarkets\AmazonSellingPartnerAPI\Models\Reports\GetReportSchedulesResponse',
+                        '\Plenty\AmazonSellingPartnerAPI\Models\Reports\GetReportSchedulesResponse',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -892,7 +892,7 @@ class ReportsApi
                 case 415:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Plentymarkets\AmazonSellingPartnerAPI\Models\Reports\GetReportSchedulesResponse',
+                        '\Plenty\AmazonSellingPartnerAPI\Models\Reports\GetReportSchedulesResponse',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -900,7 +900,7 @@ class ReportsApi
                 case 429:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Plentymarkets\AmazonSellingPartnerAPI\Models\Reports\GetReportSchedulesResponse',
+                        '\Plenty\AmazonSellingPartnerAPI\Models\Reports\GetReportSchedulesResponse',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -908,7 +908,7 @@ class ReportsApi
                 case 500:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Plentymarkets\AmazonSellingPartnerAPI\Models\Reports\GetReportSchedulesResponse',
+                        '\Plenty\AmazonSellingPartnerAPI\Models\Reports\GetReportSchedulesResponse',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -916,7 +916,7 @@ class ReportsApi
                 case 503:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Plentymarkets\AmazonSellingPartnerAPI\Models\Reports\GetReportSchedulesResponse',
+                        '\Plenty\AmazonSellingPartnerAPI\Models\Reports\GetReportSchedulesResponse',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -1009,7 +1009,7 @@ class ReportsApi
      * @throws ApiException              on non-2xx response
      * @throws \InvalidArgumentException
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Reports\GetReportsResponse
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Reports\GetReportsResponse
      */
     public function getReports($report_types = null, $processing_statuses = null, $marketplace_ids = null, $page_size = '10', $created_since = null, $created_until = null, $next_token = null)
     {
@@ -1032,7 +1032,7 @@ class ReportsApi
      * @throws ApiException              on non-2xx response
      * @throws \InvalidArgumentException
      *
-     * @return array of \Plentymarkets\AmazonSellingPartnerAPI\Models\Reports\GetReportsResponse, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Plenty\AmazonSellingPartnerAPI\Models\Reports\GetReportsResponse, HTTP status code, HTTP response headers (array of strings)
      */
     public function getReportsWithHttpInfo($report_types = null, $processing_statuses = null, $marketplace_ids = null, $page_size = '10', $created_since = null, $created_until = null, $next_token = null)
     {
@@ -1083,7 +1083,7 @@ class ReportsApi
      */
     public function getReportsAsyncWithHttpInfo($report_types = null, $processing_statuses = null, $marketplace_ids = null, $page_size = '10', $created_since = null, $created_until = null, $next_token = null)
     {
-        $returnType = '\Plentymarkets\AmazonSellingPartnerAPI\Models\Reports\GetReportsResponse';
+        $returnType = '\Plenty\AmazonSellingPartnerAPI\Models\Reports\GetReportsResponse';
         $request = $this->getReportsRequest($report_types, $processing_statuses, $marketplace_ids, $page_size, $created_since, $created_until, $next_token);
 
         return $this->sendRequestAsync($request, GetReportsResponse::class);

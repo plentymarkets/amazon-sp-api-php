@@ -15,11 +15,11 @@
  * OpenAPI spec version: v0
  */
 
-namespace Plentymarkets\AmazonSellingPartnerAPI\Models\Finances;
+namespace Plenty\AmazonSellingPartnerAPI\Models\Finances;
 
 use ArrayAccess;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
-use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plenty\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plenty\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * RemovalShipmentItem Class Doc Comment.
@@ -50,10 +50,10 @@ class RemovalShipmentItem implements ModelInterface, ArrayAccess
 'tax_collection_model' => 'string',
 'fulfillment_network_sku' => 'string',
 'quantity' => 'int',
-'revenue' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\Currency',
-'fee_amount' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\Currency',
-'tax_amount' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\Currency',
-'tax_withheld' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\Currency',    ];
+'revenue' => '\Plenty\AmazonSellingPartnerAPI\Models\Finances\Currency',
+'fee_amount' => '\Plenty\AmazonSellingPartnerAPI\Models\Finances\Currency',
+'tax_amount' => '\Plenty\AmazonSellingPartnerAPI\Models\Finances\Currency',
+'tax_withheld' => '\Plenty\AmazonSellingPartnerAPI\Models\Finances\Currency',    ];
 
     /**
      * Array of property to format mappings. Used for (de)serialization.
@@ -324,7 +324,7 @@ class RemovalShipmentItem implements ModelInterface, ArrayAccess
     /**
      * Gets revenue.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\Currency
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Finances\Currency
      */
     public function getRevenue()
     {
@@ -334,7 +334,7 @@ class RemovalShipmentItem implements ModelInterface, ArrayAccess
     /**
      * Sets revenue.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\Currency $revenue revenue
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Finances\Currency $revenue revenue
      *
      * @return $this
      */
@@ -348,7 +348,7 @@ class RemovalShipmentItem implements ModelInterface, ArrayAccess
     /**
      * Gets fee_amount.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\Currency
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Finances\Currency
      */
     public function getFeeAmount()
     {
@@ -358,7 +358,7 @@ class RemovalShipmentItem implements ModelInterface, ArrayAccess
     /**
      * Sets fee_amount.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\Currency $fee_amount fee_amount
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Finances\Currency $fee_amount fee_amount
      *
      * @return $this
      */
@@ -372,7 +372,7 @@ class RemovalShipmentItem implements ModelInterface, ArrayAccess
     /**
      * Gets tax_amount.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\Currency
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Finances\Currency
      */
     public function getTaxAmount()
     {
@@ -382,7 +382,7 @@ class RemovalShipmentItem implements ModelInterface, ArrayAccess
     /**
      * Sets tax_amount.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\Currency $tax_amount tax_amount
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Finances\Currency $tax_amount tax_amount
      *
      * @return $this
      */
@@ -396,7 +396,7 @@ class RemovalShipmentItem implements ModelInterface, ArrayAccess
     /**
      * Gets tax_withheld.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\Currency
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Finances\Currency
      */
     public function getTaxWithheld()
     {
@@ -406,7 +406,7 @@ class RemovalShipmentItem implements ModelInterface, ArrayAccess
     /**
      * Sets tax_withheld.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\Currency $tax_withheld tax_withheld
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Finances\Currency $tax_withheld tax_withheld
      *
      * @return $this
      */

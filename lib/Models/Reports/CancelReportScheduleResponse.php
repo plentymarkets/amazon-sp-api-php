@@ -15,11 +15,11 @@
  * OpenAPI spec version: 2020-09-04
  */
 
-namespace Plentymarkets\AmazonSellingPartnerAPI\Models\Reports;
+namespace Plenty\AmazonSellingPartnerAPI\Models\Reports;
 
 use ArrayAccess;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
-use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plenty\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plenty\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * CancelReportScheduleResponse Class Doc Comment.
@@ -46,7 +46,7 @@ class CancelReportScheduleResponse implements ModelInterface, ArrayAccess
      * @var string[]
      */
     protected static $swaggerTypes = [
-        'errors' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Reports\ErrorList',    ];
+        'errors' => '\Plenty\AmazonSellingPartnerAPI\Models\Reports\ErrorList',    ];
 
     /**
      * Array of property to format mappings. Used for (de)serialization.
@@ -186,7 +186,7 @@ class CancelReportScheduleResponse implements ModelInterface, ArrayAccess
     /**
      * Gets errors.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Reports\ErrorList
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Reports\ErrorList
      */
     public function getErrors()
     {
@@ -196,7 +196,7 @@ class CancelReportScheduleResponse implements ModelInterface, ArrayAccess
     /**
      * Sets errors.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Reports\ErrorList $errors errors
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Reports\ErrorList $errors errors
      *
      * @return $this
      */

@@ -15,11 +15,11 @@
  * OpenAPI spec version: v0
  */
 
-namespace Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound;
+namespace Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound;
 
 use ArrayAccess;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
-use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plenty\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plenty\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * InboundShipmentPlanItem Class Doc Comment.
@@ -48,8 +48,8 @@ class InboundShipmentPlanItem implements ModelInterface, ArrayAccess
     protected static $swaggerTypes = [
         'seller_sku' => 'string',
 'fulfillment_network_sku' => 'string',
-'quantity' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\Quantity',
-'prep_details_list' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\PrepDetailsList',    ];
+'quantity' => '\Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\Quantity',
+'prep_details_list' => '\Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\PrepDetailsList',    ];
 
     /**
      * Array of property to format mappings. Used for (de)serialization.
@@ -262,7 +262,7 @@ class InboundShipmentPlanItem implements ModelInterface, ArrayAccess
     /**
      * Gets quantity.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\Quantity
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\Quantity
      */
     public function getQuantity()
     {
@@ -272,7 +272,7 @@ class InboundShipmentPlanItem implements ModelInterface, ArrayAccess
     /**
      * Sets quantity.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\Quantity $quantity quantity
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\Quantity $quantity quantity
      *
      * @return $this
      */
@@ -286,7 +286,7 @@ class InboundShipmentPlanItem implements ModelInterface, ArrayAccess
     /**
      * Gets prep_details_list.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\PrepDetailsList
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\PrepDetailsList
      */
     public function getPrepDetailsList()
     {
@@ -296,7 +296,7 @@ class InboundShipmentPlanItem implements ModelInterface, ArrayAccess
     /**
      * Sets prep_details_list.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\PrepDetailsList $prep_details_list prep_details_list
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\PrepDetailsList $prep_details_list prep_details_list
      *
      * @return $this
      */

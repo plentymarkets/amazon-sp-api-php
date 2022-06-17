@@ -15,11 +15,11 @@
  * OpenAPI spec version: v0
  */
 
-namespace Plentymarkets\AmazonSellingPartnerAPI\Models\Finances;
+namespace Plenty\AmazonSellingPartnerAPI\Models\Finances;
 
 use ArrayAccess;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
-use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plenty\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plenty\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * FeeComponent Class Doc Comment.
@@ -47,7 +47,7 @@ class FeeComponent implements ModelInterface, ArrayAccess
      */
     protected static $swaggerTypes = [
         'fee_type' => 'string',
-'fee_amount' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\Currency',    ];
+'fee_amount' => '\Plenty\AmazonSellingPartnerAPI\Models\Finances\Currency',    ];
 
     /**
      * Array of property to format mappings. Used for (de)serialization.
@@ -216,7 +216,7 @@ class FeeComponent implements ModelInterface, ArrayAccess
     /**
      * Gets fee_amount.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\Currency
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Finances\Currency
      */
     public function getFeeAmount()
     {
@@ -226,7 +226,7 @@ class FeeComponent implements ModelInterface, ArrayAccess
     /**
      * Sets fee_amount.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\Currency $fee_amount fee_amount
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Finances\Currency $fee_amount fee_amount
      *
      * @return $this
      */

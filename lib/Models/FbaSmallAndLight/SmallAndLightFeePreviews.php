@@ -15,11 +15,11 @@
  * OpenAPI spec version: v1
  */
 
-namespace Plentymarkets\AmazonSellingPartnerAPI\Models\FbaSmallAndLight;
+namespace Plenty\AmazonSellingPartnerAPI\Models\FbaSmallAndLight;
 
 use ArrayAccess;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
-use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plenty\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plenty\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * SmallAndLightFeePreviews Class Doc Comment.
@@ -43,7 +43,7 @@ class SmallAndLightFeePreviews implements ModelInterface, ArrayAccess
      * @var string[]
      */
     protected static $swaggerTypes = [
-        'data' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\FbaSmallAndLight\FeePreview[]',    ];
+        'data' => '\Plenty\AmazonSellingPartnerAPI\Models\FbaSmallAndLight\FeePreview[]',    ];
 
     /**
      * Array of property to format mappings. Used for (de)serialization.
@@ -183,7 +183,7 @@ class SmallAndLightFeePreviews implements ModelInterface, ArrayAccess
     /**
      * Gets data.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\FbaSmallAndLight\FeePreview[]
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\FbaSmallAndLight\FeePreview[]
      */
     public function getData()
     {
@@ -193,7 +193,7 @@ class SmallAndLightFeePreviews implements ModelInterface, ArrayAccess
     /**
      * Sets data.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\FbaSmallAndLight\FeePreview[] $data A list of fee estimates for the requested items. The order of the fee estimates will follow the same order as the items in the request, with duplicates removed.
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\FbaSmallAndLight\FeePreview[] $data A list of fee estimates for the requested items. The order of the fee estimates will follow the same order as the items in the request, with duplicates removed.
      *
      * @return $this
      */

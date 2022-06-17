@@ -15,11 +15,11 @@
  * OpenAPI spec version: 2020-09-04
  */
 
-namespace Plentymarkets\AmazonSellingPartnerAPI\Models\Reports;
+namespace Plenty\AmazonSellingPartnerAPI\Models\Reports;
 
 use ArrayAccess;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
-use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plenty\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plenty\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * CreateReportSpecification Class Doc Comment.
@@ -43,7 +43,7 @@ class CreateReportSpecification implements ModelInterface, ArrayAccess
      * @var string[]
      */
     protected static $swaggerTypes = [
-        'report_options' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Reports\ReportOptions',
+        'report_options' => '\Plenty\AmazonSellingPartnerAPI\Models\Reports\ReportOptions',
 'report_type' => 'string',
 'data_start_time' => '\DateTime',
 'data_end_time' => '\DateTime',
@@ -214,7 +214,7 @@ class CreateReportSpecification implements ModelInterface, ArrayAccess
     /**
      * Gets report_options.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Reports\ReportOptions
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Reports\ReportOptions
      */
     public function getReportOptions()
     {
@@ -224,7 +224,7 @@ class CreateReportSpecification implements ModelInterface, ArrayAccess
     /**
      * Sets report_options.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Reports\ReportOptions $report_options report_options
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Reports\ReportOptions $report_options report_options
      *
      * @return $this
      */

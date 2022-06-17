@@ -15,11 +15,11 @@
  * OpenAPI spec version: v0
  */
 
-namespace Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound;
+namespace Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound;
 
 use ArrayAccess;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
-use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plenty\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plenty\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * InboundShipmentInfo Class Doc Comment.
@@ -48,14 +48,14 @@ class InboundShipmentInfo implements ModelInterface, ArrayAccess
     protected static $swaggerTypes = [
         'shipment_id' => 'string',
 'shipment_name' => 'string',
-'ship_from_address' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\Address',
+'ship_from_address' => '\Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\Address',
 'destination_fulfillment_center_id' => 'string',
-'shipment_status' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\ShipmentStatus',
-'label_prep_type' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\LabelPrepType',
+'shipment_status' => '\Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\ShipmentStatus',
+'label_prep_type' => '\Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\LabelPrepType',
 'are_cases_required' => 'bool',
-'confirmed_need_by_date' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\DateStringType',
-'box_contents_source' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\BoxContentsSource',
-'estimated_box_contents_fee' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\BoxContentsFeeDetails',    ];
+'confirmed_need_by_date' => '\Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\DateStringType',
+'box_contents_source' => '\Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\BoxContentsSource',
+'estimated_box_contents_fee' => '\Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\BoxContentsFeeDetails',    ];
 
     /**
      * Array of property to format mappings. Used for (de)serialization.
@@ -295,7 +295,7 @@ class InboundShipmentInfo implements ModelInterface, ArrayAccess
     /**
      * Gets ship_from_address.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\Address
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\Address
      */
     public function getShipFromAddress()
     {
@@ -305,7 +305,7 @@ class InboundShipmentInfo implements ModelInterface, ArrayAccess
     /**
      * Sets ship_from_address.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\Address $ship_from_address ship_from_address
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\Address $ship_from_address ship_from_address
      *
      * @return $this
      */
@@ -343,7 +343,7 @@ class InboundShipmentInfo implements ModelInterface, ArrayAccess
     /**
      * Gets shipment_status.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\ShipmentStatus
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\ShipmentStatus
      */
     public function getShipmentStatus()
     {
@@ -353,7 +353,7 @@ class InboundShipmentInfo implements ModelInterface, ArrayAccess
     /**
      * Sets shipment_status.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\ShipmentStatus $shipment_status shipment_status
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\ShipmentStatus $shipment_status shipment_status
      *
      * @return $this
      */
@@ -367,7 +367,7 @@ class InboundShipmentInfo implements ModelInterface, ArrayAccess
     /**
      * Gets label_prep_type.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\LabelPrepType
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\LabelPrepType
      */
     public function getLabelPrepType()
     {
@@ -377,7 +377,7 @@ class InboundShipmentInfo implements ModelInterface, ArrayAccess
     /**
      * Sets label_prep_type.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\LabelPrepType $label_prep_type label_prep_type
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\LabelPrepType $label_prep_type label_prep_type
      *
      * @return $this
      */
@@ -415,7 +415,7 @@ class InboundShipmentInfo implements ModelInterface, ArrayAccess
     /**
      * Gets confirmed_need_by_date.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\DateStringType
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\DateStringType
      */
     public function getConfirmedNeedByDate()
     {
@@ -425,7 +425,7 @@ class InboundShipmentInfo implements ModelInterface, ArrayAccess
     /**
      * Sets confirmed_need_by_date.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\DateStringType $confirmed_need_by_date confirmed_need_by_date
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\DateStringType $confirmed_need_by_date confirmed_need_by_date
      *
      * @return $this
      */
@@ -439,7 +439,7 @@ class InboundShipmentInfo implements ModelInterface, ArrayAccess
     /**
      * Gets box_contents_source.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\BoxContentsSource
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\BoxContentsSource
      */
     public function getBoxContentsSource()
     {
@@ -449,7 +449,7 @@ class InboundShipmentInfo implements ModelInterface, ArrayAccess
     /**
      * Sets box_contents_source.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\BoxContentsSource $box_contents_source box_contents_source
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\BoxContentsSource $box_contents_source box_contents_source
      *
      * @return $this
      */
@@ -463,7 +463,7 @@ class InboundShipmentInfo implements ModelInterface, ArrayAccess
     /**
      * Gets estimated_box_contents_fee.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\BoxContentsFeeDetails
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\BoxContentsFeeDetails
      */
     public function getEstimatedBoxContentsFee()
     {
@@ -473,7 +473,7 @@ class InboundShipmentInfo implements ModelInterface, ArrayAccess
     /**
      * Sets estimated_box_contents_fee.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\BoxContentsFeeDetails $estimated_box_contents_fee estimated_box_contents_fee
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\BoxContentsFeeDetails $estimated_box_contents_fee estimated_box_contents_fee
      *
      * @return $this
      */

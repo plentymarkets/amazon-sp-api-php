@@ -15,11 +15,11 @@
  * OpenAPI spec version: v1
  */
 
-namespace Plentymarkets\AmazonSellingPartnerAPI\Models\Notifications;
+namespace Plenty\AmazonSellingPartnerAPI\Models\Notifications;
 
 use ArrayAccess;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
-use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plenty\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plenty\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * Destination Class Doc Comment.
@@ -48,7 +48,7 @@ class Destination implements ModelInterface, ArrayAccess
     protected static $swaggerTypes = [
         'name' => 'string',
 'destination_id' => 'string',
-'resource' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Notifications\DestinationResource',    ];
+'resource' => '\Plenty\AmazonSellingPartnerAPI\Models\Notifications\DestinationResource',    ];
 
     /**
      * Array of property to format mappings. Used for (de)serialization.
@@ -256,7 +256,7 @@ class Destination implements ModelInterface, ArrayAccess
     /**
      * Gets resource.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Notifications\DestinationResource
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Notifications\DestinationResource
      */
     public function getResource()
     {
@@ -266,7 +266,7 @@ class Destination implements ModelInterface, ArrayAccess
     /**
      * Sets resource.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Notifications\DestinationResource $resource resource
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Notifications\DestinationResource $resource resource
      *
      * @return $this
      */

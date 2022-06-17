@@ -15,11 +15,11 @@
  * OpenAPI spec version: v0
  */
 
-namespace Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound;
+namespace Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound;
 
 use ArrayAccess;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
-use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plenty\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plenty\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * SKUInboundGuidance Class Doc Comment.
@@ -48,8 +48,8 @@ class SKUInboundGuidance implements ModelInterface, ArrayAccess
     protected static $swaggerTypes = [
         'seller_sku' => 'string',
 'asin' => 'string',
-'inbound_guidance' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\InboundGuidance',
-'guidance_reason_list' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\GuidanceReasonList',    ];
+'inbound_guidance' => '\Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\InboundGuidance',
+'guidance_reason_list' => '\Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\GuidanceReasonList',    ];
 
     /**
      * Array of property to format mappings. Used for (de)serialization.
@@ -262,7 +262,7 @@ class SKUInboundGuidance implements ModelInterface, ArrayAccess
     /**
      * Gets inbound_guidance.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\InboundGuidance
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\InboundGuidance
      */
     public function getInboundGuidance()
     {
@@ -272,7 +272,7 @@ class SKUInboundGuidance implements ModelInterface, ArrayAccess
     /**
      * Sets inbound_guidance.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\InboundGuidance $inbound_guidance inbound_guidance
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\InboundGuidance $inbound_guidance inbound_guidance
      *
      * @return $this
      */
@@ -286,7 +286,7 @@ class SKUInboundGuidance implements ModelInterface, ArrayAccess
     /**
      * Gets guidance_reason_list.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\GuidanceReasonList
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\GuidanceReasonList
      */
     public function getGuidanceReasonList()
     {
@@ -296,7 +296,7 @@ class SKUInboundGuidance implements ModelInterface, ArrayAccess
     /**
      * Sets guidance_reason_list.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\GuidanceReasonList $guidance_reason_list guidance_reason_list
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\GuidanceReasonList $guidance_reason_list guidance_reason_list
      *
      * @return $this
      */

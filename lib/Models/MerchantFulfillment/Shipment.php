@@ -15,11 +15,11 @@
  * OpenAPI spec version: v0
  */
 
-namespace Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment;
+namespace Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment;
 
 use ArrayAccess;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
-use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plenty\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plenty\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * Shipment Class Doc Comment.
@@ -46,21 +46,21 @@ class Shipment implements ModelInterface, ArrayAccess
      * @var string[]
      */
     protected static $swaggerTypes = [
-        'shipment_id' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\ShipmentId',
-'amazon_order_id' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\AmazonOrderId',
-'seller_order_id' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\SellerOrderId',
-'item_list' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\ItemList',
-'ship_from_address' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\Address',
-'ship_to_address' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\Address',
-'package_dimensions' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\PackageDimensions',
-'weight' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\Weight',
-'insurance' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\CurrencyAmount',
-'shipping_service' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\ShippingService',
-'label' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\Label',
-'status' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\ShipmentStatus',
-'tracking_id' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\TrackingId',
-'created_date' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\Timestamp',
-'last_updated_date' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\Timestamp',    ];
+        'shipment_id' => '\Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\ShipmentId',
+'amazon_order_id' => '\Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\AmazonOrderId',
+'seller_order_id' => '\Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\SellerOrderId',
+'item_list' => '\Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\ItemList',
+'ship_from_address' => '\Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\Address',
+'ship_to_address' => '\Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\Address',
+'package_dimensions' => '\Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\PackageDimensions',
+'weight' => '\Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\Weight',
+'insurance' => '\Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\CurrencyAmount',
+'shipping_service' => '\Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\ShippingService',
+'label' => '\Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\Label',
+'status' => '\Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\ShipmentStatus',
+'tracking_id' => '\Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\TrackingId',
+'created_date' => '\Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\Timestamp',
+'last_updated_date' => '\Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\Timestamp',    ];
 
     /**
      * Array of property to format mappings. Used for (de)serialization.
@@ -307,7 +307,7 @@ class Shipment implements ModelInterface, ArrayAccess
     /**
      * Gets shipment_id.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\ShipmentId
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\ShipmentId
      */
     public function getShipmentId()
     {
@@ -317,7 +317,7 @@ class Shipment implements ModelInterface, ArrayAccess
     /**
      * Sets shipment_id.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\ShipmentId $shipment_id shipment_id
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\ShipmentId $shipment_id shipment_id
      *
      * @return $this
      */
@@ -331,7 +331,7 @@ class Shipment implements ModelInterface, ArrayAccess
     /**
      * Gets amazon_order_id.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\AmazonOrderId
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\AmazonOrderId
      */
     public function getAmazonOrderId()
     {
@@ -341,7 +341,7 @@ class Shipment implements ModelInterface, ArrayAccess
     /**
      * Sets amazon_order_id.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\AmazonOrderId $amazon_order_id amazon_order_id
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\AmazonOrderId $amazon_order_id amazon_order_id
      *
      * @return $this
      */
@@ -355,7 +355,7 @@ class Shipment implements ModelInterface, ArrayAccess
     /**
      * Gets seller_order_id.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\SellerOrderId
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\SellerOrderId
      */
     public function getSellerOrderId()
     {
@@ -365,7 +365,7 @@ class Shipment implements ModelInterface, ArrayAccess
     /**
      * Sets seller_order_id.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\SellerOrderId $seller_order_id seller_order_id
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\SellerOrderId $seller_order_id seller_order_id
      *
      * @return $this
      */
@@ -379,7 +379,7 @@ class Shipment implements ModelInterface, ArrayAccess
     /**
      * Gets item_list.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\ItemList
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\ItemList
      */
     public function getItemList()
     {
@@ -389,7 +389,7 @@ class Shipment implements ModelInterface, ArrayAccess
     /**
      * Sets item_list.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\ItemList $item_list item_list
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\ItemList $item_list item_list
      *
      * @return $this
      */
@@ -403,7 +403,7 @@ class Shipment implements ModelInterface, ArrayAccess
     /**
      * Gets ship_from_address.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\Address
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\Address
      */
     public function getShipFromAddress()
     {
@@ -413,7 +413,7 @@ class Shipment implements ModelInterface, ArrayAccess
     /**
      * Sets ship_from_address.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\Address $ship_from_address ship_from_address
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\Address $ship_from_address ship_from_address
      *
      * @return $this
      */
@@ -427,7 +427,7 @@ class Shipment implements ModelInterface, ArrayAccess
     /**
      * Gets ship_to_address.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\Address
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\Address
      */
     public function getShipToAddress()
     {
@@ -437,7 +437,7 @@ class Shipment implements ModelInterface, ArrayAccess
     /**
      * Sets ship_to_address.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\Address $ship_to_address ship_to_address
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\Address $ship_to_address ship_to_address
      *
      * @return $this
      */
@@ -451,7 +451,7 @@ class Shipment implements ModelInterface, ArrayAccess
     /**
      * Gets package_dimensions.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\PackageDimensions
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\PackageDimensions
      */
     public function getPackageDimensions()
     {
@@ -461,7 +461,7 @@ class Shipment implements ModelInterface, ArrayAccess
     /**
      * Sets package_dimensions.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\PackageDimensions $package_dimensions package_dimensions
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\PackageDimensions $package_dimensions package_dimensions
      *
      * @return $this
      */
@@ -475,7 +475,7 @@ class Shipment implements ModelInterface, ArrayAccess
     /**
      * Gets weight.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\Weight
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\Weight
      */
     public function getWeight()
     {
@@ -485,7 +485,7 @@ class Shipment implements ModelInterface, ArrayAccess
     /**
      * Sets weight.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\Weight $weight weight
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\Weight $weight weight
      *
      * @return $this
      */
@@ -499,7 +499,7 @@ class Shipment implements ModelInterface, ArrayAccess
     /**
      * Gets insurance.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\CurrencyAmount
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\CurrencyAmount
      */
     public function getInsurance()
     {
@@ -509,7 +509,7 @@ class Shipment implements ModelInterface, ArrayAccess
     /**
      * Sets insurance.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\CurrencyAmount $insurance insurance
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\CurrencyAmount $insurance insurance
      *
      * @return $this
      */
@@ -523,7 +523,7 @@ class Shipment implements ModelInterface, ArrayAccess
     /**
      * Gets shipping_service.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\ShippingService
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\ShippingService
      */
     public function getShippingService()
     {
@@ -533,7 +533,7 @@ class Shipment implements ModelInterface, ArrayAccess
     /**
      * Sets shipping_service.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\ShippingService $shipping_service shipping_service
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\ShippingService $shipping_service shipping_service
      *
      * @return $this
      */
@@ -547,7 +547,7 @@ class Shipment implements ModelInterface, ArrayAccess
     /**
      * Gets label.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\Label
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\Label
      */
     public function getLabel()
     {
@@ -557,7 +557,7 @@ class Shipment implements ModelInterface, ArrayAccess
     /**
      * Sets label.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\Label $label label
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\Label $label label
      *
      * @return $this
      */
@@ -571,7 +571,7 @@ class Shipment implements ModelInterface, ArrayAccess
     /**
      * Gets status.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\ShipmentStatus
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\ShipmentStatus
      */
     public function getStatus()
     {
@@ -581,7 +581,7 @@ class Shipment implements ModelInterface, ArrayAccess
     /**
      * Sets status.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\ShipmentStatus $status status
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\ShipmentStatus $status status
      *
      * @return $this
      */
@@ -595,7 +595,7 @@ class Shipment implements ModelInterface, ArrayAccess
     /**
      * Gets tracking_id.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\TrackingId
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\TrackingId
      */
     public function getTrackingId()
     {
@@ -605,7 +605,7 @@ class Shipment implements ModelInterface, ArrayAccess
     /**
      * Sets tracking_id.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\TrackingId $tracking_id tracking_id
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\TrackingId $tracking_id tracking_id
      *
      * @return $this
      */
@@ -619,7 +619,7 @@ class Shipment implements ModelInterface, ArrayAccess
     /**
      * Gets created_date.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\Timestamp
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\Timestamp
      */
     public function getCreatedDate()
     {
@@ -629,7 +629,7 @@ class Shipment implements ModelInterface, ArrayAccess
     /**
      * Sets created_date.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\Timestamp $created_date created_date
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\Timestamp $created_date created_date
      *
      * @return $this
      */
@@ -643,7 +643,7 @@ class Shipment implements ModelInterface, ArrayAccess
     /**
      * Gets last_updated_date.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\Timestamp
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\Timestamp
      */
     public function getLastUpdatedDate()
     {
@@ -653,7 +653,7 @@ class Shipment implements ModelInterface, ArrayAccess
     /**
      * Sets last_updated_date.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\Timestamp $last_updated_date last_updated_date
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\Timestamp $last_updated_date last_updated_date
      *
      * @return $this
      */

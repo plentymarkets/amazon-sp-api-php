@@ -15,11 +15,11 @@
  * OpenAPI spec version: v1
  */
 
-namespace Plentymarkets\AmazonSellingPartnerAPI\Models\Services;
+namespace Plenty\AmazonSellingPartnerAPI\Models\Services;
 
 use ArrayAccess;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
-use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plenty\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plenty\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * CancelServiceJobByServiceJobIdResponse Class Doc Comment.
@@ -46,7 +46,7 @@ class CancelServiceJobByServiceJobIdResponse implements ModelInterface, ArrayAcc
      * @var string[]
      */
     protected static $swaggerTypes = [
-        'errors' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Services\ErrorList',    ];
+        'errors' => '\Plenty\AmazonSellingPartnerAPI\Models\Services\ErrorList',    ];
 
     /**
      * Array of property to format mappings. Used for (de)serialization.
@@ -186,7 +186,7 @@ class CancelServiceJobByServiceJobIdResponse implements ModelInterface, ArrayAcc
     /**
      * Gets errors.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Services\ErrorList
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Services\ErrorList
      */
     public function getErrors()
     {
@@ -196,7 +196,7 @@ class CancelServiceJobByServiceJobIdResponse implements ModelInterface, ArrayAcc
     /**
      * Sets errors.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Services\ErrorList $errors errors
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Services\ErrorList $errors errors
      *
      * @return $this
      */

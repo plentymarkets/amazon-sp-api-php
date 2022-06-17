@@ -15,11 +15,11 @@
  * OpenAPI spec version: 2020-07-01
  */
 
-namespace Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound;
+namespace Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound;
 
 use ArrayAccess;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
-use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plenty\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plenty\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * GetFulfillmentPreviewRequest Class Doc Comment.
@@ -47,12 +47,12 @@ class GetFulfillmentPreviewRequest implements ModelInterface, ArrayAccess
      */
     protected static $swaggerTypes = [
         'marketplace_id' => 'string',
-'address' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\Address',
-'items' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\GetFulfillmentPreviewItemList',
-'shipping_speed_categories' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\ShippingSpeedCategoryList',
+'address' => '\Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\Address',
+'items' => '\Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\GetFulfillmentPreviewItemList',
+'shipping_speed_categories' => '\Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\ShippingSpeedCategoryList',
 'include_cod_fulfillment_preview' => 'bool',
 'include_delivery_windows' => 'bool',
-'feature_constraints' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\FeatureSettings[]',    ];
+'feature_constraints' => '\Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\FeatureSettings[]',    ];
 
     /**
      * Array of property to format mappings. Used for (de)serialization.
@@ -253,7 +253,7 @@ class GetFulfillmentPreviewRequest implements ModelInterface, ArrayAccess
     /**
      * Gets address.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\Address
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\Address
      */
     public function getAddress()
     {
@@ -263,7 +263,7 @@ class GetFulfillmentPreviewRequest implements ModelInterface, ArrayAccess
     /**
      * Sets address.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\Address $address address
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\Address $address address
      *
      * @return $this
      */
@@ -277,7 +277,7 @@ class GetFulfillmentPreviewRequest implements ModelInterface, ArrayAccess
     /**
      * Gets items.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\GetFulfillmentPreviewItemList
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\GetFulfillmentPreviewItemList
      */
     public function getItems()
     {
@@ -287,7 +287,7 @@ class GetFulfillmentPreviewRequest implements ModelInterface, ArrayAccess
     /**
      * Sets items.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\GetFulfillmentPreviewItemList $items items
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\GetFulfillmentPreviewItemList $items items
      *
      * @return $this
      */
@@ -301,7 +301,7 @@ class GetFulfillmentPreviewRequest implements ModelInterface, ArrayAccess
     /**
      * Gets shipping_speed_categories.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\ShippingSpeedCategoryList
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\ShippingSpeedCategoryList
      */
     public function getShippingSpeedCategories()
     {
@@ -311,7 +311,7 @@ class GetFulfillmentPreviewRequest implements ModelInterface, ArrayAccess
     /**
      * Sets shipping_speed_categories.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\ShippingSpeedCategoryList $shipping_speed_categories shipping_speed_categories
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\ShippingSpeedCategoryList $shipping_speed_categories shipping_speed_categories
      *
      * @return $this
      */
@@ -373,7 +373,7 @@ class GetFulfillmentPreviewRequest implements ModelInterface, ArrayAccess
     /**
      * Gets feature_constraints.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\FeatureSettings[]
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\FeatureSettings[]
      */
     public function getFeatureConstraints()
     {
@@ -383,7 +383,7 @@ class GetFulfillmentPreviewRequest implements ModelInterface, ArrayAccess
     /**
      * Sets feature_constraints.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\FeatureSettings[] $feature_constraints a list of features and their fulfillment policies to apply to the order
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\FeatureSettings[] $feature_constraints a list of features and their fulfillment policies to apply to the order
      *
      * @return $this
      */

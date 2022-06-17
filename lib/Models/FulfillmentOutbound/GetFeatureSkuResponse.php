@@ -15,11 +15,11 @@
  * OpenAPI spec version: 2020-07-01
  */
 
-namespace Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound;
+namespace Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound;
 
 use ArrayAccess;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
-use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plenty\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plenty\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * GetFeatureSkuResponse Class Doc Comment.
@@ -46,8 +46,8 @@ class GetFeatureSkuResponse implements ModelInterface, ArrayAccess
      * @var string[]
      */
     protected static $swaggerTypes = [
-        'payload' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\GetFeatureSkuResult',
-'errors' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\ErrorList',    ];
+        'payload' => '\Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\GetFeatureSkuResult',
+'errors' => '\Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\ErrorList',    ];
 
     /**
      * Array of property to format mappings. Used for (de)serialization.
@@ -192,7 +192,7 @@ class GetFeatureSkuResponse implements ModelInterface, ArrayAccess
     /**
      * Gets payload.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\GetFeatureSkuResult
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\GetFeatureSkuResult
      */
     public function getPayload()
     {
@@ -202,7 +202,7 @@ class GetFeatureSkuResponse implements ModelInterface, ArrayAccess
     /**
      * Sets payload.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\GetFeatureSkuResult $payload payload
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\GetFeatureSkuResult $payload payload
      *
      * @return $this
      */
@@ -216,7 +216,7 @@ class GetFeatureSkuResponse implements ModelInterface, ArrayAccess
     /**
      * Gets errors.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\ErrorList
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\ErrorList
      */
     public function getErrors()
     {
@@ -226,7 +226,7 @@ class GetFeatureSkuResponse implements ModelInterface, ArrayAccess
     /**
      * Sets errors.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\ErrorList $errors errors
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\ErrorList $errors errors
      *
      * @return $this
      */

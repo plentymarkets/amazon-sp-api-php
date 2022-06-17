@@ -15,11 +15,11 @@
  * OpenAPI spec version: v0
  */
 
-namespace Plentymarkets\AmazonSellingPartnerAPI\Models\Finances;
+namespace Plenty\AmazonSellingPartnerAPI\Models\Finances;
 
 use ArrayAccess;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
-use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plenty\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plenty\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * SellerReviewEnrollmentPaymentEvent Class Doc Comment.
@@ -46,12 +46,12 @@ class SellerReviewEnrollmentPaymentEvent implements ModelInterface, ArrayAccess
      * @var string[]
      */
     protected static $swaggerTypes = [
-        'posted_date' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\\DateTime',
+        'posted_date' => '\Plenty\AmazonSellingPartnerAPI\Models\Finances\\DateTime',
 'enrollment_id' => 'string',
 'parent_asin' => 'string',
-'fee_component' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\FeeComponent',
-'charge_component' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\ChargeComponent',
-'total_amount' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\Currency',    ];
+'fee_component' => '\Plenty\AmazonSellingPartnerAPI\Models\Finances\FeeComponent',
+'charge_component' => '\Plenty\AmazonSellingPartnerAPI\Models\Finances\ChargeComponent',
+'total_amount' => '\Plenty\AmazonSellingPartnerAPI\Models\Finances\Currency',    ];
 
     /**
      * Array of property to format mappings. Used for (de)serialization.
@@ -216,7 +216,7 @@ class SellerReviewEnrollmentPaymentEvent implements ModelInterface, ArrayAccess
     /**
      * Gets posted_date.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\DateTime
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Finances\DateTime
      */
     public function getPostedDate()
     {
@@ -226,7 +226,7 @@ class SellerReviewEnrollmentPaymentEvent implements ModelInterface, ArrayAccess
     /**
      * Sets posted_date.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\DateTime $posted_date posted_date
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Finances\DateTime $posted_date posted_date
      *
      * @return $this
      */
@@ -288,7 +288,7 @@ class SellerReviewEnrollmentPaymentEvent implements ModelInterface, ArrayAccess
     /**
      * Gets fee_component.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\FeeComponent
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Finances\FeeComponent
      */
     public function getFeeComponent()
     {
@@ -298,7 +298,7 @@ class SellerReviewEnrollmentPaymentEvent implements ModelInterface, ArrayAccess
     /**
      * Sets fee_component.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\FeeComponent $fee_component fee_component
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Finances\FeeComponent $fee_component fee_component
      *
      * @return $this
      */
@@ -312,7 +312,7 @@ class SellerReviewEnrollmentPaymentEvent implements ModelInterface, ArrayAccess
     /**
      * Gets charge_component.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\ChargeComponent
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Finances\ChargeComponent
      */
     public function getChargeComponent()
     {
@@ -322,7 +322,7 @@ class SellerReviewEnrollmentPaymentEvent implements ModelInterface, ArrayAccess
     /**
      * Sets charge_component.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\ChargeComponent $charge_component charge_component
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Finances\ChargeComponent $charge_component charge_component
      *
      * @return $this
      */
@@ -336,7 +336,7 @@ class SellerReviewEnrollmentPaymentEvent implements ModelInterface, ArrayAccess
     /**
      * Gets total_amount.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\Currency
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Finances\Currency
      */
     public function getTotalAmount()
     {
@@ -346,7 +346,7 @@ class SellerReviewEnrollmentPaymentEvent implements ModelInterface, ArrayAccess
     /**
      * Sets total_amount.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\Currency $total_amount total_amount
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Finances\Currency $total_amount total_amount
      *
      * @return $this
      */

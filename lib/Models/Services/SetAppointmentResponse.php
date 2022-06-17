@@ -15,11 +15,11 @@
  * OpenAPI spec version: v1
  */
 
-namespace Plentymarkets\AmazonSellingPartnerAPI\Models\Services;
+namespace Plenty\AmazonSellingPartnerAPI\Models\Services;
 
 use ArrayAccess;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
-use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plenty\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plenty\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * SetAppointmentResponse Class Doc Comment.
@@ -46,9 +46,9 @@ class SetAppointmentResponse implements ModelInterface, ArrayAccess
      * @var string[]
      */
     protected static $swaggerTypes = [
-        'appointment_id' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Services\AppointmentId',
-'warnings' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Services\WarningList',
-'errors' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Services\ErrorList',    ];
+        'appointment_id' => '\Plenty\AmazonSellingPartnerAPI\Models\Services\AppointmentId',
+'warnings' => '\Plenty\AmazonSellingPartnerAPI\Models\Services\WarningList',
+'errors' => '\Plenty\AmazonSellingPartnerAPI\Models\Services\ErrorList',    ];
 
     /**
      * Array of property to format mappings. Used for (de)serialization.
@@ -198,7 +198,7 @@ class SetAppointmentResponse implements ModelInterface, ArrayAccess
     /**
      * Gets appointment_id.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Services\AppointmentId
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Services\AppointmentId
      */
     public function getAppointmentId()
     {
@@ -208,7 +208,7 @@ class SetAppointmentResponse implements ModelInterface, ArrayAccess
     /**
      * Sets appointment_id.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Services\AppointmentId $appointment_id appointment_id
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Services\AppointmentId $appointment_id appointment_id
      *
      * @return $this
      */
@@ -222,7 +222,7 @@ class SetAppointmentResponse implements ModelInterface, ArrayAccess
     /**
      * Gets warnings.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Services\WarningList
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Services\WarningList
      */
     public function getWarnings()
     {
@@ -232,7 +232,7 @@ class SetAppointmentResponse implements ModelInterface, ArrayAccess
     /**
      * Sets warnings.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Services\WarningList $warnings warnings
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Services\WarningList $warnings warnings
      *
      * @return $this
      */
@@ -246,7 +246,7 @@ class SetAppointmentResponse implements ModelInterface, ArrayAccess
     /**
      * Gets errors.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Services\ErrorList
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Services\ErrorList
      */
     public function getErrors()
     {
@@ -256,7 +256,7 @@ class SetAppointmentResponse implements ModelInterface, ArrayAccess
     /**
      * Sets errors.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Services\ErrorList $errors errors
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Services\ErrorList $errors errors
      *
      * @return $this
      */

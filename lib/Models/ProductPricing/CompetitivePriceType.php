@@ -15,11 +15,11 @@
  * OpenAPI spec version: v0
  */
 
-namespace Plentymarkets\AmazonSellingPartnerAPI\Models\ProductPricing;
+namespace Plenty\AmazonSellingPartnerAPI\Models\ProductPricing;
 
 use ArrayAccess;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
-use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plenty\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plenty\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * CompetitivePriceType Class Doc Comment.
@@ -44,7 +44,7 @@ class CompetitivePriceType implements ModelInterface, ArrayAccess
      */
     protected static $swaggerTypes = [
         'competitive_price_id' => 'string',
-'price' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\ProductPricing\PriceType',
+'price' => '\Plenty\AmazonSellingPartnerAPI\Models\ProductPricing\PriceType',
 'condition' => 'string',
 'subcondition' => 'string',
 'belongs_to_requester' => 'bool',    ];
@@ -238,7 +238,7 @@ class CompetitivePriceType implements ModelInterface, ArrayAccess
     /**
      * Gets price.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\ProductPricing\PriceType
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\ProductPricing\PriceType
      */
     public function getPrice()
     {
@@ -248,7 +248,7 @@ class CompetitivePriceType implements ModelInterface, ArrayAccess
     /**
      * Sets price.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\ProductPricing\PriceType $price price
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\ProductPricing\PriceType $price price
      *
      * @return $this
      */

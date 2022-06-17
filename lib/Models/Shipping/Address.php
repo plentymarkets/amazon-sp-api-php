@@ -15,11 +15,11 @@
  * OpenAPI spec version: v1
  */
 
-namespace Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping;
+namespace Plenty\AmazonSellingPartnerAPI\Models\Shipping;
 
 use ArrayAccess;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
-use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plenty\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plenty\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * Address Class Doc Comment.
@@ -50,10 +50,10 @@ class Address implements ModelInterface, ArrayAccess
 'address_line1' => 'string',
 'address_line2' => 'string',
 'address_line3' => 'string',
-'state_or_region' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\StateOrRegion',
-'city' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\City',
-'country_code' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\CountryCode',
-'postal_code' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\PostalCode',
+'state_or_region' => '\Plenty\AmazonSellingPartnerAPI\Models\Shipping\StateOrRegion',
+'city' => '\Plenty\AmazonSellingPartnerAPI\Models\Shipping\City',
+'country_code' => '\Plenty\AmazonSellingPartnerAPI\Models\Shipping\CountryCode',
+'postal_code' => '\Plenty\AmazonSellingPartnerAPI\Models\Shipping\PostalCode',
 'email' => 'string',
 'copy_emails' => 'string[]',
 'phone_number' => 'string',    ];
@@ -361,7 +361,7 @@ class Address implements ModelInterface, ArrayAccess
     /**
      * Gets state_or_region.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\StateOrRegion
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Shipping\StateOrRegion
      */
     public function getStateOrRegion()
     {
@@ -371,7 +371,7 @@ class Address implements ModelInterface, ArrayAccess
     /**
      * Sets state_or_region.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\StateOrRegion $state_or_region state_or_region
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Shipping\StateOrRegion $state_or_region state_or_region
      *
      * @return $this
      */
@@ -385,7 +385,7 @@ class Address implements ModelInterface, ArrayAccess
     /**
      * Gets city.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\City
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Shipping\City
      */
     public function getCity()
     {
@@ -395,7 +395,7 @@ class Address implements ModelInterface, ArrayAccess
     /**
      * Sets city.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\City $city city
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Shipping\City $city city
      *
      * @return $this
      */
@@ -409,7 +409,7 @@ class Address implements ModelInterface, ArrayAccess
     /**
      * Gets country_code.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\CountryCode
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Shipping\CountryCode
      */
     public function getCountryCode()
     {
@@ -419,7 +419,7 @@ class Address implements ModelInterface, ArrayAccess
     /**
      * Sets country_code.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\CountryCode $country_code country_code
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Shipping\CountryCode $country_code country_code
      *
      * @return $this
      */
@@ -433,7 +433,7 @@ class Address implements ModelInterface, ArrayAccess
     /**
      * Gets postal_code.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\PostalCode
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Shipping\PostalCode
      */
     public function getPostalCode()
     {
@@ -443,7 +443,7 @@ class Address implements ModelInterface, ArrayAccess
     /**
      * Sets postal_code.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\PostalCode $postal_code postal_code
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Shipping\PostalCode $postal_code postal_code
      *
      * @return $this
      */

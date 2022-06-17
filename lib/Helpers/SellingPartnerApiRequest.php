@@ -1,10 +1,10 @@
 <?php
 
-namespace Plentymarkets\AmazonSellingPartnerAPI\Helpers;
+namespace Plenty\AmazonSellingPartnerAPI\Helpers;
 
-use Plentymarkets\AmazonSellingPartnerAPI\ApiException;
-use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
-use Plentymarkets\AmazonSellingPartnerAPI\Signature;
+use Plenty\AmazonSellingPartnerAPI\ApiException;
+use Plenty\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plenty\AmazonSellingPartnerAPI\Signature;
 use GuzzleHttp\Exception\RequestException;
 use GuzzleHttp\Psr7\MultipartStream;
 use GuzzleHttp\Psr7\Query;

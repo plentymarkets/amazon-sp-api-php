@@ -22,9 +22,9 @@
         "friendsofphp/php-cs-fixer": "v2.17.3"
     },
     "autoload": {
-        "psr-4": { "Plentymarkets\\AmazonSellingPartnerAPI\\" : "lib/" }
+        "psr-4": { "Plenty\\AmazonSellingPartnerAPI\\" : "lib/" }
     },
     "autoload-dev": {
-        "psr-4": { "Plentymarkets\\AmazonSellingPartnerAPI\\" : "test/" }
+        "psr-4": { "Plenty\\AmazonSellingPartnerAPI\\" : "test/" }
     }
 }

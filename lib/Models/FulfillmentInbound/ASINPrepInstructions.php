@@ -15,11 +15,11 @@
  * OpenAPI spec version: v0
  */
 
-namespace Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound;
+namespace Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound;
 
 use ArrayAccess;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
-use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plenty\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plenty\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * ASINPrepInstructions Class Doc Comment.
@@ -47,9 +47,9 @@ class ASINPrepInstructions implements ModelInterface, ArrayAccess
      */
     protected static $swaggerTypes = [
         'asin' => 'string',
-'barcode_instruction' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\BarcodeInstruction',
-'prep_guidance' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\PrepGuidance',
-'prep_instruction_list' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\PrepInstructionList',    ];
+'barcode_instruction' => '\Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\BarcodeInstruction',
+'prep_guidance' => '\Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\PrepGuidance',
+'prep_instruction_list' => '\Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\PrepInstructionList',    ];
 
     /**
      * Array of property to format mappings. Used for (de)serialization.
@@ -228,7 +228,7 @@ class ASINPrepInstructions implements ModelInterface, ArrayAccess
     /**
      * Gets barcode_instruction.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\BarcodeInstruction
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\BarcodeInstruction
      */
     public function getBarcodeInstruction()
     {
@@ -238,7 +238,7 @@ class ASINPrepInstructions implements ModelInterface, ArrayAccess
     /**
      * Sets barcode_instruction.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\BarcodeInstruction $barcode_instruction barcode_instruction
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\BarcodeInstruction $barcode_instruction barcode_instruction
      *
      * @return $this
      */
@@ -252,7 +252,7 @@ class ASINPrepInstructions implements ModelInterface, ArrayAccess
     /**
      * Gets prep_guidance.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\PrepGuidance
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\PrepGuidance
      */
     public function getPrepGuidance()
     {
@@ -262,7 +262,7 @@ class ASINPrepInstructions implements ModelInterface, ArrayAccess
     /**
      * Sets prep_guidance.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\PrepGuidance $prep_guidance prep_guidance
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\PrepGuidance $prep_guidance prep_guidance
      *
      * @return $this
      */
@@ -276,7 +276,7 @@ class ASINPrepInstructions implements ModelInterface, ArrayAccess
     /**
      * Gets prep_instruction_list.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\PrepInstructionList
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\PrepInstructionList
      */
     public function getPrepInstructionList()
     {
@@ -286,7 +286,7 @@ class ASINPrepInstructions implements ModelInterface, ArrayAccess
     /**
      * Sets prep_instruction_list.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\PrepInstructionList $prep_instruction_list prep_instruction_list
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\PrepInstructionList $prep_instruction_list prep_instruction_list
      *
      * @return $this
      */

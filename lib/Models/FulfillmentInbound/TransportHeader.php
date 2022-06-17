@@ -15,11 +15,11 @@
  * OpenAPI spec version: v0
  */
 
-namespace Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound;
+namespace Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound;
 
 use ArrayAccess;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
-use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plenty\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plenty\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * TransportHeader Class Doc Comment.
@@ -49,7 +49,7 @@ class TransportHeader implements ModelInterface, ArrayAccess
         'seller_id' => 'string',
 'shipment_id' => 'string',
 'is_partnered' => 'bool',
-'shipment_type' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\ShipmentType',    ];
+'shipment_type' => '\Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\ShipmentType',    ];
 
     /**
      * Array of property to format mappings. Used for (de)serialization.
@@ -289,7 +289,7 @@ class TransportHeader implements ModelInterface, ArrayAccess
     /**
      * Gets shipment_type.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\ShipmentType
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\ShipmentType
      */
     public function getShipmentType()
     {
@@ -299,7 +299,7 @@ class TransportHeader implements ModelInterface, ArrayAccess
     /**
      * Sets shipment_type.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\ShipmentType $shipment_type shipment_type
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\ShipmentType $shipment_type shipment_type
      *
      * @return $this
      */

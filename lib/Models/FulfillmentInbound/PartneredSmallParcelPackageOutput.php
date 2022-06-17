@@ -15,11 +15,11 @@
  * OpenAPI spec version: v0
  */
 
-namespace Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound;
+namespace Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound;
 
 use ArrayAccess;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
-use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plenty\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plenty\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * PartneredSmallParcelPackageOutput Class Doc Comment.
@@ -46,11 +46,11 @@ class PartneredSmallParcelPackageOutput implements ModelInterface, ArrayAccess
      * @var string[]
      */
     protected static $swaggerTypes = [
-        'dimensions' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\Dimensions',
-'weight' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\Weight',
+        'dimensions' => '\Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\Dimensions',
+'weight' => '\Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\Weight',
 'carrier_name' => 'string',
-'tracking_id' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\TrackingId',
-'package_status' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\PackageStatus',    ];
+'tracking_id' => '\Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\TrackingId',
+'package_status' => '\Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\PackageStatus',    ];
 
     /**
      * Array of property to format mappings. Used for (de)serialization.
@@ -226,7 +226,7 @@ class PartneredSmallParcelPackageOutput implements ModelInterface, ArrayAccess
     /**
      * Gets dimensions.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\Dimensions
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\Dimensions
      */
     public function getDimensions()
     {
@@ -236,7 +236,7 @@ class PartneredSmallParcelPackageOutput implements ModelInterface, ArrayAccess
     /**
      * Sets dimensions.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\Dimensions $dimensions dimensions
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\Dimensions $dimensions dimensions
      *
      * @return $this
      */
@@ -250,7 +250,7 @@ class PartneredSmallParcelPackageOutput implements ModelInterface, ArrayAccess
     /**
      * Gets weight.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\Weight
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\Weight
      */
     public function getWeight()
     {
@@ -260,7 +260,7 @@ class PartneredSmallParcelPackageOutput implements ModelInterface, ArrayAccess
     /**
      * Sets weight.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\Weight $weight weight
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\Weight $weight weight
      *
      * @return $this
      */
@@ -298,7 +298,7 @@ class PartneredSmallParcelPackageOutput implements ModelInterface, ArrayAccess
     /**
      * Gets tracking_id.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\TrackingId
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\TrackingId
      */
     public function getTrackingId()
     {
@@ -308,7 +308,7 @@ class PartneredSmallParcelPackageOutput implements ModelInterface, ArrayAccess
     /**
      * Sets tracking_id.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\TrackingId $tracking_id tracking_id
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\TrackingId $tracking_id tracking_id
      *
      * @return $this
      */
@@ -322,7 +322,7 @@ class PartneredSmallParcelPackageOutput implements ModelInterface, ArrayAccess
     /**
      * Gets package_status.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\PackageStatus
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\PackageStatus
      */
     public function getPackageStatus()
     {
@@ -332,7 +332,7 @@ class PartneredSmallParcelPackageOutput implements ModelInterface, ArrayAccess
     /**
      * Sets package_status.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\PackageStatus $package_status package_status
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\PackageStatus $package_status package_status
      *
      * @return $this
      */

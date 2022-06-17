@@ -15,11 +15,11 @@
  * OpenAPI spec version: 2020-07-01
  */
 
-namespace Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound;
+namespace Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound;
 
 use ArrayAccess;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
-use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plenty\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plenty\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * InvalidReturnItem Class Doc Comment.
@@ -48,7 +48,7 @@ class InvalidReturnItem implements ModelInterface, ArrayAccess
     protected static $swaggerTypes = [
         'seller_return_item_id' => 'string',
 'seller_fulfillment_order_item_id' => 'string',
-'invalid_item_reason' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\InvalidItemReason',    ];
+'invalid_item_reason' => '\Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\InvalidItemReason',    ];
 
     /**
      * Array of property to format mappings. Used for (de)serialization.
@@ -256,7 +256,7 @@ class InvalidReturnItem implements ModelInterface, ArrayAccess
     /**
      * Gets invalid_item_reason.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\InvalidItemReason
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\InvalidItemReason
      */
     public function getInvalidItemReason()
     {
@@ -266,7 +266,7 @@ class InvalidReturnItem implements ModelInterface, ArrayAccess
     /**
      * Sets invalid_item_reason.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\InvalidItemReason $invalid_item_reason invalid_item_reason
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\InvalidItemReason $invalid_item_reason invalid_item_reason
      *
      * @return $this
      */

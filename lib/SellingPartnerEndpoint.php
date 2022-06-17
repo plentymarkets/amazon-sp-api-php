@@ -1,6 +1,6 @@
 <?php
 
-namespace Plentymarkets\AmazonSellingPartnerAPI;
+namespace Plenty\AmazonSellingPartnerAPI;
 
 class SellingPartnerEndpoint
 {

@@ -15,11 +15,11 @@
  * OpenAPI spec version: v0
  */
 
-namespace Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound;
+namespace Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound;
 
 use ArrayAccess;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
-use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plenty\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plenty\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * GetShipmentItemsResult Class Doc Comment.
@@ -43,7 +43,7 @@ class GetShipmentItemsResult implements ModelInterface, ArrayAccess
      * @var string[]
      */
     protected static $swaggerTypes = [
-        'item_data' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\InboundShipmentItemList',
+        'item_data' => '\Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\InboundShipmentItemList',
 'next_token' => 'string',    ];
 
     /**
@@ -189,7 +189,7 @@ class GetShipmentItemsResult implements ModelInterface, ArrayAccess
     /**
      * Gets item_data.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\InboundShipmentItemList
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\InboundShipmentItemList
      */
     public function getItemData()
     {
@@ -199,7 +199,7 @@ class GetShipmentItemsResult implements ModelInterface, ArrayAccess
     /**
      * Sets item_data.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\InboundShipmentItemList $item_data item_data
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\InboundShipmentItemList $item_data item_data
      *
      * @return $this
      */

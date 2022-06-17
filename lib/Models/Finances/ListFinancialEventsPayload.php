@@ -15,11 +15,11 @@
  * OpenAPI spec version: v0
  */
 
-namespace Plentymarkets\AmazonSellingPartnerAPI\Models\Finances;
+namespace Plenty\AmazonSellingPartnerAPI\Models\Finances;
 
 use ArrayAccess;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
-use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plenty\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plenty\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * ListFinancialEventsPayload Class Doc Comment.
@@ -47,7 +47,7 @@ class ListFinancialEventsPayload implements ModelInterface, ArrayAccess
      */
     protected static $swaggerTypes = [
         'next_token' => 'string',
-'financial_events' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\FinancialEvents',    ];
+'financial_events' => '\Plenty\AmazonSellingPartnerAPI\Models\Finances\FinancialEvents',    ];
 
     /**
      * Array of property to format mappings. Used for (de)serialization.
@@ -216,7 +216,7 @@ class ListFinancialEventsPayload implements ModelInterface, ArrayAccess
     /**
      * Gets financial_events.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\FinancialEvents
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Finances\FinancialEvents
      */
     public function getFinancialEvents()
     {
@@ -226,7 +226,7 @@ class ListFinancialEventsPayload implements ModelInterface, ArrayAccess
     /**
      * Sets financial_events.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\FinancialEvents $financial_events financial_events
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Finances\FinancialEvents $financial_events financial_events
      *
      * @return $this
      */

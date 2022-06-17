@@ -15,11 +15,11 @@
  * OpenAPI spec version: 2020-07-01
  */
 
-namespace Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound;
+namespace Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound;
 
 use ArrayAccess;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
-use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plenty\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plenty\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * UnfulfillablePreviewItem Class Doc Comment.
@@ -47,9 +47,9 @@ class UnfulfillablePreviewItem implements ModelInterface, ArrayAccess
      */
     protected static $swaggerTypes = [
         'seller_sku' => 'string',
-'quantity' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\Quantity',
+'quantity' => '\Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\Quantity',
 'seller_fulfillment_order_item_id' => 'string',
-'item_unfulfillable_reasons' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\StringList',    ];
+'item_unfulfillable_reasons' => '\Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\StringList',    ];
 
     /**
      * Array of property to format mappings. Used for (de)serialization.
@@ -238,7 +238,7 @@ class UnfulfillablePreviewItem implements ModelInterface, ArrayAccess
     /**
      * Gets quantity.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\Quantity
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\Quantity
      */
     public function getQuantity()
     {
@@ -248,7 +248,7 @@ class UnfulfillablePreviewItem implements ModelInterface, ArrayAccess
     /**
      * Sets quantity.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\Quantity $quantity quantity
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\Quantity $quantity quantity
      *
      * @return $this
      */
@@ -286,7 +286,7 @@ class UnfulfillablePreviewItem implements ModelInterface, ArrayAccess
     /**
      * Gets item_unfulfillable_reasons.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\StringList
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\StringList
      */
     public function getItemUnfulfillableReasons()
     {
@@ -296,7 +296,7 @@ class UnfulfillablePreviewItem implements ModelInterface, ArrayAccess
     /**
      * Sets item_unfulfillable_reasons.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\StringList $item_unfulfillable_reasons item_unfulfillable_reasons
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\StringList $item_unfulfillable_reasons item_unfulfillable_reasons
      *
      * @return $this
      */

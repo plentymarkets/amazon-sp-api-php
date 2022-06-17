@@ -15,11 +15,11 @@
  * OpenAPI spec version: v0
  */
 
-namespace Plentymarkets\AmazonSellingPartnerAPI\Models\ProductPricing;
+namespace Plenty\AmazonSellingPartnerAPI\Models\ProductPricing;
 
 use ArrayAccess;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
-use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plenty\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plenty\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * LowestPriceType Class Doc Comment.
@@ -45,10 +45,10 @@ class LowestPriceType implements ModelInterface, ArrayAccess
     protected static $swaggerTypes = [
         'condition' => 'string',
 'fulfillment_channel' => 'string',
-'landed_price' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\ProductPricing\MoneyType',
-'listing_price' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\ProductPricing\MoneyType',
-'shipping' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\ProductPricing\MoneyType',
-'points' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\ProductPricing\Points',    ];
+'landed_price' => '\Plenty\AmazonSellingPartnerAPI\Models\ProductPricing\MoneyType',
+'listing_price' => '\Plenty\AmazonSellingPartnerAPI\Models\ProductPricing\MoneyType',
+'shipping' => '\Plenty\AmazonSellingPartnerAPI\Models\ProductPricing\MoneyType',
+'points' => '\Plenty\AmazonSellingPartnerAPI\Models\ProductPricing\Points',    ];
 
     /**
      * Array of property to format mappings. Used for (de)serialization.
@@ -277,7 +277,7 @@ class LowestPriceType implements ModelInterface, ArrayAccess
     /**
      * Gets landed_price.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\ProductPricing\MoneyType
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\ProductPricing\MoneyType
      */
     public function getLandedPrice()
     {
@@ -287,7 +287,7 @@ class LowestPriceType implements ModelInterface, ArrayAccess
     /**
      * Sets landed_price.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\ProductPricing\MoneyType $landed_price landed_price
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\ProductPricing\MoneyType $landed_price landed_price
      *
      * @return $this
      */
@@ -301,7 +301,7 @@ class LowestPriceType implements ModelInterface, ArrayAccess
     /**
      * Gets listing_price.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\ProductPricing\MoneyType
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\ProductPricing\MoneyType
      */
     public function getListingPrice()
     {
@@ -311,7 +311,7 @@ class LowestPriceType implements ModelInterface, ArrayAccess
     /**
      * Sets listing_price.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\ProductPricing\MoneyType $listing_price listing_price
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\ProductPricing\MoneyType $listing_price listing_price
      *
      * @return $this
      */
@@ -325,7 +325,7 @@ class LowestPriceType implements ModelInterface, ArrayAccess
     /**
      * Gets shipping.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\ProductPricing\MoneyType
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\ProductPricing\MoneyType
      */
     public function getShipping()
     {
@@ -335,7 +335,7 @@ class LowestPriceType implements ModelInterface, ArrayAccess
     /**
      * Sets shipping.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\ProductPricing\MoneyType $shipping shipping
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\ProductPricing\MoneyType $shipping shipping
      *
      * @return $this
      */
@@ -349,7 +349,7 @@ class LowestPriceType implements ModelInterface, ArrayAccess
     /**
      * Gets points.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\ProductPricing\Points
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\ProductPricing\Points
      */
     public function getPoints()
     {
@@ -359,7 +359,7 @@ class LowestPriceType implements ModelInterface, ArrayAccess
     /**
      * Sets points.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\ProductPricing\Points $points points
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\ProductPricing\Points $points points
      *
      * @return $this
      */

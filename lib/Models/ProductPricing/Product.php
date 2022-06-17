@@ -15,11 +15,11 @@
  * OpenAPI spec version: v0
  */
 
-namespace Plentymarkets\AmazonSellingPartnerAPI\Models\ProductPricing;
+namespace Plenty\AmazonSellingPartnerAPI\Models\ProductPricing;
 
 use ArrayAccess;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
-use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plenty\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plenty\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * Product Class Doc Comment.
@@ -46,12 +46,12 @@ class Product implements ModelInterface, ArrayAccess
      * @var string[]
      */
     protected static $swaggerTypes = [
-        'identifiers' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\ProductPricing\IdentifierType',
-'attribute_sets' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\ProductPricing\AttributeSetList',
-'relationships' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\ProductPricing\RelationshipList',
-'competitive_pricing' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\ProductPricing\CompetitivePricingType',
-'sales_rankings' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\ProductPricing\SalesRankList',
-'offers' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\ProductPricing\OffersList',    ];
+        'identifiers' => '\Plenty\AmazonSellingPartnerAPI\Models\ProductPricing\IdentifierType',
+'attribute_sets' => '\Plenty\AmazonSellingPartnerAPI\Models\ProductPricing\AttributeSetList',
+'relationships' => '\Plenty\AmazonSellingPartnerAPI\Models\ProductPricing\RelationshipList',
+'competitive_pricing' => '\Plenty\AmazonSellingPartnerAPI\Models\ProductPricing\CompetitivePricingType',
+'sales_rankings' => '\Plenty\AmazonSellingPartnerAPI\Models\ProductPricing\SalesRankList',
+'offers' => '\Plenty\AmazonSellingPartnerAPI\Models\ProductPricing\OffersList',    ];
 
     /**
      * Array of property to format mappings. Used for (de)serialization.
@@ -220,7 +220,7 @@ class Product implements ModelInterface, ArrayAccess
     /**
      * Gets identifiers.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\ProductPricing\IdentifierType
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\ProductPricing\IdentifierType
      */
     public function getIdentifiers()
     {
@@ -230,7 +230,7 @@ class Product implements ModelInterface, ArrayAccess
     /**
      * Sets identifiers.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\ProductPricing\IdentifierType $identifiers identifiers
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\ProductPricing\IdentifierType $identifiers identifiers
      *
      * @return $this
      */
@@ -244,7 +244,7 @@ class Product implements ModelInterface, ArrayAccess
     /**
      * Gets attribute_sets.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\ProductPricing\AttributeSetList
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\ProductPricing\AttributeSetList
      */
     public function getAttributeSets()
     {
@@ -254,7 +254,7 @@ class Product implements ModelInterface, ArrayAccess
     /**
      * Sets attribute_sets.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\ProductPricing\AttributeSetList $attribute_sets attribute_sets
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\ProductPricing\AttributeSetList $attribute_sets attribute_sets
      *
      * @return $this
      */
@@ -268,7 +268,7 @@ class Product implements ModelInterface, ArrayAccess
     /**
      * Gets relationships.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\ProductPricing\RelationshipList
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\ProductPricing\RelationshipList
      */
     public function getRelationships()
     {
@@ -278,7 +278,7 @@ class Product implements ModelInterface, ArrayAccess
     /**
      * Sets relationships.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\ProductPricing\RelationshipList $relationships relationships
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\ProductPricing\RelationshipList $relationships relationships
      *
      * @return $this
      */
@@ -292,7 +292,7 @@ class Product implements ModelInterface, ArrayAccess
     /**
      * Gets competitive_pricing.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\ProductPricing\CompetitivePricingType
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\ProductPricing\CompetitivePricingType
      */
     public function getCompetitivePricing()
     {
@@ -302,7 +302,7 @@ class Product implements ModelInterface, ArrayAccess
     /**
      * Sets competitive_pricing.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\ProductPricing\CompetitivePricingType $competitive_pricing competitive_pricing
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\ProductPricing\CompetitivePricingType $competitive_pricing competitive_pricing
      *
      * @return $this
      */
@@ -316,7 +316,7 @@ class Product implements ModelInterface, ArrayAccess
     /**
      * Gets sales_rankings.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\ProductPricing\SalesRankList
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\ProductPricing\SalesRankList
      */
     public function getSalesRankings()
     {
@@ -326,7 +326,7 @@ class Product implements ModelInterface, ArrayAccess
     /**
      * Sets sales_rankings.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\ProductPricing\SalesRankList $sales_rankings sales_rankings
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\ProductPricing\SalesRankList $sales_rankings sales_rankings
      *
      * @return $this
      */
@@ -340,7 +340,7 @@ class Product implements ModelInterface, ArrayAccess
     /**
      * Gets offers.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\ProductPricing\OffersList
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\ProductPricing\OffersList
      */
     public function getOffers()
     {
@@ -350,7 +350,7 @@ class Product implements ModelInterface, ArrayAccess
     /**
      * Sets offers.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\ProductPricing\OffersList $offers offers
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\ProductPricing\OffersList $offers offers
      *
      * @return $this
      */

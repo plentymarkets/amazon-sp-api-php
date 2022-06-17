@@ -15,11 +15,11 @@
  * OpenAPI spec version: 2020-09-04
  */
 
-namespace Plentymarkets\AmazonSellingPartnerAPI\Models\Feeds;
+namespace Plenty\AmazonSellingPartnerAPI\Models\Feeds;
 
 use ArrayAccess;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
-use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plenty\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plenty\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * GetFeedsResponse Class Doc Comment.
@@ -46,9 +46,9 @@ class GetFeedsResponse implements ModelInterface, ArrayAccess
      * @var string[]
      */
     protected static $swaggerTypes = [
-        'payload' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Feeds\FeedList',
+        'payload' => '\Plenty\AmazonSellingPartnerAPI\Models\Feeds\FeedList',
 'next_token' => 'string',
-'errors' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Feeds\ErrorList',    ];
+'errors' => '\Plenty\AmazonSellingPartnerAPI\Models\Feeds\ErrorList',    ];
 
     /**
      * Array of property to format mappings. Used for (de)serialization.
@@ -198,7 +198,7 @@ class GetFeedsResponse implements ModelInterface, ArrayAccess
     /**
      * Gets payload.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Feeds\FeedList
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Feeds\FeedList
      */
     public function getPayload()
     {
@@ -208,7 +208,7 @@ class GetFeedsResponse implements ModelInterface, ArrayAccess
     /**
      * Sets payload.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Feeds\FeedList $payload payload
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Feeds\FeedList $payload payload
      *
      * @return $this
      */
@@ -246,7 +246,7 @@ class GetFeedsResponse implements ModelInterface, ArrayAccess
     /**
      * Gets errors.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Feeds\ErrorList
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Feeds\ErrorList
      */
     public function getErrors()
     {
@@ -256,7 +256,7 @@ class GetFeedsResponse implements ModelInterface, ArrayAccess
     /**
      * Sets errors.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Feeds\ErrorList $errors errors
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Feeds\ErrorList $errors errors
      *
      * @return $this
      */

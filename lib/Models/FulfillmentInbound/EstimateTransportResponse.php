@@ -15,11 +15,11 @@
  * OpenAPI spec version: v0
  */
 
-namespace Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound;
+namespace Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound;
 
 use ArrayAccess;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
-use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plenty\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plenty\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * EstimateTransportResponse Class Doc Comment.
@@ -46,8 +46,8 @@ class EstimateTransportResponse implements ModelInterface, ArrayAccess
      * @var string[]
      */
     protected static $swaggerTypes = [
-        'payload' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\CommonTransportResult',
-'errors' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\ErrorList',    ];
+        'payload' => '\Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\CommonTransportResult',
+'errors' => '\Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\ErrorList',    ];
 
     /**
      * Array of property to format mappings. Used for (de)serialization.
@@ -192,7 +192,7 @@ class EstimateTransportResponse implements ModelInterface, ArrayAccess
     /**
      * Gets payload.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\CommonTransportResult
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\CommonTransportResult
      */
     public function getPayload()
     {
@@ -202,7 +202,7 @@ class EstimateTransportResponse implements ModelInterface, ArrayAccess
     /**
      * Sets payload.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\CommonTransportResult $payload payload
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\CommonTransportResult $payload payload
      *
      * @return $this
      */
@@ -216,7 +216,7 @@ class EstimateTransportResponse implements ModelInterface, ArrayAccess
     /**
      * Gets errors.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\ErrorList
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\ErrorList
      */
     public function getErrors()
     {
@@ -226,7 +226,7 @@ class EstimateTransportResponse implements ModelInterface, ArrayAccess
     /**
      * Sets errors.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\ErrorList $errors errors
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\ErrorList $errors errors
      *
      * @return $this
      */

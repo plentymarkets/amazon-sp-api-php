@@ -13,14 +13,14 @@
  * OpenAPI spec version: v0
  */
 
-namespace Plentymarkets\AmazonSellingPartnerAPI\Api;
+namespace Plenty\AmazonSellingPartnerAPI\Api;
 
-use Plentymarkets\AmazonSellingPartnerAPI\Configuration;
-use Plentymarkets\AmazonSellingPartnerAPI\HeaderSelector;
-use Plentymarkets\AmazonSellingPartnerAPI\Helpers\SellingPartnerApiRequest;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\ListFinancialEventGroupsResponse;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\ListFinancialEventsResponse;
-use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plenty\AmazonSellingPartnerAPI\Configuration;
+use Plenty\AmazonSellingPartnerAPI\HeaderSelector;
+use Plenty\AmazonSellingPartnerAPI\Helpers\SellingPartnerApiRequest;
+use Plenty\AmazonSellingPartnerAPI\Models\Finances\ListFinancialEventGroupsResponse;
+use Plenty\AmazonSellingPartnerAPI\Models\Finances\ListFinancialEventsResponse;
+use Plenty\AmazonSellingPartnerAPI\ObjectSerializer;
 use GuzzleHttp\Client;
 use GuzzleHttp\ClientInterface;
 
@@ -72,9 +72,9 @@ class FinancesApi
      * @param string    $next_token                           A string token returned in the response of your previous request. (optional)
      *
      * @throws \InvalidArgumentException
-     * @throws \Plentymarkets\AmazonSellingPartnerAPI\ApiException on non-2xx response
+     * @throws \Plenty\AmazonSellingPartnerAPI\ApiException on non-2xx response
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\ListFinancialEventGroupsResponse
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Finances\ListFinancialEventGroupsResponse
      */
     public function listFinancialEventGroups($max_results_per_page = '100', $financial_event_group_started_before = null, $financial_event_group_started_after = null, $next_token = null)
     {
@@ -92,9 +92,9 @@ class FinancesApi
      * @param string    $next_token                           A string token returned in the response of your previous request. (optional)
      *
      * @throws \InvalidArgumentException
-     * @throws \Plentymarkets\AmazonSellingPartnerAPI\ApiException on non-2xx response
+     * @throws \Plenty\AmazonSellingPartnerAPI\ApiException on non-2xx response
      *
-     * @return array of \Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\ListFinancialEventGroupsResponse, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Plenty\AmazonSellingPartnerAPI\Models\Finances\ListFinancialEventGroupsResponse, HTTP status code, HTTP response headers (array of strings)
      */
     public function listFinancialEventGroupsWithHttpInfo($max_results_per_page = '100', $financial_event_group_started_before = null, $financial_event_group_started_after = null, $next_token = null)
     {
@@ -139,7 +139,7 @@ class FinancesApi
      */
     public function listFinancialEventGroupsAsyncWithHttpInfo($max_results_per_page = '100', $financial_event_group_started_before = null, $financial_event_group_started_after = null, $next_token = null)
     {
-        $returnType = '\Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\ListFinancialEventGroupsResponse';
+        $returnType = '\Plenty\AmazonSellingPartnerAPI\Models\Finances\ListFinancialEventGroupsResponse';
         $request = $this->listFinancialEventGroupsRequest($max_results_per_page, $financial_event_group_started_before, $financial_event_group_started_after, $next_token);
 
         return $this->sendRequestAsync($request, ListFinancialEventGroupsResponse::class);
@@ -195,9 +195,9 @@ class FinancesApi
      * @param string    $next_token           A string token returned in the response of your previous request. (optional)
      *
      * @throws \InvalidArgumentException
-     * @throws \Plentymarkets\AmazonSellingPartnerAPI\ApiException on non-2xx response
+     * @throws \Plenty\AmazonSellingPartnerAPI\ApiException on non-2xx response
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\ListFinancialEventsResponse
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Finances\ListFinancialEventsResponse
      */
     public function listFinancialEvents($max_results_per_page = '100', $posted_after = null, $posted_before = null, $next_token = null)
     {
@@ -215,9 +215,9 @@ class FinancesApi
      * @param string    $next_token           A string token returned in the response of your previous request. (optional)
      *
      * @throws \InvalidArgumentException
-     * @throws \Plentymarkets\AmazonSellingPartnerAPI\ApiException on non-2xx response
+     * @throws \Plenty\AmazonSellingPartnerAPI\ApiException on non-2xx response
      *
-     * @return array of \Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\ListFinancialEventsResponse, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Plenty\AmazonSellingPartnerAPI\Models\Finances\ListFinancialEventsResponse, HTTP status code, HTTP response headers (array of strings)
      */
     public function listFinancialEventsWithHttpInfo($max_results_per_page = '100', $posted_after = null, $posted_before = null, $next_token = null)
     {
@@ -316,9 +316,9 @@ class FinancesApi
      * @param string $next_token           A string token returned in the response of your previous request. (optional)
      *
      * @throws \InvalidArgumentException
-     * @throws \Plentymarkets\AmazonSellingPartnerAPI\ApiException on non-2xx response
+     * @throws \Plenty\AmazonSellingPartnerAPI\ApiException on non-2xx response
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\ListFinancialEventsResponse
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Finances\ListFinancialEventsResponse
      */
     public function listFinancialEventsByGroupId($event_group_id, $max_results_per_page = '100', $next_token = null)
     {
@@ -335,9 +335,9 @@ class FinancesApi
      * @param string $next_token           A string token returned in the response of your previous request. (optional)
      *
      * @throws \InvalidArgumentException
-     * @throws \Plentymarkets\AmazonSellingPartnerAPI\ApiException on non-2xx response
+     * @throws \Plenty\AmazonSellingPartnerAPI\ApiException on non-2xx response
      *
-     * @return array of \Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\ListFinancialEventsResponse, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Plenty\AmazonSellingPartnerAPI\Models\Finances\ListFinancialEventsResponse, HTTP status code, HTTP response headers (array of strings)
      */
     public function listFinancialEventsByGroupIdWithHttpInfo($event_group_id, $max_results_per_page = '100', $next_token = null)
     {
@@ -439,9 +439,9 @@ class FinancesApi
      * @param string $next_token           A string token returned in the response of your previous request. (optional)
      *
      * @throws \InvalidArgumentException
-     * @throws \Plentymarkets\AmazonSellingPartnerAPI\ApiException on non-2xx response
+     * @throws \Plenty\AmazonSellingPartnerAPI\ApiException on non-2xx response
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\ListFinancialEventsResponse
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Finances\ListFinancialEventsResponse
      */
     public function listFinancialEventsByOrderId($order_id, $max_results_per_page = '100', $next_token = null)
     {
@@ -458,9 +458,9 @@ class FinancesApi
      * @param string $next_token           A string token returned in the response of your previous request. (optional)
      *
      * @throws \InvalidArgumentException
-     * @throws \Plentymarkets\AmazonSellingPartnerAPI\ApiException on non-2xx response
+     * @throws \Plenty\AmazonSellingPartnerAPI\ApiException on non-2xx response
      *
-     * @return array of \Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\ListFinancialEventsResponse, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Plenty\AmazonSellingPartnerAPI\Models\Finances\ListFinancialEventsResponse, HTTP status code, HTTP response headers (array of strings)
      */
     public function listFinancialEventsByOrderIdWithHttpInfo($order_id, $max_results_per_page = '100', $next_token = null)
     {

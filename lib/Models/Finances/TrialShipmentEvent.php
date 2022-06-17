@@ -15,11 +15,11 @@
  * OpenAPI spec version: v0
  */
 
-namespace Plentymarkets\AmazonSellingPartnerAPI\Models\Finances;
+namespace Plenty\AmazonSellingPartnerAPI\Models\Finances;
 
 use ArrayAccess;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
-use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plenty\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plenty\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * TrialShipmentEvent Class Doc Comment.
@@ -48,9 +48,9 @@ class TrialShipmentEvent implements ModelInterface, ArrayAccess
     protected static $swaggerTypes = [
         'amazon_order_id' => 'string',
 'financial_event_group_id' => 'string',
-'posted_date' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\\DateTime',
+'posted_date' => '\Plenty\AmazonSellingPartnerAPI\Models\Finances\\DateTime',
 'sku' => 'string',
-'fee_list' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\FeeComponentList',    ];
+'fee_list' => '\Plenty\AmazonSellingPartnerAPI\Models\Finances\FeeComponentList',    ];
 
     /**
      * Array of property to format mappings. Used for (de)serialization.
@@ -258,7 +258,7 @@ class TrialShipmentEvent implements ModelInterface, ArrayAccess
     /**
      * Gets posted_date.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\DateTime
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Finances\DateTime
      */
     public function getPostedDate()
     {
@@ -268,7 +268,7 @@ class TrialShipmentEvent implements ModelInterface, ArrayAccess
     /**
      * Sets posted_date.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\DateTime $posted_date posted_date
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Finances\DateTime $posted_date posted_date
      *
      * @return $this
      */
@@ -306,7 +306,7 @@ class TrialShipmentEvent implements ModelInterface, ArrayAccess
     /**
      * Gets fee_list.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\FeeComponentList
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Finances\FeeComponentList
      */
     public function getFeeList()
     {
@@ -316,7 +316,7 @@ class TrialShipmentEvent implements ModelInterface, ArrayAccess
     /**
      * Sets fee_list.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\FeeComponentList $fee_list fee_list
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Finances\FeeComponentList $fee_list fee_list
      *
      * @return $this
      */

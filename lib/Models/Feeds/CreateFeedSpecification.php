@@ -15,11 +15,11 @@
  * OpenAPI spec version: 2020-09-04
  */
 
-namespace Plentymarkets\AmazonSellingPartnerAPI\Models\Feeds;
+namespace Plenty\AmazonSellingPartnerAPI\Models\Feeds;
 
 use ArrayAccess;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
-use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plenty\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plenty\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * CreateFeedSpecification Class Doc Comment.
@@ -46,7 +46,7 @@ class CreateFeedSpecification implements ModelInterface, ArrayAccess
         'feed_type' => 'string',
 'marketplace_ids' => 'string[]',
 'input_feed_document_id' => 'string',
-'feed_options' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Feeds\FeedOptions',    ];
+'feed_options' => '\Plenty\AmazonSellingPartnerAPI\Models\Feeds\FeedOptions',    ];
 
     /**
      * Array of property to format mappings. Used for (de)serialization.
@@ -283,7 +283,7 @@ class CreateFeedSpecification implements ModelInterface, ArrayAccess
     /**
      * Gets feed_options.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Feeds\FeedOptions
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Feeds\FeedOptions
      */
     public function getFeedOptions()
     {
@@ -293,7 +293,7 @@ class CreateFeedSpecification implements ModelInterface, ArrayAccess
     /**
      * Sets feed_options.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Feeds\FeedOptions $feed_options feed_options
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Feeds\FeedOptions $feed_options feed_options
      *
      * @return $this
      */

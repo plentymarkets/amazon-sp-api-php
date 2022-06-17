@@ -15,11 +15,11 @@
  * OpenAPI spec version: v0
  */
 
-namespace Plentymarkets\AmazonSellingPartnerAPI\Models\ProductFees;
+namespace Plenty\AmazonSellingPartnerAPI\Models\ProductFees;
 
 use ArrayAccess;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
-use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plenty\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plenty\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * FeesEstimateError Class Doc Comment.
@@ -49,7 +49,7 @@ class FeesEstimateError implements ModelInterface, ArrayAccess
         'type' => 'string',
 'code' => 'string',
 'message' => 'string',
-'detail' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\ProductFees\FeesEstimateErrorDetail',    ];
+'detail' => '\Plenty\AmazonSellingPartnerAPI\Models\ProductFees\FeesEstimateErrorDetail',    ];
 
     /**
      * Array of property to format mappings. Used for (de)serialization.
@@ -289,7 +289,7 @@ class FeesEstimateError implements ModelInterface, ArrayAccess
     /**
      * Gets detail.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\ProductFees\FeesEstimateErrorDetail
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\ProductFees\FeesEstimateErrorDetail
      */
     public function getDetail()
     {
@@ -299,7 +299,7 @@ class FeesEstimateError implements ModelInterface, ArrayAccess
     /**
      * Sets detail.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\ProductFees\FeesEstimateErrorDetail $detail detail
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\ProductFees\FeesEstimateErrorDetail $detail detail
      *
      * @return $this
      */

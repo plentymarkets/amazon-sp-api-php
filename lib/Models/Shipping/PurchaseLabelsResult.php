@@ -15,11 +15,11 @@
  * OpenAPI spec version: v1
  */
 
-namespace Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping;
+namespace Plenty\AmazonSellingPartnerAPI\Models\Shipping;
 
 use ArrayAccess;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
-use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plenty\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plenty\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * PurchaseLabelsResult Class Doc Comment.
@@ -46,10 +46,10 @@ class PurchaseLabelsResult implements ModelInterface, ArrayAccess
      * @var string[]
      */
     protected static $swaggerTypes = [
-        'shipment_id' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\ShipmentId',
-'client_reference_id' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\ClientReferenceId',
-'accepted_rate' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\AcceptedRate',
-'label_results' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\LabelResultList',    ];
+        'shipment_id' => '\Plenty\AmazonSellingPartnerAPI\Models\Shipping\ShipmentId',
+'client_reference_id' => '\Plenty\AmazonSellingPartnerAPI\Models\Shipping\ClientReferenceId',
+'accepted_rate' => '\Plenty\AmazonSellingPartnerAPI\Models\Shipping\AcceptedRate',
+'label_results' => '\Plenty\AmazonSellingPartnerAPI\Models\Shipping\LabelResultList',    ];
 
     /**
      * Array of property to format mappings. Used for (de)serialization.
@@ -214,7 +214,7 @@ class PurchaseLabelsResult implements ModelInterface, ArrayAccess
     /**
      * Gets shipment_id.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\ShipmentId
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Shipping\ShipmentId
      */
     public function getShipmentId()
     {
@@ -224,7 +224,7 @@ class PurchaseLabelsResult implements ModelInterface, ArrayAccess
     /**
      * Sets shipment_id.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\ShipmentId $shipment_id shipment_id
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Shipping\ShipmentId $shipment_id shipment_id
      *
      * @return $this
      */
@@ -238,7 +238,7 @@ class PurchaseLabelsResult implements ModelInterface, ArrayAccess
     /**
      * Gets client_reference_id.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\ClientReferenceId
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Shipping\ClientReferenceId
      */
     public function getClientReferenceId()
     {
@@ -248,7 +248,7 @@ class PurchaseLabelsResult implements ModelInterface, ArrayAccess
     /**
      * Sets client_reference_id.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\ClientReferenceId $client_reference_id client_reference_id
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Shipping\ClientReferenceId $client_reference_id client_reference_id
      *
      * @return $this
      */
@@ -262,7 +262,7 @@ class PurchaseLabelsResult implements ModelInterface, ArrayAccess
     /**
      * Gets accepted_rate.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\AcceptedRate
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Shipping\AcceptedRate
      */
     public function getAcceptedRate()
     {
@@ -272,7 +272,7 @@ class PurchaseLabelsResult implements ModelInterface, ArrayAccess
     /**
      * Sets accepted_rate.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\AcceptedRate $accepted_rate accepted_rate
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Shipping\AcceptedRate $accepted_rate accepted_rate
      *
      * @return $this
      */
@@ -286,7 +286,7 @@ class PurchaseLabelsResult implements ModelInterface, ArrayAccess
     /**
      * Gets label_results.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\LabelResultList
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Shipping\LabelResultList
      */
     public function getLabelResults()
     {
@@ -296,7 +296,7 @@ class PurchaseLabelsResult implements ModelInterface, ArrayAccess
     /**
      * Sets label_results.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\LabelResultList $label_results label_results
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Shipping\LabelResultList $label_results label_results
      *
      * @return $this
      */

@@ -15,11 +15,11 @@
  * OpenAPI spec version: v0
  */
 
-namespace Plentymarkets\AmazonSellingPartnerAPI\Models\Orders;
+namespace Plenty\AmazonSellingPartnerAPI\Models\Orders;
 
 use ArrayAccess;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
-use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plenty\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plenty\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * BuyerTaxInfo Class Doc Comment.
@@ -48,7 +48,7 @@ class BuyerTaxInfo implements ModelInterface, ArrayAccess
     protected static $swaggerTypes = [
         'company_legal_name' => 'string',
 'taxing_region' => 'string',
-'tax_classifications' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Orders\TaxClassification[]',    ];
+'tax_classifications' => '\Plenty\AmazonSellingPartnerAPI\Models\Orders\TaxClassification[]',    ];
 
     /**
      * Array of property to format mappings. Used for (de)serialization.
@@ -246,7 +246,7 @@ class BuyerTaxInfo implements ModelInterface, ArrayAccess
     /**
      * Gets tax_classifications.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Orders\TaxClassification[]
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Orders\TaxClassification[]
      */
     public function getTaxClassifications()
     {
@@ -256,7 +256,7 @@ class BuyerTaxInfo implements ModelInterface, ArrayAccess
     /**
      * Sets tax_classifications.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Orders\TaxClassification[] $tax_classifications a list of tax classifications that apply to the order
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Orders\TaxClassification[] $tax_classifications a list of tax classifications that apply to the order
      *
      * @return $this
      */

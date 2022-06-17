@@ -15,11 +15,11 @@
  * OpenAPI spec version: 2020-07-01
  */
 
-namespace Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound;
+namespace Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound;
 
 use ArrayAccess;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
-use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plenty\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plenty\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * PackageTrackingDetails Class Doc Comment.
@@ -49,14 +49,14 @@ class PackageTrackingDetails implements ModelInterface, ArrayAccess
 'carrier_code' => 'string',
 'carrier_phone_number' => 'string',
 'carrier_url' => 'string',
-'ship_date' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\Timestamp',
-'estimated_arrival_date' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\Timestamp',
-'ship_to_address' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\TrackingAddress',
-'current_status' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\CurrentStatus',
+'ship_date' => '\Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\Timestamp',
+'estimated_arrival_date' => '\Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\Timestamp',
+'ship_to_address' => '\Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\TrackingAddress',
+'current_status' => '\Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\CurrentStatus',
 'current_status_description' => 'string',
 'signed_for_by' => 'string',
-'additional_location_info' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\AdditionalLocationInfo',
-'tracking_events' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\TrackingEventList',    ];
+'additional_location_info' => '\Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\AdditionalLocationInfo',
+'tracking_events' => '\Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\TrackingEventList',    ];
 
     /**
      * Array of property to format mappings. Used for (de)serialization.
@@ -409,7 +409,7 @@ class PackageTrackingDetails implements ModelInterface, ArrayAccess
     /**
      * Gets ship_date.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\Timestamp
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\Timestamp
      */
     public function getShipDate()
     {
@@ -419,7 +419,7 @@ class PackageTrackingDetails implements ModelInterface, ArrayAccess
     /**
      * Sets ship_date.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\Timestamp $ship_date ship_date
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\Timestamp $ship_date ship_date
      *
      * @return $this
      */
@@ -433,7 +433,7 @@ class PackageTrackingDetails implements ModelInterface, ArrayAccess
     /**
      * Gets estimated_arrival_date.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\Timestamp
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\Timestamp
      */
     public function getEstimatedArrivalDate()
     {
@@ -443,7 +443,7 @@ class PackageTrackingDetails implements ModelInterface, ArrayAccess
     /**
      * Sets estimated_arrival_date.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\Timestamp $estimated_arrival_date estimated_arrival_date
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\Timestamp $estimated_arrival_date estimated_arrival_date
      *
      * @return $this
      */
@@ -457,7 +457,7 @@ class PackageTrackingDetails implements ModelInterface, ArrayAccess
     /**
      * Gets ship_to_address.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\TrackingAddress
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\TrackingAddress
      */
     public function getShipToAddress()
     {
@@ -467,7 +467,7 @@ class PackageTrackingDetails implements ModelInterface, ArrayAccess
     /**
      * Sets ship_to_address.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\TrackingAddress $ship_to_address ship_to_address
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\TrackingAddress $ship_to_address ship_to_address
      *
      * @return $this
      */
@@ -481,7 +481,7 @@ class PackageTrackingDetails implements ModelInterface, ArrayAccess
     /**
      * Gets current_status.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\CurrentStatus
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\CurrentStatus
      */
     public function getCurrentStatus()
     {
@@ -491,7 +491,7 @@ class PackageTrackingDetails implements ModelInterface, ArrayAccess
     /**
      * Sets current_status.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\CurrentStatus $current_status current_status
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\CurrentStatus $current_status current_status
      *
      * @return $this
      */
@@ -553,7 +553,7 @@ class PackageTrackingDetails implements ModelInterface, ArrayAccess
     /**
      * Gets additional_location_info.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\AdditionalLocationInfo
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\AdditionalLocationInfo
      */
     public function getAdditionalLocationInfo()
     {
@@ -563,7 +563,7 @@ class PackageTrackingDetails implements ModelInterface, ArrayAccess
     /**
      * Sets additional_location_info.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\AdditionalLocationInfo $additional_location_info additional_location_info
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\AdditionalLocationInfo $additional_location_info additional_location_info
      *
      * @return $this
      */
@@ -577,7 +577,7 @@ class PackageTrackingDetails implements ModelInterface, ArrayAccess
     /**
      * Gets tracking_events.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\TrackingEventList
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\TrackingEventList
      */
     public function getTrackingEvents()
     {
@@ -587,7 +587,7 @@ class PackageTrackingDetails implements ModelInterface, ArrayAccess
     /**
      * Sets tracking_events.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\TrackingEventList $tracking_events tracking_events
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\TrackingEventList $tracking_events tracking_events
      *
      * @return $this
      */

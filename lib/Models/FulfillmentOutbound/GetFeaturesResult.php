@@ -15,11 +15,11 @@
  * OpenAPI spec version: 2020-07-01
  */
 
-namespace Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound;
+namespace Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound;
 
 use ArrayAccess;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
-use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plenty\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plenty\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * GetFeaturesResult Class Doc Comment.
@@ -46,7 +46,7 @@ class GetFeaturesResult implements ModelInterface, ArrayAccess
      * @var string[]
      */
     protected static $swaggerTypes = [
-        'features' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\Features',    ];
+        'features' => '\Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\Features',    ];
 
     /**
      * Array of property to format mappings. Used for (de)serialization.
@@ -190,7 +190,7 @@ class GetFeaturesResult implements ModelInterface, ArrayAccess
     /**
      * Gets features.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\Features
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\Features
      */
     public function getFeatures()
     {
@@ -200,7 +200,7 @@ class GetFeaturesResult implements ModelInterface, ArrayAccess
     /**
      * Sets features.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\Features $features features
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\Features $features features
      *
      * @return $this
      */

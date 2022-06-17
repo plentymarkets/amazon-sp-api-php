@@ -15,11 +15,11 @@
  * OpenAPI spec version: v1
  */
 
-namespace Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping;
+namespace Plenty\AmazonSellingPartnerAPI\Models\Shipping;
 
 use ArrayAccess;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
-use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plenty\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plenty\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * RetrieveShippingLabelRequest Class Doc Comment.
@@ -46,7 +46,7 @@ class RetrieveShippingLabelRequest implements ModelInterface, ArrayAccess
      * @var string[]
      */
     protected static $swaggerTypes = [
-        'label_specification' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\LabelSpecification',    ];
+        'label_specification' => '\Plenty\AmazonSellingPartnerAPI\Models\Shipping\LabelSpecification',    ];
 
     /**
      * Array of property to format mappings. Used for (de)serialization.
@@ -190,7 +190,7 @@ class RetrieveShippingLabelRequest implements ModelInterface, ArrayAccess
     /**
      * Gets label_specification.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\LabelSpecification
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Shipping\LabelSpecification
      */
     public function getLabelSpecification()
     {
@@ -200,7 +200,7 @@ class RetrieveShippingLabelRequest implements ModelInterface, ArrayAccess
     /**
      * Sets label_specification.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\LabelSpecification $label_specification label_specification
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Shipping\LabelSpecification $label_specification label_specification
      *
      * @return $this
      */

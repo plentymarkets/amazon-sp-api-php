@@ -15,11 +15,11 @@
  * OpenAPI spec version: v0
  */
 
-namespace Plentymarkets\AmazonSellingPartnerAPI\Models\ProductFees;
+namespace Plenty\AmazonSellingPartnerAPI\Models\ProductFees;
 
 use ArrayAccess;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
-use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plenty\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plenty\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * GetMyFeesEstimateResult Class Doc Comment.
@@ -46,7 +46,7 @@ class GetMyFeesEstimateResult implements ModelInterface, ArrayAccess
      * @var string[]
      */
     protected static $swaggerTypes = [
-        'fees_estimate_result' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\ProductFees\FeesEstimateResult',    ];
+        'fees_estimate_result' => '\Plenty\AmazonSellingPartnerAPI\Models\ProductFees\FeesEstimateResult',    ];
 
     /**
      * Array of property to format mappings. Used for (de)serialization.
@@ -186,7 +186,7 @@ class GetMyFeesEstimateResult implements ModelInterface, ArrayAccess
     /**
      * Gets fees_estimate_result.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\ProductFees\FeesEstimateResult
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\ProductFees\FeesEstimateResult
      */
     public function getFeesEstimateResult()
     {
@@ -196,7 +196,7 @@ class GetMyFeesEstimateResult implements ModelInterface, ArrayAccess
     /**
      * Sets fees_estimate_result.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\ProductFees\FeesEstimateResult $fees_estimate_result fees_estimate_result
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\ProductFees\FeesEstimateResult $fees_estimate_result fees_estimate_result
      *
      * @return $this
      */

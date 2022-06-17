@@ -15,11 +15,11 @@
  * OpenAPI spec version: v0
  */
 
-namespace Plentymarkets\AmazonSellingPartnerAPI\Models\Orders;
+namespace Plenty\AmazonSellingPartnerAPI\Models\Orders;
 
 use ArrayAccess;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
-use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plenty\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plenty\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * OrderBuyerInfo Class Doc Comment.
@@ -50,7 +50,7 @@ class OrderBuyerInfo implements ModelInterface, ArrayAccess
 'buyer_email' => 'string',
 'buyer_name' => 'string',
 'buyer_county' => 'string',
-'buyer_tax_info' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Orders\BuyerTaxInfo',
+'buyer_tax_info' => '\Plenty\AmazonSellingPartnerAPI\Models\Orders\BuyerTaxInfo',
 'purchase_order_number' => 'string',    ];
 
     /**
@@ -316,7 +316,7 @@ class OrderBuyerInfo implements ModelInterface, ArrayAccess
     /**
      * Gets buyer_tax_info.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Orders\BuyerTaxInfo
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Orders\BuyerTaxInfo
      */
     public function getBuyerTaxInfo()
     {
@@ -326,7 +326,7 @@ class OrderBuyerInfo implements ModelInterface, ArrayAccess
     /**
      * Sets buyer_tax_info.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Orders\BuyerTaxInfo $buyer_tax_info buyer_tax_info
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Orders\BuyerTaxInfo $buyer_tax_info buyer_tax_info
      *
      * @return $this
      */

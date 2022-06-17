@@ -15,11 +15,11 @@
  * OpenAPI spec version: v1
  */
 
-namespace Plentymarkets\AmazonSellingPartnerAPI\Models\FbaInventory;
+namespace Plenty\AmazonSellingPartnerAPI\Models\FbaInventory;
 
 use ArrayAccess;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
-use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plenty\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plenty\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * InventorySummary Class Doc Comment.
@@ -50,7 +50,7 @@ class InventorySummary implements ModelInterface, ArrayAccess
 'fn_sku' => 'string',
 'seller_sku' => 'string',
 'condition' => 'string',
-'inventory_details' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\FbaInventory\InventoryDetails',
+'inventory_details' => '\Plenty\AmazonSellingPartnerAPI\Models\FbaInventory\InventoryDetails',
 'last_updated_time' => '\DateTime',
 'product_name' => 'string',
 'total_quantity' => 'int',    ];
@@ -324,7 +324,7 @@ class InventorySummary implements ModelInterface, ArrayAccess
     /**
      * Gets inventory_details.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\FbaInventory\InventoryDetails
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\FbaInventory\InventoryDetails
      */
     public function getInventoryDetails()
     {
@@ -334,7 +334,7 @@ class InventorySummary implements ModelInterface, ArrayAccess
     /**
      * Sets inventory_details.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\FbaInventory\InventoryDetails $inventory_details inventory_details
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\FbaInventory\InventoryDetails $inventory_details inventory_details
      *
      * @return $this
      */

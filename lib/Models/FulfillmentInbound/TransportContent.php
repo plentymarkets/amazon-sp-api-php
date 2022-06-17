@@ -15,11 +15,11 @@
  * OpenAPI spec version: v0
  */
 
-namespace Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound;
+namespace Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound;
 
 use ArrayAccess;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
-use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plenty\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plenty\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * TransportContent Class Doc Comment.
@@ -46,9 +46,9 @@ class TransportContent implements ModelInterface, ArrayAccess
      * @var string[]
      */
     protected static $swaggerTypes = [
-        'transport_header' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\TransportHeader',
-'transport_details' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\TransportDetailOutput',
-'transport_result' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\TransportResult',    ];
+        'transport_header' => '\Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\TransportHeader',
+'transport_details' => '\Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\TransportDetailOutput',
+'transport_result' => '\Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\TransportResult',    ];
 
     /**
      * Array of property to format mappings. Used for (de)serialization.
@@ -208,7 +208,7 @@ class TransportContent implements ModelInterface, ArrayAccess
     /**
      * Gets transport_header.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\TransportHeader
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\TransportHeader
      */
     public function getTransportHeader()
     {
@@ -218,7 +218,7 @@ class TransportContent implements ModelInterface, ArrayAccess
     /**
      * Sets transport_header.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\TransportHeader $transport_header transport_header
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\TransportHeader $transport_header transport_header
      *
      * @return $this
      */
@@ -232,7 +232,7 @@ class TransportContent implements ModelInterface, ArrayAccess
     /**
      * Gets transport_details.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\TransportDetailOutput
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\TransportDetailOutput
      */
     public function getTransportDetails()
     {
@@ -242,7 +242,7 @@ class TransportContent implements ModelInterface, ArrayAccess
     /**
      * Sets transport_details.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\TransportDetailOutput $transport_details transport_details
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\TransportDetailOutput $transport_details transport_details
      *
      * @return $this
      */
@@ -256,7 +256,7 @@ class TransportContent implements ModelInterface, ArrayAccess
     /**
      * Gets transport_result.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\TransportResult
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\TransportResult
      */
     public function getTransportResult()
     {
@@ -266,7 +266,7 @@ class TransportContent implements ModelInterface, ArrayAccess
     /**
      * Sets transport_result.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\TransportResult $transport_result transport_result
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\TransportResult $transport_result transport_result
      *
      * @return $this
      */

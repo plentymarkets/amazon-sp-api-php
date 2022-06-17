@@ -15,11 +15,11 @@
  * OpenAPI spec version: 2020-09-04
  */
 
-namespace Plentymarkets\AmazonSellingPartnerAPI\Models\Reports;
+namespace Plenty\AmazonSellingPartnerAPI\Models\Reports;
 
 use ArrayAccess;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
-use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plenty\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plenty\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * GetReportsResponse Class Doc Comment.
@@ -46,9 +46,9 @@ class GetReportsResponse implements ModelInterface, ArrayAccess
      * @var string[]
      */
     protected static $swaggerTypes = [
-        'payload' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Reports\ReportList',
+        'payload' => '\Plenty\AmazonSellingPartnerAPI\Models\Reports\ReportList',
 'next_token' => 'string',
-'errors' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Reports\ErrorList',    ];
+'errors' => '\Plenty\AmazonSellingPartnerAPI\Models\Reports\ErrorList',    ];
 
     /**
      * Array of property to format mappings. Used for (de)serialization.
@@ -198,7 +198,7 @@ class GetReportsResponse implements ModelInterface, ArrayAccess
     /**
      * Gets payload.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Reports\ReportList
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Reports\ReportList
      */
     public function getPayload()
     {
@@ -208,7 +208,7 @@ class GetReportsResponse implements ModelInterface, ArrayAccess
     /**
      * Sets payload.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Reports\ReportList $payload payload
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Reports\ReportList $payload payload
      *
      * @return $this
      */
@@ -246,7 +246,7 @@ class GetReportsResponse implements ModelInterface, ArrayAccess
     /**
      * Gets errors.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Reports\ErrorList
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Reports\ErrorList
      */
     public function getErrors()
     {
@@ -256,7 +256,7 @@ class GetReportsResponse implements ModelInterface, ArrayAccess
     /**
      * Sets errors.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Reports\ErrorList $errors errors
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Reports\ErrorList $errors errors
      *
      * @return $this
      */

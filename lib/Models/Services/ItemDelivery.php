@@ -15,11 +15,11 @@
  * OpenAPI spec version: v1
  */
 
-namespace Plentymarkets\AmazonSellingPartnerAPI\Models\Services;
+namespace Plenty\AmazonSellingPartnerAPI\Models\Services;
 
 use ArrayAccess;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
-use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plenty\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plenty\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * ItemDelivery Class Doc Comment.
@@ -47,7 +47,7 @@ class ItemDelivery implements ModelInterface, ArrayAccess
      */
     protected static $swaggerTypes = [
         'estimated_delivery_date' => '\DateTime',
-'item_delivery_promise' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Services\ItemDeliveryPromise',    ];
+'item_delivery_promise' => '\Plenty\AmazonSellingPartnerAPI\Models\Services\ItemDeliveryPromise',    ];
 
     /**
      * Array of property to format mappings. Used for (de)serialization.
@@ -216,7 +216,7 @@ class ItemDelivery implements ModelInterface, ArrayAccess
     /**
      * Gets item_delivery_promise.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Services\ItemDeliveryPromise
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Services\ItemDeliveryPromise
      */
     public function getItemDeliveryPromise()
     {
@@ -226,7 +226,7 @@ class ItemDelivery implements ModelInterface, ArrayAccess
     /**
      * Sets item_delivery_promise.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Services\ItemDeliveryPromise $item_delivery_promise item_delivery_promise
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Services\ItemDeliveryPromise $item_delivery_promise item_delivery_promise
      *
      * @return $this
      */

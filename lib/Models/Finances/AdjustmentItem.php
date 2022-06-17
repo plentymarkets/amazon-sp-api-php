@@ -15,11 +15,11 @@
  * OpenAPI spec version: v0
  */
 
-namespace Plentymarkets\AmazonSellingPartnerAPI\Models\Finances;
+namespace Plenty\AmazonSellingPartnerAPI\Models\Finances;
 
 use ArrayAccess;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
-use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plenty\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plenty\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * AdjustmentItem Class Doc Comment.
@@ -47,8 +47,8 @@ class AdjustmentItem implements ModelInterface, ArrayAccess
      */
     protected static $swaggerTypes = [
         'quantity' => 'string',
-'per_unit_amount' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\Currency',
-'total_amount' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\Currency',
+'per_unit_amount' => '\Plenty\AmazonSellingPartnerAPI\Models\Finances\Currency',
+'total_amount' => '\Plenty\AmazonSellingPartnerAPI\Models\Finances\Currency',
 'seller_sku' => 'string',
 'fn_sku' => 'string',
 'product_description' => 'string',
@@ -246,7 +246,7 @@ class AdjustmentItem implements ModelInterface, ArrayAccess
     /**
      * Gets per_unit_amount.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\Currency
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Finances\Currency
      */
     public function getPerUnitAmount()
     {
@@ -256,7 +256,7 @@ class AdjustmentItem implements ModelInterface, ArrayAccess
     /**
      * Sets per_unit_amount.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\Currency $per_unit_amount per_unit_amount
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Finances\Currency $per_unit_amount per_unit_amount
      *
      * @return $this
      */
@@ -270,7 +270,7 @@ class AdjustmentItem implements ModelInterface, ArrayAccess
     /**
      * Gets total_amount.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\Currency
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Finances\Currency
      */
     public function getTotalAmount()
     {
@@ -280,7 +280,7 @@ class AdjustmentItem implements ModelInterface, ArrayAccess
     /**
      * Sets total_amount.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\Currency $total_amount total_amount
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Finances\Currency $total_amount total_amount
      *
      * @return $this
      */

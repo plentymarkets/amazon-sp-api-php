@@ -15,11 +15,11 @@
  * OpenAPI spec version: v1
  */
 
-namespace Plentymarkets\AmazonSellingPartnerAPI\Models\FbaSmallAndLight;
+namespace Plenty\AmazonSellingPartnerAPI\Models\FbaSmallAndLight;
 
 use ArrayAccess;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
-use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plenty\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plenty\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * FeePreview Class Doc Comment.
@@ -47,10 +47,10 @@ class FeePreview implements ModelInterface, ArrayAccess
      */
     protected static $swaggerTypes = [
         'asin' => 'string',
-'price' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\FbaSmallAndLight\MoneyType',
-'fee_breakdown' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\FbaSmallAndLight\FeeLineItem[]',
-'total_fees' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\FbaSmallAndLight\MoneyType',
-'errors' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\FbaSmallAndLight\ErrorList',    ];
+'price' => '\Plenty\AmazonSellingPartnerAPI\Models\FbaSmallAndLight\MoneyType',
+'fee_breakdown' => '\Plenty\AmazonSellingPartnerAPI\Models\FbaSmallAndLight\FeeLineItem[]',
+'total_fees' => '\Plenty\AmazonSellingPartnerAPI\Models\FbaSmallAndLight\MoneyType',
+'errors' => '\Plenty\AmazonSellingPartnerAPI\Models\FbaSmallAndLight\ErrorList',    ];
 
     /**
      * Array of property to format mappings. Used for (de)serialization.
@@ -234,7 +234,7 @@ class FeePreview implements ModelInterface, ArrayAccess
     /**
      * Gets price.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\FbaSmallAndLight\MoneyType
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\FbaSmallAndLight\MoneyType
      */
     public function getPrice()
     {
@@ -244,7 +244,7 @@ class FeePreview implements ModelInterface, ArrayAccess
     /**
      * Sets price.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\FbaSmallAndLight\MoneyType $price price
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\FbaSmallAndLight\MoneyType $price price
      *
      * @return $this
      */
@@ -258,7 +258,7 @@ class FeePreview implements ModelInterface, ArrayAccess
     /**
      * Gets fee_breakdown.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\FbaSmallAndLight\FeeLineItem[]
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\FbaSmallAndLight\FeeLineItem[]
      */
     public function getFeeBreakdown()
     {
@@ -268,7 +268,7 @@ class FeePreview implements ModelInterface, ArrayAccess
     /**
      * Sets fee_breakdown.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\FbaSmallAndLight\FeeLineItem[] $fee_breakdown a list of the Small and Light fees for the item
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\FbaSmallAndLight\FeeLineItem[] $fee_breakdown a list of the Small and Light fees for the item
      *
      * @return $this
      */
@@ -282,7 +282,7 @@ class FeePreview implements ModelInterface, ArrayAccess
     /**
      * Gets total_fees.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\FbaSmallAndLight\MoneyType
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\FbaSmallAndLight\MoneyType
      */
     public function getTotalFees()
     {
@@ -292,7 +292,7 @@ class FeePreview implements ModelInterface, ArrayAccess
     /**
      * Sets total_fees.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\FbaSmallAndLight\MoneyType $total_fees total_fees
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\FbaSmallAndLight\MoneyType $total_fees total_fees
      *
      * @return $this
      */
@@ -306,7 +306,7 @@ class FeePreview implements ModelInterface, ArrayAccess
     /**
      * Gets errors.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\FbaSmallAndLight\ErrorList
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\FbaSmallAndLight\ErrorList
      */
     public function getErrors()
     {
@@ -316,7 +316,7 @@ class FeePreview implements ModelInterface, ArrayAccess
     /**
      * Sets errors.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\FbaSmallAndLight\ErrorList $errors errors
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\FbaSmallAndLight\ErrorList $errors errors
      *
      * @return $this
      */

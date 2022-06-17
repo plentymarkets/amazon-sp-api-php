@@ -13,18 +13,18 @@
  * OpenAPI spec version: v0
  */
 
-namespace Plentymarkets\AmazonSellingPartnerAPI\Api;
+namespace Plenty\AmazonSellingPartnerAPI\Api;
 
-use Plentymarkets\AmazonSellingPartnerAPI\ApiException;
-use Plentymarkets\AmazonSellingPartnerAPI\Configuration;
-use Plentymarkets\AmazonSellingPartnerAPI\HeaderSelector;
-use Plentymarkets\AmazonSellingPartnerAPI\Helpers\SellingPartnerApiRequest;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\GetShipmentsResponse;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\GetAdditionalSellerInputsResponse;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\GetEligibleShipmentServicesResponse;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\CancelShipmentResponse;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\CreateShipmentResponse;
-use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plenty\AmazonSellingPartnerAPI\ApiException;
+use Plenty\AmazonSellingPartnerAPI\Configuration;
+use Plenty\AmazonSellingPartnerAPI\HeaderSelector;
+use Plenty\AmazonSellingPartnerAPI\Helpers\SellingPartnerApiRequest;
+use Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\GetShipmentsResponse;
+use Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\GetAdditionalSellerInputsResponse;
+use Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\GetEligibleShipmentServicesResponse;
+use Plenty\AmazonSellingPartnerAPI\Models\Shipping\CancelShipmentResponse;
+use Plenty\AmazonSellingPartnerAPI\Models\Shipping\CreateShipmentResponse;
+use Plenty\AmazonSellingPartnerAPI\ObjectSerializer;
 use GuzzleHttp\Client;
 use GuzzleHttp\ClientInterface;
 use GuzzleHttp\Promise\PromiseInterface;
@@ -77,7 +77,7 @@ class MerchantFulfillmentApi
      * @throws ApiException             on non-2xx response
      * @throws InvalidArgumentException
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\CancelShipmentResponse
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\CancelShipmentResponse
      */
     public function cancelShipment($shipment_id)
     {
@@ -94,7 +94,7 @@ class MerchantFulfillmentApi
      * @throws ApiException             on non-2xx response
      * @throws InvalidArgumentException
      *
-     * @return array of \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\CancelShipmentResponse, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\CancelShipmentResponse, HTTP status code, HTTP response headers (array of strings)
      */
     public function cancelShipmentWithHttpInfo($shipment_id)
     {
@@ -133,7 +133,7 @@ class MerchantFulfillmentApi
      */
     public function cancelShipmentAsyncWithHttpInfo($shipment_id)
     {
-        $returnType = '\Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\CancelShipmentResponse';
+        $returnType = '\Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\CancelShipmentResponse';
         $request = $this->cancelShipmentRequest($shipment_id);
 
         return $this->sendRequestAsync($request, CancelShipmentResponse::class);
@@ -182,7 +182,7 @@ class MerchantFulfillmentApi
      * @throws ApiException             on non-2xx response
      * @throws InvalidArgumentException
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\CancelShipmentResponse
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\CancelShipmentResponse
      */
     public function cancelShipmentOld($shipment_id)
     {
@@ -199,11 +199,11 @@ class MerchantFulfillmentApi
      * @throws ApiException             on non-2xx response
      * @throws InvalidArgumentException
      *
-     * @return array of \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\CancelShipmentResponse, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\CancelShipmentResponse, HTTP status code, HTTP response headers (array of strings)
      */
     public function cancelShipmentOldWithHttpInfo($shipment_id)
     {
-        $returnType = '\Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\CancelShipmentResponse';
+        $returnType = '\Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\CancelShipmentResponse';
         $request = $this->cancelShipmentOldRequest($shipment_id);
 
         return $this->sendRequest($request, CancelShipmentResponse::class);
@@ -239,7 +239,7 @@ class MerchantFulfillmentApi
      */
     public function cancelShipmentOldAsyncWithHttpInfo($shipment_id)
     {
-        $returnType = '\Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\CancelShipmentResponse';
+        $returnType = '\Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\CancelShipmentResponse';
         $request = $this->cancelShipmentOldRequest($shipment_id);
 
         return $this->sendRequestAsync($request, CancelShipmentResponse::class);
@@ -283,12 +283,12 @@ class MerchantFulfillmentApi
     /**
      * Operation createShipment.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\CreateShipmentRequest $body body (required)
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\CreateShipmentRequest $body body (required)
      *
      * @throws ApiException             on non-2xx response
      * @throws InvalidArgumentException
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\CreateShipmentResponse
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\CreateShipmentResponse
      */
     public function createShipment($body)
     {
@@ -300,12 +300,12 @@ class MerchantFulfillmentApi
     /**
      * Operation createShipmentWithHttpInfo.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\CreateShipmentRequest $body (required)
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\CreateShipmentRequest $body (required)
      *
      * @throws ApiException             on non-2xx response
      * @throws InvalidArgumentException
      *
-     * @return array of \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\CreateShipmentResponse, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\CreateShipmentResponse, HTTP status code, HTTP response headers (array of strings)
      */
     public function createShipmentWithHttpInfo($body)
     {
@@ -317,7 +317,7 @@ class MerchantFulfillmentApi
     /**
      * Operation createShipmentAsync.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\CreateShipmentRequest $body (required)
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\CreateShipmentRequest $body (required)
      *
      * @throws InvalidArgumentException
      *
@@ -336,7 +336,7 @@ class MerchantFulfillmentApi
     /**
      * Operation createShipmentAsyncWithHttpInfo.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\CreateShipmentRequest $body (required)
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\CreateShipmentRequest $body (required)
      *
      * @throws InvalidArgumentException
      *
@@ -344,7 +344,7 @@ class MerchantFulfillmentApi
      */
     public function createShipmentAsyncWithHttpInfo($body)
     {
-        $returnType = '\Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\CreateShipmentResponse';
+        $returnType = '\Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\CreateShipmentResponse';
         $request = $this->createShipmentRequest($body);
 
         return $this->sendRequestAsync($request, CreateShipmentResponse::class);
@@ -353,7 +353,7 @@ class MerchantFulfillmentApi
     /**
      * Create request for operation 'createShipment'.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\CreateShipmentRequest $body (required)
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\CreateShipmentRequest $body (required)
      *
      * @throws InvalidArgumentException
      *
@@ -379,12 +379,12 @@ class MerchantFulfillmentApi
     /**
      * Operation getAdditionalSellerInputs.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\GetAdditionalSellerInputsRequest $body body (required)
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\GetAdditionalSellerInputsRequest $body body (required)
      *
      * @throws ApiException             on non-2xx response
      * @throws InvalidArgumentException
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\GetAdditionalSellerInputsResponse
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\GetAdditionalSellerInputsResponse
      */
     public function getAdditionalSellerInputs($body)
     {
@@ -396,12 +396,12 @@ class MerchantFulfillmentApi
     /**
      * Operation getAdditionalSellerInputsWithHttpInfo.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\GetAdditionalSellerInputsRequest $body (required)
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\GetAdditionalSellerInputsRequest $body (required)
      *
      * @throws ApiException             on non-2xx response
      * @throws InvalidArgumentException
      *
-     * @return array of \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\GetAdditionalSellerInputsResponse, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\GetAdditionalSellerInputsResponse, HTTP status code, HTTP response headers (array of strings)
      */
     public function getAdditionalSellerInputsWithHttpInfo($body)
     {
@@ -413,7 +413,7 @@ class MerchantFulfillmentApi
     /**
      * Operation getAdditionalSellerInputsAsync.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\GetAdditionalSellerInputsRequest $body (required)
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\GetAdditionalSellerInputsRequest $body (required)
      *
      * @throws InvalidArgumentException
      *
@@ -432,7 +432,7 @@ class MerchantFulfillmentApi
     /**
      * Operation getAdditionalSellerInputsAsyncWithHttpInfo.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\GetAdditionalSellerInputsRequest $body (required)
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\GetAdditionalSellerInputsRequest $body (required)
      *
      * @throws InvalidArgumentException
      *
@@ -440,7 +440,7 @@ class MerchantFulfillmentApi
      */
     public function getAdditionalSellerInputsAsyncWithHttpInfo($body)
     {
-        $returnType = '\Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\GetAdditionalSellerInputsResponse';
+        $returnType = '\Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\GetAdditionalSellerInputsResponse';
         $request = $this->getAdditionalSellerInputsRequest($body);
 
         return $this->sendRequestAsync($request, GetAdditionalSellerInputsResponse::class);
@@ -449,7 +449,7 @@ class MerchantFulfillmentApi
     /**
      * Create request for operation 'getAdditionalSellerInputs'.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\GetAdditionalSellerInputsRequest $body (required)
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\GetAdditionalSellerInputsRequest $body (required)
      *
      * @throws InvalidArgumentException
      *
@@ -475,12 +475,12 @@ class MerchantFulfillmentApi
     /**
      * Operation getAdditionalSellerInputsOld.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\GetAdditionalSellerInputsRequest $body body (required)
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\GetAdditionalSellerInputsRequest $body body (required)
      *
      * @throws ApiException             on non-2xx response
      * @throws InvalidArgumentException
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\GetAdditionalSellerInputsResponse
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\GetAdditionalSellerInputsResponse
      */
     public function getAdditionalSellerInputsOld($body)
     {
@@ -492,12 +492,12 @@ class MerchantFulfillmentApi
     /**
      * Operation getAdditionalSellerInputsOldWithHttpInfo.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\GetAdditionalSellerInputsRequest $body (required)
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\GetAdditionalSellerInputsRequest $body (required)
      *
      * @throws ApiException             on non-2xx response
      * @throws InvalidArgumentException
      *
-     * @return array of \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\GetAdditionalSellerInputsResponse, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\GetAdditionalSellerInputsResponse, HTTP status code, HTTP response headers (array of strings)
      */
     public function getAdditionalSellerInputsOldWithHttpInfo($body)
     {
@@ -509,7 +509,7 @@ class MerchantFulfillmentApi
     /**
      * Operation getAdditionalSellerInputsOldAsync.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\GetAdditionalSellerInputsRequest $body (required)
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\GetAdditionalSellerInputsRequest $body (required)
      *
      * @throws InvalidArgumentException
      *
@@ -528,7 +528,7 @@ class MerchantFulfillmentApi
     /**
      * Operation getAdditionalSellerInputsOldAsyncWithHttpInfo.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\GetAdditionalSellerInputsRequest $body (required)
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\GetAdditionalSellerInputsRequest $body (required)
      *
      * @throws InvalidArgumentException
      *
@@ -544,7 +544,7 @@ class MerchantFulfillmentApi
     /**
      * Create request for operation 'getAdditionalSellerInputsOld'.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\GetAdditionalSellerInputsRequest $body (required)
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\GetAdditionalSellerInputsRequest $body (required)
      *
      * @throws InvalidArgumentException
      *
@@ -570,12 +570,12 @@ class MerchantFulfillmentApi
     /**
      * Operation getEligibleShipmentServices.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\GetEligibleShipmentServicesRequest $body body (required)
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\GetEligibleShipmentServicesRequest $body body (required)
      *
      * @throws ApiException             on non-2xx response
      * @throws InvalidArgumentException
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\GetEligibleShipmentServicesResponse
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\GetEligibleShipmentServicesResponse
      */
     public function getEligibleShipmentServices($body)
     {
@@ -587,12 +587,12 @@ class MerchantFulfillmentApi
     /**
      * Operation getEligibleShipmentServicesWithHttpInfo.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\GetEligibleShipmentServicesRequest $body (required)
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\GetEligibleShipmentServicesRequest $body (required)
      *
      * @throws ApiException             on non-2xx response
      * @throws InvalidArgumentException
      *
-     * @return array of \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\GetEligibleShipmentServicesResponse, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\GetEligibleShipmentServicesResponse, HTTP status code, HTTP response headers (array of strings)
      */
     public function getEligibleShipmentServicesWithHttpInfo($body)
     {
@@ -604,7 +604,7 @@ class MerchantFulfillmentApi
     /**
      * Operation getEligibleShipmentServicesAsync.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\GetEligibleShipmentServicesRequest $body (required)
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\GetEligibleShipmentServicesRequest $body (required)
      *
      * @throws InvalidArgumentException
      *
@@ -623,7 +623,7 @@ class MerchantFulfillmentApi
     /**
      * Operation getEligibleShipmentServicesAsyncWithHttpInfo.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\GetEligibleShipmentServicesRequest $body (required)
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\GetEligibleShipmentServicesRequest $body (required)
      *
      * @throws InvalidArgumentException
      *
@@ -631,7 +631,7 @@ class MerchantFulfillmentApi
      */
     public function getEligibleShipmentServicesAsyncWithHttpInfo($body)
     {
-        $returnType = '\Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\GetEligibleShipmentServicesResponse';
+        $returnType = '\Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\GetEligibleShipmentServicesResponse';
         $request = $this->getEligibleShipmentServicesRequest($body);
 
         return $this->sendRequestAsync($request, GetEligibleShipmentServicesResponse::class);
@@ -640,7 +640,7 @@ class MerchantFulfillmentApi
     /**
      * Create request for operation 'getEligibleShipmentServices'.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\GetEligibleShipmentServicesRequest $body (required)
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\GetEligibleShipmentServicesRequest $body (required)
      *
      * @throws InvalidArgumentException
      *
@@ -666,12 +666,12 @@ class MerchantFulfillmentApi
     /**
      * Operation getEligibleShipmentServicesOld.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\GetEligibleShipmentServicesRequest $body body (required)
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\GetEligibleShipmentServicesRequest $body body (required)
      *
      * @throws ApiException             on non-2xx response
      * @throws InvalidArgumentException
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\GetEligibleShipmentServicesResponse
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\GetEligibleShipmentServicesResponse
      */
     public function getEligibleShipmentServicesOld($body)
     {
@@ -683,16 +683,16 @@ class MerchantFulfillmentApi
     /**
      * Operation getEligibleShipmentServicesOldWithHttpInfo.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\GetEligibleShipmentServicesRequest $body (required)
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\GetEligibleShipmentServicesRequest $body (required)
      *
      * @throws ApiException             on non-2xx response
      * @throws InvalidArgumentException
      *
-     * @return array of \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\GetEligibleShipmentServicesResponse, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\GetEligibleShipmentServicesResponse, HTTP status code, HTTP response headers (array of strings)
      */
     public function getEligibleShipmentServicesOldWithHttpInfo($body)
     {
-        $returnType = '\Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\GetEligibleShipmentServicesResponse';
+        $returnType = '\Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\GetEligibleShipmentServicesResponse';
         $request = $this->getEligibleShipmentServicesOldRequest($body);
 
         return $this->sendRequest($request, GetEligibleShipmentServicesResponse::class);
@@ -701,7 +701,7 @@ class MerchantFulfillmentApi
     /**
      * Operation getEligibleShipmentServicesOldAsync.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\GetEligibleShipmentServicesRequest $body (required)
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\GetEligibleShipmentServicesRequest $body (required)
      *
      * @throws InvalidArgumentException
      *
@@ -720,7 +720,7 @@ class MerchantFulfillmentApi
     /**
      * Operation getEligibleShipmentServicesOldAsyncWithHttpInfo.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\GetEligibleShipmentServicesRequest $body (required)
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\GetEligibleShipmentServicesRequest $body (required)
      *
      * @throws InvalidArgumentException
      *
@@ -728,7 +728,7 @@ class MerchantFulfillmentApi
      */
     public function getEligibleShipmentServicesOldAsyncWithHttpInfo($body)
     {
-        $returnType = '\Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\GetEligibleShipmentServicesResponse';
+        $returnType = '\Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\GetEligibleShipmentServicesResponse';
         $request = $this->getEligibleShipmentServicesOldRequest($body);
 
         return $this->sendRequest($request, GetEligibleShipmentServicesResponse::class);
@@ -737,7 +737,7 @@ class MerchantFulfillmentApi
     /**
      * Create request for operation 'getEligibleShipmentServicesOld'.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\GetEligibleShipmentServicesRequest $body (required)
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\GetEligibleShipmentServicesRequest $body (required)
      *
      * @throws InvalidArgumentException
      *
@@ -768,7 +768,7 @@ class MerchantFulfillmentApi
      * @throws ApiException             on non-2xx response
      * @throws InvalidArgumentException
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\GetShipmentResponse
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\GetShipmentResponse
      */
     public function getShipment($shipment_id)
     {
@@ -785,7 +785,7 @@ class MerchantFulfillmentApi
      * @throws ApiException             on non-2xx response
      * @throws InvalidArgumentException
      *
-     * @return array of \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\GetShipmentResponse, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\GetShipmentResponse, HTTP status code, HTTP response headers (array of strings)
      */
     public function getShipmentWithHttpInfo($shipment_id)
     {

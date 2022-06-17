@@ -15,11 +15,11 @@
  * OpenAPI spec version: v1
  */
 
-namespace Plentymarkets\AmazonSellingPartnerAPI\Models\Solicitations;
+namespace Plenty\AmazonSellingPartnerAPI\Models\Solicitations;
 
 use ArrayAccess;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
-use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plenty\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plenty\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * GetSchemaResponse Class Doc Comment.
@@ -43,9 +43,9 @@ class GetSchemaResponse implements ModelInterface, ArrayAccess
      * @var string[]
      */
     protected static $swaggerTypes = [
-        '_links' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Solicitations\GetSchemaResponseLinks',
-'payload' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Solicitations\Schema',
-'errors' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Solicitations\ErrorList',    ];
+        '_links' => '\Plenty\AmazonSellingPartnerAPI\Models\Solicitations\GetSchemaResponseLinks',
+'payload' => '\Plenty\AmazonSellingPartnerAPI\Models\Solicitations\Schema',
+'errors' => '\Plenty\AmazonSellingPartnerAPI\Models\Solicitations\ErrorList',    ];
 
     /**
      * Array of property to format mappings. Used for (de)serialization.
@@ -195,7 +195,7 @@ class GetSchemaResponse implements ModelInterface, ArrayAccess
     /**
      * Gets _links.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Solicitations\GetSchemaResponseLinks
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Solicitations\GetSchemaResponseLinks
      */
     public function getLinks()
     {
@@ -205,7 +205,7 @@ class GetSchemaResponse implements ModelInterface, ArrayAccess
     /**
      * Sets _links.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Solicitations\GetSchemaResponseLinks $_links _links
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Solicitations\GetSchemaResponseLinks $_links _links
      *
      * @return $this
      */
@@ -219,7 +219,7 @@ class GetSchemaResponse implements ModelInterface, ArrayAccess
     /**
      * Gets payload.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Solicitations\Schema
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Solicitations\Schema
      */
     public function getPayload()
     {
@@ -229,7 +229,7 @@ class GetSchemaResponse implements ModelInterface, ArrayAccess
     /**
      * Sets payload.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Solicitations\Schema $payload payload
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Solicitations\Schema $payload payload
      *
      * @return $this
      */
@@ -243,7 +243,7 @@ class GetSchemaResponse implements ModelInterface, ArrayAccess
     /**
      * Gets errors.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Solicitations\ErrorList
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Solicitations\ErrorList
      */
     public function getErrors()
     {
@@ -253,7 +253,7 @@ class GetSchemaResponse implements ModelInterface, ArrayAccess
     /**
      * Sets errors.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Solicitations\ErrorList $errors errors
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Solicitations\ErrorList $errors errors
      *
      * @return $this
      */

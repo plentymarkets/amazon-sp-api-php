@@ -15,11 +15,11 @@
  * OpenAPI spec version: v1
  */
 
-namespace Plentymarkets\AmazonSellingPartnerAPI\Models\Services;
+namespace Plenty\AmazonSellingPartnerAPI\Models\Services;
 
 use ArrayAccess;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
-use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plenty\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plenty\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * AssociatedItem Class Doc Comment.
@@ -49,10 +49,10 @@ class AssociatedItem implements ModelInterface, ArrayAccess
         'asin' => 'string',
 'title' => 'string',
 'quantity' => 'int',
-'order_id' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Services\OrderId',
+'order_id' => '\Plenty\AmazonSellingPartnerAPI\Models\Services\OrderId',
 'item_status' => 'string',
 'brand_name' => 'string',
-'item_delivery' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Services\ItemDelivery',    ];
+'item_delivery' => '\Plenty\AmazonSellingPartnerAPI\Models\Services\ItemDelivery',    ];
 
     /**
      * Array of property to format mappings. Used for (de)serialization.
@@ -321,7 +321,7 @@ self::ITEM_STATUS_DELIVERED,        ];
     /**
      * Gets order_id.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Services\OrderId
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Services\OrderId
      */
     public function getOrderId()
     {
@@ -331,7 +331,7 @@ self::ITEM_STATUS_DELIVERED,        ];
     /**
      * Sets order_id.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Services\OrderId $order_id order_id
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Services\OrderId $order_id order_id
      *
      * @return $this
      */
@@ -397,7 +397,7 @@ self::ITEM_STATUS_DELIVERED,        ];
     /**
      * Gets item_delivery.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Services\ItemDelivery
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Services\ItemDelivery
      */
     public function getItemDelivery()
     {
@@ -407,7 +407,7 @@ self::ITEM_STATUS_DELIVERED,        ];
     /**
      * Sets item_delivery.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Services\ItemDelivery $item_delivery item_delivery
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Services\ItemDelivery $item_delivery item_delivery
      *
      * @return $this
      */

@@ -15,11 +15,11 @@
  * OpenAPI spec version: 2020-09-04
  */
 
-namespace Plentymarkets\AmazonSellingPartnerAPI\Models\Reports;
+namespace Plenty\AmazonSellingPartnerAPI\Models\Reports;
 
 use ArrayAccess;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
-use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plenty\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plenty\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * ReportDocument Class Doc Comment.
@@ -45,7 +45,7 @@ class ReportDocument implements ModelInterface, ArrayAccess
     protected static $swaggerTypes = [
         'report_document_id' => 'string',
 'url' => 'string',
-'encryption_details' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Reports\ReportDocumentEncryptionDetails',
+'encryption_details' => '\Plenty\AmazonSellingPartnerAPI\Models\Reports\ReportDocumentEncryptionDetails',
 'compression_algorithm' => 'string',    ];
 
     /**
@@ -279,7 +279,7 @@ class ReportDocument implements ModelInterface, ArrayAccess
     /**
      * Gets encryption_details.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Reports\ReportDocumentEncryptionDetails
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Reports\ReportDocumentEncryptionDetails
      */
     public function getEncryptionDetails()
     {
@@ -289,7 +289,7 @@ class ReportDocument implements ModelInterface, ArrayAccess
     /**
      * Sets encryption_details.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Reports\ReportDocumentEncryptionDetails $encryption_details encryption_details
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Reports\ReportDocumentEncryptionDetails $encryption_details encryption_details
      *
      * @return $this
      */

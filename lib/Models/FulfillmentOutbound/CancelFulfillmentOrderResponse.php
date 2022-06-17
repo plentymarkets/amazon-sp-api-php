@@ -15,11 +15,11 @@
  * OpenAPI spec version: 2020-07-01
  */
 
-namespace Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound;
+namespace Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound;
 
 use ArrayAccess;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
-use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plenty\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plenty\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * CancelFulfillmentOrderResponse Class Doc Comment.
@@ -46,7 +46,7 @@ class CancelFulfillmentOrderResponse implements ModelInterface, ArrayAccess
      * @var string[]
      */
     protected static $swaggerTypes = [
-        'errors' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\ErrorList',    ];
+        'errors' => '\Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\ErrorList',    ];
 
     /**
      * Array of property to format mappings. Used for (de)serialization.
@@ -186,7 +186,7 @@ class CancelFulfillmentOrderResponse implements ModelInterface, ArrayAccess
     /**
      * Gets errors.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\ErrorList
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\ErrorList
      */
     public function getErrors()
     {
@@ -196,7 +196,7 @@ class CancelFulfillmentOrderResponse implements ModelInterface, ArrayAccess
     /**
      * Sets errors.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\ErrorList $errors errors
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\ErrorList $errors errors
      *
      * @return $this
      */

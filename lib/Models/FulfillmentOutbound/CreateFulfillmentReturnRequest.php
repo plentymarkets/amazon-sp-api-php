@@ -15,11 +15,11 @@
  * OpenAPI spec version: 2020-07-01
  */
 
-namespace Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound;
+namespace Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound;
 
 use ArrayAccess;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
-use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plenty\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plenty\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * CreateFulfillmentReturnRequest Class Doc Comment.
@@ -46,7 +46,7 @@ class CreateFulfillmentReturnRequest implements ModelInterface, ArrayAccess
      * @var string[]
      */
     protected static $swaggerTypes = [
-        'items' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\CreateReturnItemList',    ];
+        'items' => '\Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\CreateReturnItemList',    ];
 
     /**
      * Array of property to format mappings. Used for (de)serialization.
@@ -190,7 +190,7 @@ class CreateFulfillmentReturnRequest implements ModelInterface, ArrayAccess
     /**
      * Gets items.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\CreateReturnItemList
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\CreateReturnItemList
      */
     public function getItems()
     {
@@ -200,7 +200,7 @@ class CreateFulfillmentReturnRequest implements ModelInterface, ArrayAccess
     /**
      * Sets items.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\CreateReturnItemList $items items
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\CreateReturnItemList $items items
      *
      * @return $this
      */

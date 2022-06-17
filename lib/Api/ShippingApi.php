@@ -13,21 +13,21 @@
  * OpenAPI spec version: v1
  */
 
-namespace Plentymarkets\AmazonSellingPartnerAPI\Api;
+namespace Plenty\AmazonSellingPartnerAPI\Api;
 
-use Plentymarkets\AmazonSellingPartnerAPI\Configuration;
-use Plentymarkets\AmazonSellingPartnerAPI\HeaderSelector;
-use Plentymarkets\AmazonSellingPartnerAPI\Helpers\SellingPartnerApiRequest;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\GetShipmentsResponse;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\CancelShipmentResponse;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\CreateShipmentResponse;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\GetAccountResponse;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\GetRatesResponse;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\GetTrackingInformationResponse;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\PurchaseLabelsResponse;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\PurchaseShipmentResponse;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\RetrieveShippingLabelResponse;
-use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plenty\AmazonSellingPartnerAPI\Configuration;
+use Plenty\AmazonSellingPartnerAPI\HeaderSelector;
+use Plenty\AmazonSellingPartnerAPI\Helpers\SellingPartnerApiRequest;
+use Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\GetShipmentsResponse;
+use Plenty\AmazonSellingPartnerAPI\Models\Shipping\CancelShipmentResponse;
+use Plenty\AmazonSellingPartnerAPI\Models\Shipping\CreateShipmentResponse;
+use Plenty\AmazonSellingPartnerAPI\Models\Shipping\GetAccountResponse;
+use Plenty\AmazonSellingPartnerAPI\Models\Shipping\GetRatesResponse;
+use Plenty\AmazonSellingPartnerAPI\Models\Shipping\GetTrackingInformationResponse;
+use Plenty\AmazonSellingPartnerAPI\Models\Shipping\PurchaseLabelsResponse;
+use Plenty\AmazonSellingPartnerAPI\Models\Shipping\PurchaseShipmentResponse;
+use Plenty\AmazonSellingPartnerAPI\Models\Shipping\RetrieveShippingLabelResponse;
+use Plenty\AmazonSellingPartnerAPI\ObjectSerializer;
 use GuzzleHttp\Client;
 use GuzzleHttp\ClientInterface;
 use GuzzleHttp\Psr7\Request;
@@ -77,9 +77,9 @@ class ShippingApi
      * @param string $shipment_id shipment_id (required)
      *
      * @throws \InvalidArgumentException
-     * @throws \Plentymarkets\AmazonSellingPartnerAPI\ApiException on non-2xx response
+     * @throws \Plenty\AmazonSellingPartnerAPI\ApiException on non-2xx response
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\CancelShipmentResponse
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Shipping\CancelShipmentResponse
      */
     public function cancelShipment($shipment_id)
     {
@@ -94,9 +94,9 @@ class ShippingApi
      * @param string $shipment_id (required)
      *
      * @throws \InvalidArgumentException
-     * @throws \Plentymarkets\AmazonSellingPartnerAPI\ApiException on non-2xx response
+     * @throws \Plenty\AmazonSellingPartnerAPI\ApiException on non-2xx response
      *
-     * @return array of \Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\CancelShipmentResponse, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Plenty\AmazonSellingPartnerAPI\Models\Shipping\CancelShipmentResponse, HTTP status code, HTTP response headers (array of strings)
      */
     public function cancelShipmentWithHttpInfo($shipment_id)
     {
@@ -178,12 +178,12 @@ class ShippingApi
     /**
      * Operation createShipment.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\CreateShipmentRequest $body body (required)
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Shipping\CreateShipmentRequest $body body (required)
      *
      * @throws \InvalidArgumentException
-     * @throws \Plentymarkets\AmazonSellingPartnerAPI\ApiException on non-2xx response
+     * @throws \Plenty\AmazonSellingPartnerAPI\ApiException on non-2xx response
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\CreateShipmentResponse
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Shipping\CreateShipmentResponse
      */
     public function createShipment($body)
     {
@@ -195,12 +195,12 @@ class ShippingApi
     /**
      * Operation createShipmentWithHttpInfo.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\CreateShipmentRequest $body (required)
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Shipping\CreateShipmentRequest $body (required)
      *
      * @throws \InvalidArgumentException
-     * @throws \Plentymarkets\AmazonSellingPartnerAPI\ApiException on non-2xx response
+     * @throws \Plenty\AmazonSellingPartnerAPI\ApiException on non-2xx response
      *
-     * @return array of \Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\CreateShipmentResponse, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Plenty\AmazonSellingPartnerAPI\Models\Shipping\CreateShipmentResponse, HTTP status code, HTTP response headers (array of strings)
      */
     public function createShipmentWithHttpInfo($body)
     {
@@ -212,7 +212,7 @@ class ShippingApi
     /**
      * Operation createShipmentAsync.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\CreateShipmentRequest $body (required)
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Shipping\CreateShipmentRequest $body (required)
      *
      * @throws \InvalidArgumentException
      *
@@ -231,7 +231,7 @@ class ShippingApi
     /**
      * Operation createShipmentAsyncWithHttpInfo.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\CreateShipmentRequest $body (required)
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Shipping\CreateShipmentRequest $body (required)
      *
      * @throws \InvalidArgumentException
      *
@@ -247,7 +247,7 @@ class ShippingApi
     /**
      * Create request for operation 'createShipment'.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\CreateShipmentRequest $body (required)
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Shipping\CreateShipmentRequest $body (required)
      *
      * @throws \InvalidArgumentException
      *
@@ -274,9 +274,9 @@ class ShippingApi
      * Operation getAccount.
      *
      * @throws \InvalidArgumentException
-     * @throws \Plentymarkets\AmazonSellingPartnerAPI\ApiException on non-2xx response
+     * @throws \Plenty\AmazonSellingPartnerAPI\ApiException on non-2xx response
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\GetAccountResponse
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Shipping\GetAccountResponse
      */
     public function getAccount()
     {
@@ -289,9 +289,9 @@ class ShippingApi
      * Operation getAccountWithHttpInfo.
      *
      * @throws \InvalidArgumentException
-     * @throws \Plentymarkets\AmazonSellingPartnerAPI\ApiException on non-2xx response
+     * @throws \Plenty\AmazonSellingPartnerAPI\ApiException on non-2xx response
      *
-     * @return array of \Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\GetAccountResponse, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Plenty\AmazonSellingPartnerAPI\Models\Shipping\GetAccountResponse, HTTP status code, HTTP response headers (array of strings)
      */
     public function getAccountWithHttpInfo()
     {
@@ -353,12 +353,12 @@ class ShippingApi
     /**
      * Operation getRates.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\GetRatesRequest $body body (required)
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Shipping\GetRatesRequest $body body (required)
      *
      * @throws \InvalidArgumentException
-     * @throws \Plentymarkets\AmazonSellingPartnerAPI\ApiException on non-2xx response
+     * @throws \Plenty\AmazonSellingPartnerAPI\ApiException on non-2xx response
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\GetRatesResponse
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Shipping\GetRatesResponse
      */
     public function getRates($body)
     {
@@ -370,12 +370,12 @@ class ShippingApi
     /**
      * Operation getRatesWithHttpInfo.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\GetRatesRequest $body (required)
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Shipping\GetRatesRequest $body (required)
      *
      * @throws \InvalidArgumentException
-     * @throws \Plentymarkets\AmazonSellingPartnerAPI\ApiException on non-2xx response
+     * @throws \Plenty\AmazonSellingPartnerAPI\ApiException on non-2xx response
      *
-     * @return array of \Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\GetRatesResponse, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Plenty\AmazonSellingPartnerAPI\Models\Shipping\GetRatesResponse, HTTP status code, HTTP response headers (array of strings)
      */
     public function getRatesWithHttpInfo($body)
     {
@@ -387,7 +387,7 @@ class ShippingApi
     /**
      * Operation getRatesAsync.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\GetRatesRequest $body (required)
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Shipping\GetRatesRequest $body (required)
      *
      * @throws \InvalidArgumentException
      *
@@ -406,7 +406,7 @@ class ShippingApi
     /**
      * Operation getRatesAsyncWithHttpInfo.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\GetRatesRequest $body (required)
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Shipping\GetRatesRequest $body (required)
      *
      * @throws \InvalidArgumentException
      *
@@ -422,7 +422,7 @@ class ShippingApi
     /**
      * Create request for operation 'getRates'.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\GetRatesRequest $body (required)
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Shipping\GetRatesRequest $body (required)
      *
      * @throws \InvalidArgumentException
      *
@@ -451,9 +451,9 @@ class ShippingApi
      * @param string $shipment_id shipment_id (required)
      *
      * @throws \InvalidArgumentException
-     * @throws \Plentymarkets\AmazonSellingPartnerAPI\ApiException on non-2xx response
+     * @throws \Plenty\AmazonSellingPartnerAPI\ApiException on non-2xx response
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\GetShipmentResponse
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Shipping\GetShipmentResponse
      */
     public function getShipment($shipment_id)
     {
@@ -468,9 +468,9 @@ class ShippingApi
      * @param string $shipment_id (required)
      *
      * @throws \InvalidArgumentException
-     * @throws \Plentymarkets\AmazonSellingPartnerAPI\ApiException on non-2xx response
+     * @throws \Plenty\AmazonSellingPartnerAPI\ApiException on non-2xx response
      *
-     * @return array of \Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\GetShipmentResponse, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Plenty\AmazonSellingPartnerAPI\Models\Shipping\GetShipmentResponse, HTTP status code, HTTP response headers (array of strings)
      */
     public function getShipmentWithHttpInfo($shipment_id)
     {
@@ -555,9 +555,9 @@ class ShippingApi
      * @param string $tracking_id tracking_id (required)
      *
      * @throws \InvalidArgumentException
-     * @throws \Plentymarkets\AmazonSellingPartnerAPI\ApiException on non-2xx response
+     * @throws \Plenty\AmazonSellingPartnerAPI\ApiException on non-2xx response
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\GetTrackingInformationResponse
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Shipping\GetTrackingInformationResponse
      */
     public function getTrackingInformation($tracking_id)
     {
@@ -572,9 +572,9 @@ class ShippingApi
      * @param string $tracking_id (required)
      *
      * @throws \InvalidArgumentException
-     * @throws \Plentymarkets\AmazonSellingPartnerAPI\ApiException on non-2xx response
+     * @throws \Plenty\AmazonSellingPartnerAPI\ApiException on non-2xx response
      *
-     * @return array of \Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\GetTrackingInformationResponse, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Plenty\AmazonSellingPartnerAPI\Models\Shipping\GetTrackingInformationResponse, HTTP status code, HTTP response headers (array of strings)
      */
     public function getTrackingInformationWithHttpInfo($tracking_id)
     {
@@ -656,13 +656,13 @@ class ShippingApi
     /**
      * Operation purchaseLabels.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\PurchaseLabelsRequest $body        body (required)
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Shipping\PurchaseLabelsRequest $body        body (required)
      * @param string                                                                  $shipment_id shipment_id (required)
      *
      * @throws \InvalidArgumentException
-     * @throws \Plentymarkets\AmazonSellingPartnerAPI\ApiException on non-2xx response
+     * @throws \Plenty\AmazonSellingPartnerAPI\ApiException on non-2xx response
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\PurchaseLabelsResponse
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Shipping\PurchaseLabelsResponse
      */
     public function purchaseLabels($body, $shipment_id)
     {
@@ -674,13 +674,13 @@ class ShippingApi
     /**
      * Operation purchaseLabelsWithHttpInfo.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\PurchaseLabelsRequest $body        (required)
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Shipping\PurchaseLabelsRequest $body        (required)
      * @param string                                                                  $shipment_id (required)
      *
      * @throws \InvalidArgumentException
-     * @throws \Plentymarkets\AmazonSellingPartnerAPI\ApiException on non-2xx response
+     * @throws \Plenty\AmazonSellingPartnerAPI\ApiException on non-2xx response
      *
-     * @return array of \Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\PurchaseLabelsResponse, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Plenty\AmazonSellingPartnerAPI\Models\Shipping\PurchaseLabelsResponse, HTTP status code, HTTP response headers (array of strings)
      */
     public function purchaseLabelsWithHttpInfo($body, $shipment_id)
     {
@@ -692,7 +692,7 @@ class ShippingApi
     /**
      * Operation purchaseLabelsAsync.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\PurchaseLabelsRequest $body        (required)
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Shipping\PurchaseLabelsRequest $body        (required)
      * @param string                                                                  $shipment_id (required)
      *
      * @throws \InvalidArgumentException
@@ -712,7 +712,7 @@ class ShippingApi
     /**
      * Operation purchaseLabelsAsyncWithHttpInfo.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\PurchaseLabelsRequest $body        (required)
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Shipping\PurchaseLabelsRequest $body        (required)
      * @param string                                                                  $shipment_id (required)
      *
      * @throws \InvalidArgumentException
@@ -729,7 +729,7 @@ class ShippingApi
     /**
      * Create request for operation 'purchaseLabels'.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\PurchaseLabelsRequest $body        (required)
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Shipping\PurchaseLabelsRequest $body        (required)
      * @param string                                                                  $shipment_id (required)
      *
      * @throws \InvalidArgumentException
@@ -769,12 +769,12 @@ class ShippingApi
     /**
      * Operation purchaseShipment.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\PurchaseShipmentRequest $body body (required)
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Shipping\PurchaseShipmentRequest $body body (required)
      *
      * @throws \InvalidArgumentException
-     * @throws \Plentymarkets\AmazonSellingPartnerAPI\ApiException on non-2xx response
+     * @throws \Plenty\AmazonSellingPartnerAPI\ApiException on non-2xx response
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\PurchaseShipmentResponse
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Shipping\PurchaseShipmentResponse
      */
     public function purchaseShipment($body)
     {
@@ -786,12 +786,12 @@ class ShippingApi
     /**
      * Operation purchaseShipmentWithHttpInfo.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\PurchaseShipmentRequest $body (required)
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Shipping\PurchaseShipmentRequest $body (required)
      *
      * @throws \InvalidArgumentException
-     * @throws \Plentymarkets\AmazonSellingPartnerAPI\ApiException on non-2xx response
+     * @throws \Plenty\AmazonSellingPartnerAPI\ApiException on non-2xx response
      *
-     * @return array of \Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\PurchaseShipmentResponse, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Plenty\AmazonSellingPartnerAPI\Models\Shipping\PurchaseShipmentResponse, HTTP status code, HTTP response headers (array of strings)
      */
     public function purchaseShipmentWithHttpInfo($body)
     {
@@ -803,7 +803,7 @@ class ShippingApi
     /**
      * Operation purchaseShipmentAsync.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\PurchaseShipmentRequest $body (required)
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Shipping\PurchaseShipmentRequest $body (required)
      *
      * @throws \InvalidArgumentException
      *
@@ -822,7 +822,7 @@ class ShippingApi
     /**
      * Operation purchaseShipmentAsyncWithHttpInfo.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\PurchaseShipmentRequest $body (required)
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Shipping\PurchaseShipmentRequest $body (required)
      *
      * @throws \InvalidArgumentException
      *
@@ -838,7 +838,7 @@ class ShippingApi
     /**
      * Create request for operation 'purchaseShipment'.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\PurchaseShipmentRequest $body (required)
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Shipping\PurchaseShipmentRequest $body (required)
      *
      * @throws \InvalidArgumentException
      *
@@ -864,14 +864,14 @@ class ShippingApi
     /**
      * Operation retrieveShippingLabel.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\RetrieveShippingLabelRequest $body        body (required)
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Shipping\RetrieveShippingLabelRequest $body        body (required)
      * @param string                                                                         $shipment_id shipment_id (required)
      * @param string                                                                         $tracking_id tracking_id (required)
      *
      * @throws \InvalidArgumentException
-     * @throws \Plentymarkets\AmazonSellingPartnerAPI\ApiException on non-2xx response
+     * @throws \Plenty\AmazonSellingPartnerAPI\ApiException on non-2xx response
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\RetrieveShippingLabelResponse
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Shipping\RetrieveShippingLabelResponse
      */
     public function retrieveShippingLabel($body, $shipment_id, $tracking_id)
     {
@@ -883,14 +883,14 @@ class ShippingApi
     /**
      * Operation retrieveShippingLabelWithHttpInfo.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\RetrieveShippingLabelRequest $body        (required)
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Shipping\RetrieveShippingLabelRequest $body        (required)
      * @param string                                                                         $shipment_id (required)
      * @param string                                                                         $tracking_id (required)
      *
      * @throws \InvalidArgumentException
-     * @throws \Plentymarkets\AmazonSellingPartnerAPI\ApiException on non-2xx response
+     * @throws \Plenty\AmazonSellingPartnerAPI\ApiException on non-2xx response
      *
-     * @return array of \Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\RetrieveShippingLabelResponse, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Plenty\AmazonSellingPartnerAPI\Models\Shipping\RetrieveShippingLabelResponse, HTTP status code, HTTP response headers (array of strings)
      */
     public function retrieveShippingLabelWithHttpInfo($body, $shipment_id, $tracking_id)
     {
@@ -902,7 +902,7 @@ class ShippingApi
     /**
      * Operation retrieveShippingLabelAsync.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\RetrieveShippingLabelRequest $body        (required)
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Shipping\RetrieveShippingLabelRequest $body        (required)
      * @param string                                                                         $shipment_id (required)
      * @param string                                                                         $tracking_id (required)
      *
@@ -923,7 +923,7 @@ class ShippingApi
     /**
      * Operation retrieveShippingLabelAsyncWithHttpInfo.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\RetrieveShippingLabelRequest $body        (required)
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Shipping\RetrieveShippingLabelRequest $body        (required)
      * @param string                                                                         $shipment_id (required)
      * @param string                                                                         $tracking_id (required)
      *
@@ -941,7 +941,7 @@ class ShippingApi
     /**
      * Create request for operation 'retrieveShippingLabel'.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\RetrieveShippingLabelRequest $body        (required)
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Shipping\RetrieveShippingLabelRequest $body        (required)
      * @param string                                                                         $shipment_id (required)
      * @param string                                                                         $tracking_id (required)
      *

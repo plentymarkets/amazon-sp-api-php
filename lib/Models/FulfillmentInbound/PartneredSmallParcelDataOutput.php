@@ -15,11 +15,11 @@
  * OpenAPI spec version: v0
  */
 
-namespace Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound;
+namespace Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound;
 
 use ArrayAccess;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
-use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plenty\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plenty\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * PartneredSmallParcelDataOutput Class Doc Comment.
@@ -46,8 +46,8 @@ class PartneredSmallParcelDataOutput implements ModelInterface, ArrayAccess
      * @var string[]
      */
     protected static $swaggerTypes = [
-        'package_list' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\PartneredSmallParcelPackageOutputList',
-'partnered_estimate' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\PartneredEstimate',    ];
+        'package_list' => '\Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\PartneredSmallParcelPackageOutputList',
+'partnered_estimate' => '\Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\PartneredEstimate',    ];
 
     /**
      * Array of property to format mappings. Used for (de)serialization.
@@ -196,7 +196,7 @@ class PartneredSmallParcelDataOutput implements ModelInterface, ArrayAccess
     /**
      * Gets package_list.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\PartneredSmallParcelPackageOutputList
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\PartneredSmallParcelPackageOutputList
      */
     public function getPackageList()
     {
@@ -206,7 +206,7 @@ class PartneredSmallParcelDataOutput implements ModelInterface, ArrayAccess
     /**
      * Sets package_list.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\PartneredSmallParcelPackageOutputList $package_list package_list
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\PartneredSmallParcelPackageOutputList $package_list package_list
      *
      * @return $this
      */
@@ -220,7 +220,7 @@ class PartneredSmallParcelDataOutput implements ModelInterface, ArrayAccess
     /**
      * Gets partnered_estimate.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\PartneredEstimate
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\PartneredEstimate
      */
     public function getPartneredEstimate()
     {
@@ -230,7 +230,7 @@ class PartneredSmallParcelDataOutput implements ModelInterface, ArrayAccess
     /**
      * Sets partnered_estimate.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\PartneredEstimate $partnered_estimate partnered_estimate
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\PartneredEstimate $partnered_estimate partnered_estimate
      *
      * @return $this
      */

@@ -15,11 +15,11 @@
  * OpenAPI spec version: v0
  */
 
-namespace Plentymarkets\AmazonSellingPartnerAPI\Models\Finances;
+namespace Plenty\AmazonSellingPartnerAPI\Models\Finances;
 
 use ArrayAccess;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
-use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plenty\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plenty\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * RentalTransactionEvent Class Doc Comment.
@@ -49,13 +49,13 @@ class RentalTransactionEvent implements ModelInterface, ArrayAccess
         'amazon_order_id' => 'string',
 'rental_event_type' => 'string',
 'extension_length' => 'int',
-'posted_date' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\\DateTime',
-'rental_charge_list' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\ChargeComponentList',
-'rental_fee_list' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\FeeComponentList',
+'posted_date' => '\Plenty\AmazonSellingPartnerAPI\Models\Finances\\DateTime',
+'rental_charge_list' => '\Plenty\AmazonSellingPartnerAPI\Models\Finances\ChargeComponentList',
+'rental_fee_list' => '\Plenty\AmazonSellingPartnerAPI\Models\Finances\FeeComponentList',
 'marketplace_name' => 'string',
-'rental_initial_value' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\Currency',
-'rental_reimbursement' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\Currency',
-'rental_tax_withheld_list' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\TaxWithheldComponentList',    ];
+'rental_initial_value' => '\Plenty\AmazonSellingPartnerAPI\Models\Finances\Currency',
+'rental_reimbursement' => '\Plenty\AmazonSellingPartnerAPI\Models\Finances\Currency',
+'rental_tax_withheld_list' => '\Plenty\AmazonSellingPartnerAPI\Models\Finances\TaxWithheldComponentList',    ];
 
     /**
      * Array of property to format mappings. Used for (de)serialization.
@@ -312,7 +312,7 @@ class RentalTransactionEvent implements ModelInterface, ArrayAccess
     /**
      * Gets posted_date.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\DateTime
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Finances\DateTime
      */
     public function getPostedDate()
     {
@@ -322,7 +322,7 @@ class RentalTransactionEvent implements ModelInterface, ArrayAccess
     /**
      * Sets posted_date.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\DateTime $posted_date posted_date
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Finances\DateTime $posted_date posted_date
      *
      * @return $this
      */
@@ -336,7 +336,7 @@ class RentalTransactionEvent implements ModelInterface, ArrayAccess
     /**
      * Gets rental_charge_list.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\ChargeComponentList
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Finances\ChargeComponentList
      */
     public function getRentalChargeList()
     {
@@ -346,7 +346,7 @@ class RentalTransactionEvent implements ModelInterface, ArrayAccess
     /**
      * Sets rental_charge_list.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\ChargeComponentList $rental_charge_list rental_charge_list
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Finances\ChargeComponentList $rental_charge_list rental_charge_list
      *
      * @return $this
      */
@@ -360,7 +360,7 @@ class RentalTransactionEvent implements ModelInterface, ArrayAccess
     /**
      * Gets rental_fee_list.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\FeeComponentList
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Finances\FeeComponentList
      */
     public function getRentalFeeList()
     {
@@ -370,7 +370,7 @@ class RentalTransactionEvent implements ModelInterface, ArrayAccess
     /**
      * Sets rental_fee_list.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\FeeComponentList $rental_fee_list rental_fee_list
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Finances\FeeComponentList $rental_fee_list rental_fee_list
      *
      * @return $this
      */
@@ -408,7 +408,7 @@ class RentalTransactionEvent implements ModelInterface, ArrayAccess
     /**
      * Gets rental_initial_value.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\Currency
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Finances\Currency
      */
     public function getRentalInitialValue()
     {
@@ -418,7 +418,7 @@ class RentalTransactionEvent implements ModelInterface, ArrayAccess
     /**
      * Sets rental_initial_value.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\Currency $rental_initial_value rental_initial_value
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Finances\Currency $rental_initial_value rental_initial_value
      *
      * @return $this
      */
@@ -432,7 +432,7 @@ class RentalTransactionEvent implements ModelInterface, ArrayAccess
     /**
      * Gets rental_reimbursement.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\Currency
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Finances\Currency
      */
     public function getRentalReimbursement()
     {
@@ -442,7 +442,7 @@ class RentalTransactionEvent implements ModelInterface, ArrayAccess
     /**
      * Sets rental_reimbursement.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\Currency $rental_reimbursement rental_reimbursement
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Finances\Currency $rental_reimbursement rental_reimbursement
      *
      * @return $this
      */
@@ -456,7 +456,7 @@ class RentalTransactionEvent implements ModelInterface, ArrayAccess
     /**
      * Gets rental_tax_withheld_list.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\TaxWithheldComponentList
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Finances\TaxWithheldComponentList
      */
     public function getRentalTaxWithheldList()
     {
@@ -466,7 +466,7 @@ class RentalTransactionEvent implements ModelInterface, ArrayAccess
     /**
      * Sets rental_tax_withheld_list.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\TaxWithheldComponentList $rental_tax_withheld_list rental_tax_withheld_list
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Finances\TaxWithheldComponentList $rental_tax_withheld_list rental_tax_withheld_list
      *
      * @return $this
      */

@@ -15,11 +15,11 @@
  * OpenAPI spec version: v1
  */
 
-namespace Plentymarkets\AmazonSellingPartnerAPI\Models\Sellers;
+namespace Plenty\AmazonSellingPartnerAPI\Models\Sellers;
 
 use ArrayAccess;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
-use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plenty\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plenty\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * MarketplaceParticipation Class Doc Comment.
@@ -43,8 +43,8 @@ class MarketplaceParticipation implements ModelInterface, ArrayAccess
      * @var string[]
      */
     protected static $swaggerTypes = [
-        'marketplace' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Sellers\Marketplace',
-'participation' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Sellers\Participation',    ];
+        'marketplace' => '\Plenty\AmazonSellingPartnerAPI\Models\Sellers\Marketplace',
+'participation' => '\Plenty\AmazonSellingPartnerAPI\Models\Sellers\Participation',    ];
 
     /**
      * Array of property to format mappings. Used for (de)serialization.
@@ -196,7 +196,7 @@ class MarketplaceParticipation implements ModelInterface, ArrayAccess
     /**
      * Gets marketplace.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Sellers\Marketplace
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Sellers\Marketplace
      */
     public function getMarketplace()
     {
@@ -206,7 +206,7 @@ class MarketplaceParticipation implements ModelInterface, ArrayAccess
     /**
      * Sets marketplace.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Sellers\Marketplace $marketplace marketplace
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Sellers\Marketplace $marketplace marketplace
      *
      * @return $this
      */
@@ -220,7 +220,7 @@ class MarketplaceParticipation implements ModelInterface, ArrayAccess
     /**
      * Gets participation.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Sellers\Participation
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Sellers\Participation
      */
     public function getParticipation()
     {
@@ -230,7 +230,7 @@ class MarketplaceParticipation implements ModelInterface, ArrayAccess
     /**
      * Sets participation.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Sellers\Participation $participation participation
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Sellers\Participation $participation participation
      *
      * @return $this
      */

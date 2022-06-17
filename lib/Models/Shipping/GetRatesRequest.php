@@ -15,11 +15,11 @@
  * OpenAPI spec version: v1
  */
 
-namespace Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping;
+namespace Plenty\AmazonSellingPartnerAPI\Models\Shipping;
 
 use ArrayAccess;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
-use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plenty\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plenty\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * GetRatesRequest Class Doc Comment.
@@ -46,11 +46,11 @@ class GetRatesRequest implements ModelInterface, ArrayAccess
      * @var string[]
      */
     protected static $swaggerTypes = [
-        'ship_to' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\Address',
-'ship_from' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\Address',
-'service_types' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\ServiceTypeList',
+        'ship_to' => '\Plenty\AmazonSellingPartnerAPI\Models\Shipping\Address',
+'ship_from' => '\Plenty\AmazonSellingPartnerAPI\Models\Shipping\Address',
+'service_types' => '\Plenty\AmazonSellingPartnerAPI\Models\Shipping\ServiceTypeList',
 'ship_date' => '\DateTime',
-'container_specifications' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\ContainerSpecificationList',    ];
+'container_specifications' => '\Plenty\AmazonSellingPartnerAPI\Models\Shipping\ContainerSpecificationList',    ];
 
     /**
      * Array of property to format mappings. Used for (de)serialization.
@@ -223,7 +223,7 @@ class GetRatesRequest implements ModelInterface, ArrayAccess
     /**
      * Gets ship_to.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\Address
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Shipping\Address
      */
     public function getShipTo()
     {
@@ -233,7 +233,7 @@ class GetRatesRequest implements ModelInterface, ArrayAccess
     /**
      * Sets ship_to.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\Address $ship_to ship_to
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Shipping\Address $ship_to ship_to
      *
      * @return $this
      */
@@ -247,7 +247,7 @@ class GetRatesRequest implements ModelInterface, ArrayAccess
     /**
      * Gets ship_from.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\Address
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Shipping\Address
      */
     public function getShipFrom()
     {
@@ -257,7 +257,7 @@ class GetRatesRequest implements ModelInterface, ArrayAccess
     /**
      * Sets ship_from.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\Address $ship_from ship_from
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Shipping\Address $ship_from ship_from
      *
      * @return $this
      */
@@ -271,7 +271,7 @@ class GetRatesRequest implements ModelInterface, ArrayAccess
     /**
      * Gets service_types.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\ServiceTypeList
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Shipping\ServiceTypeList
      */
     public function getServiceTypes()
     {
@@ -281,7 +281,7 @@ class GetRatesRequest implements ModelInterface, ArrayAccess
     /**
      * Sets service_types.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\ServiceTypeList $service_types service_types
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Shipping\ServiceTypeList $service_types service_types
      *
      * @return $this
      */
@@ -319,7 +319,7 @@ class GetRatesRequest implements ModelInterface, ArrayAccess
     /**
      * Gets container_specifications.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\ContainerSpecificationList
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Shipping\ContainerSpecificationList
      */
     public function getContainerSpecifications()
     {
@@ -329,7 +329,7 @@ class GetRatesRequest implements ModelInterface, ArrayAccess
     /**
      * Sets container_specifications.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\ContainerSpecificationList $container_specifications container_specifications
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Shipping\ContainerSpecificationList $container_specifications container_specifications
      *
      * @return $this
      */

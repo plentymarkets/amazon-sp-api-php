@@ -15,11 +15,11 @@
  * OpenAPI spec version: v0
  */
 
-namespace Plentymarkets\AmazonSellingPartnerAPI\Models\Orders;
+namespace Plenty\AmazonSellingPartnerAPI\Models\Orders;
 
 use ArrayAccess;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
-use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plenty\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plenty\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * OrderAddress Class Doc Comment.
@@ -47,7 +47,7 @@ class OrderAddress implements ModelInterface, ArrayAccess
      */
     protected static $swaggerTypes = [
         'amazon_order_id' => 'string',
-'shipping_address' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Orders\Address',    ];
+'shipping_address' => '\Plenty\AmazonSellingPartnerAPI\Models\Orders\Address',    ];
 
     /**
      * Array of property to format mappings. Used for (de)serialization.
@@ -220,7 +220,7 @@ class OrderAddress implements ModelInterface, ArrayAccess
     /**
      * Gets shipping_address.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Orders\Address
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Orders\Address
      */
     public function getShippingAddress()
     {
@@ -230,7 +230,7 @@ class OrderAddress implements ModelInterface, ArrayAccess
     /**
      * Sets shipping_address.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Orders\Address $shipping_address shipping_address
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Orders\Address $shipping_address shipping_address
      *
      * @return $this
      */

@@ -15,11 +15,11 @@
  * OpenAPI spec version: v1
  */
 
-namespace Plentymarkets\AmazonSellingPartnerAPI\Models\FbaSmallAndLight;
+namespace Plenty\AmazonSellingPartnerAPI\Models\FbaSmallAndLight;
 
 use ArrayAccess;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
-use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plenty\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plenty\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * FeeLineItem Class Doc Comment.
@@ -47,7 +47,7 @@ class FeeLineItem implements ModelInterface, ArrayAccess
      */
     protected static $swaggerTypes = [
         'fee_type' => 'string',
-'fee_charge' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\FbaSmallAndLight\MoneyType',    ];
+'fee_charge' => '\Plenty\AmazonSellingPartnerAPI\Models\FbaSmallAndLight\MoneyType',    ];
 
     /**
      * Array of property to format mappings. Used for (de)serialization.
@@ -254,7 +254,7 @@ self::FEE_TYPE_COMMISSION,        ];
     /**
      * Gets fee_charge.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\FbaSmallAndLight\MoneyType
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\FbaSmallAndLight\MoneyType
      */
     public function getFeeCharge()
     {
@@ -264,7 +264,7 @@ self::FEE_TYPE_COMMISSION,        ];
     /**
      * Sets fee_charge.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\FbaSmallAndLight\MoneyType $fee_charge fee_charge
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\FbaSmallAndLight\MoneyType $fee_charge fee_charge
      *
      * @return $this
      */

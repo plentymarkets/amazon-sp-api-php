@@ -15,11 +15,11 @@
  * OpenAPI spec version: v1
  */
 
-namespace Plentymarkets\AmazonSellingPartnerAPI\Models\FbaInventory;
+namespace Plenty\AmazonSellingPartnerAPI\Models\FbaInventory;
 
 use ArrayAccess;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
-use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plenty\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plenty\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * GetInventorySummariesResponse Class Doc Comment.
@@ -46,9 +46,9 @@ class GetInventorySummariesResponse implements ModelInterface, ArrayAccess
      * @var string[]
      */
     protected static $swaggerTypes = [
-        'payload' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\FbaInventory\GetInventorySummariesResult',
-'pagination' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\FbaInventory\Pagination',
-'errors' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\FbaInventory\ErrorList',    ];
+        'payload' => '\Plenty\AmazonSellingPartnerAPI\Models\FbaInventory\GetInventorySummariesResult',
+'pagination' => '\Plenty\AmazonSellingPartnerAPI\Models\FbaInventory\Pagination',
+'errors' => '\Plenty\AmazonSellingPartnerAPI\Models\FbaInventory\ErrorList',    ];
 
     /**
      * Array of property to format mappings. Used for (de)serialization.
@@ -198,7 +198,7 @@ class GetInventorySummariesResponse implements ModelInterface, ArrayAccess
     /**
      * Gets payload.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\FbaInventory\GetInventorySummariesResult
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\FbaInventory\GetInventorySummariesResult
      */
     public function getPayload()
     {
@@ -208,7 +208,7 @@ class GetInventorySummariesResponse implements ModelInterface, ArrayAccess
     /**
      * Sets payload.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\FbaInventory\GetInventorySummariesResult $payload payload
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\FbaInventory\GetInventorySummariesResult $payload payload
      *
      * @return $this
      */
@@ -222,7 +222,7 @@ class GetInventorySummariesResponse implements ModelInterface, ArrayAccess
     /**
      * Gets pagination.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\FbaInventory\Pagination
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\FbaInventory\Pagination
      */
     public function getPagination()
     {
@@ -232,7 +232,7 @@ class GetInventorySummariesResponse implements ModelInterface, ArrayAccess
     /**
      * Sets pagination.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\FbaInventory\Pagination $pagination pagination
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\FbaInventory\Pagination $pagination pagination
      *
      * @return $this
      */
@@ -246,7 +246,7 @@ class GetInventorySummariesResponse implements ModelInterface, ArrayAccess
     /**
      * Gets errors.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\FbaInventory\ErrorList
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\FbaInventory\ErrorList
      */
     public function getErrors()
     {
@@ -256,7 +256,7 @@ class GetInventorySummariesResponse implements ModelInterface, ArrayAccess
     /**
      * Sets errors.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\FbaInventory\ErrorList $errors errors
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\FbaInventory\ErrorList $errors errors
      *
      * @return $this
      */

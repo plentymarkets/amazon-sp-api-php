@@ -15,11 +15,11 @@
  * OpenAPI spec version: v0
  */
 
-namespace Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound;
+namespace Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound;
 
 use ArrayAccess;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
-use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plenty\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plenty\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * GetPrepInstructionsResult Class Doc Comment.
@@ -43,10 +43,10 @@ class GetPrepInstructionsResult implements ModelInterface, ArrayAccess
      * @var string[]
      */
     protected static $swaggerTypes = [
-        'sku_prep_instructions_list' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\SKUPrepInstructionsList',
-'invalid_sku_list' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\InvalidSKUList',
-'asin_prep_instructions_list' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\ASINPrepInstructionsList',
-'invalid_asin_list' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\InvalidASINList',    ];
+        'sku_prep_instructions_list' => '\Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\SKUPrepInstructionsList',
+'invalid_sku_list' => '\Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\InvalidSKUList',
+'asin_prep_instructions_list' => '\Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\ASINPrepInstructionsList',
+'invalid_asin_list' => '\Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\InvalidASINList',    ];
 
     /**
      * Array of property to format mappings. Used for (de)serialization.
@@ -201,7 +201,7 @@ class GetPrepInstructionsResult implements ModelInterface, ArrayAccess
     /**
      * Gets sku_prep_instructions_list.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\SKUPrepInstructionsList
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\SKUPrepInstructionsList
      */
     public function getSkuPrepInstructionsList()
     {
@@ -211,7 +211,7 @@ class GetPrepInstructionsResult implements ModelInterface, ArrayAccess
     /**
      * Sets sku_prep_instructions_list.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\SKUPrepInstructionsList $sku_prep_instructions_list sku_prep_instructions_list
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\SKUPrepInstructionsList $sku_prep_instructions_list sku_prep_instructions_list
      *
      * @return $this
      */
@@ -225,7 +225,7 @@ class GetPrepInstructionsResult implements ModelInterface, ArrayAccess
     /**
      * Gets invalid_sku_list.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\InvalidSKUList
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\InvalidSKUList
      */
     public function getInvalidSkuList()
     {
@@ -235,7 +235,7 @@ class GetPrepInstructionsResult implements ModelInterface, ArrayAccess
     /**
      * Sets invalid_sku_list.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\InvalidSKUList $invalid_sku_list invalid_sku_list
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\InvalidSKUList $invalid_sku_list invalid_sku_list
      *
      * @return $this
      */
@@ -249,7 +249,7 @@ class GetPrepInstructionsResult implements ModelInterface, ArrayAccess
     /**
      * Gets asin_prep_instructions_list.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\ASINPrepInstructionsList
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\ASINPrepInstructionsList
      */
     public function getAsinPrepInstructionsList()
     {
@@ -259,7 +259,7 @@ class GetPrepInstructionsResult implements ModelInterface, ArrayAccess
     /**
      * Sets asin_prep_instructions_list.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\ASINPrepInstructionsList $asin_prep_instructions_list asin_prep_instructions_list
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\ASINPrepInstructionsList $asin_prep_instructions_list asin_prep_instructions_list
      *
      * @return $this
      */
@@ -273,7 +273,7 @@ class GetPrepInstructionsResult implements ModelInterface, ArrayAccess
     /**
      * Gets invalid_asin_list.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\InvalidASINList
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\InvalidASINList
      */
     public function getInvalidAsinList()
     {
@@ -283,7 +283,7 @@ class GetPrepInstructionsResult implements ModelInterface, ArrayAccess
     /**
      * Sets invalid_asin_list.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\InvalidASINList $invalid_asin_list invalid_asin_list
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\InvalidASINList $invalid_asin_list invalid_asin_list
      *
      * @return $this
      */

@@ -15,11 +15,11 @@
  * OpenAPI spec version: v0
  */
 
-namespace Plentymarkets\AmazonSellingPartnerAPI\Models\ProductFees;
+namespace Plenty\AmazonSellingPartnerAPI\Models\ProductFees;
 
 use ArrayAccess;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
-use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plenty\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plenty\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * FeesEstimate Class Doc Comment.
@@ -47,8 +47,8 @@ class FeesEstimate implements ModelInterface, ArrayAccess
      */
     protected static $swaggerTypes = [
         'time_of_fees_estimation' => '\DateTime',
-'total_fees_estimate' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\ProductFees\MoneyType',
-'fee_detail_list' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\ProductFees\FeeDetailList',    ];
+'total_fees_estimate' => '\Plenty\AmazonSellingPartnerAPI\Models\ProductFees\MoneyType',
+'fee_detail_list' => '\Plenty\AmazonSellingPartnerAPI\Models\ProductFees\FeeDetailList',    ];
 
     /**
      * Array of property to format mappings. Used for (de)serialization.
@@ -226,7 +226,7 @@ class FeesEstimate implements ModelInterface, ArrayAccess
     /**
      * Gets total_fees_estimate.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\ProductFees\MoneyType
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\ProductFees\MoneyType
      */
     public function getTotalFeesEstimate()
     {
@@ -236,7 +236,7 @@ class FeesEstimate implements ModelInterface, ArrayAccess
     /**
      * Sets total_fees_estimate.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\ProductFees\MoneyType $total_fees_estimate total_fees_estimate
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\ProductFees\MoneyType $total_fees_estimate total_fees_estimate
      *
      * @return $this
      */
@@ -250,7 +250,7 @@ class FeesEstimate implements ModelInterface, ArrayAccess
     /**
      * Gets fee_detail_list.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\ProductFees\FeeDetailList
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\ProductFees\FeeDetailList
      */
     public function getFeeDetailList()
     {
@@ -260,7 +260,7 @@ class FeesEstimate implements ModelInterface, ArrayAccess
     /**
      * Sets fee_detail_list.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\ProductFees\FeeDetailList $fee_detail_list fee_detail_list
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\ProductFees\FeeDetailList $fee_detail_list fee_detail_list
      *
      * @return $this
      */

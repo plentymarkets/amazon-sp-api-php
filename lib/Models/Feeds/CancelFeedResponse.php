@@ -15,11 +15,11 @@
  * OpenAPI spec version: 2020-09-04
  */
 
-namespace Plentymarkets\AmazonSellingPartnerAPI\Models\Feeds;
+namespace Plenty\AmazonSellingPartnerAPI\Models\Feeds;
 
 use ArrayAccess;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
-use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plenty\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plenty\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * CancelFeedResponse Class Doc Comment.
@@ -46,7 +46,7 @@ class CancelFeedResponse implements ModelInterface, ArrayAccess
      * @var string[]
      */
     protected static $swaggerTypes = [
-        'errors' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Feeds\ErrorList',    ];
+        'errors' => '\Plenty\AmazonSellingPartnerAPI\Models\Feeds\ErrorList',    ];
 
     /**
      * Array of property to format mappings. Used for (de)serialization.
@@ -186,7 +186,7 @@ class CancelFeedResponse implements ModelInterface, ArrayAccess
     /**
      * Gets errors.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Feeds\ErrorList
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Feeds\ErrorList
      */
     public function getErrors()
     {
@@ -196,7 +196,7 @@ class CancelFeedResponse implements ModelInterface, ArrayAccess
     /**
      * Sets errors.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Feeds\ErrorList $errors errors
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Feeds\ErrorList $errors errors
      *
      * @return $this
      */

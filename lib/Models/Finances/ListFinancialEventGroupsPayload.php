@@ -15,11 +15,11 @@
  * OpenAPI spec version: v0
  */
 
-namespace Plentymarkets\AmazonSellingPartnerAPI\Models\Finances;
+namespace Plenty\AmazonSellingPartnerAPI\Models\Finances;
 
 use ArrayAccess;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
-use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plenty\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plenty\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * ListFinancialEventGroupsPayload Class Doc Comment.
@@ -47,7 +47,7 @@ class ListFinancialEventGroupsPayload implements ModelInterface, ArrayAccess
      */
     protected static $swaggerTypes = [
         'next_token' => 'string',
-'financial_event_group_list' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\FinancialEventGroupList',    ];
+'financial_event_group_list' => '\Plenty\AmazonSellingPartnerAPI\Models\Finances\FinancialEventGroupList',    ];
 
     /**
      * Array of property to format mappings. Used for (de)serialization.
@@ -216,7 +216,7 @@ class ListFinancialEventGroupsPayload implements ModelInterface, ArrayAccess
     /**
      * Gets financial_event_group_list.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\FinancialEventGroupList
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Finances\FinancialEventGroupList
      */
     public function getFinancialEventGroupList()
     {
@@ -226,7 +226,7 @@ class ListFinancialEventGroupsPayload implements ModelInterface, ArrayAccess
     /**
      * Sets financial_event_group_list.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\FinancialEventGroupList $financial_event_group_list financial_event_group_list
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Finances\FinancialEventGroupList $financial_event_group_list financial_event_group_list
      *
      * @return $this
      */

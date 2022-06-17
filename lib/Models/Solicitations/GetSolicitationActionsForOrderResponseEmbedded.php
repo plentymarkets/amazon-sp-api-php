@@ -15,11 +15,11 @@
  * OpenAPI spec version: v1
  */
 
-namespace Plentymarkets\AmazonSellingPartnerAPI\Models\Solicitations;
+namespace Plenty\AmazonSellingPartnerAPI\Models\Solicitations;
 
 use ArrayAccess;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
-use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plenty\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plenty\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * GetSolicitationActionsForOrderResponseEmbedded Class Doc Comment.
@@ -43,7 +43,7 @@ class GetSolicitationActionsForOrderResponseEmbedded implements ModelInterface, 
      * @var string[]
      */
     protected static $swaggerTypes = [
-        'actions' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Solicitations\GetSolicitationActionResponse[]',    ];
+        'actions' => '\Plenty\AmazonSellingPartnerAPI\Models\Solicitations\GetSolicitationActionResponse[]',    ];
 
     /**
      * Array of property to format mappings. Used for (de)serialization.
@@ -187,7 +187,7 @@ class GetSolicitationActionsForOrderResponseEmbedded implements ModelInterface, 
     /**
      * Gets actions.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Solicitations\GetSolicitationActionResponse[]
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Solicitations\GetSolicitationActionResponse[]
      */
     public function getActions()
     {
@@ -197,7 +197,7 @@ class GetSolicitationActionsForOrderResponseEmbedded implements ModelInterface, 
     /**
      * Sets actions.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Solicitations\GetSolicitationActionResponse[] $actions actions
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Solicitations\GetSolicitationActionResponse[] $actions actions
      *
      * @return $this
      */

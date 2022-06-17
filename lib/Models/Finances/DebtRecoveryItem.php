@@ -15,11 +15,11 @@
  * OpenAPI spec version: v0
  */
 
-namespace Plentymarkets\AmazonSellingPartnerAPI\Models\Finances;
+namespace Plenty\AmazonSellingPartnerAPI\Models\Finances;
 
 use ArrayAccess;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
-use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plenty\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plenty\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * DebtRecoveryItem Class Doc Comment.
@@ -46,10 +46,10 @@ class DebtRecoveryItem implements ModelInterface, ArrayAccess
      * @var string[]
      */
     protected static $swaggerTypes = [
-        'recovery_amount' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\Currency',
-'original_amount' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\Currency',
-'group_begin_date' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\\DateTime',
-'group_end_date' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\\DateTime',    ];
+        'recovery_amount' => '\Plenty\AmazonSellingPartnerAPI\Models\Finances\Currency',
+'original_amount' => '\Plenty\AmazonSellingPartnerAPI\Models\Finances\Currency',
+'group_begin_date' => '\Plenty\AmazonSellingPartnerAPI\Models\Finances\\DateTime',
+'group_end_date' => '\Plenty\AmazonSellingPartnerAPI\Models\Finances\\DateTime',    ];
 
     /**
      * Array of property to format mappings. Used for (de)serialization.
@@ -204,7 +204,7 @@ class DebtRecoveryItem implements ModelInterface, ArrayAccess
     /**
      * Gets recovery_amount.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\Currency
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Finances\Currency
      */
     public function getRecoveryAmount()
     {
@@ -214,7 +214,7 @@ class DebtRecoveryItem implements ModelInterface, ArrayAccess
     /**
      * Sets recovery_amount.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\Currency $recovery_amount recovery_amount
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Finances\Currency $recovery_amount recovery_amount
      *
      * @return $this
      */
@@ -228,7 +228,7 @@ class DebtRecoveryItem implements ModelInterface, ArrayAccess
     /**
      * Gets original_amount.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\Currency
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Finances\Currency
      */
     public function getOriginalAmount()
     {
@@ -238,7 +238,7 @@ class DebtRecoveryItem implements ModelInterface, ArrayAccess
     /**
      * Sets original_amount.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\Currency $original_amount original_amount
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Finances\Currency $original_amount original_amount
      *
      * @return $this
      */
@@ -252,7 +252,7 @@ class DebtRecoveryItem implements ModelInterface, ArrayAccess
     /**
      * Gets group_begin_date.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\DateTime
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Finances\DateTime
      */
     public function getGroupBeginDate()
     {
@@ -262,7 +262,7 @@ class DebtRecoveryItem implements ModelInterface, ArrayAccess
     /**
      * Sets group_begin_date.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\DateTime $group_begin_date group_begin_date
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Finances\DateTime $group_begin_date group_begin_date
      *
      * @return $this
      */
@@ -276,7 +276,7 @@ class DebtRecoveryItem implements ModelInterface, ArrayAccess
     /**
      * Gets group_end_date.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\DateTime
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Finances\DateTime
      */
     public function getGroupEndDate()
     {
@@ -286,7 +286,7 @@ class DebtRecoveryItem implements ModelInterface, ArrayAccess
     /**
      * Sets group_end_date.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\DateTime $group_end_date group_end_date
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Finances\DateTime $group_end_date group_end_date
      *
      * @return $this
      */

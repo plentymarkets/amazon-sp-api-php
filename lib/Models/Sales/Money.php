@@ -15,11 +15,11 @@
  * OpenAPI spec version: v1
  */
 
-namespace Plentymarkets\AmazonSellingPartnerAPI\Models\Sales;
+namespace Plenty\AmazonSellingPartnerAPI\Models\Sales;
 
 use ArrayAccess;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
-use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plenty\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plenty\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * Money Class Doc Comment.
@@ -47,7 +47,7 @@ class Money implements ModelInterface, ArrayAccess
      */
     protected static $swaggerTypes = [
         'currency_code' => 'string',
-'amount' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Sales\Decimal',    ];
+'amount' => '\Plenty\AmazonSellingPartnerAPI\Models\Sales\Decimal',    ];
 
     /**
      * Array of property to format mappings. Used for (de)serialization.
@@ -223,7 +223,7 @@ class Money implements ModelInterface, ArrayAccess
     /**
      * Gets amount.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Sales\Decimal
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Sales\Decimal
      */
     public function getAmount()
     {
@@ -233,7 +233,7 @@ class Money implements ModelInterface, ArrayAccess
     /**
      * Sets amount.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Sales\Decimal $amount amount
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Sales\Decimal $amount amount
      *
      * @return $this
      */

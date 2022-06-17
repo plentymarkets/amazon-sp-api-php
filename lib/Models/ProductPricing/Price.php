@@ -15,11 +15,11 @@
  * OpenAPI spec version: v0
  */
 
-namespace Plentymarkets\AmazonSellingPartnerAPI\Models\ProductPricing;
+namespace Plenty\AmazonSellingPartnerAPI\Models\ProductPricing;
 
 use ArrayAccess;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
-use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plenty\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plenty\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * Price Class Doc Comment.
@@ -46,7 +46,7 @@ class Price implements ModelInterface, ArrayAccess
         'status' => 'string',
 'seller_sku' => 'string',
 'asin' => 'string',
-'product' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\ProductPricing\Product',    ];
+'product' => '\Plenty\AmazonSellingPartnerAPI\Models\ProductPricing\Product',    ];
 
     /**
      * Array of property to format mappings. Used for (de)serialization.
@@ -277,7 +277,7 @@ class Price implements ModelInterface, ArrayAccess
     /**
      * Gets product.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\ProductPricing\Product
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\ProductPricing\Product
      */
     public function getProduct()
     {
@@ -287,7 +287,7 @@ class Price implements ModelInterface, ArrayAccess
     /**
      * Sets product.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\ProductPricing\Product $product product
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\ProductPricing\Product $product product
      *
      * @return $this
      */

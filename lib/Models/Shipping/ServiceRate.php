@@ -15,11 +15,11 @@
  * OpenAPI spec version: v1
  */
 
-namespace Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping;
+namespace Plenty\AmazonSellingPartnerAPI\Models\Shipping;
 
 use ArrayAccess;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
-use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plenty\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plenty\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * ServiceRate Class Doc Comment.
@@ -46,10 +46,10 @@ class ServiceRate implements ModelInterface, ArrayAccess
      * @var string[]
      */
     protected static $swaggerTypes = [
-        'total_charge' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\Currency',
-'billable_weight' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\Weight',
-'service_type' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\ServiceType',
-'promise' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\ShippingPromiseSet',    ];
+        'total_charge' => '\Plenty\AmazonSellingPartnerAPI\Models\Shipping\Currency',
+'billable_weight' => '\Plenty\AmazonSellingPartnerAPI\Models\Shipping\Weight',
+'service_type' => '\Plenty\AmazonSellingPartnerAPI\Models\Shipping\ServiceType',
+'promise' => '\Plenty\AmazonSellingPartnerAPI\Models\Shipping\ShippingPromiseSet',    ];
 
     /**
      * Array of property to format mappings. Used for (de)serialization.
@@ -217,7 +217,7 @@ class ServiceRate implements ModelInterface, ArrayAccess
     /**
      * Gets total_charge.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\Currency
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Shipping\Currency
      */
     public function getTotalCharge()
     {
@@ -227,7 +227,7 @@ class ServiceRate implements ModelInterface, ArrayAccess
     /**
      * Sets total_charge.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\Currency $total_charge total_charge
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Shipping\Currency $total_charge total_charge
      *
      * @return $this
      */
@@ -241,7 +241,7 @@ class ServiceRate implements ModelInterface, ArrayAccess
     /**
      * Gets billable_weight.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\Weight
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Shipping\Weight
      */
     public function getBillableWeight()
     {
@@ -251,7 +251,7 @@ class ServiceRate implements ModelInterface, ArrayAccess
     /**
      * Sets billable_weight.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\Weight $billable_weight billable_weight
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Shipping\Weight $billable_weight billable_weight
      *
      * @return $this
      */
@@ -265,7 +265,7 @@ class ServiceRate implements ModelInterface, ArrayAccess
     /**
      * Gets service_type.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\ServiceType
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Shipping\ServiceType
      */
     public function getServiceType()
     {
@@ -275,7 +275,7 @@ class ServiceRate implements ModelInterface, ArrayAccess
     /**
      * Sets service_type.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\ServiceType $service_type service_type
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Shipping\ServiceType $service_type service_type
      *
      * @return $this
      */
@@ -289,7 +289,7 @@ class ServiceRate implements ModelInterface, ArrayAccess
     /**
      * Gets promise.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\ShippingPromiseSet
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Shipping\ShippingPromiseSet
      */
     public function getPromise()
     {
@@ -299,7 +299,7 @@ class ServiceRate implements ModelInterface, ArrayAccess
     /**
      * Sets promise.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\ShippingPromiseSet $promise promise
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Shipping\ShippingPromiseSet $promise promise
      *
      * @return $this
      */

@@ -15,11 +15,11 @@
  * OpenAPI spec version: v1
  */
 
-namespace Plentymarkets\AmazonSellingPartnerAPI\Models\Solicitations;
+namespace Plenty\AmazonSellingPartnerAPI\Models\Solicitations;
 
 use ArrayAccess;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
-use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plenty\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plenty\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * GetSolicitationActionsForOrderResponseLinks Class Doc Comment.
@@ -43,8 +43,8 @@ class GetSolicitationActionsForOrderResponseLinks implements ModelInterface, Arr
      * @var string[]
      */
     protected static $swaggerTypes = [
-        'self' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Solicitations\LinkObject',
-'actions' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Solicitations\LinkObject[]',    ];
+        'self' => '\Plenty\AmazonSellingPartnerAPI\Models\Solicitations\LinkObject',
+'actions' => '\Plenty\AmazonSellingPartnerAPI\Models\Solicitations\LinkObject[]',    ];
 
     /**
      * Array of property to format mappings. Used for (de)serialization.
@@ -196,7 +196,7 @@ class GetSolicitationActionsForOrderResponseLinks implements ModelInterface, Arr
     /**
      * Gets self.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Solicitations\LinkObject
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Solicitations\LinkObject
      */
     public function getSelf()
     {
@@ -206,7 +206,7 @@ class GetSolicitationActionsForOrderResponseLinks implements ModelInterface, Arr
     /**
      * Sets self.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Solicitations\LinkObject $self self
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Solicitations\LinkObject $self self
      *
      * @return $this
      */
@@ -220,7 +220,7 @@ class GetSolicitationActionsForOrderResponseLinks implements ModelInterface, Arr
     /**
      * Gets actions.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Solicitations\LinkObject[]
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Solicitations\LinkObject[]
      */
     public function getActions()
     {
@@ -230,7 +230,7 @@ class GetSolicitationActionsForOrderResponseLinks implements ModelInterface, Arr
     /**
      * Sets actions.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Solicitations\LinkObject[] $actions eligible actions for the specified amazonOrderId
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Solicitations\LinkObject[] $actions eligible actions for the specified amazonOrderId
      *
      * @return $this
      */

@@ -13,7 +13,7 @@
  * OpenAPI spec version: v1
  */
 
-namespace Plentymarkets\AmazonSellingPartnerAPI;
+namespace Plenty\AmazonSellingPartnerAPI;
 
 use Exception;
 

@@ -15,11 +15,11 @@
  * OpenAPI spec version: 2020-07-01
  */
 
-namespace Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound;
+namespace Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound;
 
 use ArrayAccess;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
-use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plenty\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plenty\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * FulfillmentShipment Class Doc Comment.
@@ -49,11 +49,11 @@ class FulfillmentShipment implements ModelInterface, ArrayAccess
         'amazon_shipment_id' => 'string',
 'fulfillment_center_id' => 'string',
 'fulfillment_shipment_status' => 'string',
-'shipping_date' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\Timestamp',
-'estimated_arrival_date' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\Timestamp',
+'shipping_date' => '\Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\Timestamp',
+'estimated_arrival_date' => '\Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\Timestamp',
 'shipping_notes' => 'string[]',
-'fulfillment_shipment_item' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\FulfillmentShipmentItemList',
-'fulfillment_shipment_package' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\FulfillmentShipmentPackageList',    ];
+'fulfillment_shipment_item' => '\Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\FulfillmentShipmentItemList',
+'fulfillment_shipment_package' => '\Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\FulfillmentShipmentPackageList',    ];
 
     /**
      * Array of property to format mappings. Used for (de)serialization.
@@ -344,7 +344,7 @@ self::FULFILLMENT_SHIPMENT_STATUS_CANCELLED_BY_SELLER,        ];
     /**
      * Gets shipping_date.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\Timestamp
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\Timestamp
      */
     public function getShippingDate()
     {
@@ -354,7 +354,7 @@ self::FULFILLMENT_SHIPMENT_STATUS_CANCELLED_BY_SELLER,        ];
     /**
      * Sets shipping_date.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\Timestamp $shipping_date shipping_date
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\Timestamp $shipping_date shipping_date
      *
      * @return $this
      */
@@ -368,7 +368,7 @@ self::FULFILLMENT_SHIPMENT_STATUS_CANCELLED_BY_SELLER,        ];
     /**
      * Gets estimated_arrival_date.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\Timestamp
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\Timestamp
      */
     public function getEstimatedArrivalDate()
     {
@@ -378,7 +378,7 @@ self::FULFILLMENT_SHIPMENT_STATUS_CANCELLED_BY_SELLER,        ];
     /**
      * Sets estimated_arrival_date.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\Timestamp $estimated_arrival_date estimated_arrival_date
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\Timestamp $estimated_arrival_date estimated_arrival_date
      *
      * @return $this
      */
@@ -416,7 +416,7 @@ self::FULFILLMENT_SHIPMENT_STATUS_CANCELLED_BY_SELLER,        ];
     /**
      * Gets fulfillment_shipment_item.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\FulfillmentShipmentItemList
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\FulfillmentShipmentItemList
      */
     public function getFulfillmentShipmentItem()
     {
@@ -426,7 +426,7 @@ self::FULFILLMENT_SHIPMENT_STATUS_CANCELLED_BY_SELLER,        ];
     /**
      * Sets fulfillment_shipment_item.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\FulfillmentShipmentItemList $fulfillment_shipment_item fulfillment_shipment_item
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\FulfillmentShipmentItemList $fulfillment_shipment_item fulfillment_shipment_item
      *
      * @return $this
      */
@@ -440,7 +440,7 @@ self::FULFILLMENT_SHIPMENT_STATUS_CANCELLED_BY_SELLER,        ];
     /**
      * Gets fulfillment_shipment_package.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\FulfillmentShipmentPackageList
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\FulfillmentShipmentPackageList
      */
     public function getFulfillmentShipmentPackage()
     {
@@ -450,7 +450,7 @@ self::FULFILLMENT_SHIPMENT_STATUS_CANCELLED_BY_SELLER,        ];
     /**
      * Sets fulfillment_shipment_package.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\FulfillmentShipmentPackageList $fulfillment_shipment_package fulfillment_shipment_package
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\FulfillmentShipmentPackageList $fulfillment_shipment_package fulfillment_shipment_package
      *
      * @return $this
      */

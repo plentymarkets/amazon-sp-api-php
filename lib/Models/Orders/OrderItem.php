@@ -15,11 +15,11 @@
  * OpenAPI spec version: v0
  */
 
-namespace Plentymarkets\AmazonSellingPartnerAPI\Models\Orders;
+namespace Plenty\AmazonSellingPartnerAPI\Models\Orders;
 
 use ArrayAccess;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
-use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plenty\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plenty\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * OrderItem Class Doc Comment.
@@ -52,19 +52,19 @@ class OrderItem implements ModelInterface, ArrayAccess
 'title' => 'string',
 'quantity_ordered' => 'int',
 'quantity_shipped' => 'int',
-'product_info' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Orders\ProductInfoDetail',
-'points_granted' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Orders\PointsGrantedDetail',
-'item_price' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Orders\Money',
-'shipping_price' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Orders\Money',
-'item_tax' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Orders\Money',
-'shipping_tax' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Orders\Money',
-'shipping_discount' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Orders\Money',
-'shipping_discount_tax' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Orders\Money',
-'promotion_discount' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Orders\Money',
-'promotion_discount_tax' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Orders\Money',
-'promotion_ids' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Orders\PromotionIdList',
-'cod_fee' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Orders\Money',
-'cod_fee_discount' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Orders\Money',
+'product_info' => '\Plenty\AmazonSellingPartnerAPI\Models\Orders\ProductInfoDetail',
+'points_granted' => '\Plenty\AmazonSellingPartnerAPI\Models\Orders\PointsGrantedDetail',
+'item_price' => '\Plenty\AmazonSellingPartnerAPI\Models\Orders\Money',
+'shipping_price' => '\Plenty\AmazonSellingPartnerAPI\Models\Orders\Money',
+'item_tax' => '\Plenty\AmazonSellingPartnerAPI\Models\Orders\Money',
+'shipping_tax' => '\Plenty\AmazonSellingPartnerAPI\Models\Orders\Money',
+'shipping_discount' => '\Plenty\AmazonSellingPartnerAPI\Models\Orders\Money',
+'shipping_discount_tax' => '\Plenty\AmazonSellingPartnerAPI\Models\Orders\Money',
+'promotion_discount' => '\Plenty\AmazonSellingPartnerAPI\Models\Orders\Money',
+'promotion_discount_tax' => '\Plenty\AmazonSellingPartnerAPI\Models\Orders\Money',
+'promotion_ids' => '\Plenty\AmazonSellingPartnerAPI\Models\Orders\PromotionIdList',
+'cod_fee' => '\Plenty\AmazonSellingPartnerAPI\Models\Orders\Money',
+'cod_fee_discount' => '\Plenty\AmazonSellingPartnerAPI\Models\Orders\Money',
 'is_gift' => 'bool',
 'condition_note' => 'string',
 'condition_id' => 'string',
@@ -72,7 +72,7 @@ class OrderItem implements ModelInterface, ArrayAccess
 'scheduled_delivery_start_date' => 'string',
 'scheduled_delivery_end_date' => 'string',
 'price_designation' => 'string',
-'tax_collection' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Orders\TaxCollection',
+'tax_collection' => '\Plenty\AmazonSellingPartnerAPI\Models\Orders\TaxCollection',
 'serial_number_required' => 'bool',
 'is_transparency' => 'bool',
 'ioss_number' => 'string',
@@ -542,7 +542,7 @@ self::DEEMED_RESELLER_CATEGORY_UOSS,        ];
     /**
      * Gets product_info.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Orders\ProductInfoDetail
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Orders\ProductInfoDetail
      */
     public function getProductInfo()
     {
@@ -552,7 +552,7 @@ self::DEEMED_RESELLER_CATEGORY_UOSS,        ];
     /**
      * Sets product_info.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Orders\ProductInfoDetail $product_info product_info
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Orders\ProductInfoDetail $product_info product_info
      *
      * @return $this
      */
@@ -566,7 +566,7 @@ self::DEEMED_RESELLER_CATEGORY_UOSS,        ];
     /**
      * Gets points_granted.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Orders\PointsGrantedDetail
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Orders\PointsGrantedDetail
      */
     public function getPointsGranted()
     {
@@ -576,7 +576,7 @@ self::DEEMED_RESELLER_CATEGORY_UOSS,        ];
     /**
      * Sets points_granted.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Orders\PointsGrantedDetail $points_granted points_granted
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Orders\PointsGrantedDetail $points_granted points_granted
      *
      * @return $this
      */
@@ -590,7 +590,7 @@ self::DEEMED_RESELLER_CATEGORY_UOSS,        ];
     /**
      * Gets item_price.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Orders\Money
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Orders\Money
      */
     public function getItemPrice()
     {
@@ -600,7 +600,7 @@ self::DEEMED_RESELLER_CATEGORY_UOSS,        ];
     /**
      * Sets item_price.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Orders\Money $item_price item_price
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Orders\Money $item_price item_price
      *
      * @return $this
      */
@@ -614,7 +614,7 @@ self::DEEMED_RESELLER_CATEGORY_UOSS,        ];
     /**
      * Gets shipping_price.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Orders\Money
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Orders\Money
      */
     public function getShippingPrice()
     {
@@ -624,7 +624,7 @@ self::DEEMED_RESELLER_CATEGORY_UOSS,        ];
     /**
      * Sets shipping_price.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Orders\Money $shipping_price shipping_price
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Orders\Money $shipping_price shipping_price
      *
      * @return $this
      */
@@ -638,7 +638,7 @@ self::DEEMED_RESELLER_CATEGORY_UOSS,        ];
     /**
      * Gets item_tax.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Orders\Money
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Orders\Money
      */
     public function getItemTax()
     {
@@ -648,7 +648,7 @@ self::DEEMED_RESELLER_CATEGORY_UOSS,        ];
     /**
      * Sets item_tax.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Orders\Money $item_tax item_tax
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Orders\Money $item_tax item_tax
      *
      * @return $this
      */
@@ -662,7 +662,7 @@ self::DEEMED_RESELLER_CATEGORY_UOSS,        ];
     /**
      * Gets shipping_tax.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Orders\Money
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Orders\Money
      */
     public function getShippingTax()
     {
@@ -672,7 +672,7 @@ self::DEEMED_RESELLER_CATEGORY_UOSS,        ];
     /**
      * Sets shipping_tax.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Orders\Money $shipping_tax shipping_tax
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Orders\Money $shipping_tax shipping_tax
      *
      * @return $this
      */
@@ -686,7 +686,7 @@ self::DEEMED_RESELLER_CATEGORY_UOSS,        ];
     /**
      * Gets shipping_discount.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Orders\Money
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Orders\Money
      */
     public function getShippingDiscount()
     {
@@ -696,7 +696,7 @@ self::DEEMED_RESELLER_CATEGORY_UOSS,        ];
     /**
      * Sets shipping_discount.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Orders\Money $shipping_discount shipping_discount
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Orders\Money $shipping_discount shipping_discount
      *
      * @return $this
      */
@@ -710,7 +710,7 @@ self::DEEMED_RESELLER_CATEGORY_UOSS,        ];
     /**
      * Gets shipping_discount_tax.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Orders\Money
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Orders\Money
      */
     public function getShippingDiscountTax()
     {
@@ -720,7 +720,7 @@ self::DEEMED_RESELLER_CATEGORY_UOSS,        ];
     /**
      * Sets shipping_discount_tax.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Orders\Money $shipping_discount_tax shipping_discount_tax
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Orders\Money $shipping_discount_tax shipping_discount_tax
      *
      * @return $this
      */
@@ -734,7 +734,7 @@ self::DEEMED_RESELLER_CATEGORY_UOSS,        ];
     /**
      * Gets promotion_discount.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Orders\Money
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Orders\Money
      */
     public function getPromotionDiscount()
     {
@@ -744,7 +744,7 @@ self::DEEMED_RESELLER_CATEGORY_UOSS,        ];
     /**
      * Sets promotion_discount.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Orders\Money $promotion_discount promotion_discount
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Orders\Money $promotion_discount promotion_discount
      *
      * @return $this
      */
@@ -758,7 +758,7 @@ self::DEEMED_RESELLER_CATEGORY_UOSS,        ];
     /**
      * Gets promotion_discount_tax.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Orders\Money
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Orders\Money
      */
     public function getPromotionDiscountTax()
     {
@@ -768,7 +768,7 @@ self::DEEMED_RESELLER_CATEGORY_UOSS,        ];
     /**
      * Sets promotion_discount_tax.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Orders\Money $promotion_discount_tax promotion_discount_tax
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Orders\Money $promotion_discount_tax promotion_discount_tax
      *
      * @return $this
      */
@@ -782,7 +782,7 @@ self::DEEMED_RESELLER_CATEGORY_UOSS,        ];
     /**
      * Gets promotion_ids.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Orders\PromotionIdList
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Orders\PromotionIdList
      */
     public function getPromotionIds()
     {
@@ -792,7 +792,7 @@ self::DEEMED_RESELLER_CATEGORY_UOSS,        ];
     /**
      * Sets promotion_ids.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Orders\PromotionIdList $promotion_ids promotion_ids
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Orders\PromotionIdList $promotion_ids promotion_ids
      *
      * @return $this
      */
@@ -806,7 +806,7 @@ self::DEEMED_RESELLER_CATEGORY_UOSS,        ];
     /**
      * Gets cod_fee.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Orders\Money
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Orders\Money
      */
     public function getCodFee()
     {
@@ -816,7 +816,7 @@ self::DEEMED_RESELLER_CATEGORY_UOSS,        ];
     /**
      * Sets cod_fee.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Orders\Money $cod_fee cod_fee
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Orders\Money $cod_fee cod_fee
      *
      * @return $this
      */
@@ -830,7 +830,7 @@ self::DEEMED_RESELLER_CATEGORY_UOSS,        ];
     /**
      * Gets cod_fee_discount.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Orders\Money
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Orders\Money
      */
     public function getCodFeeDiscount()
     {
@@ -840,7 +840,7 @@ self::DEEMED_RESELLER_CATEGORY_UOSS,        ];
     /**
      * Sets cod_fee_discount.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Orders\Money $cod_fee_discount cod_fee_discount
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Orders\Money $cod_fee_discount cod_fee_discount
      *
      * @return $this
      */
@@ -1022,7 +1022,7 @@ self::DEEMED_RESELLER_CATEGORY_UOSS,        ];
     /**
      * Gets tax_collection.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Orders\TaxCollection
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Orders\TaxCollection
      */
     public function getTaxCollection()
     {
@@ -1032,7 +1032,7 @@ self::DEEMED_RESELLER_CATEGORY_UOSS,        ];
     /**
      * Sets tax_collection.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Orders\TaxCollection $tax_collection tax_collection
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Orders\TaxCollection $tax_collection tax_collection
      *
      * @return $this
      */

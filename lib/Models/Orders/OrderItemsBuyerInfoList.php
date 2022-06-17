@@ -15,12 +15,12 @@
  * OpenAPI spec version: v0
  */
 
-namespace Plentymarkets\AmazonSellingPartnerAPI\Models\Orders;
+namespace Plenty\AmazonSellingPartnerAPI\Models\Orders;
 
 use ArrayAccess;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\IterableType;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
-use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plenty\AmazonSellingPartnerAPI\Models\IterableType;
+use Plenty\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plenty\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * OrderItemsBuyerInfoList Class Doc Comment.
@@ -47,7 +47,7 @@ class OrderItemsBuyerInfoList implements ModelInterface, ArrayAccess, IterableTy
      * @var string[]
      */
     protected static $swaggerTypes = [
-        'order_items' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Orders\OrderItemBuyerInfoList',
+        'order_items' => '\Plenty\AmazonSellingPartnerAPI\Models\Orders\OrderItemBuyerInfoList',
 'next_token' => 'string',
 'amazon_order_id' => 'string',    ];
 
@@ -206,7 +206,7 @@ class OrderItemsBuyerInfoList implements ModelInterface, ArrayAccess, IterableTy
     /**
      * Gets order_items.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Orders\OrderItemBuyerInfoList
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Orders\OrderItemBuyerInfoList
      */
     public function getOrderItems()
     {
@@ -216,7 +216,7 @@ class OrderItemsBuyerInfoList implements ModelInterface, ArrayAccess, IterableTy
     /**
      * Sets order_items.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Orders\OrderItemBuyerInfoList $order_items order_items
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Orders\OrderItemBuyerInfoList $order_items order_items
      *
      * @return $this
      */

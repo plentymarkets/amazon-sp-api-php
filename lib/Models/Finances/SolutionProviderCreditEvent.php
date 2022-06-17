@@ -15,11 +15,11 @@
  * OpenAPI spec version: v0
  */
 
-namespace Plentymarkets\AmazonSellingPartnerAPI\Models\Finances;
+namespace Plenty\AmazonSellingPartnerAPI\Models\Finances;
 
 use ArrayAccess;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
-use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plenty\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plenty\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * SolutionProviderCreditEvent Class Doc Comment.
@@ -54,8 +54,8 @@ class SolutionProviderCreditEvent implements ModelInterface, ArrayAccess
 'seller_store_name' => 'string',
 'provider_id' => 'string',
 'provider_store_name' => 'string',
-'transaction_amount' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\Currency',
-'transaction_creation_date' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\\DateTime',    ];
+'transaction_amount' => '\Plenty\AmazonSellingPartnerAPI\Models\Finances\Currency',
+'transaction_creation_date' => '\Plenty\AmazonSellingPartnerAPI\Models\Finances\\DateTime',    ];
 
     /**
      * Array of property to format mappings. Used for (de)serialization.
@@ -432,7 +432,7 @@ class SolutionProviderCreditEvent implements ModelInterface, ArrayAccess
     /**
      * Gets transaction_amount.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\Currency
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Finances\Currency
      */
     public function getTransactionAmount()
     {
@@ -442,7 +442,7 @@ class SolutionProviderCreditEvent implements ModelInterface, ArrayAccess
     /**
      * Sets transaction_amount.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\Currency $transaction_amount transaction_amount
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Finances\Currency $transaction_amount transaction_amount
      *
      * @return $this
      */
@@ -456,7 +456,7 @@ class SolutionProviderCreditEvent implements ModelInterface, ArrayAccess
     /**
      * Gets transaction_creation_date.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\DateTime
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Finances\DateTime
      */
     public function getTransactionCreationDate()
     {
@@ -466,7 +466,7 @@ class SolutionProviderCreditEvent implements ModelInterface, ArrayAccess
     /**
      * Sets transaction_creation_date.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\DateTime $transaction_creation_date transaction_creation_date
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Finances\DateTime $transaction_creation_date transaction_creation_date
      *
      * @return $this
      */

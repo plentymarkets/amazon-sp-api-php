@@ -15,11 +15,11 @@
  * OpenAPI spec version: v0
  */
 
-namespace Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound;
+namespace Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound;
 
 use ArrayAccess;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
-use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plenty\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plenty\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * Dimensions Class Doc Comment.
@@ -46,10 +46,10 @@ class Dimensions implements ModelInterface, ArrayAccess
      * @var string[]
      */
     protected static $swaggerTypes = [
-        'length' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\BigDecimalType',
-'width' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\BigDecimalType',
-'height' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\BigDecimalType',
-'unit' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\UnitOfMeasurement',    ];
+        'length' => '\Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\BigDecimalType',
+'width' => '\Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\BigDecimalType',
+'height' => '\Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\BigDecimalType',
+'unit' => '\Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\UnitOfMeasurement',    ];
 
     /**
      * Array of property to format mappings. Used for (de)serialization.
@@ -217,7 +217,7 @@ class Dimensions implements ModelInterface, ArrayAccess
     /**
      * Gets length.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\BigDecimalType
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\BigDecimalType
      */
     public function getLength()
     {
@@ -227,7 +227,7 @@ class Dimensions implements ModelInterface, ArrayAccess
     /**
      * Sets length.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\BigDecimalType $length length
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\BigDecimalType $length length
      *
      * @return $this
      */
@@ -241,7 +241,7 @@ class Dimensions implements ModelInterface, ArrayAccess
     /**
      * Gets width.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\BigDecimalType
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\BigDecimalType
      */
     public function getWidth()
     {
@@ -251,7 +251,7 @@ class Dimensions implements ModelInterface, ArrayAccess
     /**
      * Sets width.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\BigDecimalType $width width
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\BigDecimalType $width width
      *
      * @return $this
      */
@@ -265,7 +265,7 @@ class Dimensions implements ModelInterface, ArrayAccess
     /**
      * Gets height.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\BigDecimalType
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\BigDecimalType
      */
     public function getHeight()
     {
@@ -275,7 +275,7 @@ class Dimensions implements ModelInterface, ArrayAccess
     /**
      * Sets height.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\BigDecimalType $height height
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\BigDecimalType $height height
      *
      * @return $this
      */
@@ -289,7 +289,7 @@ class Dimensions implements ModelInterface, ArrayAccess
     /**
      * Gets unit.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\UnitOfMeasurement
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\UnitOfMeasurement
      */
     public function getUnit()
     {
@@ -299,7 +299,7 @@ class Dimensions implements ModelInterface, ArrayAccess
     /**
      * Sets unit.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\UnitOfMeasurement $unit unit
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\UnitOfMeasurement $unit unit
      *
      * @return $this
      */

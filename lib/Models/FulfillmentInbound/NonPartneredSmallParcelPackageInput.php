@@ -15,11 +15,11 @@
  * OpenAPI spec version: v0
  */
 
-namespace Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound;
+namespace Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound;
 
 use ArrayAccess;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
-use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plenty\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plenty\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * NonPartneredSmallParcelPackageInput Class Doc Comment.
@@ -46,7 +46,7 @@ class NonPartneredSmallParcelPackageInput implements ModelInterface, ArrayAccess
      * @var string[]
      */
     protected static $swaggerTypes = [
-        'tracking_id' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\TrackingId',    ];
+        'tracking_id' => '\Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\TrackingId',    ];
 
     /**
      * Array of property to format mappings. Used for (de)serialization.
@@ -190,7 +190,7 @@ class NonPartneredSmallParcelPackageInput implements ModelInterface, ArrayAccess
     /**
      * Gets tracking_id.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\TrackingId
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\TrackingId
      */
     public function getTrackingId()
     {
@@ -200,7 +200,7 @@ class NonPartneredSmallParcelPackageInput implements ModelInterface, ArrayAccess
     /**
      * Sets tracking_id.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\TrackingId $tracking_id tracking_id
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\TrackingId $tracking_id tracking_id
      *
      * @return $this
      */

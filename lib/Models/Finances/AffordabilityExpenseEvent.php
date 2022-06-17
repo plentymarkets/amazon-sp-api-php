@@ -15,11 +15,11 @@
  * OpenAPI spec version: v0
  */
 
-namespace Plentymarkets\AmazonSellingPartnerAPI\Models\Finances;
+namespace Plenty\AmazonSellingPartnerAPI\Models\Finances;
 
 use ArrayAccess;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
-use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plenty\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plenty\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * AffordabilityExpenseEvent Class Doc Comment.
@@ -47,14 +47,14 @@ class AffordabilityExpenseEvent implements ModelInterface, ArrayAccess
      */
     protected static $swaggerTypes = [
         'amazon_order_id' => 'string',
-'posted_date' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\\DateTime',
+'posted_date' => '\Plenty\AmazonSellingPartnerAPI\Models\Finances\\DateTime',
 'marketplace_id' => 'string',
 'transaction_type' => 'string',
-'base_expense' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\Currency',
-'tax_type_cgst' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\Currency',
-'tax_type_sgst' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\Currency',
-'tax_type_igst' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\Currency',
-'total_expense' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\Currency',    ];
+'base_expense' => '\Plenty\AmazonSellingPartnerAPI\Models\Finances\Currency',
+'tax_type_cgst' => '\Plenty\AmazonSellingPartnerAPI\Models\Finances\Currency',
+'tax_type_sgst' => '\Plenty\AmazonSellingPartnerAPI\Models\Finances\Currency',
+'tax_type_igst' => '\Plenty\AmazonSellingPartnerAPI\Models\Finances\Currency',
+'total_expense' => '\Plenty\AmazonSellingPartnerAPI\Models\Finances\Currency',    ];
 
     /**
      * Array of property to format mappings. Used for (de)serialization.
@@ -268,7 +268,7 @@ class AffordabilityExpenseEvent implements ModelInterface, ArrayAccess
     /**
      * Gets posted_date.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\DateTime
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Finances\DateTime
      */
     public function getPostedDate()
     {
@@ -278,7 +278,7 @@ class AffordabilityExpenseEvent implements ModelInterface, ArrayAccess
     /**
      * Sets posted_date.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\DateTime $posted_date posted_date
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Finances\DateTime $posted_date posted_date
      *
      * @return $this
      */
@@ -340,7 +340,7 @@ class AffordabilityExpenseEvent implements ModelInterface, ArrayAccess
     /**
      * Gets base_expense.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\Currency
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Finances\Currency
      */
     public function getBaseExpense()
     {
@@ -350,7 +350,7 @@ class AffordabilityExpenseEvent implements ModelInterface, ArrayAccess
     /**
      * Sets base_expense.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\Currency $base_expense base_expense
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Finances\Currency $base_expense base_expense
      *
      * @return $this
      */
@@ -364,7 +364,7 @@ class AffordabilityExpenseEvent implements ModelInterface, ArrayAccess
     /**
      * Gets tax_type_cgst.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\Currency
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Finances\Currency
      */
     public function getTaxTypeCgst()
     {
@@ -374,7 +374,7 @@ class AffordabilityExpenseEvent implements ModelInterface, ArrayAccess
     /**
      * Sets tax_type_cgst.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\Currency $tax_type_cgst tax_type_cgst
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Finances\Currency $tax_type_cgst tax_type_cgst
      *
      * @return $this
      */
@@ -388,7 +388,7 @@ class AffordabilityExpenseEvent implements ModelInterface, ArrayAccess
     /**
      * Gets tax_type_sgst.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\Currency
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Finances\Currency
      */
     public function getTaxTypeSgst()
     {
@@ -398,7 +398,7 @@ class AffordabilityExpenseEvent implements ModelInterface, ArrayAccess
     /**
      * Sets tax_type_sgst.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\Currency $tax_type_sgst tax_type_sgst
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Finances\Currency $tax_type_sgst tax_type_sgst
      *
      * @return $this
      */
@@ -412,7 +412,7 @@ class AffordabilityExpenseEvent implements ModelInterface, ArrayAccess
     /**
      * Gets tax_type_igst.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\Currency
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Finances\Currency
      */
     public function getTaxTypeIgst()
     {
@@ -422,7 +422,7 @@ class AffordabilityExpenseEvent implements ModelInterface, ArrayAccess
     /**
      * Sets tax_type_igst.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\Currency $tax_type_igst tax_type_igst
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Finances\Currency $tax_type_igst tax_type_igst
      *
      * @return $this
      */
@@ -436,7 +436,7 @@ class AffordabilityExpenseEvent implements ModelInterface, ArrayAccess
     /**
      * Gets total_expense.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\Currency
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Finances\Currency
      */
     public function getTotalExpense()
     {
@@ -446,7 +446,7 @@ class AffordabilityExpenseEvent implements ModelInterface, ArrayAccess
     /**
      * Sets total_expense.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\Currency $total_expense total_expense
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Finances\Currency $total_expense total_expense
      *
      * @return $this
      */

@@ -15,11 +15,11 @@
  * OpenAPI spec version: v0
  */
 
-namespace Plentymarkets\AmazonSellingPartnerAPI\Models\Catalog;
+namespace Plenty\AmazonSellingPartnerAPI\Models\Catalog;
 
 use ArrayAccess;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
-use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plenty\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plenty\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * ListMatchingItemsResponse Class Doc Comment.
@@ -43,7 +43,7 @@ class ListMatchingItemsResponse extends Categories implements ModelInterface, Ar
      * @var string[]
      */
     protected static $swaggerTypes = [
-        'items' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Catalog\ItemList',    ];
+        'items' => '\Plenty\AmazonSellingPartnerAPI\Models\Catalog\ItemList',    ];
 
     /**
      * Array of property to format mappings. Used for (de)serialization.
@@ -183,7 +183,7 @@ class ListMatchingItemsResponse extends Categories implements ModelInterface, Ar
     /**
      * Gets items.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Catalog\ItemList
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Catalog\ItemList
      */
     public function getItems()
     {
@@ -193,7 +193,7 @@ class ListMatchingItemsResponse extends Categories implements ModelInterface, Ar
     /**
      * Sets items.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Catalog\ItemList $items items
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Catalog\ItemList $items items
      *
      * @return $this
      */

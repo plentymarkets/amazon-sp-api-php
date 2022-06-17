@@ -15,11 +15,11 @@
  * OpenAPI spec version: v0
  */
 
-namespace Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment;
+namespace Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment;
 
 use ArrayAccess;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
-use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plenty\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plenty\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * Address Class Doc Comment.
@@ -46,17 +46,17 @@ class Address implements ModelInterface, ArrayAccess
      * @var string[]
      */
     protected static $swaggerTypes = [
-        'name' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\AddressName',
-'address_line1' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\AddressLine1',
-'address_line2' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\AddressLine2',
-'address_line3' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\AddressLine3',
-'district_or_county' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\DistrictOrCounty',
-'email' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\EmailAddress',
-'city' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\City',
-'state_or_province_code' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\StateOrProvinceCode',
-'postal_code' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\PostalCode',
-'country_code' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\CountryCode',
-'phone' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\PhoneNumber',    ];
+        'name' => '\Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\AddressName',
+'address_line1' => '\Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\AddressLine1',
+'address_line2' => '\Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\AddressLine2',
+'address_line3' => '\Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\AddressLine3',
+'district_or_county' => '\Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\DistrictOrCounty',
+'email' => '\Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\EmailAddress',
+'city' => '\Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\City',
+'state_or_province_code' => '\Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\StateOrProvinceCode',
+'postal_code' => '\Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\PostalCode',
+'country_code' => '\Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\CountryCode',
+'phone' => '\Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\PhoneNumber',    ];
 
     /**
      * Array of property to format mappings. Used for (de)serialization.
@@ -268,7 +268,7 @@ class Address implements ModelInterface, ArrayAccess
     /**
      * Gets name.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\AddressName
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\AddressName
      */
     public function getName()
     {
@@ -278,7 +278,7 @@ class Address implements ModelInterface, ArrayAccess
     /**
      * Sets name.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\AddressName $name name
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\AddressName $name name
      *
      * @return $this
      */
@@ -292,7 +292,7 @@ class Address implements ModelInterface, ArrayAccess
     /**
      * Gets address_line1.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\AddressLine1
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\AddressLine1
      */
     public function getAddressLine1()
     {
@@ -302,7 +302,7 @@ class Address implements ModelInterface, ArrayAccess
     /**
      * Sets address_line1.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\AddressLine1 $address_line1 address_line1
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\AddressLine1 $address_line1 address_line1
      *
      * @return $this
      */
@@ -316,7 +316,7 @@ class Address implements ModelInterface, ArrayAccess
     /**
      * Gets address_line2.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\AddressLine2
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\AddressLine2
      */
     public function getAddressLine2()
     {
@@ -326,7 +326,7 @@ class Address implements ModelInterface, ArrayAccess
     /**
      * Sets address_line2.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\AddressLine2 $address_line2 address_line2
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\AddressLine2 $address_line2 address_line2
      *
      * @return $this
      */
@@ -340,7 +340,7 @@ class Address implements ModelInterface, ArrayAccess
     /**
      * Gets address_line3.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\AddressLine3
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\AddressLine3
      */
     public function getAddressLine3()
     {
@@ -350,7 +350,7 @@ class Address implements ModelInterface, ArrayAccess
     /**
      * Sets address_line3.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\AddressLine3 $address_line3 address_line3
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\AddressLine3 $address_line3 address_line3
      *
      * @return $this
      */
@@ -364,7 +364,7 @@ class Address implements ModelInterface, ArrayAccess
     /**
      * Gets district_or_county.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\DistrictOrCounty
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\DistrictOrCounty
      */
     public function getDistrictOrCounty()
     {
@@ -374,7 +374,7 @@ class Address implements ModelInterface, ArrayAccess
     /**
      * Sets district_or_county.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\DistrictOrCounty $district_or_county district_or_county
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\DistrictOrCounty $district_or_county district_or_county
      *
      * @return $this
      */
@@ -388,7 +388,7 @@ class Address implements ModelInterface, ArrayAccess
     /**
      * Gets email.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\EmailAddress
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\EmailAddress
      */
     public function getEmail()
     {
@@ -398,7 +398,7 @@ class Address implements ModelInterface, ArrayAccess
     /**
      * Sets email.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\EmailAddress $email email
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\EmailAddress $email email
      *
      * @return $this
      */
@@ -412,7 +412,7 @@ class Address implements ModelInterface, ArrayAccess
     /**
      * Gets city.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\City
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\City
      */
     public function getCity()
     {
@@ -422,7 +422,7 @@ class Address implements ModelInterface, ArrayAccess
     /**
      * Sets city.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\City $city city
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\City $city city
      *
      * @return $this
      */
@@ -436,7 +436,7 @@ class Address implements ModelInterface, ArrayAccess
     /**
      * Gets state_or_province_code.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\StateOrProvinceCode
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\StateOrProvinceCode
      */
     public function getStateOrProvinceCode()
     {
@@ -446,7 +446,7 @@ class Address implements ModelInterface, ArrayAccess
     /**
      * Sets state_or_province_code.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\StateOrProvinceCode $state_or_province_code state_or_province_code
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\StateOrProvinceCode $state_or_province_code state_or_province_code
      *
      * @return $this
      */
@@ -460,7 +460,7 @@ class Address implements ModelInterface, ArrayAccess
     /**
      * Gets postal_code.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\PostalCode
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\PostalCode
      */
     public function getPostalCode()
     {
@@ -470,7 +470,7 @@ class Address implements ModelInterface, ArrayAccess
     /**
      * Sets postal_code.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\PostalCode $postal_code postal_code
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\PostalCode $postal_code postal_code
      *
      * @return $this
      */
@@ -484,7 +484,7 @@ class Address implements ModelInterface, ArrayAccess
     /**
      * Gets country_code.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\CountryCode
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\CountryCode
      */
     public function getCountryCode()
     {
@@ -494,7 +494,7 @@ class Address implements ModelInterface, ArrayAccess
     /**
      * Sets country_code.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\CountryCode $country_code country_code
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\CountryCode $country_code country_code
      *
      * @return $this
      */
@@ -508,7 +508,7 @@ class Address implements ModelInterface, ArrayAccess
     /**
      * Gets phone.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\PhoneNumber
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\PhoneNumber
      */
     public function getPhone()
     {
@@ -518,7 +518,7 @@ class Address implements ModelInterface, ArrayAccess
     /**
      * Sets phone.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\PhoneNumber $phone phone
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\PhoneNumber $phone phone
      *
      * @return $this
      */

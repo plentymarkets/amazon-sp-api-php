@@ -15,11 +15,11 @@
  * OpenAPI spec version: v1
  */
 
-namespace Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping;
+namespace Plenty\AmazonSellingPartnerAPI\Models\Shipping;
 
 use ArrayAccess;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
-use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plenty\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plenty\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * ShippingPromiseSet Class Doc Comment.
@@ -46,8 +46,8 @@ class ShippingPromiseSet implements ModelInterface, ArrayAccess
      * @var string[]
      */
     protected static $swaggerTypes = [
-        'delivery_window' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\TimeRange',
-'receive_window' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\TimeRange',    ];
+        'delivery_window' => '\Plenty\AmazonSellingPartnerAPI\Models\Shipping\TimeRange',
+'receive_window' => '\Plenty\AmazonSellingPartnerAPI\Models\Shipping\TimeRange',    ];
 
     /**
      * Array of property to format mappings. Used for (de)serialization.
@@ -192,7 +192,7 @@ class ShippingPromiseSet implements ModelInterface, ArrayAccess
     /**
      * Gets delivery_window.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\TimeRange
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Shipping\TimeRange
      */
     public function getDeliveryWindow()
     {
@@ -202,7 +202,7 @@ class ShippingPromiseSet implements ModelInterface, ArrayAccess
     /**
      * Sets delivery_window.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\TimeRange $delivery_window delivery_window
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Shipping\TimeRange $delivery_window delivery_window
      *
      * @return $this
      */
@@ -216,7 +216,7 @@ class ShippingPromiseSet implements ModelInterface, ArrayAccess
     /**
      * Gets receive_window.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\TimeRange
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Shipping\TimeRange
      */
     public function getReceiveWindow()
     {
@@ -226,7 +226,7 @@ class ShippingPromiseSet implements ModelInterface, ArrayAccess
     /**
      * Sets receive_window.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\TimeRange $receive_window receive_window
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Shipping\TimeRange $receive_window receive_window
      *
      * @return $this
      */

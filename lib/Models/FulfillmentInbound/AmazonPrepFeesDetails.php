@@ -15,11 +15,11 @@
  * OpenAPI spec version: v0
  */
 
-namespace Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound;
+namespace Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound;
 
 use ArrayAccess;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
-use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plenty\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plenty\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * AmazonPrepFeesDetails Class Doc Comment.
@@ -46,8 +46,8 @@ class AmazonPrepFeesDetails implements ModelInterface, ArrayAccess
      * @var string[]
      */
     protected static $swaggerTypes = [
-        'prep_instruction' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\PrepInstruction',
-'fee_per_unit' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\Amount',    ];
+        'prep_instruction' => '\Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\PrepInstruction',
+'fee_per_unit' => '\Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\Amount',    ];
 
     /**
      * Array of property to format mappings. Used for (de)serialization.
@@ -192,7 +192,7 @@ class AmazonPrepFeesDetails implements ModelInterface, ArrayAccess
     /**
      * Gets prep_instruction.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\PrepInstruction
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\PrepInstruction
      */
     public function getPrepInstruction()
     {
@@ -202,7 +202,7 @@ class AmazonPrepFeesDetails implements ModelInterface, ArrayAccess
     /**
      * Sets prep_instruction.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\PrepInstruction $prep_instruction prep_instruction
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\PrepInstruction $prep_instruction prep_instruction
      *
      * @return $this
      */
@@ -216,7 +216,7 @@ class AmazonPrepFeesDetails implements ModelInterface, ArrayAccess
     /**
      * Gets fee_per_unit.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\Amount
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\Amount
      */
     public function getFeePerUnit()
     {
@@ -226,7 +226,7 @@ class AmazonPrepFeesDetails implements ModelInterface, ArrayAccess
     /**
      * Sets fee_per_unit.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\Amount $fee_per_unit fee_per_unit
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\Amount $fee_per_unit fee_per_unit
      *
      * @return $this
      */

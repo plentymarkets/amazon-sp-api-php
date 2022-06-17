@@ -15,11 +15,11 @@
  * OpenAPI spec version: v0
  */
 
-namespace Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment;
+namespace Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment;
 
 use ArrayAccess;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
-use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plenty\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plenty\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * PackageDimensions Class Doc Comment.
@@ -46,11 +46,11 @@ class PackageDimensions implements ModelInterface, ArrayAccess
      * @var string[]
      */
     protected static $swaggerTypes = [
-        'length' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\PackageDimension',
-'width' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\PackageDimension',
-'height' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\PackageDimension',
-'unit' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\UnitOfLength',
-'predefined_package_dimensions' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\PredefinedPackageDimensions',    ];
+        'length' => '\Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\PackageDimension',
+'width' => '\Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\PackageDimension',
+'height' => '\Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\PackageDimension',
+'unit' => '\Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\UnitOfLength',
+'predefined_package_dimensions' => '\Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\PredefinedPackageDimensions',    ];
 
     /**
      * Array of property to format mappings. Used for (de)serialization.
@@ -210,7 +210,7 @@ class PackageDimensions implements ModelInterface, ArrayAccess
     /**
      * Gets length.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\PackageDimension
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\PackageDimension
      */
     public function getLength()
     {
@@ -220,7 +220,7 @@ class PackageDimensions implements ModelInterface, ArrayAccess
     /**
      * Sets length.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\PackageDimension $length length
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\PackageDimension $length length
      *
      * @return $this
      */
@@ -234,7 +234,7 @@ class PackageDimensions implements ModelInterface, ArrayAccess
     /**
      * Gets width.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\PackageDimension
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\PackageDimension
      */
     public function getWidth()
     {
@@ -244,7 +244,7 @@ class PackageDimensions implements ModelInterface, ArrayAccess
     /**
      * Sets width.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\PackageDimension $width width
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\PackageDimension $width width
      *
      * @return $this
      */
@@ -258,7 +258,7 @@ class PackageDimensions implements ModelInterface, ArrayAccess
     /**
      * Gets height.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\PackageDimension
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\PackageDimension
      */
     public function getHeight()
     {
@@ -268,7 +268,7 @@ class PackageDimensions implements ModelInterface, ArrayAccess
     /**
      * Sets height.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\PackageDimension $height height
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\PackageDimension $height height
      *
      * @return $this
      */
@@ -282,7 +282,7 @@ class PackageDimensions implements ModelInterface, ArrayAccess
     /**
      * Gets unit.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\UnitOfLength
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\UnitOfLength
      */
     public function getUnit()
     {
@@ -292,7 +292,7 @@ class PackageDimensions implements ModelInterface, ArrayAccess
     /**
      * Sets unit.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\UnitOfLength $unit unit
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\UnitOfLength $unit unit
      *
      * @return $this
      */
@@ -306,7 +306,7 @@ class PackageDimensions implements ModelInterface, ArrayAccess
     /**
      * Gets predefined_package_dimensions.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\PredefinedPackageDimensions
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\PredefinedPackageDimensions
      */
     public function getPredefinedPackageDimensions()
     {
@@ -316,7 +316,7 @@ class PackageDimensions implements ModelInterface, ArrayAccess
     /**
      * Sets predefined_package_dimensions.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\PredefinedPackageDimensions $predefined_package_dimensions predefined_package_dimensions
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\PredefinedPackageDimensions $predefined_package_dimensions predefined_package_dimensions
      *
      * @return $this
      */

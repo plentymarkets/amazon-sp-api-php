@@ -15,11 +15,11 @@
  * OpenAPI spec version: v0
  */
 
-namespace Plentymarkets\AmazonSellingPartnerAPI\Models\Orders;
+namespace Plenty\AmazonSellingPartnerAPI\Models\Orders;
 
 use ArrayAccess;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
-use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plenty\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plenty\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * OrderItemBuyerInfo Class Doc Comment.
@@ -47,9 +47,9 @@ class OrderItemBuyerInfo implements ModelInterface, ArrayAccess
      */
     protected static $swaggerTypes = [
         'order_item_id' => 'string',
-'buyer_customized_info' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Orders\BuyerCustomizedInfoDetail',
-'gift_wrap_price' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Orders\Money',
-'gift_wrap_tax' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Orders\Money',
+'buyer_customized_info' => '\Plenty\AmazonSellingPartnerAPI\Models\Orders\BuyerCustomizedInfoDetail',
+'gift_wrap_price' => '\Plenty\AmazonSellingPartnerAPI\Models\Orders\Money',
+'gift_wrap_tax' => '\Plenty\AmazonSellingPartnerAPI\Models\Orders\Money',
 'gift_message_text' => 'string',
 'gift_wrap_level' => 'string',    ];
 
@@ -244,7 +244,7 @@ class OrderItemBuyerInfo implements ModelInterface, ArrayAccess
     /**
      * Gets buyer_customized_info.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Orders\BuyerCustomizedInfoDetail
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Orders\BuyerCustomizedInfoDetail
      */
     public function getBuyerCustomizedInfo()
     {
@@ -254,7 +254,7 @@ class OrderItemBuyerInfo implements ModelInterface, ArrayAccess
     /**
      * Sets buyer_customized_info.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Orders\BuyerCustomizedInfoDetail $buyer_customized_info buyer_customized_info
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Orders\BuyerCustomizedInfoDetail $buyer_customized_info buyer_customized_info
      *
      * @return $this
      */
@@ -268,7 +268,7 @@ class OrderItemBuyerInfo implements ModelInterface, ArrayAccess
     /**
      * Gets gift_wrap_price.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Orders\Money
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Orders\Money
      */
     public function getGiftWrapPrice()
     {
@@ -278,7 +278,7 @@ class OrderItemBuyerInfo implements ModelInterface, ArrayAccess
     /**
      * Sets gift_wrap_price.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Orders\Money $gift_wrap_price gift_wrap_price
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Orders\Money $gift_wrap_price gift_wrap_price
      *
      * @return $this
      */
@@ -292,7 +292,7 @@ class OrderItemBuyerInfo implements ModelInterface, ArrayAccess
     /**
      * Gets gift_wrap_tax.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Orders\Money
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Orders\Money
      */
     public function getGiftWrapTax()
     {
@@ -302,7 +302,7 @@ class OrderItemBuyerInfo implements ModelInterface, ArrayAccess
     /**
      * Sets gift_wrap_tax.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Orders\Money $gift_wrap_tax gift_wrap_tax
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Orders\Money $gift_wrap_tax gift_wrap_tax
      *
      * @return $this
      */

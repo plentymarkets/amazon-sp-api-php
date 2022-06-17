@@ -15,11 +15,11 @@
  * OpenAPI spec version: v0
  */
 
-namespace Plentymarkets\AmazonSellingPartnerAPI\Models\Catalog;
+namespace Plenty\AmazonSellingPartnerAPI\Models\Catalog;
 
 use ArrayAccess;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
-use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plenty\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plenty\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * IdentifierType Class Doc Comment.
@@ -43,8 +43,8 @@ class IdentifierType extends Categories implements ModelInterface, ArrayAccess
      * @var string[]
      */
     protected static $swaggerTypes = [
-        'marketplace_asin' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Catalog\ASINIdentifier',
-'sku_identifier' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Catalog\SellerSKUIdentifier',    ];
+        'marketplace_asin' => '\Plenty\AmazonSellingPartnerAPI\Models\Catalog\ASINIdentifier',
+'sku_identifier' => '\Plenty\AmazonSellingPartnerAPI\Models\Catalog\SellerSKUIdentifier',    ];
 
     /**
      * Array of property to format mappings. Used for (de)serialization.
@@ -189,7 +189,7 @@ class IdentifierType extends Categories implements ModelInterface, ArrayAccess
     /**
      * Gets marketplace_asin.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Catalog\ASINIdentifier
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Catalog\ASINIdentifier
      */
     public function getMarketplaceAsin()
     {
@@ -199,7 +199,7 @@ class IdentifierType extends Categories implements ModelInterface, ArrayAccess
     /**
      * Sets marketplace_asin.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Catalog\ASINIdentifier $marketplace_asin marketplace_asin
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Catalog\ASINIdentifier $marketplace_asin marketplace_asin
      *
      * @return $this
      */
@@ -213,7 +213,7 @@ class IdentifierType extends Categories implements ModelInterface, ArrayAccess
     /**
      * Gets sku_identifier.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Catalog\SellerSKUIdentifier
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Catalog\SellerSKUIdentifier
      */
     public function getSkuIdentifier()
     {
@@ -223,7 +223,7 @@ class IdentifierType extends Categories implements ModelInterface, ArrayAccess
     /**
      * Sets sku_identifier.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Catalog\SellerSKUIdentifier $sku_identifier sku_identifier
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Catalog\SellerSKUIdentifier $sku_identifier sku_identifier
      *
      * @return $this
      */

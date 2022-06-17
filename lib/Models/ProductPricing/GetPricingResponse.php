@@ -15,11 +15,11 @@
  * OpenAPI spec version: v0
  */
 
-namespace Plentymarkets\AmazonSellingPartnerAPI\Models\ProductPricing;
+namespace Plenty\AmazonSellingPartnerAPI\Models\ProductPricing;
 
 use ArrayAccess;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
-use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plenty\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plenty\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * GetPricingResponse Class Doc Comment.
@@ -46,8 +46,8 @@ class GetPricingResponse implements ModelInterface, ArrayAccess
      * @var string[]
      */
     protected static $swaggerTypes = [
-        'payload' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\ProductPricing\PriceList',
-'errors' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\ProductPricing\ErrorList',    ];
+        'payload' => '\Plenty\AmazonSellingPartnerAPI\Models\ProductPricing\PriceList',
+'errors' => '\Plenty\AmazonSellingPartnerAPI\Models\ProductPricing\ErrorList',    ];
 
     /**
      * Array of property to format mappings. Used for (de)serialization.
@@ -192,7 +192,7 @@ class GetPricingResponse implements ModelInterface, ArrayAccess
     /**
      * Gets payload.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\ProductPricing\PriceList
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\ProductPricing\PriceList
      */
     public function getPayload()
     {
@@ -202,7 +202,7 @@ class GetPricingResponse implements ModelInterface, ArrayAccess
     /**
      * Sets payload.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\ProductPricing\PriceList $payload payload
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\ProductPricing\PriceList $payload payload
      *
      * @return $this
      */
@@ -216,7 +216,7 @@ class GetPricingResponse implements ModelInterface, ArrayAccess
     /**
      * Gets errors.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\ProductPricing\ErrorList
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\ProductPricing\ErrorList
      */
     public function getErrors()
     {
@@ -226,7 +226,7 @@ class GetPricingResponse implements ModelInterface, ArrayAccess
     /**
      * Sets errors.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\ProductPricing\ErrorList $errors errors
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\ProductPricing\ErrorList $errors errors
      *
      * @return $this
      */

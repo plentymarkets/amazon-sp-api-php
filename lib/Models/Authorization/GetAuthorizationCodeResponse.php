@@ -15,11 +15,11 @@
  * OpenAPI spec version: v1
  */
 
-namespace Plentymarkets\AmazonSellingPartnerAPI\Models\Authorization;
+namespace Plenty\AmazonSellingPartnerAPI\Models\Authorization;
 
 use ArrayAccess;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
-use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plenty\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plenty\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * GetAuthorizationCodeResponse Class Doc Comment.
@@ -46,8 +46,8 @@ class GetAuthorizationCodeResponse implements ModelInterface, ArrayAccess
      * @var string[]
      */
     protected static $swaggerTypes = [
-        'payload' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Authorization\AuthorizationCode',
-'errors' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Authorization\ErrorList',    ];
+        'payload' => '\Plenty\AmazonSellingPartnerAPI\Models\Authorization\AuthorizationCode',
+'errors' => '\Plenty\AmazonSellingPartnerAPI\Models\Authorization\ErrorList',    ];
 
     /**
      * Array of property to format mappings. Used for (de)serialization.
@@ -192,7 +192,7 @@ class GetAuthorizationCodeResponse implements ModelInterface, ArrayAccess
     /**
      * Gets payload.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Authorization\AuthorizationCode
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Authorization\AuthorizationCode
      */
     public function getPayload()
     {
@@ -202,7 +202,7 @@ class GetAuthorizationCodeResponse implements ModelInterface, ArrayAccess
     /**
      * Sets payload.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Authorization\AuthorizationCode $payload payload
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Authorization\AuthorizationCode $payload payload
      *
      * @return $this
      */
@@ -216,7 +216,7 @@ class GetAuthorizationCodeResponse implements ModelInterface, ArrayAccess
     /**
      * Gets errors.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Authorization\ErrorList
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Authorization\ErrorList
      */
     public function getErrors()
     {
@@ -226,7 +226,7 @@ class GetAuthorizationCodeResponse implements ModelInterface, ArrayAccess
     /**
      * Sets errors.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Authorization\ErrorList $errors errors
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Authorization\ErrorList $errors errors
      *
      * @return $this
      */

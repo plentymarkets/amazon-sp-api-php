@@ -15,11 +15,11 @@
  * OpenAPI spec version: 2020-07-01
  */
 
-namespace Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound;
+namespace Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound;
 
 use ArrayAccess;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
-use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plenty\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plenty\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * CreateFulfillmentOrderRequest Class Doc Comment.
@@ -49,18 +49,18 @@ class CreateFulfillmentOrderRequest implements ModelInterface, ArrayAccess
         'marketplace_id' => 'string',
 'seller_fulfillment_order_id' => 'string',
 'displayable_order_id' => 'string',
-'displayable_order_date' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\Timestamp',
+'displayable_order_date' => '\Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\Timestamp',
 'displayable_order_comment' => 'string',
-'shipping_speed_category' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\ShippingSpeedCategory',
-'delivery_window' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\DeliveryWindow',
-'destination_address' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\Address',
-'fulfillment_action' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\FulfillmentAction',
-'fulfillment_policy' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\FulfillmentPolicy',
-'cod_settings' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\CODSettings',
+'shipping_speed_category' => '\Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\ShippingSpeedCategory',
+'delivery_window' => '\Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\DeliveryWindow',
+'destination_address' => '\Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\Address',
+'fulfillment_action' => '\Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\FulfillmentAction',
+'fulfillment_policy' => '\Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\FulfillmentPolicy',
+'cod_settings' => '\Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\CODSettings',
 'ship_from_country_code' => 'string',
-'notification_emails' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\NotificationEmailList',
-'feature_constraints' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\FeatureSettings[]',
-'items' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\CreateFulfillmentOrderItemList',    ];
+'notification_emails' => '\Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\NotificationEmailList',
+'feature_constraints' => '\Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\FeatureSettings[]',
+'items' => '\Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\CreateFulfillmentOrderItemList',    ];
 
     /**
      * Array of property to format mappings. Used for (de)serialization.
@@ -364,7 +364,7 @@ class CreateFulfillmentOrderRequest implements ModelInterface, ArrayAccess
     /**
      * Gets displayable_order_date.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\Timestamp
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\Timestamp
      */
     public function getDisplayableOrderDate()
     {
@@ -374,7 +374,7 @@ class CreateFulfillmentOrderRequest implements ModelInterface, ArrayAccess
     /**
      * Sets displayable_order_date.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\Timestamp $displayable_order_date displayable_order_date
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\Timestamp $displayable_order_date displayable_order_date
      *
      * @return $this
      */
@@ -412,7 +412,7 @@ class CreateFulfillmentOrderRequest implements ModelInterface, ArrayAccess
     /**
      * Gets shipping_speed_category.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\ShippingSpeedCategory
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\ShippingSpeedCategory
      */
     public function getShippingSpeedCategory()
     {
@@ -422,7 +422,7 @@ class CreateFulfillmentOrderRequest implements ModelInterface, ArrayAccess
     /**
      * Sets shipping_speed_category.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\ShippingSpeedCategory $shipping_speed_category shipping_speed_category
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\ShippingSpeedCategory $shipping_speed_category shipping_speed_category
      *
      * @return $this
      */
@@ -436,7 +436,7 @@ class CreateFulfillmentOrderRequest implements ModelInterface, ArrayAccess
     /**
      * Gets delivery_window.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\DeliveryWindow
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\DeliveryWindow
      */
     public function getDeliveryWindow()
     {
@@ -446,7 +446,7 @@ class CreateFulfillmentOrderRequest implements ModelInterface, ArrayAccess
     /**
      * Sets delivery_window.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\DeliveryWindow $delivery_window delivery_window
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\DeliveryWindow $delivery_window delivery_window
      *
      * @return $this
      */
@@ -460,7 +460,7 @@ class CreateFulfillmentOrderRequest implements ModelInterface, ArrayAccess
     /**
      * Gets destination_address.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\Address
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\Address
      */
     public function getDestinationAddress()
     {
@@ -470,7 +470,7 @@ class CreateFulfillmentOrderRequest implements ModelInterface, ArrayAccess
     /**
      * Sets destination_address.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\Address $destination_address destination_address
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\Address $destination_address destination_address
      *
      * @return $this
      */
@@ -484,7 +484,7 @@ class CreateFulfillmentOrderRequest implements ModelInterface, ArrayAccess
     /**
      * Gets fulfillment_action.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\FulfillmentAction
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\FulfillmentAction
      */
     public function getFulfillmentAction()
     {
@@ -494,7 +494,7 @@ class CreateFulfillmentOrderRequest implements ModelInterface, ArrayAccess
     /**
      * Sets fulfillment_action.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\FulfillmentAction $fulfillment_action fulfillment_action
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\FulfillmentAction $fulfillment_action fulfillment_action
      *
      * @return $this
      */
@@ -508,7 +508,7 @@ class CreateFulfillmentOrderRequest implements ModelInterface, ArrayAccess
     /**
      * Gets fulfillment_policy.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\FulfillmentPolicy
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\FulfillmentPolicy
      */
     public function getFulfillmentPolicy()
     {
@@ -518,7 +518,7 @@ class CreateFulfillmentOrderRequest implements ModelInterface, ArrayAccess
     /**
      * Sets fulfillment_policy.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\FulfillmentPolicy $fulfillment_policy fulfillment_policy
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\FulfillmentPolicy $fulfillment_policy fulfillment_policy
      *
      * @return $this
      */
@@ -532,7 +532,7 @@ class CreateFulfillmentOrderRequest implements ModelInterface, ArrayAccess
     /**
      * Gets cod_settings.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\CODSettings
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\CODSettings
      */
     public function getCodSettings()
     {
@@ -542,7 +542,7 @@ class CreateFulfillmentOrderRequest implements ModelInterface, ArrayAccess
     /**
      * Sets cod_settings.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\CODSettings $cod_settings cod_settings
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\CODSettings $cod_settings cod_settings
      *
      * @return $this
      */
@@ -580,7 +580,7 @@ class CreateFulfillmentOrderRequest implements ModelInterface, ArrayAccess
     /**
      * Gets notification_emails.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\NotificationEmailList
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\NotificationEmailList
      */
     public function getNotificationEmails()
     {
@@ -590,7 +590,7 @@ class CreateFulfillmentOrderRequest implements ModelInterface, ArrayAccess
     /**
      * Sets notification_emails.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\NotificationEmailList $notification_emails notification_emails
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\NotificationEmailList $notification_emails notification_emails
      *
      * @return $this
      */
@@ -604,7 +604,7 @@ class CreateFulfillmentOrderRequest implements ModelInterface, ArrayAccess
     /**
      * Gets feature_constraints.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\FeatureSettings[]
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\FeatureSettings[]
      */
     public function getFeatureConstraints()
     {
@@ -614,7 +614,7 @@ class CreateFulfillmentOrderRequest implements ModelInterface, ArrayAccess
     /**
      * Sets feature_constraints.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\FeatureSettings[] $feature_constraints a list of features and their fulfillment policies to apply to the order
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\FeatureSettings[] $feature_constraints a list of features and their fulfillment policies to apply to the order
      *
      * @return $this
      */
@@ -628,7 +628,7 @@ class CreateFulfillmentOrderRequest implements ModelInterface, ArrayAccess
     /**
      * Gets items.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\CreateFulfillmentOrderItemList
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\CreateFulfillmentOrderItemList
      */
     public function getItems()
     {
@@ -638,7 +638,7 @@ class CreateFulfillmentOrderRequest implements ModelInterface, ArrayAccess
     /**
      * Sets items.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\CreateFulfillmentOrderItemList $items items
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\CreateFulfillmentOrderItemList $items items
      *
      * @return $this
      */

@@ -15,11 +15,11 @@
  * OpenAPI spec version: 2020-07-01
  */
 
-namespace Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound;
+namespace Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound;
 
 use ArrayAccess;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
-use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plenty\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plenty\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * UpdateFulfillmentOrderItem Class Doc Comment.
@@ -48,14 +48,14 @@ class UpdateFulfillmentOrderItem implements ModelInterface, ArrayAccess
     protected static $swaggerTypes = [
         'seller_sku' => 'string',
 'seller_fulfillment_order_item_id' => 'string',
-'quantity' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\Quantity',
+'quantity' => '\Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\Quantity',
 'gift_message' => 'string',
 'displayable_comment' => 'string',
 'fulfillment_network_sku' => 'string',
 'order_item_disposition' => 'string',
-'per_unit_declared_value' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\Money',
-'per_unit_price' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\Money',
-'per_unit_tax' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\Money',    ];
+'per_unit_declared_value' => '\Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\Money',
+'per_unit_price' => '\Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\Money',
+'per_unit_tax' => '\Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\Money',    ];
 
     /**
      * Array of property to format mappings. Used for (de)serialization.
@@ -295,7 +295,7 @@ class UpdateFulfillmentOrderItem implements ModelInterface, ArrayAccess
     /**
      * Gets quantity.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\Quantity
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\Quantity
      */
     public function getQuantity()
     {
@@ -305,7 +305,7 @@ class UpdateFulfillmentOrderItem implements ModelInterface, ArrayAccess
     /**
      * Sets quantity.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\Quantity $quantity quantity
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\Quantity $quantity quantity
      *
      * @return $this
      */
@@ -415,7 +415,7 @@ class UpdateFulfillmentOrderItem implements ModelInterface, ArrayAccess
     /**
      * Gets per_unit_declared_value.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\Money
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\Money
      */
     public function getPerUnitDeclaredValue()
     {
@@ -425,7 +425,7 @@ class UpdateFulfillmentOrderItem implements ModelInterface, ArrayAccess
     /**
      * Sets per_unit_declared_value.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\Money $per_unit_declared_value per_unit_declared_value
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\Money $per_unit_declared_value per_unit_declared_value
      *
      * @return $this
      */
@@ -439,7 +439,7 @@ class UpdateFulfillmentOrderItem implements ModelInterface, ArrayAccess
     /**
      * Gets per_unit_price.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\Money
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\Money
      */
     public function getPerUnitPrice()
     {
@@ -449,7 +449,7 @@ class UpdateFulfillmentOrderItem implements ModelInterface, ArrayAccess
     /**
      * Sets per_unit_price.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\Money $per_unit_price per_unit_price
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\Money $per_unit_price per_unit_price
      *
      * @return $this
      */
@@ -463,7 +463,7 @@ class UpdateFulfillmentOrderItem implements ModelInterface, ArrayAccess
     /**
      * Gets per_unit_tax.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\Money
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\Money
      */
     public function getPerUnitTax()
     {
@@ -473,7 +473,7 @@ class UpdateFulfillmentOrderItem implements ModelInterface, ArrayAccess
     /**
      * Sets per_unit_tax.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\Money $per_unit_tax per_unit_tax
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\Money $per_unit_tax per_unit_tax
      *
      * @return $this
      */

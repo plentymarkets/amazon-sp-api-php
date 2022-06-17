@@ -15,11 +15,11 @@
  * OpenAPI spec version: v1
  */
 
-namespace Plentymarkets\AmazonSellingPartnerAPI\Models\FbaSmallAndLight;
+namespace Plenty\AmazonSellingPartnerAPI\Models\FbaSmallAndLight;
 
 use ArrayAccess;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
-use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plenty\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plenty\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * Item Class Doc Comment.
@@ -47,7 +47,7 @@ class Item implements ModelInterface, ArrayAccess
      */
     protected static $swaggerTypes = [
         'asin' => 'string',
-'price' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\FbaSmallAndLight\MoneyType',    ];
+'price' => '\Plenty\AmazonSellingPartnerAPI\Models\FbaSmallAndLight\MoneyType',    ];
 
     /**
      * Array of property to format mappings. Used for (de)serialization.
@@ -223,7 +223,7 @@ class Item implements ModelInterface, ArrayAccess
     /**
      * Gets price.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\FbaSmallAndLight\MoneyType
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\FbaSmallAndLight\MoneyType
      */
     public function getPrice()
     {
@@ -233,7 +233,7 @@ class Item implements ModelInterface, ArrayAccess
     /**
      * Sets price.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\FbaSmallAndLight\MoneyType $price price
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\FbaSmallAndLight\MoneyType $price price
      *
      * @return $this
      */

@@ -15,11 +15,11 @@
  * OpenAPI spec version: 2020-07-01
  */
 
-namespace Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound;
+namespace Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound;
 
 use ArrayAccess;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
-use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plenty\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plenty\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * FulfillmentShipmentPackage Class Doc Comment.
@@ -49,7 +49,7 @@ class FulfillmentShipmentPackage implements ModelInterface, ArrayAccess
         'package_number' => 'int',
 'carrier_code' => 'string',
 'tracking_number' => 'string',
-'estimated_arrival_date' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\Timestamp',    ];
+'estimated_arrival_date' => '\Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\Timestamp',    ];
 
     /**
      * Array of property to format mappings. Used for (de)serialization.
@@ -283,7 +283,7 @@ class FulfillmentShipmentPackage implements ModelInterface, ArrayAccess
     /**
      * Gets estimated_arrival_date.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\Timestamp
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\Timestamp
      */
     public function getEstimatedArrivalDate()
     {
@@ -293,7 +293,7 @@ class FulfillmentShipmentPackage implements ModelInterface, ArrayAccess
     /**
      * Sets estimated_arrival_date.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\Timestamp $estimated_arrival_date estimated_arrival_date
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\Timestamp $estimated_arrival_date estimated_arrival_date
      *
      * @return $this
      */

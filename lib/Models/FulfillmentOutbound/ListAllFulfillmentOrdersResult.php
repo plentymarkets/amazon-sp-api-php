@@ -15,11 +15,11 @@
  * OpenAPI spec version: 2020-07-01
  */
 
-namespace Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound;
+namespace Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound;
 
 use ArrayAccess;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
-use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plenty\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plenty\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * ListAllFulfillmentOrdersResult Class Doc Comment.
@@ -44,7 +44,7 @@ class ListAllFulfillmentOrdersResult implements ModelInterface, ArrayAccess
      */
     protected static $swaggerTypes = [
         'next_token' => 'string',
-'fulfillment_orders' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\FulfillmentOrder[]',    ];
+'fulfillment_orders' => '\Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\FulfillmentOrder[]',    ];
 
     /**
      * Array of property to format mappings. Used for (de)serialization.
@@ -213,7 +213,7 @@ class ListAllFulfillmentOrdersResult implements ModelInterface, ArrayAccess
     /**
      * Gets fulfillment_orders.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\FulfillmentOrder[]
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\FulfillmentOrder[]
      */
     public function getFulfillmentOrders()
     {
@@ -223,7 +223,7 @@ class ListAllFulfillmentOrdersResult implements ModelInterface, ArrayAccess
     /**
      * Sets fulfillment_orders.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\FulfillmentOrder[] $fulfillment_orders an array of fulfillment order information
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\FulfillmentOrder[] $fulfillment_orders an array of fulfillment order information
      *
      * @return $this
      */

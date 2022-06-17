@@ -15,11 +15,11 @@
  * OpenAPI spec version: v0
  */
 
-namespace Plentymarkets\AmazonSellingPartnerAPI\Models\Finances;
+namespace Plenty\AmazonSellingPartnerAPI\Models\Finances;
 
 use ArrayAccess;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
-use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plenty\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plenty\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * ServiceFeeEvent Class Doc Comment.
@@ -48,7 +48,7 @@ class ServiceFeeEvent implements ModelInterface, ArrayAccess
     protected static $swaggerTypes = [
         'amazon_order_id' => 'string',
 'fee_reason' => 'string',
-'fee_list' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\FeeComponentList',
+'fee_list' => '\Plenty\AmazonSellingPartnerAPI\Models\Finances\FeeComponentList',
 'seller_sku' => 'string',
 'fn_sku' => 'string',
 'fee_description' => 'string',
@@ -270,7 +270,7 @@ class ServiceFeeEvent implements ModelInterface, ArrayAccess
     /**
      * Gets fee_list.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\FeeComponentList
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Finances\FeeComponentList
      */
     public function getFeeList()
     {
@@ -280,7 +280,7 @@ class ServiceFeeEvent implements ModelInterface, ArrayAccess
     /**
      * Sets fee_list.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\FeeComponentList $fee_list fee_list
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Finances\FeeComponentList $fee_list fee_list
      *
      * @return $this
      */

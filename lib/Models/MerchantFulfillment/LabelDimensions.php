@@ -15,11 +15,11 @@
  * OpenAPI spec version: v0
  */
 
-namespace Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment;
+namespace Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment;
 
 use ArrayAccess;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
-use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plenty\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plenty\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * LabelDimensions Class Doc Comment.
@@ -46,9 +46,9 @@ class LabelDimensions implements ModelInterface, ArrayAccess
      * @var string[]
      */
     protected static $swaggerTypes = [
-        'length' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\LabelDimension',
-'width' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\LabelDimension',
-'unit' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\UnitOfLength',    ];
+        'length' => '\Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\LabelDimension',
+'width' => '\Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\LabelDimension',
+'unit' => '\Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\UnitOfLength',    ];
 
     /**
      * Array of property to format mappings. Used for (de)serialization.
@@ -208,7 +208,7 @@ class LabelDimensions implements ModelInterface, ArrayAccess
     /**
      * Gets length.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\LabelDimension
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\LabelDimension
      */
     public function getLength()
     {
@@ -218,7 +218,7 @@ class LabelDimensions implements ModelInterface, ArrayAccess
     /**
      * Sets length.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\LabelDimension $length length
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\LabelDimension $length length
      *
      * @return $this
      */
@@ -232,7 +232,7 @@ class LabelDimensions implements ModelInterface, ArrayAccess
     /**
      * Gets width.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\LabelDimension
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\LabelDimension
      */
     public function getWidth()
     {
@@ -242,7 +242,7 @@ class LabelDimensions implements ModelInterface, ArrayAccess
     /**
      * Sets width.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\LabelDimension $width width
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\LabelDimension $width width
      *
      * @return $this
      */
@@ -256,7 +256,7 @@ class LabelDimensions implements ModelInterface, ArrayAccess
     /**
      * Gets unit.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\UnitOfLength
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\UnitOfLength
      */
     public function getUnit()
     {
@@ -266,7 +266,7 @@ class LabelDimensions implements ModelInterface, ArrayAccess
     /**
      * Sets unit.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\UnitOfLength $unit unit
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\UnitOfLength $unit unit
      *
      * @return $this
      */

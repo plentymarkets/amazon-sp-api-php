@@ -15,11 +15,11 @@
  * OpenAPI spec version: v0
  */
 
-namespace Plentymarkets\AmazonSellingPartnerAPI\Models\ProductFees;
+namespace Plenty\AmazonSellingPartnerAPI\Models\ProductFees;
 
 use ArrayAccess;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
-use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plenty\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plenty\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * IncludedFeeDetail Class Doc Comment.
@@ -47,10 +47,10 @@ class IncludedFeeDetail implements ModelInterface, ArrayAccess
      */
     protected static $swaggerTypes = [
         'fee_type' => 'string',
-'fee_amount' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\ProductFees\MoneyType',
-'fee_promotion' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\ProductFees\MoneyType',
-'tax_amount' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\ProductFees\MoneyType',
-'final_fee' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\ProductFees\MoneyType',    ];
+'fee_amount' => '\Plenty\AmazonSellingPartnerAPI\Models\ProductFees\MoneyType',
+'fee_promotion' => '\Plenty\AmazonSellingPartnerAPI\Models\ProductFees\MoneyType',
+'tax_amount' => '\Plenty\AmazonSellingPartnerAPI\Models\ProductFees\MoneyType',
+'final_fee' => '\Plenty\AmazonSellingPartnerAPI\Models\ProductFees\MoneyType',    ];
 
     /**
      * Array of property to format mappings. Used for (de)serialization.
@@ -244,7 +244,7 @@ class IncludedFeeDetail implements ModelInterface, ArrayAccess
     /**
      * Gets fee_amount.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\ProductFees\MoneyType
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\ProductFees\MoneyType
      */
     public function getFeeAmount()
     {
@@ -254,7 +254,7 @@ class IncludedFeeDetail implements ModelInterface, ArrayAccess
     /**
      * Sets fee_amount.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\ProductFees\MoneyType $fee_amount fee_amount
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\ProductFees\MoneyType $fee_amount fee_amount
      *
      * @return $this
      */
@@ -268,7 +268,7 @@ class IncludedFeeDetail implements ModelInterface, ArrayAccess
     /**
      * Gets fee_promotion.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\ProductFees\MoneyType
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\ProductFees\MoneyType
      */
     public function getFeePromotion()
     {
@@ -278,7 +278,7 @@ class IncludedFeeDetail implements ModelInterface, ArrayAccess
     /**
      * Sets fee_promotion.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\ProductFees\MoneyType $fee_promotion fee_promotion
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\ProductFees\MoneyType $fee_promotion fee_promotion
      *
      * @return $this
      */
@@ -292,7 +292,7 @@ class IncludedFeeDetail implements ModelInterface, ArrayAccess
     /**
      * Gets tax_amount.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\ProductFees\MoneyType
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\ProductFees\MoneyType
      */
     public function getTaxAmount()
     {
@@ -302,7 +302,7 @@ class IncludedFeeDetail implements ModelInterface, ArrayAccess
     /**
      * Sets tax_amount.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\ProductFees\MoneyType $tax_amount tax_amount
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\ProductFees\MoneyType $tax_amount tax_amount
      *
      * @return $this
      */
@@ -316,7 +316,7 @@ class IncludedFeeDetail implements ModelInterface, ArrayAccess
     /**
      * Gets final_fee.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\ProductFees\MoneyType
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\ProductFees\MoneyType
      */
     public function getFinalFee()
     {
@@ -326,7 +326,7 @@ class IncludedFeeDetail implements ModelInterface, ArrayAccess
     /**
      * Sets final_fee.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\ProductFees\MoneyType $final_fee final_fee
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\ProductFees\MoneyType $final_fee final_fee
      *
      * @return $this
      */

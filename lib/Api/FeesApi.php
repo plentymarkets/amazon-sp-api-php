@@ -13,13 +13,13 @@
  * OpenAPI spec version: v0
  */
 
-namespace Plentymarkets\AmazonSellingPartnerAPI\Api;
+namespace Plenty\AmazonSellingPartnerAPI\Api;
 
-use Plentymarkets\AmazonSellingPartnerAPI\Configuration;
-use Plentymarkets\AmazonSellingPartnerAPI\HeaderSelector;
-use Plentymarkets\AmazonSellingPartnerAPI\Helpers\SellingPartnerApiRequest;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\ProductFees\GetMyFeesEstimateResponse;
-use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plenty\AmazonSellingPartnerAPI\Configuration;
+use Plenty\AmazonSellingPartnerAPI\HeaderSelector;
+use Plenty\AmazonSellingPartnerAPI\Helpers\SellingPartnerApiRequest;
+use Plenty\AmazonSellingPartnerAPI\Models\ProductFees\GetMyFeesEstimateResponse;
+use Plenty\AmazonSellingPartnerAPI\ObjectSerializer;
 use GuzzleHttp\Client;
 use GuzzleHttp\ClientInterface;
 
@@ -65,13 +65,13 @@ class FeesApi
     /**
      * Operation getMyFeesEstimateForASIN.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\ProductFees\GetMyFeesEstimateRequest $body body (required)
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\ProductFees\GetMyFeesEstimateRequest $body body (required)
      * @param string                                                                        $asin The Amazon Standard Identification Number (ASIN) of the item. (required)
      *
      * @throws \InvalidArgumentException
-     * @throws \Plentymarkets\AmazonSellingPartnerAPI\ApiException on non-2xx response
+     * @throws \Plenty\AmazonSellingPartnerAPI\ApiException on non-2xx response
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\ProductFees\GetMyFeesEstimateResponse
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\ProductFees\GetMyFeesEstimateResponse
      */
     public function getMyFeesEstimateForASIN($body, $asin)
     {
@@ -83,13 +83,13 @@ class FeesApi
     /**
      * Operation getMyFeesEstimateForASINWithHttpInfo.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\ProductFees\GetMyFeesEstimateRequest $body (required)
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\ProductFees\GetMyFeesEstimateRequest $body (required)
      * @param string                                                                        $asin The Amazon Standard Identification Number (ASIN) of the item. (required)
      *
      * @throws \InvalidArgumentException
-     * @throws \Plentymarkets\AmazonSellingPartnerAPI\ApiException on non-2xx response
+     * @throws \Plenty\AmazonSellingPartnerAPI\ApiException on non-2xx response
      *
-     * @return array of \Plentymarkets\AmazonSellingPartnerAPI\Models\ProductFees\GetMyFeesEstimateResponse, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Plenty\AmazonSellingPartnerAPI\Models\ProductFees\GetMyFeesEstimateResponse, HTTP status code, HTTP response headers (array of strings)
      */
     public function getMyFeesEstimateForASINWithHttpInfo($body, $asin)
     {
@@ -101,7 +101,7 @@ class FeesApi
     /**
      * Operation getMyFeesEstimateForASINAsync.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\ProductFees\GetMyFeesEstimateRequest $body (required)
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\ProductFees\GetMyFeesEstimateRequest $body (required)
      * @param string                                                                        $asin The Amazon Standard Identification Number (ASIN) of the item. (required)
      *
      * @throws \InvalidArgumentException
@@ -121,7 +121,7 @@ class FeesApi
     /**
      * Operation getMyFeesEstimateForASINAsyncWithHttpInfo.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\ProductFees\GetMyFeesEstimateRequest $body (required)
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\ProductFees\GetMyFeesEstimateRequest $body (required)
      * @param string                                                                        $asin The Amazon Standard Identification Number (ASIN) of the item. (required)
      *
      * @throws \InvalidArgumentException
@@ -138,7 +138,7 @@ class FeesApi
     /**
      * Create request for operation 'getMyFeesEstimateForASIN'.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\ProductFees\GetMyFeesEstimateRequest $body (required)
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\ProductFees\GetMyFeesEstimateRequest $body (required)
      * @param string                                                                        $asin The Amazon Standard Identification Number (ASIN) of the item. (required)
      *
      * @throws \InvalidArgumentException
@@ -178,13 +178,13 @@ class FeesApi
     /**
      * Operation getMyFeesEstimateForSKU.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\ProductFees\GetMyFeesEstimateRequest $body       body (required)
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\ProductFees\GetMyFeesEstimateRequest $body       body (required)
      * @param string                                                                        $seller_sku Used to identify an item in the given marketplace. SellerSKU is qualified by the seller&#x27;s SellerId, which is included with every operation that you submit. (required)
      *
      * @throws \InvalidArgumentException
-     * @throws \Plentymarkets\AmazonSellingPartnerAPI\ApiException on non-2xx response
+     * @throws \Plenty\AmazonSellingPartnerAPI\ApiException on non-2xx response
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\ProductFees\GetMyFeesEstimateResponse
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\ProductFees\GetMyFeesEstimateResponse
      */
     public function getMyFeesEstimateForSKU($body, $seller_sku)
     {
@@ -196,13 +196,13 @@ class FeesApi
     /**
      * Operation getMyFeesEstimateForSKUWithHttpInfo.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\ProductFees\GetMyFeesEstimateRequest $body       (required)
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\ProductFees\GetMyFeesEstimateRequest $body       (required)
      * @param string                                                                        $seller_sku Used to identify an item in the given marketplace. SellerSKU is qualified by the seller&#x27;s SellerId, which is included with every operation that you submit. (required)
      *
      * @throws \InvalidArgumentException
-     * @throws \Plentymarkets\AmazonSellingPartnerAPI\ApiException on non-2xx response
+     * @throws \Plenty\AmazonSellingPartnerAPI\ApiException on non-2xx response
      *
-     * @return array of \Plentymarkets\AmazonSellingPartnerAPI\Models\ProductFees\GetMyFeesEstimateResponse, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Plenty\AmazonSellingPartnerAPI\Models\ProductFees\GetMyFeesEstimateResponse, HTTP status code, HTTP response headers (array of strings)
      */
     public function getMyFeesEstimateForSKUWithHttpInfo($body, $seller_sku)
     {
@@ -214,7 +214,7 @@ class FeesApi
     /**
      * Operation getMyFeesEstimateForSKUAsync.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\ProductFees\GetMyFeesEstimateRequest $body       (required)
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\ProductFees\GetMyFeesEstimateRequest $body       (required)
      * @param string                                                                        $seller_sku Used to identify an item in the given marketplace. SellerSKU is qualified by the seller&#x27;s SellerId, which is included with every operation that you submit. (required)
      *
      * @throws \InvalidArgumentException
@@ -234,7 +234,7 @@ class FeesApi
     /**
      * Operation getMyFeesEstimateForSKUAsyncWithHttpInfo.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\ProductFees\GetMyFeesEstimateRequest $body       (required)
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\ProductFees\GetMyFeesEstimateRequest $body       (required)
      * @param string                                                                        $seller_sku Used to identify an item in the given marketplace. SellerSKU is qualified by the seller&#x27;s SellerId, which is included with every operation that you submit. (required)
      *
      * @throws \InvalidArgumentException
@@ -251,7 +251,7 @@ class FeesApi
     /**
      * Create request for operation 'getMyFeesEstimateForSKU'.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\ProductFees\GetMyFeesEstimateRequest $body       (required)
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\ProductFees\GetMyFeesEstimateRequest $body       (required)
      * @param string                                                                        $seller_sku Used to identify an item in the given marketplace. SellerSKU is qualified by the seller&#x27;s SellerId, which is included with every operation that you submit. (required)
      *
      * @throws \InvalidArgumentException

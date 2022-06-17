@@ -15,12 +15,12 @@
  * OpenAPI spec version: v1
  */
 
-namespace Plentymarkets\AmazonSellingPartnerAPI\Models\FbaSmallAndLight;
+namespace Plenty\AmazonSellingPartnerAPI\Models\FbaSmallAndLight;
 
 use ArrayAccess;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\IterableType;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
-use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plenty\AmazonSellingPartnerAPI\Models\IterableType;
+use Plenty\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plenty\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * ErrorList Class Doc Comment.
@@ -47,7 +47,7 @@ class ErrorList implements ModelInterface, ArrayAccess, IterableType
      * @var string[]
      */
     protected static $swaggerTypes = [
-        'errors' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\FbaSmallAndLight\Error[]',    ];
+        'errors' => '\Plenty\AmazonSellingPartnerAPI\Models\FbaSmallAndLight\Error[]',    ];
 
     /**
      * Array of property to format mappings. Used for (de)serialization.
@@ -187,7 +187,7 @@ class ErrorList implements ModelInterface, ArrayAccess, IterableType
     /**
      * Gets errors.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\FbaSmallAndLight\Error[]
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\FbaSmallAndLight\Error[]
      */
     public function getErrors()
     {
@@ -197,7 +197,7 @@ class ErrorList implements ModelInterface, ArrayAccess, IterableType
     /**
      * Sets errors.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\FbaSmallAndLight\Error[] $errors errors
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\FbaSmallAndLight\Error[] $errors errors
      *
      * @return $this
      */

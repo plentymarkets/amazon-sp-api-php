@@ -15,11 +15,11 @@
  * OpenAPI spec version: v1
  */
 
-namespace Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping;
+namespace Plenty\AmazonSellingPartnerAPI\Models\Shipping;
 
 use ArrayAccess;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
-use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plenty\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plenty\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * PurchaseShipmentRequest Class Doc Comment.
@@ -46,13 +46,13 @@ class PurchaseShipmentRequest implements ModelInterface, ArrayAccess
      * @var string[]
      */
     protected static $swaggerTypes = [
-        'client_reference_id' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\ClientReferenceId',
-'ship_to' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\Address',
-'ship_from' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\Address',
+        'client_reference_id' => '\Plenty\AmazonSellingPartnerAPI\Models\Shipping\ClientReferenceId',
+'ship_to' => '\Plenty\AmazonSellingPartnerAPI\Models\Shipping\Address',
+'ship_from' => '\Plenty\AmazonSellingPartnerAPI\Models\Shipping\Address',
 'ship_date' => '\DateTime',
-'service_type' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\ServiceType',
-'containers' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\ContainerList',
-'label_specification' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\LabelSpecification',    ];
+'service_type' => '\Plenty\AmazonSellingPartnerAPI\Models\Shipping\ServiceType',
+'containers' => '\Plenty\AmazonSellingPartnerAPI\Models\Shipping\ContainerList',
+'label_specification' => '\Plenty\AmazonSellingPartnerAPI\Models\Shipping\LabelSpecification',    ];
 
     /**
      * Array of property to format mappings. Used for (de)serialization.
@@ -241,7 +241,7 @@ class PurchaseShipmentRequest implements ModelInterface, ArrayAccess
     /**
      * Gets client_reference_id.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\ClientReferenceId
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Shipping\ClientReferenceId
      */
     public function getClientReferenceId()
     {
@@ -251,7 +251,7 @@ class PurchaseShipmentRequest implements ModelInterface, ArrayAccess
     /**
      * Sets client_reference_id.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\ClientReferenceId $client_reference_id client_reference_id
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Shipping\ClientReferenceId $client_reference_id client_reference_id
      *
      * @return $this
      */
@@ -265,7 +265,7 @@ class PurchaseShipmentRequest implements ModelInterface, ArrayAccess
     /**
      * Gets ship_to.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\Address
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Shipping\Address
      */
     public function getShipTo()
     {
@@ -275,7 +275,7 @@ class PurchaseShipmentRequest implements ModelInterface, ArrayAccess
     /**
      * Sets ship_to.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\Address $ship_to ship_to
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Shipping\Address $ship_to ship_to
      *
      * @return $this
      */
@@ -289,7 +289,7 @@ class PurchaseShipmentRequest implements ModelInterface, ArrayAccess
     /**
      * Gets ship_from.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\Address
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Shipping\Address
      */
     public function getShipFrom()
     {
@@ -299,7 +299,7 @@ class PurchaseShipmentRequest implements ModelInterface, ArrayAccess
     /**
      * Sets ship_from.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\Address $ship_from ship_from
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Shipping\Address $ship_from ship_from
      *
      * @return $this
      */
@@ -337,7 +337,7 @@ class PurchaseShipmentRequest implements ModelInterface, ArrayAccess
     /**
      * Gets service_type.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\ServiceType
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Shipping\ServiceType
      */
     public function getServiceType()
     {
@@ -347,7 +347,7 @@ class PurchaseShipmentRequest implements ModelInterface, ArrayAccess
     /**
      * Sets service_type.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\ServiceType $service_type service_type
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Shipping\ServiceType $service_type service_type
      *
      * @return $this
      */
@@ -361,7 +361,7 @@ class PurchaseShipmentRequest implements ModelInterface, ArrayAccess
     /**
      * Gets containers.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\ContainerList
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Shipping\ContainerList
      */
     public function getContainers()
     {
@@ -371,7 +371,7 @@ class PurchaseShipmentRequest implements ModelInterface, ArrayAccess
     /**
      * Sets containers.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\ContainerList $containers containers
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Shipping\ContainerList $containers containers
      *
      * @return $this
      */
@@ -385,7 +385,7 @@ class PurchaseShipmentRequest implements ModelInterface, ArrayAccess
     /**
      * Gets label_specification.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\LabelSpecification
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Shipping\LabelSpecification
      */
     public function getLabelSpecification()
     {
@@ -395,7 +395,7 @@ class PurchaseShipmentRequest implements ModelInterface, ArrayAccess
     /**
      * Sets label_specification.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\LabelSpecification $label_specification label_specification
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Shipping\LabelSpecification $label_specification label_specification
      *
      * @return $this
      */

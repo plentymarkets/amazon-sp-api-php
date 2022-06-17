@@ -15,11 +15,11 @@
  * OpenAPI spec version: v1
  */
 
-namespace Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping;
+namespace Plenty\AmazonSellingPartnerAPI\Models\Shipping;
 
 use ArrayAccess;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
-use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plenty\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plenty\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * GetRatesResult Class Doc Comment.
@@ -46,7 +46,7 @@ class GetRatesResult implements ModelInterface, ArrayAccess
      * @var string[]
      */
     protected static $swaggerTypes = [
-        'service_rates' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\ServiceRateList',    ];
+        'service_rates' => '\Plenty\AmazonSellingPartnerAPI\Models\Shipping\ServiceRateList',    ];
 
     /**
      * Array of property to format mappings. Used for (de)serialization.
@@ -190,7 +190,7 @@ class GetRatesResult implements ModelInterface, ArrayAccess
     /**
      * Gets service_rates.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\ServiceRateList
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Shipping\ServiceRateList
      */
     public function getServiceRates()
     {
@@ -200,7 +200,7 @@ class GetRatesResult implements ModelInterface, ArrayAccess
     /**
      * Sets service_rates.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\ServiceRateList $service_rates service_rates
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Shipping\ServiceRateList $service_rates service_rates
      *
      * @return $this
      */

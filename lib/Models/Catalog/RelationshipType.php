@@ -15,11 +15,11 @@
  * OpenAPI spec version: v0
  */
 
-namespace Plentymarkets\AmazonSellingPartnerAPI\Models\Catalog;
+namespace Plenty\AmazonSellingPartnerAPI\Models\Catalog;
 
 use ArrayAccess;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
-use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plenty\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plenty\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * RelationshipType Class Doc Comment.
@@ -63,11 +63,11 @@ class RelationshipType extends Categories implements ModelInterface, ArrayAccess
 'scent' => 'string',
 'size' => 'string',
 'size_per_pearl' => 'string',
-'golf_club_loft' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Catalog\DecimalWithUnits',
-'total_diamond_weight' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Catalog\DecimalWithUnits',
-'total_gem_weight' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Catalog\DecimalWithUnits',
+'golf_club_loft' => '\Plenty\AmazonSellingPartnerAPI\Models\Catalog\DecimalWithUnits',
+'total_diamond_weight' => '\Plenty\AmazonSellingPartnerAPI\Models\Catalog\DecimalWithUnits',
+'total_gem_weight' => '\Plenty\AmazonSellingPartnerAPI\Models\Catalog\DecimalWithUnits',
 'package_quantity' => 'int',
-'item_dimensions' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Catalog\DimensionType',    ];
+'item_dimensions' => '\Plenty\AmazonSellingPartnerAPI\Models\Catalog\DimensionType',    ];
 
     /**
      * Array of property to format mappings. Used for (de)serialization.
@@ -720,7 +720,7 @@ class RelationshipType extends Categories implements ModelInterface, ArrayAccess
     /**
      * Gets golf_club_loft.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Catalog\DecimalWithUnits
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Catalog\DecimalWithUnits
      */
     public function getGolfClubLoft()
     {
@@ -730,7 +730,7 @@ class RelationshipType extends Categories implements ModelInterface, ArrayAccess
     /**
      * Sets golf_club_loft.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Catalog\DecimalWithUnits $golf_club_loft golf_club_loft
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Catalog\DecimalWithUnits $golf_club_loft golf_club_loft
      *
      * @return $this
      */
@@ -744,7 +744,7 @@ class RelationshipType extends Categories implements ModelInterface, ArrayAccess
     /**
      * Gets total_diamond_weight.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Catalog\DecimalWithUnits
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Catalog\DecimalWithUnits
      */
     public function getTotalDiamondWeight()
     {
@@ -754,7 +754,7 @@ class RelationshipType extends Categories implements ModelInterface, ArrayAccess
     /**
      * Sets total_diamond_weight.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Catalog\DecimalWithUnits $total_diamond_weight total_diamond_weight
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Catalog\DecimalWithUnits $total_diamond_weight total_diamond_weight
      *
      * @return $this
      */
@@ -768,7 +768,7 @@ class RelationshipType extends Categories implements ModelInterface, ArrayAccess
     /**
      * Gets total_gem_weight.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Catalog\DecimalWithUnits
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Catalog\DecimalWithUnits
      */
     public function getTotalGemWeight()
     {
@@ -778,7 +778,7 @@ class RelationshipType extends Categories implements ModelInterface, ArrayAccess
     /**
      * Sets total_gem_weight.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Catalog\DecimalWithUnits $total_gem_weight total_gem_weight
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Catalog\DecimalWithUnits $total_gem_weight total_gem_weight
      *
      * @return $this
      */
@@ -816,7 +816,7 @@ class RelationshipType extends Categories implements ModelInterface, ArrayAccess
     /**
      * Gets item_dimensions.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Catalog\DimensionType
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Catalog\DimensionType
      */
     public function getItemDimensions()
     {
@@ -826,7 +826,7 @@ class RelationshipType extends Categories implements ModelInterface, ArrayAccess
     /**
      * Sets item_dimensions.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Catalog\DimensionType $item_dimensions item_dimensions
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Catalog\DimensionType $item_dimensions item_dimensions
      *
      * @return $this
      */

@@ -13,13 +13,13 @@
  * OpenAPI spec version: v1
  */
 
-namespace Plentymarkets\AmazonSellingPartnerAPI\Api;
+namespace Plenty\AmazonSellingPartnerAPI\Api;
 
-use Plentymarkets\AmazonSellingPartnerAPI\Configuration;
-use Plentymarkets\AmazonSellingPartnerAPI\HeaderSelector;
-use Plentymarkets\AmazonSellingPartnerAPI\Helpers\SellingPartnerApiRequest;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\FbaInventory\GetInventorySummariesResponse;
-use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plenty\AmazonSellingPartnerAPI\Configuration;
+use Plenty\AmazonSellingPartnerAPI\HeaderSelector;
+use Plenty\AmazonSellingPartnerAPI\Helpers\SellingPartnerApiRequest;
+use Plenty\AmazonSellingPartnerAPI\Models\FbaInventory\GetInventorySummariesResponse;
+use Plenty\AmazonSellingPartnerAPI\ObjectSerializer;
 use GuzzleHttp\Client;
 use GuzzleHttp\ClientInterface;
 use GuzzleHttp\Psr7\Request;
@@ -73,10 +73,10 @@ class FbaInventoryApi
      * @param string[]  $seller_skus      A list of seller SKUs for which to return inventory summaries. You may specify up to 50 SKUs. (optional)
      * @param string    $next_token       String token returned in the response of your previous request. (optional)
      *
-     * @throws \Plentymarkets\AmazonSellingPartnerAPI\ApiException on non-2xx response
+     * @throws \Plenty\AmazonSellingPartnerAPI\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\FbaInventory\GetInventorySummariesResponse
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\FbaInventory\GetInventorySummariesResponse
      */
     public function getInventorySummaries($granularity_type, $granularity_id, $marketplace_ids, $details = 'false', $start_date_time = null, $seller_skus = null, $next_token = null)
     {
@@ -96,10 +96,10 @@ class FbaInventoryApi
      * @param string[]  $seller_skus      A list of seller SKUs for which to return inventory summaries. You may specify up to 50 SKUs. (optional)
      * @param string    $next_token       String token returned in the response of your previous request. (optional)
      *
-     * @throws \Plentymarkets\AmazonSellingPartnerAPI\ApiException on non-2xx response
+     * @throws \Plenty\AmazonSellingPartnerAPI\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      *
-     * @return array of \Plentymarkets\AmazonSellingPartnerAPI\Models\FbaInventory\GetInventorySummariesResponse, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Plenty\AmazonSellingPartnerAPI\Models\FbaInventory\GetInventorySummariesResponse, HTTP status code, HTTP response headers (array of strings)
      */
     public function getInventorySummariesWithHttpInfo($granularity_type, $granularity_id, $marketplace_ids, $details = 'false', $start_date_time = null, $seller_skus = null, $next_token = null)
     {

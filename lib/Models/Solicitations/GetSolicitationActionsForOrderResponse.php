@@ -15,11 +15,11 @@
  * OpenAPI spec version: v1
  */
 
-namespace Plentymarkets\AmazonSellingPartnerAPI\Models\Solicitations;
+namespace Plenty\AmazonSellingPartnerAPI\Models\Solicitations;
 
 use ArrayAccess;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
-use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plenty\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plenty\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * GetSolicitationActionsForOrderResponse Class Doc Comment.
@@ -46,9 +46,9 @@ class GetSolicitationActionsForOrderResponse implements ModelInterface, ArrayAcc
      * @var string[]
      */
     protected static $swaggerTypes = [
-        '_links' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Solicitations\GetSolicitationActionsForOrderResponseLinks',
-'_embedded' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Solicitations\GetSolicitationActionsForOrderResponseEmbedded',
-'errors' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Solicitations\ErrorList',    ];
+        '_links' => '\Plenty\AmazonSellingPartnerAPI\Models\Solicitations\GetSolicitationActionsForOrderResponseLinks',
+'_embedded' => '\Plenty\AmazonSellingPartnerAPI\Models\Solicitations\GetSolicitationActionsForOrderResponseEmbedded',
+'errors' => '\Plenty\AmazonSellingPartnerAPI\Models\Solicitations\ErrorList',    ];
 
     /**
      * Array of property to format mappings. Used for (de)serialization.
@@ -198,7 +198,7 @@ class GetSolicitationActionsForOrderResponse implements ModelInterface, ArrayAcc
     /**
      * Gets _links.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Solicitations\GetSolicitationActionsForOrderResponseLinks
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Solicitations\GetSolicitationActionsForOrderResponseLinks
      */
     public function getLinks()
     {
@@ -208,7 +208,7 @@ class GetSolicitationActionsForOrderResponse implements ModelInterface, ArrayAcc
     /**
      * Sets _links.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Solicitations\GetSolicitationActionsForOrderResponseLinks $_links _links
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Solicitations\GetSolicitationActionsForOrderResponseLinks $_links _links
      *
      * @return $this
      */
@@ -222,7 +222,7 @@ class GetSolicitationActionsForOrderResponse implements ModelInterface, ArrayAcc
     /**
      * Gets _embedded.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Solicitations\GetSolicitationActionsForOrderResponseEmbedded
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Solicitations\GetSolicitationActionsForOrderResponseEmbedded
      */
     public function getEmbedded()
     {
@@ -232,7 +232,7 @@ class GetSolicitationActionsForOrderResponse implements ModelInterface, ArrayAcc
     /**
      * Sets _embedded.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Solicitations\GetSolicitationActionsForOrderResponseEmbedded $_embedded _embedded
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Solicitations\GetSolicitationActionsForOrderResponseEmbedded $_embedded _embedded
      *
      * @return $this
      */
@@ -246,7 +246,7 @@ class GetSolicitationActionsForOrderResponse implements ModelInterface, ArrayAcc
     /**
      * Gets errors.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Solicitations\ErrorList
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Solicitations\ErrorList
      */
     public function getErrors()
     {
@@ -256,7 +256,7 @@ class GetSolicitationActionsForOrderResponse implements ModelInterface, ArrayAcc
     /**
      * Sets errors.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Solicitations\ErrorList $errors errors
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Solicitations\ErrorList $errors errors
      *
      * @return $this
      */

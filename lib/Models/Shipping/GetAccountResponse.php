@@ -15,11 +15,11 @@
  * OpenAPI spec version: v1
  */
 
-namespace Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping;
+namespace Plenty\AmazonSellingPartnerAPI\Models\Shipping;
 
 use ArrayAccess;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
-use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plenty\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plenty\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * GetAccountResponse Class Doc Comment.
@@ -46,8 +46,8 @@ class GetAccountResponse implements ModelInterface, ArrayAccess
      * @var string[]
      */
     protected static $swaggerTypes = [
-        'payload' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\Account',
-'errors' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\ErrorList',    ];
+        'payload' => '\Plenty\AmazonSellingPartnerAPI\Models\Shipping\Account',
+'errors' => '\Plenty\AmazonSellingPartnerAPI\Models\Shipping\ErrorList',    ];
 
     /**
      * Array of property to format mappings. Used for (de)serialization.
@@ -192,7 +192,7 @@ class GetAccountResponse implements ModelInterface, ArrayAccess
     /**
      * Gets payload.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\Account
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Shipping\Account
      */
     public function getPayload()
     {
@@ -202,7 +202,7 @@ class GetAccountResponse implements ModelInterface, ArrayAccess
     /**
      * Sets payload.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\Account $payload payload
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Shipping\Account $payload payload
      *
      * @return $this
      */
@@ -216,7 +216,7 @@ class GetAccountResponse implements ModelInterface, ArrayAccess
     /**
      * Gets errors.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\ErrorList
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Shipping\ErrorList
      */
     public function getErrors()
     {
@@ -226,7 +226,7 @@ class GetAccountResponse implements ModelInterface, ArrayAccess
     /**
      * Sets errors.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\ErrorList $errors errors
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Shipping\ErrorList $errors errors
      *
      * @return $this
      */

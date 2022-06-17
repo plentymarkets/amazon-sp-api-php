@@ -15,11 +15,11 @@
  * OpenAPI spec version: v0
  */
 
-namespace Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound;
+namespace Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound;
 
 use ArrayAccess;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
-use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plenty\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plenty\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * TransportResult Class Doc Comment.
@@ -46,7 +46,7 @@ class TransportResult implements ModelInterface, ArrayAccess
      * @var string[]
      */
     protected static $swaggerTypes = [
-        'transport_status' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\TransportStatus',
+        'transport_status' => '\Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\TransportStatus',
 'error_code' => 'string',
 'error_description' => 'string',    ];
 
@@ -202,7 +202,7 @@ class TransportResult implements ModelInterface, ArrayAccess
     /**
      * Gets transport_status.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\TransportStatus
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\TransportStatus
      */
     public function getTransportStatus()
     {
@@ -212,7 +212,7 @@ class TransportResult implements ModelInterface, ArrayAccess
     /**
      * Sets transport_status.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\TransportStatus $transport_status transport_status
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\TransportStatus $transport_status transport_status
      *
      * @return $this
      */

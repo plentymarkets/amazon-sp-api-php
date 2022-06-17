@@ -15,11 +15,11 @@
  * OpenAPI spec version: v0
  */
 
-namespace Plentymarkets\AmazonSellingPartnerAPI\Models\Finances;
+namespace Plenty\AmazonSellingPartnerAPI\Models\Finances;
 
 use ArrayAccess;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
-use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plenty\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plenty\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * PayWithAmazonEvent Class Doc Comment.
@@ -47,11 +47,11 @@ class PayWithAmazonEvent implements ModelInterface, ArrayAccess
      */
     protected static $swaggerTypes = [
         'seller_order_id' => 'string',
-'transaction_posted_date' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\\DateTime',
+'transaction_posted_date' => '\Plenty\AmazonSellingPartnerAPI\Models\Finances\\DateTime',
 'business_object_type' => 'string',
 'sales_channel' => 'string',
-'charge' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\ChargeComponent',
-'fee_list' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\FeeComponentList',
+'charge' => '\Plenty\AmazonSellingPartnerAPI\Models\Finances\ChargeComponent',
+'fee_list' => '\Plenty\AmazonSellingPartnerAPI\Models\Finances\FeeComponentList',
 'payment_amount_type' => 'string',
 'amount_description' => 'string',
 'fulfillment_channel' => 'string',
@@ -264,7 +264,7 @@ class PayWithAmazonEvent implements ModelInterface, ArrayAccess
     /**
      * Gets transaction_posted_date.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\DateTime
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Finances\DateTime
      */
     public function getTransactionPostedDate()
     {
@@ -274,7 +274,7 @@ class PayWithAmazonEvent implements ModelInterface, ArrayAccess
     /**
      * Sets transaction_posted_date.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\DateTime $transaction_posted_date transaction_posted_date
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Finances\DateTime $transaction_posted_date transaction_posted_date
      *
      * @return $this
      */
@@ -336,7 +336,7 @@ class PayWithAmazonEvent implements ModelInterface, ArrayAccess
     /**
      * Gets charge.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\ChargeComponent
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Finances\ChargeComponent
      */
     public function getCharge()
     {
@@ -346,7 +346,7 @@ class PayWithAmazonEvent implements ModelInterface, ArrayAccess
     /**
      * Sets charge.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\ChargeComponent $charge charge
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Finances\ChargeComponent $charge charge
      *
      * @return $this
      */
@@ -360,7 +360,7 @@ class PayWithAmazonEvent implements ModelInterface, ArrayAccess
     /**
      * Gets fee_list.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\FeeComponentList
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Finances\FeeComponentList
      */
     public function getFeeList()
     {
@@ -370,7 +370,7 @@ class PayWithAmazonEvent implements ModelInterface, ArrayAccess
     /**
      * Sets fee_list.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\FeeComponentList $fee_list fee_list
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Finances\FeeComponentList $fee_list fee_list
      *
      * @return $this
      */

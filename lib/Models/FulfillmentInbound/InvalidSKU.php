@@ -15,11 +15,11 @@
  * OpenAPI spec version: v0
  */
 
-namespace Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound;
+namespace Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound;
 
 use ArrayAccess;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
-use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plenty\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plenty\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * InvalidSKU Class Doc Comment.
@@ -44,7 +44,7 @@ class InvalidSKU implements ModelInterface, ArrayAccess
      */
     protected static $swaggerTypes = [
         'seller_sku' => 'string',
-'error_reason' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\ErrorReason',    ];
+'error_reason' => '\Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\ErrorReason',    ];
 
     /**
      * Array of property to format mappings. Used for (de)serialization.
@@ -213,7 +213,7 @@ class InvalidSKU implements ModelInterface, ArrayAccess
     /**
      * Gets error_reason.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\ErrorReason
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\ErrorReason
      */
     public function getErrorReason()
     {
@@ -223,7 +223,7 @@ class InvalidSKU implements ModelInterface, ArrayAccess
     /**
      * Sets error_reason.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\ErrorReason $error_reason error_reason
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\ErrorReason $error_reason error_reason
      *
      * @return $this
      */

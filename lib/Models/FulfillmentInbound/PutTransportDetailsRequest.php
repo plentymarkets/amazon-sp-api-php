@@ -15,11 +15,11 @@
  * OpenAPI spec version: v0
  */
 
-namespace Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound;
+namespace Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound;
 
 use ArrayAccess;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
-use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plenty\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plenty\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * PutTransportDetailsRequest Class Doc Comment.
@@ -47,8 +47,8 @@ class PutTransportDetailsRequest implements ModelInterface, ArrayAccess
      */
     protected static $swaggerTypes = [
         'is_partnered' => 'bool',
-'shipment_type' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\ShipmentType',
-'transport_details' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\TransportDetailInput',    ];
+'shipment_type' => '\Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\ShipmentType',
+'transport_details' => '\Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\TransportDetailInput',    ];
 
     /**
      * Array of property to format mappings. Used for (de)serialization.
@@ -232,7 +232,7 @@ class PutTransportDetailsRequest implements ModelInterface, ArrayAccess
     /**
      * Gets shipment_type.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\ShipmentType
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\ShipmentType
      */
     public function getShipmentType()
     {
@@ -242,7 +242,7 @@ class PutTransportDetailsRequest implements ModelInterface, ArrayAccess
     /**
      * Sets shipment_type.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\ShipmentType $shipment_type shipment_type
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\ShipmentType $shipment_type shipment_type
      *
      * @return $this
      */
@@ -256,7 +256,7 @@ class PutTransportDetailsRequest implements ModelInterface, ArrayAccess
     /**
      * Gets transport_details.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\TransportDetailInput
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\TransportDetailInput
      */
     public function getTransportDetails()
     {
@@ -266,7 +266,7 @@ class PutTransportDetailsRequest implements ModelInterface, ArrayAccess
     /**
      * Sets transport_details.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\TransportDetailInput $transport_details transport_details
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\TransportDetailInput $transport_details transport_details
      *
      * @return $this
      */

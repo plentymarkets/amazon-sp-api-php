@@ -15,11 +15,11 @@
  * OpenAPI spec version: v1
  */
 
-namespace Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping;
+namespace Plenty\AmazonSellingPartnerAPI\Models\Shipping;
 
 use ArrayAccess;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
-use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plenty\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plenty\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * CancelShipmentResponse Class Doc Comment.
@@ -46,7 +46,7 @@ class CancelShipmentResponse implements ModelInterface, ArrayAccess
      * @var string[]
      */
     protected static $swaggerTypes = [
-        'errors' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\ErrorList',    ];
+        'errors' => '\Plenty\AmazonSellingPartnerAPI\Models\Shipping\ErrorList',    ];
 
     /**
      * Array of property to format mappings. Used for (de)serialization.
@@ -186,7 +186,7 @@ class CancelShipmentResponse implements ModelInterface, ArrayAccess
     /**
      * Gets errors.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\ErrorList
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Shipping\ErrorList
      */
     public function getErrors()
     {
@@ -196,7 +196,7 @@ class CancelShipmentResponse implements ModelInterface, ArrayAccess
     /**
      * Sets errors.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\ErrorList $errors errors
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Shipping\ErrorList $errors errors
      *
      * @return $this
      */

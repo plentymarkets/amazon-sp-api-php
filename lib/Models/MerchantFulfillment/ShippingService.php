@@ -15,11 +15,11 @@
  * OpenAPI spec version: v0
  */
 
-namespace Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment;
+namespace Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment;
 
 use ArrayAccess;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
-use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plenty\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plenty\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * ShippingService Class Doc Comment.
@@ -48,16 +48,16 @@ class ShippingService implements ModelInterface, ArrayAccess
     protected static $swaggerTypes = [
         'shipping_service_name' => 'string',
 'carrier_name' => 'string',
-'shipping_service_id' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\ShippingServiceIdentifier',
+'shipping_service_id' => '\Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\ShippingServiceIdentifier',
 'shipping_service_offer_id' => 'string',
-'ship_date' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\Timestamp',
-'earliest_estimated_delivery_date' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\Timestamp',
-'latest_estimated_delivery_date' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\Timestamp',
-'rate' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\CurrencyAmount',
-'shipping_service_options' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\ShippingServiceOptions',
-'available_shipping_service_options' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\AvailableShippingServiceOptions',
-'available_label_formats' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\LabelFormatList',
-'available_format_options_for_label' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\AvailableFormatOptionsForLabelList',
+'ship_date' => '\Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\Timestamp',
+'earliest_estimated_delivery_date' => '\Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\Timestamp',
+'latest_estimated_delivery_date' => '\Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\Timestamp',
+'rate' => '\Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\CurrencyAmount',
+'shipping_service_options' => '\Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\ShippingServiceOptions',
+'available_shipping_service_options' => '\Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\AvailableShippingServiceOptions',
+'available_label_formats' => '\Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\LabelFormatList',
+'available_format_options_for_label' => '\Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\AvailableFormatOptionsForLabelList',
 'requires_additional_seller_inputs' => 'bool',    ];
 
     /**
@@ -331,7 +331,7 @@ class ShippingService implements ModelInterface, ArrayAccess
     /**
      * Gets shipping_service_id.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\ShippingServiceIdentifier
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\ShippingServiceIdentifier
      */
     public function getShippingServiceId()
     {
@@ -341,7 +341,7 @@ class ShippingService implements ModelInterface, ArrayAccess
     /**
      * Sets shipping_service_id.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\ShippingServiceIdentifier $shipping_service_id shipping_service_id
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\ShippingServiceIdentifier $shipping_service_id shipping_service_id
      *
      * @return $this
      */
@@ -379,7 +379,7 @@ class ShippingService implements ModelInterface, ArrayAccess
     /**
      * Gets ship_date.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\Timestamp
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\Timestamp
      */
     public function getShipDate()
     {
@@ -389,7 +389,7 @@ class ShippingService implements ModelInterface, ArrayAccess
     /**
      * Sets ship_date.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\Timestamp $ship_date ship_date
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\Timestamp $ship_date ship_date
      *
      * @return $this
      */
@@ -403,7 +403,7 @@ class ShippingService implements ModelInterface, ArrayAccess
     /**
      * Gets earliest_estimated_delivery_date.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\Timestamp
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\Timestamp
      */
     public function getEarliestEstimatedDeliveryDate()
     {
@@ -413,7 +413,7 @@ class ShippingService implements ModelInterface, ArrayAccess
     /**
      * Sets earliest_estimated_delivery_date.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\Timestamp $earliest_estimated_delivery_date earliest_estimated_delivery_date
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\Timestamp $earliest_estimated_delivery_date earliest_estimated_delivery_date
      *
      * @return $this
      */
@@ -427,7 +427,7 @@ class ShippingService implements ModelInterface, ArrayAccess
     /**
      * Gets latest_estimated_delivery_date.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\Timestamp
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\Timestamp
      */
     public function getLatestEstimatedDeliveryDate()
     {
@@ -437,7 +437,7 @@ class ShippingService implements ModelInterface, ArrayAccess
     /**
      * Sets latest_estimated_delivery_date.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\Timestamp $latest_estimated_delivery_date latest_estimated_delivery_date
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\Timestamp $latest_estimated_delivery_date latest_estimated_delivery_date
      *
      * @return $this
      */
@@ -451,7 +451,7 @@ class ShippingService implements ModelInterface, ArrayAccess
     /**
      * Gets rate.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\CurrencyAmount
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\CurrencyAmount
      */
     public function getRate()
     {
@@ -461,7 +461,7 @@ class ShippingService implements ModelInterface, ArrayAccess
     /**
      * Sets rate.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\CurrencyAmount $rate rate
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\CurrencyAmount $rate rate
      *
      * @return $this
      */
@@ -475,7 +475,7 @@ class ShippingService implements ModelInterface, ArrayAccess
     /**
      * Gets shipping_service_options.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\ShippingServiceOptions
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\ShippingServiceOptions
      */
     public function getShippingServiceOptions()
     {
@@ -485,7 +485,7 @@ class ShippingService implements ModelInterface, ArrayAccess
     /**
      * Sets shipping_service_options.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\ShippingServiceOptions $shipping_service_options shipping_service_options
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\ShippingServiceOptions $shipping_service_options shipping_service_options
      *
      * @return $this
      */
@@ -499,7 +499,7 @@ class ShippingService implements ModelInterface, ArrayAccess
     /**
      * Gets available_shipping_service_options.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\AvailableShippingServiceOptions
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\AvailableShippingServiceOptions
      */
     public function getAvailableShippingServiceOptions()
     {
@@ -509,7 +509,7 @@ class ShippingService implements ModelInterface, ArrayAccess
     /**
      * Sets available_shipping_service_options.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\AvailableShippingServiceOptions $available_shipping_service_options available_shipping_service_options
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\AvailableShippingServiceOptions $available_shipping_service_options available_shipping_service_options
      *
      * @return $this
      */
@@ -523,7 +523,7 @@ class ShippingService implements ModelInterface, ArrayAccess
     /**
      * Gets available_label_formats.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\LabelFormatList
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\LabelFormatList
      */
     public function getAvailableLabelFormats()
     {
@@ -533,7 +533,7 @@ class ShippingService implements ModelInterface, ArrayAccess
     /**
      * Sets available_label_formats.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\LabelFormatList $available_label_formats available_label_formats
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\LabelFormatList $available_label_formats available_label_formats
      *
      * @return $this
      */
@@ -547,7 +547,7 @@ class ShippingService implements ModelInterface, ArrayAccess
     /**
      * Gets available_format_options_for_label.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\AvailableFormatOptionsForLabelList
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\AvailableFormatOptionsForLabelList
      */
     public function getAvailableFormatOptionsForLabel()
     {
@@ -557,7 +557,7 @@ class ShippingService implements ModelInterface, ArrayAccess
     /**
      * Sets available_format_options_for_label.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\AvailableFormatOptionsForLabelList $available_format_options_for_label available_format_options_for_label
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\AvailableFormatOptionsForLabelList $available_format_options_for_label available_format_options_for_label
      *
      * @return $this
      */

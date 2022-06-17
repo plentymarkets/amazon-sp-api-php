@@ -15,11 +15,11 @@
  * OpenAPI spec version: v0
  */
 
-namespace Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound;
+namespace Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound;
 
 use ArrayAccess;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
-use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plenty\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plenty\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * InboundShipmentHeader Class Doc Comment.
@@ -47,12 +47,12 @@ class InboundShipmentHeader implements ModelInterface, ArrayAccess
      */
     protected static $swaggerTypes = [
         'shipment_name' => 'string',
-'ship_from_address' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\Address',
+'ship_from_address' => '\Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\Address',
 'destination_fulfillment_center_id' => 'string',
 'are_cases_required' => 'bool',
-'shipment_status' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\ShipmentStatus',
-'label_prep_preference' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\LabelPrepPreference',
-'intended_box_contents_source' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\IntendedBoxContentsSource',    ];
+'shipment_status' => '\Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\ShipmentStatus',
+'label_prep_preference' => '\Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\LabelPrepPreference',
+'intended_box_contents_source' => '\Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\IntendedBoxContentsSource',    ];
 
     /**
      * Array of property to format mappings. Used for (de)serialization.
@@ -262,7 +262,7 @@ class InboundShipmentHeader implements ModelInterface, ArrayAccess
     /**
      * Gets ship_from_address.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\Address
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\Address
      */
     public function getShipFromAddress()
     {
@@ -272,7 +272,7 @@ class InboundShipmentHeader implements ModelInterface, ArrayAccess
     /**
      * Sets ship_from_address.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\Address $ship_from_address ship_from_address
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\Address $ship_from_address ship_from_address
      *
      * @return $this
      */
@@ -334,7 +334,7 @@ class InboundShipmentHeader implements ModelInterface, ArrayAccess
     /**
      * Gets shipment_status.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\ShipmentStatus
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\ShipmentStatus
      */
     public function getShipmentStatus()
     {
@@ -344,7 +344,7 @@ class InboundShipmentHeader implements ModelInterface, ArrayAccess
     /**
      * Sets shipment_status.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\ShipmentStatus $shipment_status shipment_status
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\ShipmentStatus $shipment_status shipment_status
      *
      * @return $this
      */
@@ -358,7 +358,7 @@ class InboundShipmentHeader implements ModelInterface, ArrayAccess
     /**
      * Gets label_prep_preference.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\LabelPrepPreference
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\LabelPrepPreference
      */
     public function getLabelPrepPreference()
     {
@@ -368,7 +368,7 @@ class InboundShipmentHeader implements ModelInterface, ArrayAccess
     /**
      * Sets label_prep_preference.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\LabelPrepPreference $label_prep_preference label_prep_preference
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\LabelPrepPreference $label_prep_preference label_prep_preference
      *
      * @return $this
      */
@@ -382,7 +382,7 @@ class InboundShipmentHeader implements ModelInterface, ArrayAccess
     /**
      * Gets intended_box_contents_source.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\IntendedBoxContentsSource
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\IntendedBoxContentsSource
      */
     public function getIntendedBoxContentsSource()
     {
@@ -392,7 +392,7 @@ class InboundShipmentHeader implements ModelInterface, ArrayAccess
     /**
      * Sets intended_box_contents_source.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\IntendedBoxContentsSource $intended_box_contents_source intended_box_contents_source
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\IntendedBoxContentsSource $intended_box_contents_source intended_box_contents_source
      *
      * @return $this
      */

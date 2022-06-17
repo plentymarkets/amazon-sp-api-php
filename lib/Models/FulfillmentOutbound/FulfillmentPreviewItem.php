@@ -15,11 +15,11 @@
  * OpenAPI spec version: 2020-07-01
  */
 
-namespace Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound;
+namespace Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound;
 
 use ArrayAccess;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
-use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plenty\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plenty\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * FulfillmentPreviewItem Class Doc Comment.
@@ -47,9 +47,9 @@ class FulfillmentPreviewItem implements ModelInterface, ArrayAccess
      */
     protected static $swaggerTypes = [
         'seller_sku' => 'string',
-'quantity' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\Quantity',
+'quantity' => '\Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\Quantity',
 'seller_fulfillment_order_item_id' => 'string',
-'estimated_shipping_weight' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\Weight',
+'estimated_shipping_weight' => '\Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\Weight',
 'shipping_weight_calculation_method' => 'string',    ];
 
     /**
@@ -266,7 +266,7 @@ self::SHIPPING_WEIGHT_CALCULATION_METHOD_DIMENSIONAL,        ];
     /**
      * Gets quantity.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\Quantity
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\Quantity
      */
     public function getQuantity()
     {
@@ -276,7 +276,7 @@ self::SHIPPING_WEIGHT_CALCULATION_METHOD_DIMENSIONAL,        ];
     /**
      * Sets quantity.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\Quantity $quantity quantity
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\Quantity $quantity quantity
      *
      * @return $this
      */
@@ -314,7 +314,7 @@ self::SHIPPING_WEIGHT_CALCULATION_METHOD_DIMENSIONAL,        ];
     /**
      * Gets estimated_shipping_weight.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\Weight
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\Weight
      */
     public function getEstimatedShippingWeight()
     {
@@ -324,7 +324,7 @@ self::SHIPPING_WEIGHT_CALCULATION_METHOD_DIMENSIONAL,        ];
     /**
      * Sets estimated_shipping_weight.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\Weight $estimated_shipping_weight estimated_shipping_weight
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\Weight $estimated_shipping_weight estimated_shipping_weight
      *
      * @return $this
      */

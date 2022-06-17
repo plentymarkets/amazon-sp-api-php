@@ -15,11 +15,11 @@
  * OpenAPI spec version: v0
  */
 
-namespace Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment;
+namespace Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment;
 
 use ArrayAccess;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
-use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plenty\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plenty\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * GetAdditionalSellerInputsResult Class Doc Comment.
@@ -46,8 +46,8 @@ class GetAdditionalSellerInputsResult implements ModelInterface, ArrayAccess
      * @var string[]
      */
     protected static $swaggerTypes = [
-        'shipment_level_fields' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\AdditionalInputsList',
-'item_level_fields_list' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\ItemLevelFieldsList',    ];
+        'shipment_level_fields' => '\Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\AdditionalInputsList',
+'item_level_fields_list' => '\Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\ItemLevelFieldsList',    ];
 
     /**
      * Array of property to format mappings. Used for (de)serialization.
@@ -192,7 +192,7 @@ class GetAdditionalSellerInputsResult implements ModelInterface, ArrayAccess
     /**
      * Gets shipment_level_fields.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\AdditionalInputsList
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\AdditionalInputsList
      */
     public function getShipmentLevelFields()
     {
@@ -202,7 +202,7 @@ class GetAdditionalSellerInputsResult implements ModelInterface, ArrayAccess
     /**
      * Sets shipment_level_fields.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\AdditionalInputsList $shipment_level_fields shipment_level_fields
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\AdditionalInputsList $shipment_level_fields shipment_level_fields
      *
      * @return $this
      */
@@ -216,7 +216,7 @@ class GetAdditionalSellerInputsResult implements ModelInterface, ArrayAccess
     /**
      * Gets item_level_fields_list.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\ItemLevelFieldsList
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\ItemLevelFieldsList
      */
     public function getItemLevelFieldsList()
     {
@@ -226,7 +226,7 @@ class GetAdditionalSellerInputsResult implements ModelInterface, ArrayAccess
     /**
      * Sets item_level_fields_list.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\ItemLevelFieldsList $item_level_fields_list item_level_fields_list
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\ItemLevelFieldsList $item_level_fields_list item_level_fields_list
      *
      * @return $this
      */

@@ -15,11 +15,11 @@
  * OpenAPI spec version: v1
  */
 
-namespace Plentymarkets\AmazonSellingPartnerAPI\Models\Services;
+namespace Plenty\AmazonSellingPartnerAPI\Models\Services;
 
 use ArrayAccess;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
-use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plenty\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plenty\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * AddAppointmentRequest Class Doc Comment.
@@ -46,7 +46,7 @@ class AddAppointmentRequest implements ModelInterface, ArrayAccess
      * @var string[]
      */
     protected static $swaggerTypes = [
-        'appointment_time' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Services\AppointmentTimeInput',    ];
+        'appointment_time' => '\Plenty\AmazonSellingPartnerAPI\Models\Services\AppointmentTimeInput',    ];
 
     /**
      * Array of property to format mappings. Used for (de)serialization.
@@ -190,7 +190,7 @@ class AddAppointmentRequest implements ModelInterface, ArrayAccess
     /**
      * Gets appointment_time.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Services\AppointmentTimeInput
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Services\AppointmentTimeInput
      */
     public function getAppointmentTime()
     {
@@ -200,7 +200,7 @@ class AddAppointmentRequest implements ModelInterface, ArrayAccess
     /**
      * Sets appointment_time.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Services\AppointmentTimeInput $appointment_time appointment_time
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Services\AppointmentTimeInput $appointment_time appointment_time
      *
      * @return $this
      */

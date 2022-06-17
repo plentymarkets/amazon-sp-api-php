@@ -15,11 +15,11 @@
  * OpenAPI spec version: v0
  */
 
-namespace Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound;
+namespace Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound;
 
 use ArrayAccess;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
-use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plenty\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plenty\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * Weight Class Doc Comment.
@@ -46,8 +46,8 @@ class Weight implements ModelInterface, ArrayAccess
      * @var string[]
      */
     protected static $swaggerTypes = [
-        'value' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\BigDecimalType',
-'unit' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\UnitOfWeight',    ];
+        'value' => '\Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\BigDecimalType',
+'unit' => '\Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\UnitOfWeight',    ];
 
     /**
      * Array of property to format mappings. Used for (de)serialization.
@@ -199,7 +199,7 @@ class Weight implements ModelInterface, ArrayAccess
     /**
      * Gets value.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\BigDecimalType
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\BigDecimalType
      */
     public function getValue()
     {
@@ -209,7 +209,7 @@ class Weight implements ModelInterface, ArrayAccess
     /**
      * Sets value.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\BigDecimalType $value value
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\BigDecimalType $value value
      *
      * @return $this
      */
@@ -223,7 +223,7 @@ class Weight implements ModelInterface, ArrayAccess
     /**
      * Gets unit.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\UnitOfWeight
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\UnitOfWeight
      */
     public function getUnit()
     {
@@ -233,7 +233,7 @@ class Weight implements ModelInterface, ArrayAccess
     /**
      * Sets unit.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\UnitOfWeight $unit unit
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\UnitOfWeight $unit unit
      *
      * @return $this
      */

@@ -15,11 +15,11 @@
  * OpenAPI spec version: v1
  */
 
-namespace Plentymarkets\AmazonSellingPartnerAPI\Models\FbaInboundEligibility;
+namespace Plenty\AmazonSellingPartnerAPI\Models\FbaInboundEligibility;
 
 use ArrayAccess;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
-use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plenty\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plenty\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * GetItemEligibilityPreviewResponse Class Doc Comment.
@@ -46,8 +46,8 @@ class GetItemEligibilityPreviewResponse implements ModelInterface, ArrayAccess
      * @var string[]
      */
     protected static $swaggerTypes = [
-        'payload' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\FbaInboundEligibility\ItemEligibilityPreview',
-'errors' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\FbaInboundEligibility\ErrorList',    ];
+        'payload' => '\Plenty\AmazonSellingPartnerAPI\Models\FbaInboundEligibility\ItemEligibilityPreview',
+'errors' => '\Plenty\AmazonSellingPartnerAPI\Models\FbaInboundEligibility\ErrorList',    ];
 
     /**
      * Array of property to format mappings. Used for (de)serialization.
@@ -192,7 +192,7 @@ class GetItemEligibilityPreviewResponse implements ModelInterface, ArrayAccess
     /**
      * Gets payload.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\FbaInboundEligibility\ItemEligibilityPreview
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\FbaInboundEligibility\ItemEligibilityPreview
      */
     public function getPayload()
     {
@@ -202,7 +202,7 @@ class GetItemEligibilityPreviewResponse implements ModelInterface, ArrayAccess
     /**
      * Sets payload.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\FbaInboundEligibility\ItemEligibilityPreview $payload payload
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\FbaInboundEligibility\ItemEligibilityPreview $payload payload
      *
      * @return $this
      */
@@ -216,7 +216,7 @@ class GetItemEligibilityPreviewResponse implements ModelInterface, ArrayAccess
     /**
      * Gets errors.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\FbaInboundEligibility\ErrorList
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\FbaInboundEligibility\ErrorList
      */
     public function getErrors()
     {
@@ -226,7 +226,7 @@ class GetItemEligibilityPreviewResponse implements ModelInterface, ArrayAccess
     /**
      * Sets errors.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\FbaInboundEligibility\ErrorList $errors errors
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\FbaInboundEligibility\ErrorList $errors errors
      *
      * @return $this
      */

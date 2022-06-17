@@ -15,11 +15,11 @@
  * OpenAPI spec version: v0
  */
 
-namespace Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound;
+namespace Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound;
 
 use ArrayAccess;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
-use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plenty\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plenty\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * CreateInboundShipmentPlanResult Class Doc Comment.
@@ -43,7 +43,7 @@ class CreateInboundShipmentPlanResult implements ModelInterface, ArrayAccess
      * @var string[]
      */
     protected static $swaggerTypes = [
-        'inbound_shipment_plans' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\InboundShipmentPlanList',    ];
+        'inbound_shipment_plans' => '\Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\InboundShipmentPlanList',    ];
 
     /**
      * Array of property to format mappings. Used for (de)serialization.
@@ -183,7 +183,7 @@ class CreateInboundShipmentPlanResult implements ModelInterface, ArrayAccess
     /**
      * Gets inbound_shipment_plans.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\InboundShipmentPlanList
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\InboundShipmentPlanList
      */
     public function getInboundShipmentPlans()
     {
@@ -193,7 +193,7 @@ class CreateInboundShipmentPlanResult implements ModelInterface, ArrayAccess
     /**
      * Sets inbound_shipment_plans.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\InboundShipmentPlanList $inbound_shipment_plans inbound_shipment_plans
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\InboundShipmentPlanList $inbound_shipment_plans inbound_shipment_plans
      *
      * @return $this
      */

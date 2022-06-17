@@ -15,11 +15,11 @@
  * OpenAPI spec version: 2020-07-01
  */
 
-namespace Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound;
+namespace Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound;
 
 use ArrayAccess;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
-use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plenty\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plenty\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * Fee Class Doc Comment.
@@ -47,7 +47,7 @@ class Fee implements ModelInterface, ArrayAccess
      */
     protected static $swaggerTypes = [
         'name' => 'string',
-'amount' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\Money',    ];
+'amount' => '\Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\Money',    ];
 
     /**
      * Array of property to format mappings. Used for (de)serialization.
@@ -254,7 +254,7 @@ self::NAME_FBA_FULFILLMENT_COD_FEE,        ];
     /**
      * Gets amount.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\Money
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\Money
      */
     public function getAmount()
     {
@@ -264,7 +264,7 @@ self::NAME_FBA_FULFILLMENT_COD_FEE,        ];
     /**
      * Sets amount.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\Money $amount amount
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\Money $amount amount
      *
      * @return $this
      */

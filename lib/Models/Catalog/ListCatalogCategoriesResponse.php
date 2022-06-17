@@ -15,11 +15,11 @@
  * OpenAPI spec version: v0
  */
 
-namespace Plentymarkets\AmazonSellingPartnerAPI\Models\Catalog;
+namespace Plenty\AmazonSellingPartnerAPI\Models\Catalog;
 
 use ArrayAccess;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
-use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plenty\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plenty\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * ListCatalogCategoriesResponse Class Doc Comment.
@@ -43,8 +43,8 @@ class ListCatalogCategoriesResponse extends Categories implements ModelInterface
      * @var string[]
      */
     protected static $swaggerTypes = [
-        'payload' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Catalog\ListOfCategories',
-'errors' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Catalog\ErrorList',    ];
+        'payload' => '\Plenty\AmazonSellingPartnerAPI\Models\Catalog\ListOfCategories',
+'errors' => '\Plenty\AmazonSellingPartnerAPI\Models\Catalog\ErrorList',    ];
 
     /**
      * Array of property to format mappings. Used for (de)serialization.
@@ -189,7 +189,7 @@ class ListCatalogCategoriesResponse extends Categories implements ModelInterface
     /**
      * Gets payload.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Catalog\ListOfCategories
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Catalog\ListOfCategories
      */
     public function getPayload()
     {
@@ -199,7 +199,7 @@ class ListCatalogCategoriesResponse extends Categories implements ModelInterface
     /**
      * Sets payload.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Catalog\ListOfCategories $payload payload
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Catalog\ListOfCategories $payload payload
      *
      * @return $this
      */
@@ -213,7 +213,7 @@ class ListCatalogCategoriesResponse extends Categories implements ModelInterface
     /**
      * Gets errors.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Catalog\ErrorList
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Catalog\ErrorList
      */
     public function getErrors()
     {
@@ -223,7 +223,7 @@ class ListCatalogCategoriesResponse extends Categories implements ModelInterface
     /**
      * Sets errors.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Catalog\ErrorList $errors errors
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Catalog\ErrorList $errors errors
      *
      * @return $this
      */

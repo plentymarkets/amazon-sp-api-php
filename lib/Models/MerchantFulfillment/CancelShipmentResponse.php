@@ -15,11 +15,11 @@
  * OpenAPI spec version: v0
  */
 
-namespace Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment;
+namespace Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment;
 
 use ArrayAccess;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
-use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plenty\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plenty\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * CancelShipmentResponse Class Doc Comment.
@@ -46,8 +46,8 @@ class CancelShipmentResponse implements ModelInterface, ArrayAccess
      * @var string[]
      */
     protected static $swaggerTypes = [
-        'payload' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\Shipment',
-'errors' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\ErrorList',    ];
+        'payload' => '\Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\Shipment',
+'errors' => '\Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\ErrorList',    ];
 
     /**
      * Array of property to format mappings. Used for (de)serialization.
@@ -192,7 +192,7 @@ class CancelShipmentResponse implements ModelInterface, ArrayAccess
     /**
      * Gets payload.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\Shipment
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\Shipment
      */
     public function getPayload()
     {
@@ -202,7 +202,7 @@ class CancelShipmentResponse implements ModelInterface, ArrayAccess
     /**
      * Sets payload.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\Shipment $payload payload
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\Shipment $payload payload
      *
      * @return $this
      */
@@ -216,7 +216,7 @@ class CancelShipmentResponse implements ModelInterface, ArrayAccess
     /**
      * Gets errors.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\ErrorList
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\ErrorList
      */
     public function getErrors()
     {
@@ -226,7 +226,7 @@ class CancelShipmentResponse implements ModelInterface, ArrayAccess
     /**
      * Sets errors.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\ErrorList $errors errors
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\ErrorList $errors errors
      *
      * @return $this
      */

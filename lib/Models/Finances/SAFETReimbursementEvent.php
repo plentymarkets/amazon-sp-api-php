@@ -15,11 +15,11 @@
  * OpenAPI spec version: v0
  */
 
-namespace Plentymarkets\AmazonSellingPartnerAPI\Models\Finances;
+namespace Plenty\AmazonSellingPartnerAPI\Models\Finances;
 
 use ArrayAccess;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
-use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plenty\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plenty\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * SAFETReimbursementEvent Class Doc Comment.
@@ -46,11 +46,11 @@ class SAFETReimbursementEvent implements ModelInterface, ArrayAccess
      * @var string[]
      */
     protected static $swaggerTypes = [
-        'posted_date' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\\DateTime',
+        'posted_date' => '\Plenty\AmazonSellingPartnerAPI\Models\Finances\\DateTime',
 'safet_claim_id' => 'string',
-'reimbursed_amount' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\Currency',
+'reimbursed_amount' => '\Plenty\AmazonSellingPartnerAPI\Models\Finances\Currency',
 'reason_code' => 'string',
-'safet_reimbursement_item_list' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\SAFETReimbursementItemList',    ];
+'safet_reimbursement_item_list' => '\Plenty\AmazonSellingPartnerAPI\Models\Finances\SAFETReimbursementItemList',    ];
 
     /**
      * Array of property to format mappings. Used for (de)serialization.
@@ -210,7 +210,7 @@ class SAFETReimbursementEvent implements ModelInterface, ArrayAccess
     /**
      * Gets posted_date.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\DateTime
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Finances\DateTime
      */
     public function getPostedDate()
     {
@@ -220,7 +220,7 @@ class SAFETReimbursementEvent implements ModelInterface, ArrayAccess
     /**
      * Sets posted_date.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\DateTime $posted_date posted_date
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Finances\DateTime $posted_date posted_date
      *
      * @return $this
      */
@@ -258,7 +258,7 @@ class SAFETReimbursementEvent implements ModelInterface, ArrayAccess
     /**
      * Gets reimbursed_amount.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\Currency
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Finances\Currency
      */
     public function getReimbursedAmount()
     {
@@ -268,7 +268,7 @@ class SAFETReimbursementEvent implements ModelInterface, ArrayAccess
     /**
      * Sets reimbursed_amount.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\Currency $reimbursed_amount reimbursed_amount
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Finances\Currency $reimbursed_amount reimbursed_amount
      *
      * @return $this
      */
@@ -306,7 +306,7 @@ class SAFETReimbursementEvent implements ModelInterface, ArrayAccess
     /**
      * Gets safet_reimbursement_item_list.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\SAFETReimbursementItemList
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Finances\SAFETReimbursementItemList
      */
     public function getSafetReimbursementItemList()
     {
@@ -316,7 +316,7 @@ class SAFETReimbursementEvent implements ModelInterface, ArrayAccess
     /**
      * Sets safet_reimbursement_item_list.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\SAFETReimbursementItemList $safet_reimbursement_item_list safet_reimbursement_item_list
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Finances\SAFETReimbursementItemList $safet_reimbursement_item_list safet_reimbursement_item_list
      *
      * @return $this
      */

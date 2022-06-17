@@ -15,11 +15,11 @@
  * OpenAPI spec version: v0
  */
 
-namespace Plentymarkets\AmazonSellingPartnerAPI\Models\Orders;
+namespace Plenty\AmazonSellingPartnerAPI\Models\Orders;
 
 use ArrayAccess;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
-use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plenty\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plenty\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * OrdersList Class Doc Comment.
@@ -46,7 +46,7 @@ class OrdersList implements ModelInterface, ArrayAccess
      * @var string[]
      */
     protected static $swaggerTypes = [
-        'orders' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Orders\OrderList',
+        'orders' => '\Plenty\AmazonSellingPartnerAPI\Models\Orders\OrderList',
 'next_token' => 'string',
 'last_updated_before' => 'string',
 'created_before' => 'string',    ];
@@ -208,7 +208,7 @@ class OrdersList implements ModelInterface, ArrayAccess
     /**
      * Gets orders.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Orders\OrderList
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Orders\OrderList
      */
     public function getOrders()
     {
@@ -218,7 +218,7 @@ class OrdersList implements ModelInterface, ArrayAccess
     /**
      * Sets orders.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Orders\OrderList $orders orders
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Orders\OrderList $orders orders
      *
      * @return $this
      */

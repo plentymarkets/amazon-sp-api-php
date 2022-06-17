@@ -15,11 +15,11 @@
  * OpenAPI spec version: v0
  */
 
-namespace Plentymarkets\AmazonSellingPartnerAPI\Models\Catalog;
+namespace Plenty\AmazonSellingPartnerAPI\Models\Catalog;
 
 use ArrayAccess;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
-use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plenty\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plenty\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * QualifiersType Class Doc Comment.
@@ -47,7 +47,7 @@ class QualifiersType extends Categories implements ModelInterface, ArrayAccess
 'item_subcondition' => 'string',
 'fulfillment_channel' => 'string',
 'ships_domestically' => 'string',
-'shipping_time' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Catalog\ShippingTimeType',
+'shipping_time' => '\Plenty\AmazonSellingPartnerAPI\Models\Catalog\ShippingTimeType',
 'seller_positive_feedback_rating' => 'string',    ];
 
     /**
@@ -328,7 +328,7 @@ class QualifiersType extends Categories implements ModelInterface, ArrayAccess
     /**
      * Gets shipping_time.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Catalog\ShippingTimeType
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Catalog\ShippingTimeType
      */
     public function getShippingTime()
     {
@@ -338,7 +338,7 @@ class QualifiersType extends Categories implements ModelInterface, ArrayAccess
     /**
      * Sets shipping_time.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Catalog\ShippingTimeType $shipping_time shipping_time
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Catalog\ShippingTimeType $shipping_time shipping_time
      *
      * @return $this
      */

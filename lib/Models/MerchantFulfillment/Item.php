@@ -15,11 +15,11 @@
  * OpenAPI spec version: v0
  */
 
-namespace Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment;
+namespace Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment;
 
 use ArrayAccess;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
-use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plenty\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plenty\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * Item Class Doc Comment.
@@ -46,12 +46,12 @@ class Item implements ModelInterface, ArrayAccess
      * @var string[]
      */
     protected static $swaggerTypes = [
-        'order_item_id' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\OrderItemId',
-'quantity' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\ItemQuantity',
-'item_weight' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\Weight',
-'item_description' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\ItemDescription',
-'transparency_code_list' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\TransparencyCodeList',
-'item_level_seller_inputs_list' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\AdditionalSellerInputsList',    ];
+        'order_item_id' => '\Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\OrderItemId',
+'quantity' => '\Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\ItemQuantity',
+'item_weight' => '\Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\Weight',
+'item_description' => '\Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\ItemDescription',
+'transparency_code_list' => '\Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\TransparencyCodeList',
+'item_level_seller_inputs_list' => '\Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\AdditionalSellerInputsList',    ];
 
     /**
      * Array of property to format mappings. Used for (de)serialization.
@@ -223,7 +223,7 @@ class Item implements ModelInterface, ArrayAccess
     /**
      * Gets order_item_id.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\OrderItemId
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\OrderItemId
      */
     public function getOrderItemId()
     {
@@ -233,7 +233,7 @@ class Item implements ModelInterface, ArrayAccess
     /**
      * Sets order_item_id.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\OrderItemId $order_item_id order_item_id
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\OrderItemId $order_item_id order_item_id
      *
      * @return $this
      */
@@ -247,7 +247,7 @@ class Item implements ModelInterface, ArrayAccess
     /**
      * Gets quantity.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\ItemQuantity
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\ItemQuantity
      */
     public function getQuantity()
     {
@@ -257,7 +257,7 @@ class Item implements ModelInterface, ArrayAccess
     /**
      * Sets quantity.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\ItemQuantity $quantity quantity
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\ItemQuantity $quantity quantity
      *
      * @return $this
      */
@@ -271,7 +271,7 @@ class Item implements ModelInterface, ArrayAccess
     /**
      * Gets item_weight.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\Weight
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\Weight
      */
     public function getItemWeight()
     {
@@ -281,7 +281,7 @@ class Item implements ModelInterface, ArrayAccess
     /**
      * Sets item_weight.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\Weight $item_weight item_weight
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\Weight $item_weight item_weight
      *
      * @return $this
      */
@@ -295,7 +295,7 @@ class Item implements ModelInterface, ArrayAccess
     /**
      * Gets item_description.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\ItemDescription
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\ItemDescription
      */
     public function getItemDescription()
     {
@@ -305,7 +305,7 @@ class Item implements ModelInterface, ArrayAccess
     /**
      * Sets item_description.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\ItemDescription $item_description item_description
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\ItemDescription $item_description item_description
      *
      * @return $this
      */
@@ -319,7 +319,7 @@ class Item implements ModelInterface, ArrayAccess
     /**
      * Gets transparency_code_list.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\TransparencyCodeList
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\TransparencyCodeList
      */
     public function getTransparencyCodeList()
     {
@@ -329,7 +329,7 @@ class Item implements ModelInterface, ArrayAccess
     /**
      * Sets transparency_code_list.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\TransparencyCodeList $transparency_code_list transparency_code_list
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\TransparencyCodeList $transparency_code_list transparency_code_list
      *
      * @return $this
      */
@@ -343,7 +343,7 @@ class Item implements ModelInterface, ArrayAccess
     /**
      * Gets item_level_seller_inputs_list.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\AdditionalSellerInputsList
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\AdditionalSellerInputsList
      */
     public function getItemLevelSellerInputsList()
     {
@@ -353,7 +353,7 @@ class Item implements ModelInterface, ArrayAccess
     /**
      * Sets item_level_seller_inputs_list.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\AdditionalSellerInputsList $item_level_seller_inputs_list item_level_seller_inputs_list
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\AdditionalSellerInputsList $item_level_seller_inputs_list item_level_seller_inputs_list
      *
      * @return $this
      */

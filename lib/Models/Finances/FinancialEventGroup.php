@@ -15,11 +15,11 @@
  * OpenAPI spec version: v0
  */
 
-namespace Plentymarkets\AmazonSellingPartnerAPI\Models\Finances;
+namespace Plenty\AmazonSellingPartnerAPI\Models\Finances;
 
 use ArrayAccess;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
-use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plenty\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plenty\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * FinancialEventGroup Class Doc Comment.
@@ -49,14 +49,14 @@ class FinancialEventGroup implements ModelInterface, ArrayAccess
         'financial_event_group_id' => 'string',
 'processing_status' => 'string',
 'fund_transfer_status' => 'string',
-'original_total' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\Currency',
-'converted_total' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\Currency',
-'fund_transfer_date' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\\DateTime',
+'original_total' => '\Plenty\AmazonSellingPartnerAPI\Models\Finances\Currency',
+'converted_total' => '\Plenty\AmazonSellingPartnerAPI\Models\Finances\Currency',
+'fund_transfer_date' => '\Plenty\AmazonSellingPartnerAPI\Models\Finances\\DateTime',
 'trace_id' => 'string',
 'account_tail' => 'string',
-'beginning_balance' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\Currency',
-'financial_event_group_start' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\\DateTime',
-'financial_event_group_end' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\\DateTime',    ];
+'beginning_balance' => '\Plenty\AmazonSellingPartnerAPI\Models\Finances\Currency',
+'financial_event_group_start' => '\Plenty\AmazonSellingPartnerAPI\Models\Finances\\DateTime',
+'financial_event_group_end' => '\Plenty\AmazonSellingPartnerAPI\Models\Finances\\DateTime',    ];
 
     /**
      * Array of property to format mappings. Used for (de)serialization.
@@ -318,7 +318,7 @@ class FinancialEventGroup implements ModelInterface, ArrayAccess
     /**
      * Gets original_total.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\Currency
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Finances\Currency
      */
     public function getOriginalTotal()
     {
@@ -328,7 +328,7 @@ class FinancialEventGroup implements ModelInterface, ArrayAccess
     /**
      * Sets original_total.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\Currency $original_total original_total
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Finances\Currency $original_total original_total
      *
      * @return $this
      */
@@ -342,7 +342,7 @@ class FinancialEventGroup implements ModelInterface, ArrayAccess
     /**
      * Gets converted_total.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\Currency
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Finances\Currency
      */
     public function getConvertedTotal()
     {
@@ -352,7 +352,7 @@ class FinancialEventGroup implements ModelInterface, ArrayAccess
     /**
      * Sets converted_total.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\Currency $converted_total converted_total
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Finances\Currency $converted_total converted_total
      *
      * @return $this
      */
@@ -366,7 +366,7 @@ class FinancialEventGroup implements ModelInterface, ArrayAccess
     /**
      * Gets fund_transfer_date.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\DateTime
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Finances\DateTime
      */
     public function getFundTransferDate()
     {
@@ -376,7 +376,7 @@ class FinancialEventGroup implements ModelInterface, ArrayAccess
     /**
      * Sets fund_transfer_date.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\DateTime $fund_transfer_date fund_transfer_date
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Finances\DateTime $fund_transfer_date fund_transfer_date
      *
      * @return $this
      */
@@ -438,7 +438,7 @@ class FinancialEventGroup implements ModelInterface, ArrayAccess
     /**
      * Gets beginning_balance.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\Currency
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Finances\Currency
      */
     public function getBeginningBalance()
     {
@@ -448,7 +448,7 @@ class FinancialEventGroup implements ModelInterface, ArrayAccess
     /**
      * Sets beginning_balance.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\Currency $beginning_balance beginning_balance
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Finances\Currency $beginning_balance beginning_balance
      *
      * @return $this
      */
@@ -462,7 +462,7 @@ class FinancialEventGroup implements ModelInterface, ArrayAccess
     /**
      * Gets financial_event_group_start.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\DateTime
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Finances\DateTime
      */
     public function getFinancialEventGroupStart()
     {
@@ -472,7 +472,7 @@ class FinancialEventGroup implements ModelInterface, ArrayAccess
     /**
      * Sets financial_event_group_start.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\DateTime $financial_event_group_start financial_event_group_start
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Finances\DateTime $financial_event_group_start financial_event_group_start
      *
      * @return $this
      */
@@ -486,7 +486,7 @@ class FinancialEventGroup implements ModelInterface, ArrayAccess
     /**
      * Gets financial_event_group_end.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\DateTime
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Finances\DateTime
      */
     public function getFinancialEventGroupEnd()
     {
@@ -496,7 +496,7 @@ class FinancialEventGroup implements ModelInterface, ArrayAccess
     /**
      * Sets financial_event_group_end.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\DateTime $financial_event_group_end financial_event_group_end
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Finances\DateTime $financial_event_group_end financial_event_group_end
      *
      * @return $this
      */

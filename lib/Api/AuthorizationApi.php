@@ -13,14 +13,14 @@
  * OpenAPI spec version: v1
  */
 
-namespace Plentymarkets\AmazonSellingPartnerAPI\Api;
+namespace Plenty\AmazonSellingPartnerAPI\Api;
 
-use Plentymarkets\AmazonSellingPartnerAPI\ApiException;
-use Plentymarkets\AmazonSellingPartnerAPI\Configuration;
-use Plentymarkets\AmazonSellingPartnerAPI\HeaderSelector;
-use Plentymarkets\AmazonSellingPartnerAPI\Helpers\SellingPartnerApiRequest;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\Authorization\GetAuthorizationCodeResponse;
-use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plenty\AmazonSellingPartnerAPI\ApiException;
+use Plenty\AmazonSellingPartnerAPI\Configuration;
+use Plenty\AmazonSellingPartnerAPI\HeaderSelector;
+use Plenty\AmazonSellingPartnerAPI\Helpers\SellingPartnerApiRequest;
+use Plenty\AmazonSellingPartnerAPI\Models\Authorization\GetAuthorizationCodeResponse;
+use Plenty\AmazonSellingPartnerAPI\ObjectSerializer;
 use GuzzleHttp\Client;
 use GuzzleHttp\ClientInterface;
 use InvalidArgumentException;
@@ -97,11 +97,11 @@ class AuthorizationApi
      * @throws InvalidArgumentException
      * @throws ApiException             on non-2xx response
      *
-     * @return array of \Plentymarkets\AmazonSellingPartnerAPI\Models\Authorization\GetAuthorizationCodeResponse, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Plenty\AmazonSellingPartnerAPI\Models\Authorization\GetAuthorizationCodeResponse, HTTP status code, HTTP response headers (array of strings)
      */
     public function getAuthorizationCodeWithHttpInfo($selling_partner_id, $developer_id, $mws_auth_token)
     {
-        $returnType = '\Plentymarkets\AmazonSellingPartnerAPI\Models\Authorization\GetAuthorizationCodeResponse';
+        $returnType = '\Plenty\AmazonSellingPartnerAPI\Models\Authorization\GetAuthorizationCodeResponse';
         $request = $this->getAuthorizationCodeRequest($selling_partner_id, $developer_id, $mws_auth_token);
 
         return $this->sendRequest($request, GetAuthorizationCodeResponse::class);

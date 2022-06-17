@@ -15,11 +15,11 @@
  * OpenAPI spec version: v0
  */
 
-namespace Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound;
+namespace Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound;
 
 use ArrayAccess;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
-use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plenty\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plenty\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * PartneredEstimate Class Doc Comment.
@@ -46,9 +46,9 @@ class PartneredEstimate implements ModelInterface, ArrayAccess
      * @var string[]
      */
     protected static $swaggerTypes = [
-        'amount' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\Amount',
-'confirm_deadline' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\TimeStampStringType',
-'void_deadline' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\TimeStampStringType',    ];
+        'amount' => '\Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\Amount',
+'confirm_deadline' => '\Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\TimeStampStringType',
+'void_deadline' => '\Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\TimeStampStringType',    ];
 
     /**
      * Array of property to format mappings. Used for (de)serialization.
@@ -202,7 +202,7 @@ class PartneredEstimate implements ModelInterface, ArrayAccess
     /**
      * Gets amount.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\Amount
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\Amount
      */
     public function getAmount()
     {
@@ -212,7 +212,7 @@ class PartneredEstimate implements ModelInterface, ArrayAccess
     /**
      * Sets amount.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\Amount $amount amount
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\Amount $amount amount
      *
      * @return $this
      */
@@ -226,7 +226,7 @@ class PartneredEstimate implements ModelInterface, ArrayAccess
     /**
      * Gets confirm_deadline.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\TimeStampStringType
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\TimeStampStringType
      */
     public function getConfirmDeadline()
     {
@@ -236,7 +236,7 @@ class PartneredEstimate implements ModelInterface, ArrayAccess
     /**
      * Sets confirm_deadline.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\TimeStampStringType $confirm_deadline confirm_deadline
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\TimeStampStringType $confirm_deadline confirm_deadline
      *
      * @return $this
      */
@@ -250,7 +250,7 @@ class PartneredEstimate implements ModelInterface, ArrayAccess
     /**
      * Gets void_deadline.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\TimeStampStringType
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\TimeStampStringType
      */
     public function getVoidDeadline()
     {
@@ -260,7 +260,7 @@ class PartneredEstimate implements ModelInterface, ArrayAccess
     /**
      * Sets void_deadline.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\TimeStampStringType $void_deadline void_deadline
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\TimeStampStringType $void_deadline void_deadline
      *
      * @return $this
      */

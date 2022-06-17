@@ -15,11 +15,11 @@
  * OpenAPI spec version: v0
  */
 
-namespace Plentymarkets\AmazonSellingPartnerAPI\Models\Finances;
+namespace Plenty\AmazonSellingPartnerAPI\Models\Finances;
 
 use ArrayAccess;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
-use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plenty\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plenty\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * ListFinancialEventsResponse Class Doc Comment.
@@ -46,8 +46,8 @@ class ListFinancialEventsResponse implements ModelInterface, ArrayAccess
      * @var string[]
      */
     protected static $swaggerTypes = [
-        'payload' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\ListFinancialEventsPayload',
-'errors' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\ErrorList',    ];
+        'payload' => '\Plenty\AmazonSellingPartnerAPI\Models\Finances\ListFinancialEventsPayload',
+'errors' => '\Plenty\AmazonSellingPartnerAPI\Models\Finances\ErrorList',    ];
 
     /**
      * Array of property to format mappings. Used for (de)serialization.
@@ -192,7 +192,7 @@ class ListFinancialEventsResponse implements ModelInterface, ArrayAccess
     /**
      * Gets payload.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\ListFinancialEventsPayload
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Finances\ListFinancialEventsPayload
      */
     public function getPayload()
     {
@@ -202,7 +202,7 @@ class ListFinancialEventsResponse implements ModelInterface, ArrayAccess
     /**
      * Sets payload.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\ListFinancialEventsPayload $payload payload
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Finances\ListFinancialEventsPayload $payload payload
      *
      * @return $this
      */
@@ -216,7 +216,7 @@ class ListFinancialEventsResponse implements ModelInterface, ArrayAccess
     /**
      * Gets errors.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\ErrorList
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Finances\ErrorList
      */
     public function getErrors()
     {
@@ -226,7 +226,7 @@ class ListFinancialEventsResponse implements ModelInterface, ArrayAccess
     /**
      * Sets errors.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\ErrorList $errors errors
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Finances\ErrorList $errors errors
      *
      * @return $this
      */

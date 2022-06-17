@@ -15,11 +15,11 @@
  * OpenAPI spec version: v0
  */
 
-namespace Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound;
+namespace Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound;
 
 use ArrayAccess;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
-use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plenty\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plenty\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * PartneredSmallParcelDataInput Class Doc Comment.
@@ -46,7 +46,7 @@ class PartneredSmallParcelDataInput implements ModelInterface, ArrayAccess
      * @var string[]
      */
     protected static $swaggerTypes = [
-        'package_list' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\PartneredSmallParcelPackageInputList',
+        'package_list' => '\Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\PartneredSmallParcelPackageInputList',
 'carrier_name' => 'string',    ];
 
     /**
@@ -192,7 +192,7 @@ class PartneredSmallParcelDataInput implements ModelInterface, ArrayAccess
     /**
      * Gets package_list.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\PartneredSmallParcelPackageInputList
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\PartneredSmallParcelPackageInputList
      */
     public function getPackageList()
     {
@@ -202,7 +202,7 @@ class PartneredSmallParcelDataInput implements ModelInterface, ArrayAccess
     /**
      * Sets package_list.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\PartneredSmallParcelPackageInputList $package_list package_list
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\PartneredSmallParcelPackageInputList $package_list package_list
      *
      * @return $this
      */

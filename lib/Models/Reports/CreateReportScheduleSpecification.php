@@ -15,11 +15,11 @@
  * OpenAPI spec version: 2020-09-04
  */
 
-namespace Plentymarkets\AmazonSellingPartnerAPI\Models\Reports;
+namespace Plenty\AmazonSellingPartnerAPI\Models\Reports;
 
 use ArrayAccess;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
-use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plenty\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plenty\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * CreateReportScheduleSpecification Class Doc Comment.
@@ -45,7 +45,7 @@ class CreateReportScheduleSpecification implements ModelInterface, ArrayAccess
     protected static $swaggerTypes = [
         'report_type' => 'string',
 'marketplace_ids' => 'string[]',
-'report_options' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Reports\ReportOptions',
+'report_options' => '\Plenty\AmazonSellingPartnerAPI\Models\Reports\ReportOptions',
 'period' => 'string',
 'next_report_creation_time' => '\DateTime',    ];
 
@@ -319,7 +319,7 @@ self::PERIOD_P1_M,        ];
     /**
      * Gets report_options.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Reports\ReportOptions
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Reports\ReportOptions
      */
     public function getReportOptions()
     {
@@ -329,7 +329,7 @@ self::PERIOD_P1_M,        ];
     /**
      * Sets report_options.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Reports\ReportOptions $report_options report_options
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Reports\ReportOptions $report_options report_options
      *
      * @return $this
      */

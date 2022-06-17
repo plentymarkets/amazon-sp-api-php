@@ -15,11 +15,11 @@
  * OpenAPI spec version: v1
  */
 
-namespace Plentymarkets\AmazonSellingPartnerAPI\Models\Notifications;
+namespace Plenty\AmazonSellingPartnerAPI\Models\Notifications;
 
 use ArrayAccess;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
-use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plenty\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plenty\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * CreateDestinationRequest Class Doc Comment.
@@ -46,7 +46,7 @@ class CreateDestinationRequest implements ModelInterface, ArrayAccess
      * @var string[]
      */
     protected static $swaggerTypes = [
-        'resource_specification' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Notifications\DestinationResourceSpecification',
+        'resource_specification' => '\Plenty\AmazonSellingPartnerAPI\Models\Notifications\DestinationResourceSpecification',
 'name' => 'string',    ];
 
     /**
@@ -199,7 +199,7 @@ class CreateDestinationRequest implements ModelInterface, ArrayAccess
     /**
      * Gets resource_specification.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Notifications\DestinationResourceSpecification
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Notifications\DestinationResourceSpecification
      */
     public function getResourceSpecification()
     {
@@ -209,7 +209,7 @@ class CreateDestinationRequest implements ModelInterface, ArrayAccess
     /**
      * Sets resource_specification.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Notifications\DestinationResourceSpecification $resource_specification resource_specification
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Notifications\DestinationResourceSpecification $resource_specification resource_specification
      *
      * @return $this
      */

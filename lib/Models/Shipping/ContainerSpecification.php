@@ -15,11 +15,11 @@
  * OpenAPI spec version: v1
  */
 
-namespace Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping;
+namespace Plenty\AmazonSellingPartnerAPI\Models\Shipping;
 
 use ArrayAccess;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
-use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plenty\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plenty\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * ContainerSpecification Class Doc Comment.
@@ -46,8 +46,8 @@ class ContainerSpecification implements ModelInterface, ArrayAccess
      * @var string[]
      */
     protected static $swaggerTypes = [
-        'dimensions' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\Dimensions',
-'weight' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\Weight',    ];
+        'dimensions' => '\Plenty\AmazonSellingPartnerAPI\Models\Shipping\Dimensions',
+'weight' => '\Plenty\AmazonSellingPartnerAPI\Models\Shipping\Weight',    ];
 
     /**
      * Array of property to format mappings. Used for (de)serialization.
@@ -199,7 +199,7 @@ class ContainerSpecification implements ModelInterface, ArrayAccess
     /**
      * Gets dimensions.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\Dimensions
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Shipping\Dimensions
      */
     public function getDimensions()
     {
@@ -209,7 +209,7 @@ class ContainerSpecification implements ModelInterface, ArrayAccess
     /**
      * Sets dimensions.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\Dimensions $dimensions dimensions
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Shipping\Dimensions $dimensions dimensions
      *
      * @return $this
      */
@@ -223,7 +223,7 @@ class ContainerSpecification implements ModelInterface, ArrayAccess
     /**
      * Gets weight.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\Weight
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Shipping\Weight
      */
     public function getWeight()
     {
@@ -233,7 +233,7 @@ class ContainerSpecification implements ModelInterface, ArrayAccess
     /**
      * Sets weight.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\Weight $weight weight
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Shipping\Weight $weight weight
      *
      * @return $this
      */

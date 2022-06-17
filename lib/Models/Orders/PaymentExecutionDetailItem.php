@@ -15,11 +15,11 @@
  * OpenAPI spec version: v0
  */
 
-namespace Plentymarkets\AmazonSellingPartnerAPI\Models\Orders;
+namespace Plenty\AmazonSellingPartnerAPI\Models\Orders;
 
 use ArrayAccess;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
-use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plenty\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plenty\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * PaymentExecutionDetailItem Class Doc Comment.
@@ -46,7 +46,7 @@ class PaymentExecutionDetailItem implements ModelInterface, ArrayAccess
      * @var string[]
      */
     protected static $swaggerTypes = [
-        'payment' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Orders\Money',
+        'payment' => '\Plenty\AmazonSellingPartnerAPI\Models\Orders\Money',
 'payment_method' => 'string',    ];
 
     /**
@@ -199,7 +199,7 @@ class PaymentExecutionDetailItem implements ModelInterface, ArrayAccess
     /**
      * Gets payment.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Orders\Money
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Orders\Money
      */
     public function getPayment()
     {
@@ -209,7 +209,7 @@ class PaymentExecutionDetailItem implements ModelInterface, ArrayAccess
     /**
      * Sets payment.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Orders\Money $payment payment
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Orders\Money $payment payment
      *
      * @return $this
      */

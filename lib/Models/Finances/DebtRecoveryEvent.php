@@ -15,11 +15,11 @@
  * OpenAPI spec version: v0
  */
 
-namespace Plentymarkets\AmazonSellingPartnerAPI\Models\Finances;
+namespace Plenty\AmazonSellingPartnerAPI\Models\Finances;
 
 use ArrayAccess;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
-use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plenty\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plenty\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * DebtRecoveryEvent Class Doc Comment.
@@ -47,10 +47,10 @@ class DebtRecoveryEvent implements ModelInterface, ArrayAccess
      */
     protected static $swaggerTypes = [
         'debt_recovery_type' => 'string',
-'recovery_amount' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\Currency',
-'over_payment_credit' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\Currency',
-'debt_recovery_item_list' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\DebtRecoveryItemList',
-'charge_instrument_list' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\ChargeInstrumentList',    ];
+'recovery_amount' => '\Plenty\AmazonSellingPartnerAPI\Models\Finances\Currency',
+'over_payment_credit' => '\Plenty\AmazonSellingPartnerAPI\Models\Finances\Currency',
+'debt_recovery_item_list' => '\Plenty\AmazonSellingPartnerAPI\Models\Finances\DebtRecoveryItemList',
+'charge_instrument_list' => '\Plenty\AmazonSellingPartnerAPI\Models\Finances\ChargeInstrumentList',    ];
 
     /**
      * Array of property to format mappings. Used for (de)serialization.
@@ -234,7 +234,7 @@ class DebtRecoveryEvent implements ModelInterface, ArrayAccess
     /**
      * Gets recovery_amount.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\Currency
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Finances\Currency
      */
     public function getRecoveryAmount()
     {
@@ -244,7 +244,7 @@ class DebtRecoveryEvent implements ModelInterface, ArrayAccess
     /**
      * Sets recovery_amount.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\Currency $recovery_amount recovery_amount
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Finances\Currency $recovery_amount recovery_amount
      *
      * @return $this
      */
@@ -258,7 +258,7 @@ class DebtRecoveryEvent implements ModelInterface, ArrayAccess
     /**
      * Gets over_payment_credit.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\Currency
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Finances\Currency
      */
     public function getOverPaymentCredit()
     {
@@ -268,7 +268,7 @@ class DebtRecoveryEvent implements ModelInterface, ArrayAccess
     /**
      * Sets over_payment_credit.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\Currency $over_payment_credit over_payment_credit
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Finances\Currency $over_payment_credit over_payment_credit
      *
      * @return $this
      */
@@ -282,7 +282,7 @@ class DebtRecoveryEvent implements ModelInterface, ArrayAccess
     /**
      * Gets debt_recovery_item_list.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\DebtRecoveryItemList
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Finances\DebtRecoveryItemList
      */
     public function getDebtRecoveryItemList()
     {
@@ -292,7 +292,7 @@ class DebtRecoveryEvent implements ModelInterface, ArrayAccess
     /**
      * Sets debt_recovery_item_list.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\DebtRecoveryItemList $debt_recovery_item_list debt_recovery_item_list
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Finances\DebtRecoveryItemList $debt_recovery_item_list debt_recovery_item_list
      *
      * @return $this
      */
@@ -306,7 +306,7 @@ class DebtRecoveryEvent implements ModelInterface, ArrayAccess
     /**
      * Gets charge_instrument_list.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\ChargeInstrumentList
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Finances\ChargeInstrumentList
      */
     public function getChargeInstrumentList()
     {
@@ -316,7 +316,7 @@ class DebtRecoveryEvent implements ModelInterface, ArrayAccess
     /**
      * Sets charge_instrument_list.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\ChargeInstrumentList $charge_instrument_list charge_instrument_list
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Finances\ChargeInstrumentList $charge_instrument_list charge_instrument_list
      *
      * @return $this
      */

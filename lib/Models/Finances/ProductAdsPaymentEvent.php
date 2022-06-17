@@ -15,11 +15,11 @@
  * OpenAPI spec version: v0
  */
 
-namespace Plentymarkets\AmazonSellingPartnerAPI\Models\Finances;
+namespace Plenty\AmazonSellingPartnerAPI\Models\Finances;
 
 use ArrayAccess;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
-use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plenty\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plenty\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * ProductAdsPaymentEvent Class Doc Comment.
@@ -46,12 +46,12 @@ class ProductAdsPaymentEvent implements ModelInterface, ArrayAccess
      * @var string[]
      */
     protected static $swaggerTypes = [
-        'posted_date' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\\DateTime',
+        'posted_date' => '\Plenty\AmazonSellingPartnerAPI\Models\Finances\\DateTime',
 'transaction_type' => 'string',
 'invoice_id' => 'string',
-'base_value' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\Currency',
-'tax_value' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\Currency',
-'transaction_value' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\Currency',    ];
+'base_value' => '\Plenty\AmazonSellingPartnerAPI\Models\Finances\Currency',
+'tax_value' => '\Plenty\AmazonSellingPartnerAPI\Models\Finances\Currency',
+'transaction_value' => '\Plenty\AmazonSellingPartnerAPI\Models\Finances\Currency',    ];
 
     /**
      * Array of property to format mappings. Used for (de)serialization.
@@ -216,7 +216,7 @@ class ProductAdsPaymentEvent implements ModelInterface, ArrayAccess
     /**
      * Gets posted_date.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\DateTime
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Finances\DateTime
      */
     public function getPostedDate()
     {
@@ -226,7 +226,7 @@ class ProductAdsPaymentEvent implements ModelInterface, ArrayAccess
     /**
      * Sets posted_date.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\DateTime $posted_date posted_date
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Finances\DateTime $posted_date posted_date
      *
      * @return $this
      */
@@ -288,7 +288,7 @@ class ProductAdsPaymentEvent implements ModelInterface, ArrayAccess
     /**
      * Gets base_value.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\Currency
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Finances\Currency
      */
     public function getBaseValue()
     {
@@ -298,7 +298,7 @@ class ProductAdsPaymentEvent implements ModelInterface, ArrayAccess
     /**
      * Sets base_value.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\Currency $base_value base_value
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Finances\Currency $base_value base_value
      *
      * @return $this
      */
@@ -312,7 +312,7 @@ class ProductAdsPaymentEvent implements ModelInterface, ArrayAccess
     /**
      * Gets tax_value.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\Currency
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Finances\Currency
      */
     public function getTaxValue()
     {
@@ -322,7 +322,7 @@ class ProductAdsPaymentEvent implements ModelInterface, ArrayAccess
     /**
      * Sets tax_value.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\Currency $tax_value tax_value
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Finances\Currency $tax_value tax_value
      *
      * @return $this
      */
@@ -336,7 +336,7 @@ class ProductAdsPaymentEvent implements ModelInterface, ArrayAccess
     /**
      * Gets transaction_value.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\Currency
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Finances\Currency
      */
     public function getTransactionValue()
     {
@@ -346,7 +346,7 @@ class ProductAdsPaymentEvent implements ModelInterface, ArrayAccess
     /**
      * Sets transaction_value.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\Currency $transaction_value transaction_value
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Finances\Currency $transaction_value transaction_value
      *
      * @return $this
      */

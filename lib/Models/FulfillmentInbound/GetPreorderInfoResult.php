@@ -15,11 +15,11 @@
  * OpenAPI spec version: v0
  */
 
-namespace Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound;
+namespace Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound;
 
 use ArrayAccess;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
-use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plenty\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plenty\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * GetPreorderInfoResult Class Doc Comment.
@@ -45,8 +45,8 @@ class GetPreorderInfoResult implements ModelInterface, ArrayAccess
     protected static $swaggerTypes = [
         'shipment_contains_preorderable_items' => 'bool',
 'shipment_confirmed_for_preorder' => 'bool',
-'need_by_date' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\DateStringType',
-'confirmed_fulfillable_date' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\DateStringType',    ];
+'need_by_date' => '\Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\DateStringType',
+'confirmed_fulfillable_date' => '\Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\DateStringType',    ];
 
     /**
      * Array of property to format mappings. Used for (de)serialization.
@@ -249,7 +249,7 @@ class GetPreorderInfoResult implements ModelInterface, ArrayAccess
     /**
      * Gets need_by_date.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\DateStringType
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\DateStringType
      */
     public function getNeedByDate()
     {
@@ -259,7 +259,7 @@ class GetPreorderInfoResult implements ModelInterface, ArrayAccess
     /**
      * Sets need_by_date.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\DateStringType $need_by_date need_by_date
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\DateStringType $need_by_date need_by_date
      *
      * @return $this
      */
@@ -273,7 +273,7 @@ class GetPreorderInfoResult implements ModelInterface, ArrayAccess
     /**
      * Gets confirmed_fulfillable_date.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\DateStringType
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\DateStringType
      */
     public function getConfirmedFulfillableDate()
     {
@@ -283,7 +283,7 @@ class GetPreorderInfoResult implements ModelInterface, ArrayAccess
     /**
      * Sets confirmed_fulfillable_date.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\DateStringType $confirmed_fulfillable_date confirmed_fulfillable_date
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\DateStringType $confirmed_fulfillable_date confirmed_fulfillable_date
      *
      * @return $this
      */

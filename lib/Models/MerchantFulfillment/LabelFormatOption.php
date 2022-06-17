@@ -15,11 +15,11 @@
  * OpenAPI spec version: v0
  */
 
-namespace Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment;
+namespace Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment;
 
 use ArrayAccess;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
-use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plenty\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plenty\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * LabelFormatOption Class Doc Comment.
@@ -47,7 +47,7 @@ class LabelFormatOption implements ModelInterface, ArrayAccess
      */
     protected static $swaggerTypes = [
         'include_packing_slip_with_label' => 'bool',
-'label_format' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\LabelFormat',    ];
+'label_format' => '\Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\LabelFormat',    ];
 
     /**
      * Array of property to format mappings. Used for (de)serialization.
@@ -216,7 +216,7 @@ class LabelFormatOption implements ModelInterface, ArrayAccess
     /**
      * Gets label_format.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\LabelFormat
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\LabelFormat
      */
     public function getLabelFormat()
     {
@@ -226,7 +226,7 @@ class LabelFormatOption implements ModelInterface, ArrayAccess
     /**
      * Sets label_format.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\LabelFormat $label_format label_format
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\LabelFormat $label_format label_format
      *
      * @return $this
      */

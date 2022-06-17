@@ -15,11 +15,11 @@
  * OpenAPI spec version: v0
  */
 
-namespace Plentymarkets\AmazonSellingPartnerAPI\Models\Finances;
+namespace Plenty\AmazonSellingPartnerAPI\Models\Finances;
 
 use ArrayAccess;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
-use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plenty\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plenty\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * LoanServicingEvent Class Doc Comment.
@@ -46,7 +46,7 @@ class LoanServicingEvent implements ModelInterface, ArrayAccess
      * @var string[]
      */
     protected static $swaggerTypes = [
-        'loan_amount' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\Currency',
+        'loan_amount' => '\Plenty\AmazonSellingPartnerAPI\Models\Finances\Currency',
 'source_business_event_type' => 'string',    ];
 
     /**
@@ -192,7 +192,7 @@ class LoanServicingEvent implements ModelInterface, ArrayAccess
     /**
      * Gets loan_amount.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\Currency
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Finances\Currency
      */
     public function getLoanAmount()
     {
@@ -202,7 +202,7 @@ class LoanServicingEvent implements ModelInterface, ArrayAccess
     /**
      * Sets loan_amount.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\Currency $loan_amount loan_amount
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Finances\Currency $loan_amount loan_amount
      *
      * @return $this
      */

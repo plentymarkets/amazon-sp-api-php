@@ -15,11 +15,11 @@
  * OpenAPI spec version: v1
  */
 
-namespace Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping;
+namespace Plenty\AmazonSellingPartnerAPI\Models\Shipping;
 
 use ArrayAccess;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
-use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plenty\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plenty\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * ContainerItem Class Doc Comment.
@@ -47,8 +47,8 @@ class ContainerItem implements ModelInterface, ArrayAccess
      */
     protected static $swaggerTypes = [
         'quantity' => 'float',
-'unit_price' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\Currency',
-'unit_weight' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\Weight',
+'unit_price' => '\Plenty\AmazonSellingPartnerAPI\Models\Shipping\Currency',
+'unit_weight' => '\Plenty\AmazonSellingPartnerAPI\Models\Shipping\Weight',
 'title' => 'string',    ];
 
     /**
@@ -241,7 +241,7 @@ class ContainerItem implements ModelInterface, ArrayAccess
     /**
      * Gets unit_price.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\Currency
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Shipping\Currency
      */
     public function getUnitPrice()
     {
@@ -251,7 +251,7 @@ class ContainerItem implements ModelInterface, ArrayAccess
     /**
      * Sets unit_price.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\Currency $unit_price unit_price
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Shipping\Currency $unit_price unit_price
      *
      * @return $this
      */
@@ -265,7 +265,7 @@ class ContainerItem implements ModelInterface, ArrayAccess
     /**
      * Gets unit_weight.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\Weight
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Shipping\Weight
      */
     public function getUnitWeight()
     {
@@ -275,7 +275,7 @@ class ContainerItem implements ModelInterface, ArrayAccess
     /**
      * Sets unit_weight.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\Weight $unit_weight unit_weight
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Shipping\Weight $unit_weight unit_weight
      *
      * @return $this
      */

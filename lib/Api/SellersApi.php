@@ -13,12 +13,12 @@
  * OpenAPI spec version: v1
  */
 
-namespace Plentymarkets\AmazonSellingPartnerAPI\Api;
+namespace Plenty\AmazonSellingPartnerAPI\Api;
 
-use Plentymarkets\AmazonSellingPartnerAPI\Configuration;
-use Plentymarkets\AmazonSellingPartnerAPI\HeaderSelector;
-use Plentymarkets\AmazonSellingPartnerAPI\Helpers\SellingPartnerApiRequest;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\Sellers\GetMarketplaceParticipationsResponse;
+use Plenty\AmazonSellingPartnerAPI\Configuration;
+use Plenty\AmazonSellingPartnerAPI\HeaderSelector;
+use Plenty\AmazonSellingPartnerAPI\Helpers\SellingPartnerApiRequest;
+use Plenty\AmazonSellingPartnerAPI\Models\Sellers\GetMarketplaceParticipationsResponse;
 use GuzzleHttp\Client;
 use GuzzleHttp\ClientInterface;
 use GuzzleHttp\Psr7\Request;
@@ -64,10 +64,10 @@ class SellersApi
     /**
      * Operation getMarketplaceParticipations.
      *
-     * @throws \Plentymarkets\AmazonSellingPartnerAPI\ApiException on non-2xx response
+     * @throws \Plenty\AmazonSellingPartnerAPI\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Sellers\GetMarketplaceParticipationsResponse
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Sellers\GetMarketplaceParticipationsResponse
      */
     public function getMarketplaceParticipations()
     {
@@ -79,10 +79,10 @@ class SellersApi
     /**
      * Operation getMarketplaceParticipationsWithHttpInfo.
      *
-     * @throws \Plentymarkets\AmazonSellingPartnerAPI\ApiException on non-2xx response
+     * @throws \Plenty\AmazonSellingPartnerAPI\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      *
-     * @return array of \Plentymarkets\AmazonSellingPartnerAPI\Models\Sellers\GetMarketplaceParticipationsResponse, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Plenty\AmazonSellingPartnerAPI\Models\Sellers\GetMarketplaceParticipationsResponse, HTTP status code, HTTP response headers (array of strings)
      */
     public function getMarketplaceParticipationsWithHttpInfo()
     {

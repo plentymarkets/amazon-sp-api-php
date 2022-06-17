@@ -15,11 +15,11 @@
  * OpenAPI spec version: v0
  */
 
-namespace Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment;
+namespace Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment;
 
 use ArrayAccess;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
-use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plenty\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plenty\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * LabelCustomization Class Doc Comment.
@@ -46,8 +46,8 @@ class LabelCustomization implements ModelInterface, ArrayAccess
      * @var string[]
      */
     protected static $swaggerTypes = [
-        'custom_text_for_label' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\CustomTextForLabel',
-'standard_id_for_label' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\StandardIdForLabel',    ];
+        'custom_text_for_label' => '\Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\CustomTextForLabel',
+'standard_id_for_label' => '\Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\StandardIdForLabel',    ];
 
     /**
      * Array of property to format mappings. Used for (de)serialization.
@@ -192,7 +192,7 @@ class LabelCustomization implements ModelInterface, ArrayAccess
     /**
      * Gets custom_text_for_label.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\CustomTextForLabel
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\CustomTextForLabel
      */
     public function getCustomTextForLabel()
     {
@@ -202,7 +202,7 @@ class LabelCustomization implements ModelInterface, ArrayAccess
     /**
      * Sets custom_text_for_label.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\CustomTextForLabel $custom_text_for_label custom_text_for_label
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\CustomTextForLabel $custom_text_for_label custom_text_for_label
      *
      * @return $this
      */
@@ -216,7 +216,7 @@ class LabelCustomization implements ModelInterface, ArrayAccess
     /**
      * Gets standard_id_for_label.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\StandardIdForLabel
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\StandardIdForLabel
      */
     public function getStandardIdForLabel()
     {
@@ -226,7 +226,7 @@ class LabelCustomization implements ModelInterface, ArrayAccess
     /**
      * Sets standard_id_for_label.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\StandardIdForLabel $standard_id_for_label standard_id_for_label
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\StandardIdForLabel $standard_id_for_label standard_id_for_label
      *
      * @return $this
      */

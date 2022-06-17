@@ -15,11 +15,11 @@
  * OpenAPI spec version: v0
  */
 
-namespace Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment;
+namespace Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment;
 
 use ArrayAccess;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
-use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plenty\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plenty\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * GetAdditionalSellerInputsRequest Class Doc Comment.
@@ -46,9 +46,9 @@ class GetAdditionalSellerInputsRequest implements ModelInterface, ArrayAccess
      * @var string[]
      */
     protected static $swaggerTypes = [
-        'shipping_service_id' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\ShippingServiceIdentifier',
-'ship_from_address' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\Address',
-'order_id' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\AmazonOrderId',    ];
+        'shipping_service_id' => '\Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\ShippingServiceIdentifier',
+'ship_from_address' => '\Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\Address',
+'order_id' => '\Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\AmazonOrderId',    ];
 
     /**
      * Array of property to format mappings. Used for (de)serialization.
@@ -208,7 +208,7 @@ class GetAdditionalSellerInputsRequest implements ModelInterface, ArrayAccess
     /**
      * Gets shipping_service_id.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\ShippingServiceIdentifier
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\ShippingServiceIdentifier
      */
     public function getShippingServiceId()
     {
@@ -218,7 +218,7 @@ class GetAdditionalSellerInputsRequest implements ModelInterface, ArrayAccess
     /**
      * Sets shipping_service_id.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\ShippingServiceIdentifier $shipping_service_id shipping_service_id
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\ShippingServiceIdentifier $shipping_service_id shipping_service_id
      *
      * @return $this
      */
@@ -232,7 +232,7 @@ class GetAdditionalSellerInputsRequest implements ModelInterface, ArrayAccess
     /**
      * Gets ship_from_address.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\Address
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\Address
      */
     public function getShipFromAddress()
     {
@@ -242,7 +242,7 @@ class GetAdditionalSellerInputsRequest implements ModelInterface, ArrayAccess
     /**
      * Sets ship_from_address.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\Address $ship_from_address ship_from_address
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\Address $ship_from_address ship_from_address
      *
      * @return $this
      */
@@ -256,7 +256,7 @@ class GetAdditionalSellerInputsRequest implements ModelInterface, ArrayAccess
     /**
      * Gets order_id.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\AmazonOrderId
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\AmazonOrderId
      */
     public function getOrderId()
     {
@@ -266,7 +266,7 @@ class GetAdditionalSellerInputsRequest implements ModelInterface, ArrayAccess
     /**
      * Sets order_id.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\AmazonOrderId $order_id order_id
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\AmazonOrderId $order_id order_id
      *
      * @return $this
      */

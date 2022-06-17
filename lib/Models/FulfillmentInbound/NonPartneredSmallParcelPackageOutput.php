@@ -15,11 +15,11 @@
  * OpenAPI spec version: v0
  */
 
-namespace Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound;
+namespace Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound;
 
 use ArrayAccess;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
-use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plenty\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plenty\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * NonPartneredSmallParcelPackageOutput Class Doc Comment.
@@ -47,8 +47,8 @@ class NonPartneredSmallParcelPackageOutput implements ModelInterface, ArrayAcces
      */
     protected static $swaggerTypes = [
         'carrier_name' => 'string',
-'tracking_id' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\TrackingId',
-'package_status' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\PackageStatus',    ];
+'tracking_id' => '\Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\TrackingId',
+'package_status' => '\Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\PackageStatus',    ];
 
     /**
      * Array of property to format mappings. Used for (de)serialization.
@@ -232,7 +232,7 @@ class NonPartneredSmallParcelPackageOutput implements ModelInterface, ArrayAcces
     /**
      * Gets tracking_id.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\TrackingId
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\TrackingId
      */
     public function getTrackingId()
     {
@@ -242,7 +242,7 @@ class NonPartneredSmallParcelPackageOutput implements ModelInterface, ArrayAcces
     /**
      * Sets tracking_id.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\TrackingId $tracking_id tracking_id
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\TrackingId $tracking_id tracking_id
      *
      * @return $this
      */
@@ -256,7 +256,7 @@ class NonPartneredSmallParcelPackageOutput implements ModelInterface, ArrayAcces
     /**
      * Gets package_status.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\PackageStatus
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\PackageStatus
      */
     public function getPackageStatus()
     {
@@ -266,7 +266,7 @@ class NonPartneredSmallParcelPackageOutput implements ModelInterface, ArrayAcces
     /**
      * Sets package_status.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\PackageStatus $package_status package_status
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\PackageStatus $package_status package_status
      *
      * @return $this
      */

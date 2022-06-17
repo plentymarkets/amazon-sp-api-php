@@ -15,11 +15,11 @@
  * OpenAPI spec version: v1
  */
 
-namespace Plentymarkets\AmazonSellingPartnerAPI\Models\FbaInventory;
+namespace Plenty\AmazonSellingPartnerAPI\Models\FbaInventory;
 
 use ArrayAccess;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
-use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plenty\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plenty\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * GetInventorySummariesResult Class Doc Comment.
@@ -46,8 +46,8 @@ class GetInventorySummariesResult implements ModelInterface, ArrayAccess
      * @var string[]
      */
     protected static $swaggerTypes = [
-        'granularity' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\FbaInventory\Granularity',
-'inventory_summaries' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\FbaInventory\InventorySummaries',    ];
+        'granularity' => '\Plenty\AmazonSellingPartnerAPI\Models\FbaInventory\Granularity',
+'inventory_summaries' => '\Plenty\AmazonSellingPartnerAPI\Models\FbaInventory\InventorySummaries',    ];
 
     /**
      * Array of property to format mappings. Used for (de)serialization.
@@ -199,7 +199,7 @@ class GetInventorySummariesResult implements ModelInterface, ArrayAccess
     /**
      * Gets granularity.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\FbaInventory\Granularity
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\FbaInventory\Granularity
      */
     public function getGranularity()
     {
@@ -209,7 +209,7 @@ class GetInventorySummariesResult implements ModelInterface, ArrayAccess
     /**
      * Sets granularity.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\FbaInventory\Granularity $granularity granularity
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\FbaInventory\Granularity $granularity granularity
      *
      * @return $this
      */
@@ -223,7 +223,7 @@ class GetInventorySummariesResult implements ModelInterface, ArrayAccess
     /**
      * Gets inventory_summaries.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\FbaInventory\InventorySummaries
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\FbaInventory\InventorySummaries
      */
     public function getInventorySummaries()
     {
@@ -233,7 +233,7 @@ class GetInventorySummariesResult implements ModelInterface, ArrayAccess
     /**
      * Sets inventory_summaries.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\FbaInventory\InventorySummaries $inventory_summaries inventory_summaries
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\FbaInventory\InventorySummaries $inventory_summaries inventory_summaries
      *
      * @return $this
      */

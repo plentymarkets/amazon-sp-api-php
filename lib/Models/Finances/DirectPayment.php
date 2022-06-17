@@ -15,11 +15,11 @@
  * OpenAPI spec version: v0
  */
 
-namespace Plentymarkets\AmazonSellingPartnerAPI\Models\Finances;
+namespace Plenty\AmazonSellingPartnerAPI\Models\Finances;
 
 use ArrayAccess;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
-use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plenty\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plenty\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * DirectPayment Class Doc Comment.
@@ -47,7 +47,7 @@ class DirectPayment implements ModelInterface, ArrayAccess
      */
     protected static $swaggerTypes = [
         'direct_payment_type' => 'string',
-'direct_payment_amount' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\Currency',    ];
+'direct_payment_amount' => '\Plenty\AmazonSellingPartnerAPI\Models\Finances\Currency',    ];
 
     /**
      * Array of property to format mappings. Used for (de)serialization.
@@ -216,7 +216,7 @@ class DirectPayment implements ModelInterface, ArrayAccess
     /**
      * Gets direct_payment_amount.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\Currency
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Finances\Currency
      */
     public function getDirectPaymentAmount()
     {
@@ -226,7 +226,7 @@ class DirectPayment implements ModelInterface, ArrayAccess
     /**
      * Sets direct_payment_amount.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\Currency $direct_payment_amount direct_payment_amount
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Finances\Currency $direct_payment_amount direct_payment_amount
      *
      * @return $this
      */

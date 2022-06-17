@@ -15,11 +15,11 @@
  * OpenAPI spec version: v1
  */
 
-namespace Plentymarkets\AmazonSellingPartnerAPI\Models\FbaSmallAndLight;
+namespace Plenty\AmazonSellingPartnerAPI\Models\FbaSmallAndLight;
 
 use ArrayAccess;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
-use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plenty\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plenty\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * SmallAndLightEnrollment Class Doc Comment.
@@ -46,9 +46,9 @@ class SmallAndLightEnrollment implements ModelInterface, ArrayAccess
      * @var string[]
      */
     protected static $swaggerTypes = [
-        'marketplace_id' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\FbaSmallAndLight\MarketplaceId',
-'seller_sku' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\FbaSmallAndLight\SellerSKU',
-'status' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\FbaSmallAndLight\SmallAndLightEnrollmentStatus',    ];
+        'marketplace_id' => '\Plenty\AmazonSellingPartnerAPI\Models\FbaSmallAndLight\MarketplaceId',
+'seller_sku' => '\Plenty\AmazonSellingPartnerAPI\Models\FbaSmallAndLight\SellerSKU',
+'status' => '\Plenty\AmazonSellingPartnerAPI\Models\FbaSmallAndLight\SmallAndLightEnrollmentStatus',    ];
 
     /**
      * Array of property to format mappings. Used for (de)serialization.
@@ -208,7 +208,7 @@ class SmallAndLightEnrollment implements ModelInterface, ArrayAccess
     /**
      * Gets marketplace_id.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\FbaSmallAndLight\MarketplaceId
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\FbaSmallAndLight\MarketplaceId
      */
     public function getMarketplaceId()
     {
@@ -218,7 +218,7 @@ class SmallAndLightEnrollment implements ModelInterface, ArrayAccess
     /**
      * Sets marketplace_id.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\FbaSmallAndLight\MarketplaceId $marketplace_id marketplace_id
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\FbaSmallAndLight\MarketplaceId $marketplace_id marketplace_id
      *
      * @return $this
      */
@@ -232,7 +232,7 @@ class SmallAndLightEnrollment implements ModelInterface, ArrayAccess
     /**
      * Gets seller_sku.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\FbaSmallAndLight\SellerSKU
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\FbaSmallAndLight\SellerSKU
      */
     public function getSellerSku()
     {
@@ -242,7 +242,7 @@ class SmallAndLightEnrollment implements ModelInterface, ArrayAccess
     /**
      * Sets seller_sku.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\FbaSmallAndLight\SellerSKU $seller_sku seller_sku
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\FbaSmallAndLight\SellerSKU $seller_sku seller_sku
      *
      * @return $this
      */
@@ -256,7 +256,7 @@ class SmallAndLightEnrollment implements ModelInterface, ArrayAccess
     /**
      * Gets status.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\FbaSmallAndLight\SmallAndLightEnrollmentStatus
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\FbaSmallAndLight\SmallAndLightEnrollmentStatus
      */
     public function getStatus()
     {
@@ -266,7 +266,7 @@ class SmallAndLightEnrollment implements ModelInterface, ArrayAccess
     /**
      * Sets status.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\FbaSmallAndLight\SmallAndLightEnrollmentStatus $status status
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\FbaSmallAndLight\SmallAndLightEnrollmentStatus $status status
      *
      * @return $this
      */

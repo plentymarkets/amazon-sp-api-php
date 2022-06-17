@@ -15,11 +15,11 @@
  * OpenAPI spec version: v0
  */
 
-namespace Plentymarkets\AmazonSellingPartnerAPI\Models\ProductPricing;
+namespace Plenty\AmazonSellingPartnerAPI\Models\ProductPricing;
 
 use ArrayAccess;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
-use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plenty\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plenty\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * OfferType Class Doc Comment.
@@ -43,8 +43,8 @@ class OfferType implements ModelInterface, ArrayAccess
      * @var string[]
      */
     protected static $swaggerTypes = [
-        'buying_price' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\ProductPricing\PriceType',
-'regular_price' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\ProductPricing\MoneyType',
+        'buying_price' => '\Plenty\AmazonSellingPartnerAPI\Models\ProductPricing\PriceType',
+'regular_price' => '\Plenty\AmazonSellingPartnerAPI\Models\ProductPricing\MoneyType',
 'fulfillment_channel' => 'string',
 'item_condition' => 'string',
 'item_sub_condition' => 'string',
@@ -232,7 +232,7 @@ class OfferType implements ModelInterface, ArrayAccess
     /**
      * Gets buying_price.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\ProductPricing\PriceType
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\ProductPricing\PriceType
      */
     public function getBuyingPrice()
     {
@@ -242,7 +242,7 @@ class OfferType implements ModelInterface, ArrayAccess
     /**
      * Sets buying_price.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\ProductPricing\PriceType $buying_price buying_price
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\ProductPricing\PriceType $buying_price buying_price
      *
      * @return $this
      */
@@ -256,7 +256,7 @@ class OfferType implements ModelInterface, ArrayAccess
     /**
      * Gets regular_price.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\ProductPricing\MoneyType
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\ProductPricing\MoneyType
      */
     public function getRegularPrice()
     {
@@ -266,7 +266,7 @@ class OfferType implements ModelInterface, ArrayAccess
     /**
      * Sets regular_price.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\ProductPricing\MoneyType $regular_price regular_price
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\ProductPricing\MoneyType $regular_price regular_price
      *
      * @return $this
      */

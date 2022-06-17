@@ -15,11 +15,11 @@
  * OpenAPI spec version: v0
  */
 
-namespace Plentymarkets\AmazonSellingPartnerAPI\Models\ProductPricing;
+namespace Plenty\AmazonSellingPartnerAPI\Models\ProductPricing;
 
 use ArrayAccess;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
-use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plenty\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plenty\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * OfferCountType Class Doc Comment.
@@ -47,7 +47,7 @@ class OfferCountType implements ModelInterface, ArrayAccess
      */
     protected static $swaggerTypes = [
         'condition' => 'string',
-'fulfillment_channel' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\ProductPricing\FulfillmentChannelType',
+'fulfillment_channel' => '\Plenty\AmazonSellingPartnerAPI\Models\ProductPricing\FulfillmentChannelType',
 'offer_count' => 'int',    ];
 
     /**
@@ -222,7 +222,7 @@ class OfferCountType implements ModelInterface, ArrayAccess
     /**
      * Gets fulfillment_channel.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\ProductPricing\FulfillmentChannelType
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\ProductPricing\FulfillmentChannelType
      */
     public function getFulfillmentChannel()
     {
@@ -232,7 +232,7 @@ class OfferCountType implements ModelInterface, ArrayAccess
     /**
      * Sets fulfillment_channel.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\ProductPricing\FulfillmentChannelType $fulfillment_channel fulfillment_channel
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\ProductPricing\FulfillmentChannelType $fulfillment_channel fulfillment_channel
      *
      * @return $this
      */

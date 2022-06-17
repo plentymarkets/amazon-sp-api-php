@@ -15,11 +15,11 @@
  * OpenAPI spec version: v0
  */
 
-namespace Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound;
+namespace Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound;
 
 use ArrayAccess;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
-use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plenty\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plenty\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * CommonTransportResult Class Doc Comment.
@@ -43,7 +43,7 @@ class CommonTransportResult implements ModelInterface, ArrayAccess
      * @var string[]
      */
     protected static $swaggerTypes = [
-        'transport_result' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\TransportResult',    ];
+        'transport_result' => '\Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\TransportResult',    ];
 
     /**
      * Array of property to format mappings. Used for (de)serialization.
@@ -183,7 +183,7 @@ class CommonTransportResult implements ModelInterface, ArrayAccess
     /**
      * Gets transport_result.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\TransportResult
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\TransportResult
      */
     public function getTransportResult()
     {
@@ -193,7 +193,7 @@ class CommonTransportResult implements ModelInterface, ArrayAccess
     /**
      * Sets transport_result.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\TransportResult $transport_result transport_result
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\TransportResult $transport_result transport_result
      *
      * @return $this
      */

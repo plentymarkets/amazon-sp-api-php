@@ -15,11 +15,11 @@
  * OpenAPI spec version: 2020-09-04
  */
 
-namespace Plentymarkets\AmazonSellingPartnerAPI\Models\Feeds;
+namespace Plenty\AmazonSellingPartnerAPI\Models\Feeds;
 
 use ArrayAccess;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
-use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plenty\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plenty\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * FeedDocument Class Doc Comment.
@@ -45,7 +45,7 @@ class FeedDocument implements ModelInterface, ArrayAccess
     protected static $swaggerTypes = [
         'feed_document_id' => 'string',
 'url' => 'string',
-'encryption_details' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Feeds\FeedDocumentEncryptionDetails',
+'encryption_details' => '\Plenty\AmazonSellingPartnerAPI\Models\Feeds\FeedDocumentEncryptionDetails',
 'compression_algorithm' => 'string',    ];
 
     /**
@@ -279,7 +279,7 @@ class FeedDocument implements ModelInterface, ArrayAccess
     /**
      * Gets encryption_details.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Feeds\FeedDocumentEncryptionDetails
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Feeds\FeedDocumentEncryptionDetails
      */
     public function getEncryptionDetails()
     {
@@ -289,7 +289,7 @@ class FeedDocument implements ModelInterface, ArrayAccess
     /**
      * Sets encryption_details.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Feeds\FeedDocumentEncryptionDetails $encryption_details encryption_details
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Feeds\FeedDocumentEncryptionDetails $encryption_details encryption_details
      *
      * @return $this
      */

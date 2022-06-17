@@ -15,11 +15,11 @@
  * OpenAPI spec version: v1
  */
 
-namespace Plentymarkets\AmazonSellingPartnerAPI\Models\Notifications;
+namespace Plenty\AmazonSellingPartnerAPI\Models\Notifications;
 
 use ArrayAccess;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
-use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plenty\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plenty\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * DeleteDestinationResponse Class Doc Comment.
@@ -46,7 +46,7 @@ class DeleteDestinationResponse implements ModelInterface, ArrayAccess
      * @var string[]
      */
     protected static $swaggerTypes = [
-        'errors' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Notifications\ErrorList',    ];
+        'errors' => '\Plenty\AmazonSellingPartnerAPI\Models\Notifications\ErrorList',    ];
 
     /**
      * Array of property to format mappings. Used for (de)serialization.
@@ -186,7 +186,7 @@ class DeleteDestinationResponse implements ModelInterface, ArrayAccess
     /**
      * Gets errors.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Notifications\ErrorList
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Notifications\ErrorList
      */
     public function getErrors()
     {
@@ -196,7 +196,7 @@ class DeleteDestinationResponse implements ModelInterface, ArrayAccess
     /**
      * Sets errors.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Notifications\ErrorList $errors errors
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Notifications\ErrorList $errors errors
      *
      * @return $this
      */

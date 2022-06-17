@@ -15,11 +15,11 @@
  * OpenAPI spec version: v1
  */
 
-namespace Plentymarkets\AmazonSellingPartnerAPI\Models\Notifications;
+namespace Plenty\AmazonSellingPartnerAPI\Models\Notifications;
 
 use ArrayAccess;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
-use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plenty\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plenty\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * DestinationResourceSpecification Class Doc Comment.
@@ -46,8 +46,8 @@ class DestinationResourceSpecification implements ModelInterface, ArrayAccess
      * @var string[]
      */
     protected static $swaggerTypes = [
-        'sqs' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Notifications\SqsResource',
-'event_bridge' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Notifications\EventBridgeResourceSpecification',    ];
+        'sqs' => '\Plenty\AmazonSellingPartnerAPI\Models\Notifications\SqsResource',
+'event_bridge' => '\Plenty\AmazonSellingPartnerAPI\Models\Notifications\EventBridgeResourceSpecification',    ];
 
     /**
      * Array of property to format mappings. Used for (de)serialization.
@@ -192,7 +192,7 @@ class DestinationResourceSpecification implements ModelInterface, ArrayAccess
     /**
      * Gets sqs.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Notifications\SqsResource
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Notifications\SqsResource
      */
     public function getSqs()
     {
@@ -202,7 +202,7 @@ class DestinationResourceSpecification implements ModelInterface, ArrayAccess
     /**
      * Sets sqs.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Notifications\SqsResource $sqs sqs
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Notifications\SqsResource $sqs sqs
      *
      * @return $this
      */
@@ -216,7 +216,7 @@ class DestinationResourceSpecification implements ModelInterface, ArrayAccess
     /**
      * Gets event_bridge.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Notifications\EventBridgeResourceSpecification
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Notifications\EventBridgeResourceSpecification
      */
     public function getEventBridge()
     {
@@ -226,7 +226,7 @@ class DestinationResourceSpecification implements ModelInterface, ArrayAccess
     /**
      * Sets event_bridge.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Notifications\EventBridgeResourceSpecification $event_bridge event_bridge
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Notifications\EventBridgeResourceSpecification $event_bridge event_bridge
      *
      * @return $this
      */

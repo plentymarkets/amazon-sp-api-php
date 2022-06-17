@@ -15,11 +15,11 @@
  * OpenAPI spec version: v0
  */
 
-namespace Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound;
+namespace Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound;
 
 use ArrayAccess;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
-use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plenty\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plenty\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * InboundShipmentRequest Class Doc Comment.
@@ -46,8 +46,8 @@ class InboundShipmentRequest implements ModelInterface, ArrayAccess
      * @var string[]
      */
     protected static $swaggerTypes = [
-        'inbound_shipment_header' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\InboundShipmentHeader',
-'inbound_shipment_items' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\InboundShipmentItemList',
+        'inbound_shipment_header' => '\Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\InboundShipmentHeader',
+'inbound_shipment_items' => '\Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\InboundShipmentItemList',
 'marketplace_id' => 'string',    ];
 
     /**
@@ -208,7 +208,7 @@ class InboundShipmentRequest implements ModelInterface, ArrayAccess
     /**
      * Gets inbound_shipment_header.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\InboundShipmentHeader
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\InboundShipmentHeader
      */
     public function getInboundShipmentHeader()
     {
@@ -218,7 +218,7 @@ class InboundShipmentRequest implements ModelInterface, ArrayAccess
     /**
      * Sets inbound_shipment_header.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\InboundShipmentHeader $inbound_shipment_header inbound_shipment_header
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\InboundShipmentHeader $inbound_shipment_header inbound_shipment_header
      *
      * @return $this
      */
@@ -232,7 +232,7 @@ class InboundShipmentRequest implements ModelInterface, ArrayAccess
     /**
      * Gets inbound_shipment_items.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\InboundShipmentItemList
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\InboundShipmentItemList
      */
     public function getInboundShipmentItems()
     {
@@ -242,7 +242,7 @@ class InboundShipmentRequest implements ModelInterface, ArrayAccess
     /**
      * Sets inbound_shipment_items.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\InboundShipmentItemList $inbound_shipment_items inbound_shipment_items
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\InboundShipmentItemList $inbound_shipment_items inbound_shipment_items
      *
      * @return $this
      */

@@ -15,11 +15,11 @@
  * OpenAPI spec version: v0
  */
 
-namespace Plentymarkets\AmazonSellingPartnerAPI\Models\Finances;
+namespace Plenty\AmazonSellingPartnerAPI\Models\Finances;
 
 use ArrayAccess;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
-use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plenty\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plenty\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * ImagingServicesFeeEvent Class Doc Comment.
@@ -48,8 +48,8 @@ class ImagingServicesFeeEvent implements ModelInterface, ArrayAccess
     protected static $swaggerTypes = [
         'imaging_request_billing_item_id' => 'string',
 'asin' => 'string',
-'posted_date' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\\DateTime',
-'fee_list' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\FeeComponentList',    ];
+'posted_date' => '\Plenty\AmazonSellingPartnerAPI\Models\Finances\\DateTime',
+'fee_list' => '\Plenty\AmazonSellingPartnerAPI\Models\Finances\FeeComponentList',    ];
 
     /**
      * Array of property to format mappings. Used for (de)serialization.
@@ -252,7 +252,7 @@ class ImagingServicesFeeEvent implements ModelInterface, ArrayAccess
     /**
      * Gets posted_date.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\DateTime
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Finances\DateTime
      */
     public function getPostedDate()
     {
@@ -262,7 +262,7 @@ class ImagingServicesFeeEvent implements ModelInterface, ArrayAccess
     /**
      * Sets posted_date.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\DateTime $posted_date posted_date
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Finances\DateTime $posted_date posted_date
      *
      * @return $this
      */
@@ -276,7 +276,7 @@ class ImagingServicesFeeEvent implements ModelInterface, ArrayAccess
     /**
      * Gets fee_list.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\FeeComponentList
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Finances\FeeComponentList
      */
     public function getFeeList()
     {
@@ -286,7 +286,7 @@ class ImagingServicesFeeEvent implements ModelInterface, ArrayAccess
     /**
      * Sets fee_list.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\FeeComponentList $fee_list fee_list
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Finances\FeeComponentList $fee_list fee_list
      *
      * @return $this
      */

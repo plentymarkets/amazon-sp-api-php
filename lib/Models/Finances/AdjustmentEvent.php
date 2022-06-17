@@ -15,11 +15,11 @@
  * OpenAPI spec version: v0
  */
 
-namespace Plentymarkets\AmazonSellingPartnerAPI\Models\Finances;
+namespace Plenty\AmazonSellingPartnerAPI\Models\Finances;
 
 use ArrayAccess;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
-use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plenty\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plenty\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * AdjustmentEvent Class Doc Comment.
@@ -47,9 +47,9 @@ class AdjustmentEvent implements ModelInterface, ArrayAccess
      */
     protected static $swaggerTypes = [
         'adjustment_type' => 'string',
-'posted_date' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\\DateTime',
-'adjustment_amount' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\Currency',
-'adjustment_item_list' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\AdjustmentItemList',    ];
+'posted_date' => '\Plenty\AmazonSellingPartnerAPI\Models\Finances\\DateTime',
+'adjustment_amount' => '\Plenty\AmazonSellingPartnerAPI\Models\Finances\Currency',
+'adjustment_item_list' => '\Plenty\AmazonSellingPartnerAPI\Models\Finances\AdjustmentItemList',    ];
 
     /**
      * Array of property to format mappings. Used for (de)serialization.
@@ -228,7 +228,7 @@ class AdjustmentEvent implements ModelInterface, ArrayAccess
     /**
      * Gets posted_date.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\DateTime
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Finances\DateTime
      */
     public function getPostedDate()
     {
@@ -238,7 +238,7 @@ class AdjustmentEvent implements ModelInterface, ArrayAccess
     /**
      * Sets posted_date.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\DateTime $posted_date posted_date
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Finances\DateTime $posted_date posted_date
      *
      * @return $this
      */
@@ -252,7 +252,7 @@ class AdjustmentEvent implements ModelInterface, ArrayAccess
     /**
      * Gets adjustment_amount.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\Currency
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Finances\Currency
      */
     public function getAdjustmentAmount()
     {
@@ -262,7 +262,7 @@ class AdjustmentEvent implements ModelInterface, ArrayAccess
     /**
      * Sets adjustment_amount.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\Currency $adjustment_amount adjustment_amount
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Finances\Currency $adjustment_amount adjustment_amount
      *
      * @return $this
      */
@@ -276,7 +276,7 @@ class AdjustmentEvent implements ModelInterface, ArrayAccess
     /**
      * Gets adjustment_item_list.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\AdjustmentItemList
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Finances\AdjustmentItemList
      */
     public function getAdjustmentItemList()
     {
@@ -286,7 +286,7 @@ class AdjustmentEvent implements ModelInterface, ArrayAccess
     /**
      * Sets adjustment_item_list.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\AdjustmentItemList $adjustment_item_list adjustment_item_list
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Finances\AdjustmentItemList $adjustment_item_list adjustment_item_list
      *
      * @return $this
      */

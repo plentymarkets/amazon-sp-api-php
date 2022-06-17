@@ -15,11 +15,11 @@
  * OpenAPI spec version: v0
  */
 
-namespace Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment;
+namespace Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment;
 
 use ArrayAccess;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
-use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plenty\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plenty\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * AvailableCarrierWillPickUpOption Class Doc Comment.
@@ -46,8 +46,8 @@ class AvailableCarrierWillPickUpOption implements ModelInterface, ArrayAccess
      * @var string[]
      */
     protected static $swaggerTypes = [
-        'carrier_will_pick_up_option' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\CarrierWillPickUpOption',
-'charge' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\CurrencyAmount',    ];
+        'carrier_will_pick_up_option' => '\Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\CarrierWillPickUpOption',
+'charge' => '\Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\CurrencyAmount',    ];
 
     /**
      * Array of property to format mappings. Used for (de)serialization.
@@ -199,7 +199,7 @@ class AvailableCarrierWillPickUpOption implements ModelInterface, ArrayAccess
     /**
      * Gets carrier_will_pick_up_option.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\CarrierWillPickUpOption
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\CarrierWillPickUpOption
      */
     public function getCarrierWillPickUpOption()
     {
@@ -209,7 +209,7 @@ class AvailableCarrierWillPickUpOption implements ModelInterface, ArrayAccess
     /**
      * Sets carrier_will_pick_up_option.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\CarrierWillPickUpOption $carrier_will_pick_up_option carrier_will_pick_up_option
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\CarrierWillPickUpOption $carrier_will_pick_up_option carrier_will_pick_up_option
      *
      * @return $this
      */
@@ -223,7 +223,7 @@ class AvailableCarrierWillPickUpOption implements ModelInterface, ArrayAccess
     /**
      * Gets charge.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\CurrencyAmount
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\CurrencyAmount
      */
     public function getCharge()
     {
@@ -233,7 +233,7 @@ class AvailableCarrierWillPickUpOption implements ModelInterface, ArrayAccess
     /**
      * Sets charge.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\CurrencyAmount $charge charge
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\CurrencyAmount $charge charge
      *
      * @return $this
      */

@@ -15,11 +15,11 @@
  * OpenAPI spec version: v0
  */
 
-namespace Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment;
+namespace Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment;
 
 use ArrayAccess;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
-use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plenty\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plenty\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * ShippingServiceOptions Class Doc Comment.
@@ -46,11 +46,11 @@ class ShippingServiceOptions implements ModelInterface, ArrayAccess
      * @var string[]
      */
     protected static $swaggerTypes = [
-        'delivery_experience' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\DeliveryExperienceType',
-'declared_value' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\CurrencyAmount',
+        'delivery_experience' => '\Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\DeliveryExperienceType',
+'declared_value' => '\Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\CurrencyAmount',
 'carrier_will_pick_up' => 'bool',
-'carrier_will_pick_up_option' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\CarrierWillPickUpOption',
-'label_format' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\LabelFormat',    ];
+'carrier_will_pick_up_option' => '\Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\CarrierWillPickUpOption',
+'label_format' => '\Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\LabelFormat',    ];
 
     /**
      * Array of property to format mappings. Used for (de)serialization.
@@ -217,7 +217,7 @@ class ShippingServiceOptions implements ModelInterface, ArrayAccess
     /**
      * Gets delivery_experience.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\DeliveryExperienceType
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\DeliveryExperienceType
      */
     public function getDeliveryExperience()
     {
@@ -227,7 +227,7 @@ class ShippingServiceOptions implements ModelInterface, ArrayAccess
     /**
      * Sets delivery_experience.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\DeliveryExperienceType $delivery_experience delivery_experience
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\DeliveryExperienceType $delivery_experience delivery_experience
      *
      * @return $this
      */
@@ -241,7 +241,7 @@ class ShippingServiceOptions implements ModelInterface, ArrayAccess
     /**
      * Gets declared_value.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\CurrencyAmount
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\CurrencyAmount
      */
     public function getDeclaredValue()
     {
@@ -251,7 +251,7 @@ class ShippingServiceOptions implements ModelInterface, ArrayAccess
     /**
      * Sets declared_value.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\CurrencyAmount $declared_value declared_value
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\CurrencyAmount $declared_value declared_value
      *
      * @return $this
      */
@@ -289,7 +289,7 @@ class ShippingServiceOptions implements ModelInterface, ArrayAccess
     /**
      * Gets carrier_will_pick_up_option.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\CarrierWillPickUpOption
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\CarrierWillPickUpOption
      */
     public function getCarrierWillPickUpOption()
     {
@@ -299,7 +299,7 @@ class ShippingServiceOptions implements ModelInterface, ArrayAccess
     /**
      * Sets carrier_will_pick_up_option.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\CarrierWillPickUpOption $carrier_will_pick_up_option carrier_will_pick_up_option
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\CarrierWillPickUpOption $carrier_will_pick_up_option carrier_will_pick_up_option
      *
      * @return $this
      */
@@ -313,7 +313,7 @@ class ShippingServiceOptions implements ModelInterface, ArrayAccess
     /**
      * Gets label_format.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\LabelFormat
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\LabelFormat
      */
     public function getLabelFormat()
     {
@@ -323,7 +323,7 @@ class ShippingServiceOptions implements ModelInterface, ArrayAccess
     /**
      * Sets label_format.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\LabelFormat $label_format label_format
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\LabelFormat $label_format label_format
      *
      * @return $this
      */

@@ -15,11 +15,11 @@
  * OpenAPI spec version: v0
  */
 
-namespace Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment;
+namespace Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment;
 
 use ArrayAccess;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
-use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plenty\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plenty\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * FileContents Class Doc Comment.
@@ -47,7 +47,7 @@ class FileContents implements ModelInterface, ArrayAccess
      */
     protected static $swaggerTypes = [
         'contents' => 'string',
-'file_type' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\FileType',
+'file_type' => '\Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\FileType',
 'checksum' => 'string',    ];
 
     /**
@@ -232,7 +232,7 @@ class FileContents implements ModelInterface, ArrayAccess
     /**
      * Gets file_type.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\FileType
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\FileType
      */
     public function getFileType()
     {
@@ -242,7 +242,7 @@ class FileContents implements ModelInterface, ArrayAccess
     /**
      * Sets file_type.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\FileType $file_type file_type
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\FileType $file_type file_type
      *
      * @return $this
      */

@@ -15,11 +15,11 @@
  * OpenAPI spec version: v0
  */
 
-namespace Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound;
+namespace Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound;
 
 use ArrayAccess;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
-use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plenty\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plenty\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * PrepDetails Class Doc Comment.
@@ -46,8 +46,8 @@ class PrepDetails implements ModelInterface, ArrayAccess
      * @var string[]
      */
     protected static $swaggerTypes = [
-        'prep_instruction' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\PrepInstruction',
-'prep_owner' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\PrepOwner',    ];
+        'prep_instruction' => '\Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\PrepInstruction',
+'prep_owner' => '\Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\PrepOwner',    ];
 
     /**
      * Array of property to format mappings. Used for (de)serialization.
@@ -199,7 +199,7 @@ class PrepDetails implements ModelInterface, ArrayAccess
     /**
      * Gets prep_instruction.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\PrepInstruction
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\PrepInstruction
      */
     public function getPrepInstruction()
     {
@@ -209,7 +209,7 @@ class PrepDetails implements ModelInterface, ArrayAccess
     /**
      * Sets prep_instruction.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\PrepInstruction $prep_instruction prep_instruction
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\PrepInstruction $prep_instruction prep_instruction
      *
      * @return $this
      */
@@ -223,7 +223,7 @@ class PrepDetails implements ModelInterface, ArrayAccess
     /**
      * Gets prep_owner.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\PrepOwner
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\PrepOwner
      */
     public function getPrepOwner()
     {
@@ -233,7 +233,7 @@ class PrepDetails implements ModelInterface, ArrayAccess
     /**
      * Sets prep_owner.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\PrepOwner $prep_owner prep_owner
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\PrepOwner $prep_owner prep_owner
      *
      * @return $this
      */

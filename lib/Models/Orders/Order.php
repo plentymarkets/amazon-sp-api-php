@@ -15,11 +15,11 @@
  * OpenAPI spec version: v0
  */
 
-namespace Plentymarkets\AmazonSellingPartnerAPI\Models\Orders;
+namespace Plenty\AmazonSellingPartnerAPI\Models\Orders;
 
 use ArrayAccess;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
-use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plenty\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plenty\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * Order Class Doc Comment.
@@ -55,12 +55,12 @@ class Order implements ModelInterface, ArrayAccess
 'sales_channel' => 'string',
 'order_channel' => 'string',
 'ship_service_level' => 'string',
-'order_total' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Orders\Money',
+'order_total' => '\Plenty\AmazonSellingPartnerAPI\Models\Orders\Money',
 'number_of_items_shipped' => 'int',
 'number_of_items_unshipped' => 'int',
-'payment_execution_detail' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Orders\PaymentExecutionDetailItemList',
+'payment_execution_detail' => '\Plenty\AmazonSellingPartnerAPI\Models\Orders\PaymentExecutionDetailItemList',
 'payment_method' => 'string',
-'payment_method_details' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Orders\PaymentMethodDetailItemList',
+'payment_method_details' => '\Plenty\AmazonSellingPartnerAPI\Models\Orders\PaymentMethodDetailItemList',
 'marketplace_id' => 'string',
 'shipment_service_level_category' => 'string',
 'easy_ship_shipment_status' => 'string',
@@ -79,8 +79,8 @@ class Order implements ModelInterface, ArrayAccess
 'promise_response_due_date' => 'string',
 'is_estimated_ship_date_set' => 'bool',
 'is_sold_by_ab' => 'bool',
-'assigned_ship_from_location_address' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Orders\Address',
-'fulfillment_instruction' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Orders\FulfillmentInstruction',    ];
+'assigned_ship_from_location_address' => '\Plenty\AmazonSellingPartnerAPI\Models\Orders\Address',
+'fulfillment_instruction' => '\Plenty\AmazonSellingPartnerAPI\Models\Orders\FulfillmentInstruction',    ];
 
     /**
      * Array of property to format mappings. Used for (de)serialization.
@@ -735,7 +735,7 @@ self::ORDER_TYPE_SOURCING_ON_DEMAND_ORDER,        ];
     /**
      * Gets order_total.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Orders\Money
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Orders\Money
      */
     public function getOrderTotal()
     {
@@ -745,7 +745,7 @@ self::ORDER_TYPE_SOURCING_ON_DEMAND_ORDER,        ];
     /**
      * Sets order_total.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Orders\Money $order_total order_total
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Orders\Money $order_total order_total
      *
      * @return $this
      */
@@ -807,7 +807,7 @@ self::ORDER_TYPE_SOURCING_ON_DEMAND_ORDER,        ];
     /**
      * Gets payment_execution_detail.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Orders\PaymentExecutionDetailItemList
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Orders\PaymentExecutionDetailItemList
      */
     public function getPaymentExecutionDetail()
     {
@@ -817,7 +817,7 @@ self::ORDER_TYPE_SOURCING_ON_DEMAND_ORDER,        ];
     /**
      * Sets payment_execution_detail.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Orders\PaymentExecutionDetailItemList $payment_execution_detail payment_execution_detail
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Orders\PaymentExecutionDetailItemList $payment_execution_detail payment_execution_detail
      *
      * @return $this
      */
@@ -859,7 +859,7 @@ self::ORDER_TYPE_SOURCING_ON_DEMAND_ORDER,        ];
     /**
      * Gets payment_method_details.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Orders\PaymentMethodDetailItemList
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Orders\PaymentMethodDetailItemList
      */
     public function getPaymentMethodDetails()
     {
@@ -869,7 +869,7 @@ self::ORDER_TYPE_SOURCING_ON_DEMAND_ORDER,        ];
     /**
      * Sets payment_method_details.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Orders\PaymentMethodDetailItemList $payment_method_details payment_method_details
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Orders\PaymentMethodDetailItemList $payment_method_details payment_method_details
      *
      * @return $this
      */
@@ -1319,7 +1319,7 @@ self::ORDER_TYPE_SOURCING_ON_DEMAND_ORDER,        ];
     /**
      * Gets assigned_ship_from_location_address.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Orders\Address
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Orders\Address
      */
     public function getAssignedShipFromLocationAddress()
     {
@@ -1329,7 +1329,7 @@ self::ORDER_TYPE_SOURCING_ON_DEMAND_ORDER,        ];
     /**
      * Sets assigned_ship_from_location_address.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Orders\Address $assigned_ship_from_location_address assigned_ship_from_location_address
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Orders\Address $assigned_ship_from_location_address assigned_ship_from_location_address
      *
      * @return $this
      */
@@ -1343,7 +1343,7 @@ self::ORDER_TYPE_SOURCING_ON_DEMAND_ORDER,        ];
     /**
      * Gets fulfillment_instruction.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Orders\FulfillmentInstruction
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Orders\FulfillmentInstruction
      */
     public function getFulfillmentInstruction()
     {
@@ -1353,7 +1353,7 @@ self::ORDER_TYPE_SOURCING_ON_DEMAND_ORDER,        ];
     /**
      * Sets fulfillment_instruction.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Orders\FulfillmentInstruction $fulfillment_instruction fulfillment_instruction
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Orders\FulfillmentInstruction $fulfillment_instruction fulfillment_instruction
      *
      * @return $this
      */

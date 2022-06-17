@@ -15,11 +15,11 @@
  * OpenAPI spec version: v0
  */
 
-namespace Plentymarkets\AmazonSellingPartnerAPI\Models\ProductPricing;
+namespace Plenty\AmazonSellingPartnerAPI\Models\ProductPricing;
 
 use ArrayAccess;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
-use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plenty\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plenty\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * OfferDetail Class Doc Comment.
@@ -45,12 +45,12 @@ class OfferDetail implements ModelInterface, ArrayAccess
     protected static $swaggerTypes = [
         'my_offer' => 'bool',
 'sub_condition' => 'string',
-'seller_feedback_rating' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\ProductPricing\SellerFeedbackType',
-'shipping_time' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\ProductPricing\DetailedShippingTimeType',
-'listing_price' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\ProductPricing\MoneyType',
-'points' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\ProductPricing\Points',
-'shipping' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\ProductPricing\MoneyType',
-'ships_from' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\ProductPricing\ShipsFromType',
+'seller_feedback_rating' => '\Plenty\AmazonSellingPartnerAPI\Models\ProductPricing\SellerFeedbackType',
+'shipping_time' => '\Plenty\AmazonSellingPartnerAPI\Models\ProductPricing\DetailedShippingTimeType',
+'listing_price' => '\Plenty\AmazonSellingPartnerAPI\Models\ProductPricing\MoneyType',
+'points' => '\Plenty\AmazonSellingPartnerAPI\Models\ProductPricing\Points',
+'shipping' => '\Plenty\AmazonSellingPartnerAPI\Models\ProductPricing\MoneyType',
+'ships_from' => '\Plenty\AmazonSellingPartnerAPI\Models\ProductPricing\ShipsFromType',
 'is_fulfilled_by_amazon' => 'bool',
 'is_buy_box_winner' => 'bool',
 'is_featured_merchant' => 'bool',    ];
@@ -307,7 +307,7 @@ class OfferDetail implements ModelInterface, ArrayAccess
     /**
      * Gets seller_feedback_rating.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\ProductPricing\SellerFeedbackType
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\ProductPricing\SellerFeedbackType
      */
     public function getSellerFeedbackRating()
     {
@@ -317,7 +317,7 @@ class OfferDetail implements ModelInterface, ArrayAccess
     /**
      * Sets seller_feedback_rating.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\ProductPricing\SellerFeedbackType $seller_feedback_rating seller_feedback_rating
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\ProductPricing\SellerFeedbackType $seller_feedback_rating seller_feedback_rating
      *
      * @return $this
      */
@@ -331,7 +331,7 @@ class OfferDetail implements ModelInterface, ArrayAccess
     /**
      * Gets shipping_time.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\ProductPricing\DetailedShippingTimeType
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\ProductPricing\DetailedShippingTimeType
      */
     public function getShippingTime()
     {
@@ -341,7 +341,7 @@ class OfferDetail implements ModelInterface, ArrayAccess
     /**
      * Sets shipping_time.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\ProductPricing\DetailedShippingTimeType $shipping_time shipping_time
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\ProductPricing\DetailedShippingTimeType $shipping_time shipping_time
      *
      * @return $this
      */
@@ -355,7 +355,7 @@ class OfferDetail implements ModelInterface, ArrayAccess
     /**
      * Gets listing_price.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\ProductPricing\MoneyType
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\ProductPricing\MoneyType
      */
     public function getListingPrice()
     {
@@ -365,7 +365,7 @@ class OfferDetail implements ModelInterface, ArrayAccess
     /**
      * Sets listing_price.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\ProductPricing\MoneyType $listing_price listing_price
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\ProductPricing\MoneyType $listing_price listing_price
      *
      * @return $this
      */
@@ -379,7 +379,7 @@ class OfferDetail implements ModelInterface, ArrayAccess
     /**
      * Gets points.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\ProductPricing\Points
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\ProductPricing\Points
      */
     public function getPoints()
     {
@@ -389,7 +389,7 @@ class OfferDetail implements ModelInterface, ArrayAccess
     /**
      * Sets points.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\ProductPricing\Points $points points
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\ProductPricing\Points $points points
      *
      * @return $this
      */
@@ -403,7 +403,7 @@ class OfferDetail implements ModelInterface, ArrayAccess
     /**
      * Gets shipping.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\ProductPricing\MoneyType
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\ProductPricing\MoneyType
      */
     public function getShipping()
     {
@@ -413,7 +413,7 @@ class OfferDetail implements ModelInterface, ArrayAccess
     /**
      * Sets shipping.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\ProductPricing\MoneyType $shipping shipping
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\ProductPricing\MoneyType $shipping shipping
      *
      * @return $this
      */
@@ -427,7 +427,7 @@ class OfferDetail implements ModelInterface, ArrayAccess
     /**
      * Gets ships_from.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\ProductPricing\ShipsFromType
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\ProductPricing\ShipsFromType
      */
     public function getShipsFrom()
     {
@@ -437,7 +437,7 @@ class OfferDetail implements ModelInterface, ArrayAccess
     /**
      * Sets ships_from.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\ProductPricing\ShipsFromType $ships_from ships_from
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\ProductPricing\ShipsFromType $ships_from ships_from
      *
      * @return $this
      */

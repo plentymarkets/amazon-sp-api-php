@@ -15,11 +15,11 @@
  * OpenAPI spec version: v1
  */
 
-namespace Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping;
+namespace Plenty\AmazonSellingPartnerAPI\Models\Shipping;
 
 use ArrayAccess;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
-use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plenty\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plenty\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * LabelResult Class Doc Comment.
@@ -46,9 +46,9 @@ class LabelResult implements ModelInterface, ArrayAccess
      * @var string[]
      */
     protected static $swaggerTypes = [
-        'container_reference_id' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\ContainerReferenceId',
+        'container_reference_id' => '\Plenty\AmazonSellingPartnerAPI\Models\Shipping\ContainerReferenceId',
 'tracking_id' => 'string',
-'label' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\Label',    ];
+'label' => '\Plenty\AmazonSellingPartnerAPI\Models\Shipping\Label',    ];
 
     /**
      * Array of property to format mappings. Used for (de)serialization.
@@ -198,7 +198,7 @@ class LabelResult implements ModelInterface, ArrayAccess
     /**
      * Gets container_reference_id.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\ContainerReferenceId
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Shipping\ContainerReferenceId
      */
     public function getContainerReferenceId()
     {
@@ -208,7 +208,7 @@ class LabelResult implements ModelInterface, ArrayAccess
     /**
      * Sets container_reference_id.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\ContainerReferenceId $container_reference_id container_reference_id
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Shipping\ContainerReferenceId $container_reference_id container_reference_id
      *
      * @return $this
      */
@@ -246,7 +246,7 @@ class LabelResult implements ModelInterface, ArrayAccess
     /**
      * Gets label.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\Label
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Shipping\Label
      */
     public function getLabel()
     {
@@ -256,7 +256,7 @@ class LabelResult implements ModelInterface, ArrayAccess
     /**
      * Sets label.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\Label $label label
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Shipping\Label $label label
      *
      * @return $this
      */

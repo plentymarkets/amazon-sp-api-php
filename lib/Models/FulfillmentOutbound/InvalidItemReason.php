@@ -15,11 +15,11 @@
  * OpenAPI spec version: 2020-07-01
  */
 
-namespace Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound;
+namespace Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound;
 
 use ArrayAccess;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
-use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plenty\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plenty\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * InvalidItemReason Class Doc Comment.
@@ -46,7 +46,7 @@ class InvalidItemReason implements ModelInterface, ArrayAccess
      * @var string[]
      */
     protected static $swaggerTypes = [
-        'invalid_item_reason_code' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\InvalidItemReasonCode',
+        'invalid_item_reason_code' => '\Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\InvalidItemReasonCode',
 'description' => 'string',    ];
 
     /**
@@ -199,7 +199,7 @@ class InvalidItemReason implements ModelInterface, ArrayAccess
     /**
      * Gets invalid_item_reason_code.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\InvalidItemReasonCode
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\InvalidItemReasonCode
      */
     public function getInvalidItemReasonCode()
     {
@@ -209,7 +209,7 @@ class InvalidItemReason implements ModelInterface, ArrayAccess
     /**
      * Sets invalid_item_reason_code.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\InvalidItemReasonCode $invalid_item_reason_code invalid_item_reason_code
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\InvalidItemReasonCode $invalid_item_reason_code invalid_item_reason_code
      *
      * @return $this
      */

@@ -15,11 +15,11 @@
  * OpenAPI spec version: v0
  */
 
-namespace Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment;
+namespace Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment;
 
 use ArrayAccess;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
-use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plenty\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plenty\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * SellerInputDefinition Class Doc Comment.
@@ -48,11 +48,11 @@ class SellerInputDefinition implements ModelInterface, ArrayAccess
     protected static $swaggerTypes = [
         'is_required' => 'bool',
 'data_type' => 'string',
-'constraints' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\Constraints',
+'constraints' => '\Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\Constraints',
 'input_display_text' => 'string',
-'input_target' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\InputTargetType',
-'stored_value' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\AdditionalSellerInput',
-'restricted_set_values' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\RestrictedSetValues',    ];
+'input_target' => '\Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\InputTargetType',
+'stored_value' => '\Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\AdditionalSellerInput',
+'restricted_set_values' => '\Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\RestrictedSetValues',    ];
 
     /**
      * Array of property to format mappings. Used for (de)serialization.
@@ -286,7 +286,7 @@ class SellerInputDefinition implements ModelInterface, ArrayAccess
     /**
      * Gets constraints.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\Constraints
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\Constraints
      */
     public function getConstraints()
     {
@@ -296,7 +296,7 @@ class SellerInputDefinition implements ModelInterface, ArrayAccess
     /**
      * Sets constraints.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\Constraints $constraints constraints
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\Constraints $constraints constraints
      *
      * @return $this
      */
@@ -334,7 +334,7 @@ class SellerInputDefinition implements ModelInterface, ArrayAccess
     /**
      * Gets input_target.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\InputTargetType
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\InputTargetType
      */
     public function getInputTarget()
     {
@@ -344,7 +344,7 @@ class SellerInputDefinition implements ModelInterface, ArrayAccess
     /**
      * Sets input_target.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\InputTargetType $input_target input_target
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\InputTargetType $input_target input_target
      *
      * @return $this
      */
@@ -358,7 +358,7 @@ class SellerInputDefinition implements ModelInterface, ArrayAccess
     /**
      * Gets stored_value.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\AdditionalSellerInput
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\AdditionalSellerInput
      */
     public function getStoredValue()
     {
@@ -368,7 +368,7 @@ class SellerInputDefinition implements ModelInterface, ArrayAccess
     /**
      * Sets stored_value.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\AdditionalSellerInput $stored_value stored_value
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\AdditionalSellerInput $stored_value stored_value
      *
      * @return $this
      */
@@ -382,7 +382,7 @@ class SellerInputDefinition implements ModelInterface, ArrayAccess
     /**
      * Gets restricted_set_values.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\RestrictedSetValues
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\RestrictedSetValues
      */
     public function getRestrictedSetValues()
     {
@@ -392,7 +392,7 @@ class SellerInputDefinition implements ModelInterface, ArrayAccess
     /**
      * Sets restricted_set_values.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\RestrictedSetValues $restricted_set_values restricted_set_values
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\RestrictedSetValues $restricted_set_values restricted_set_values
      *
      * @return $this
      */

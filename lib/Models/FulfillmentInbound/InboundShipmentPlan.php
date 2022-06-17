@@ -15,11 +15,11 @@
  * OpenAPI spec version: v0
  */
 
-namespace Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound;
+namespace Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound;
 
 use ArrayAccess;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
-use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plenty\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plenty\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * InboundShipmentPlan Class Doc Comment.
@@ -48,10 +48,10 @@ class InboundShipmentPlan implements ModelInterface, ArrayAccess
     protected static $swaggerTypes = [
         'shipment_id' => 'string',
 'destination_fulfillment_center_id' => 'string',
-'ship_to_address' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\Address',
-'label_prep_type' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\LabelPrepType',
-'items' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\InboundShipmentPlanItemList',
-'estimated_box_contents_fee' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\BoxContentsFeeDetails',    ];
+'ship_to_address' => '\Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\Address',
+'label_prep_type' => '\Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\LabelPrepType',
+'items' => '\Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\InboundShipmentPlanItemList',
+'estimated_box_contents_fee' => '\Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\BoxContentsFeeDetails',    ];
 
     /**
      * Array of property to format mappings. Used for (de)serialization.
@@ -280,7 +280,7 @@ class InboundShipmentPlan implements ModelInterface, ArrayAccess
     /**
      * Gets ship_to_address.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\Address
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\Address
      */
     public function getShipToAddress()
     {
@@ -290,7 +290,7 @@ class InboundShipmentPlan implements ModelInterface, ArrayAccess
     /**
      * Sets ship_to_address.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\Address $ship_to_address ship_to_address
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\Address $ship_to_address ship_to_address
      *
      * @return $this
      */
@@ -304,7 +304,7 @@ class InboundShipmentPlan implements ModelInterface, ArrayAccess
     /**
      * Gets label_prep_type.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\LabelPrepType
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\LabelPrepType
      */
     public function getLabelPrepType()
     {
@@ -314,7 +314,7 @@ class InboundShipmentPlan implements ModelInterface, ArrayAccess
     /**
      * Sets label_prep_type.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\LabelPrepType $label_prep_type label_prep_type
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\LabelPrepType $label_prep_type label_prep_type
      *
      * @return $this
      */
@@ -328,7 +328,7 @@ class InboundShipmentPlan implements ModelInterface, ArrayAccess
     /**
      * Gets items.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\InboundShipmentPlanItemList
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\InboundShipmentPlanItemList
      */
     public function getItems()
     {
@@ -338,7 +338,7 @@ class InboundShipmentPlan implements ModelInterface, ArrayAccess
     /**
      * Sets items.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\InboundShipmentPlanItemList $items items
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\InboundShipmentPlanItemList $items items
      *
      * @return $this
      */
@@ -352,7 +352,7 @@ class InboundShipmentPlan implements ModelInterface, ArrayAccess
     /**
      * Gets estimated_box_contents_fee.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\BoxContentsFeeDetails
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\BoxContentsFeeDetails
      */
     public function getEstimatedBoxContentsFee()
     {
@@ -362,7 +362,7 @@ class InboundShipmentPlan implements ModelInterface, ArrayAccess
     /**
      * Sets estimated_box_contents_fee.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\BoxContentsFeeDetails $estimated_box_contents_fee estimated_box_contents_fee
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\BoxContentsFeeDetails $estimated_box_contents_fee estimated_box_contents_fee
      *
      * @return $this
      */

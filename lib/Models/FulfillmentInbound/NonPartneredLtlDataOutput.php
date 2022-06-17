@@ -15,11 +15,11 @@
  * OpenAPI spec version: v0
  */
 
-namespace Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound;
+namespace Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound;
 
 use ArrayAccess;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
-use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plenty\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plenty\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * NonPartneredLtlDataOutput Class Doc Comment.
@@ -47,7 +47,7 @@ class NonPartneredLtlDataOutput implements ModelInterface, ArrayAccess
      */
     protected static $swaggerTypes = [
         'carrier_name' => 'string',
-'pro_number' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\ProNumber',    ];
+'pro_number' => '\Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\ProNumber',    ];
 
     /**
      * Array of property to format mappings. Used for (de)serialization.
@@ -223,7 +223,7 @@ class NonPartneredLtlDataOutput implements ModelInterface, ArrayAccess
     /**
      * Gets pro_number.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\ProNumber
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\ProNumber
      */
     public function getProNumber()
     {
@@ -233,7 +233,7 @@ class NonPartneredLtlDataOutput implements ModelInterface, ArrayAccess
     /**
      * Sets pro_number.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\ProNumber $pro_number pro_number
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\ProNumber $pro_number pro_number
      *
      * @return $this
      */

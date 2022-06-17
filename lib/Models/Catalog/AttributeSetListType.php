@@ -15,11 +15,11 @@
  * OpenAPI spec version: v0
  */
 
-namespace Plentymarkets\AmazonSellingPartnerAPI\Models\Catalog;
+namespace Plenty\AmazonSellingPartnerAPI\Models\Catalog;
 
 use ArrayAccess;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
-use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plenty\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plenty\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * AttributeSetListType Class Doc Comment.
@@ -61,12 +61,12 @@ class AttributeSetListType extends Categories implements ModelInterface, ArrayAc
 'clasp_type' => 'string',
 'color' => 'string',
 'cpu_manufacturer' => 'string',
-'cpu_speed' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Catalog\DecimalWithUnits',
+'cpu_speed' => '\Plenty\AmazonSellingPartnerAPI\Models\Catalog\DecimalWithUnits',
 'cpu_type' => 'string',
-'creator' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Catalog\CreatorType[]',
+'creator' => '\Plenty\AmazonSellingPartnerAPI\Models\Catalog\CreatorType[]',
 'department' => 'string',
 'director' => 'string[]',
-'display_size' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Catalog\DecimalWithUnits',
+'display_size' => '\Plenty\AmazonSellingPartnerAPI\Models\Catalog\DecimalWithUnits',
 'edition' => 'string',
 'episode_sequence' => 'string',
 'esrb_age_rating' => 'string',
@@ -76,13 +76,13 @@ class AttributeSetListType extends Categories implements ModelInterface, ArrayAc
 'gem_type' => 'string[]',
 'genre' => 'string',
 'golf_club_flex' => 'string',
-'golf_club_loft' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Catalog\DecimalWithUnits',
+'golf_club_loft' => '\Plenty\AmazonSellingPartnerAPI\Models\Catalog\DecimalWithUnits',
 'hand_orientation' => 'string',
 'hard_disk_interface' => 'string',
-'hard_disk_size' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Catalog\DecimalWithUnits',
+'hard_disk_size' => '\Plenty\AmazonSellingPartnerAPI\Models\Catalog\DecimalWithUnits',
 'hardware_platform' => 'string',
 'hazardous_material_type' => 'string',
-'item_dimensions' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Catalog\DimensionType',
+'item_dimensions' => '\Plenty\AmazonSellingPartnerAPI\Models\Catalog\DimensionType',
 'is_adult_product' => 'bool',
 'is_autographed' => 'bool',
 'is_eligible_for_trade_in' => 'bool',
@@ -90,15 +90,15 @@ class AttributeSetListType extends Categories implements ModelInterface, ArrayAc
 'issues_per_year' => 'string',
 'item_part_number' => 'string',
 'label' => 'string',
-'languages' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Catalog\LanguageType[]',
+'languages' => '\Plenty\AmazonSellingPartnerAPI\Models\Catalog\LanguageType[]',
 'legal_disclaimer' => 'string',
-'list_price' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Catalog\Price',
+'list_price' => '\Plenty\AmazonSellingPartnerAPI\Models\Catalog\Price',
 'manufacturer' => 'string',
-'manufacturer_maximum_age' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Catalog\DecimalWithUnits',
-'manufacturer_minimum_age' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Catalog\DecimalWithUnits',
+'manufacturer_maximum_age' => '\Plenty\AmazonSellingPartnerAPI\Models\Catalog\DecimalWithUnits',
+'manufacturer_minimum_age' => '\Plenty\AmazonSellingPartnerAPI\Models\Catalog\DecimalWithUnits',
 'manufacturer_parts_warranty_description' => 'string',
 'material_type' => 'string[]',
-'maximum_resolution' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Catalog\DecimalWithUnits',
+'maximum_resolution' => '\Plenty\AmazonSellingPartnerAPI\Models\Catalog\DecimalWithUnits',
 'media_type' => 'string[]',
 'metal_stamp' => 'string',
 'metal_type' => 'string',
@@ -109,8 +109,8 @@ class AttributeSetListType extends Categories implements ModelInterface, ArrayAc
 'number_of_pages' => 'int',
 'number_of_tracks' => 'int',
 'operating_system' => 'string[]',
-'optical_zoom' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Catalog\DecimalWithUnits',
-'package_dimensions' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Catalog\DimensionType',
+'optical_zoom' => '\Plenty\AmazonSellingPartnerAPI\Models\Catalog\DecimalWithUnits',
+'package_dimensions' => '\Plenty\AmazonSellingPartnerAPI\Models\Catalog\DimensionType',
 'package_quantity' => 'int',
 'part_number' => 'string',
 'pegi_rating' => 'string',
@@ -124,24 +124,24 @@ class AttributeSetListType extends Categories implements ModelInterface, ArrayAc
 'region_code' => 'string',
 'release_date' => 'string',
 'ring_size' => 'string',
-'running_time' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Catalog\DecimalWithUnits',
+'running_time' => '\Plenty\AmazonSellingPartnerAPI\Models\Catalog\DecimalWithUnits',
 'shaft_material' => 'string',
 'scent' => 'string',
 'season_sequence' => 'string',
 'seikodo_product_code' => 'string',
 'size' => 'string',
 'size_per_pearl' => 'string',
-'small_image' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Catalog\Image',
+'small_image' => '\Plenty\AmazonSellingPartnerAPI\Models\Catalog\Image',
 'studio' => 'string',
-'subscription_length' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Catalog\DecimalWithUnits',
-'system_memory_size' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Catalog\DecimalWithUnits',
+'subscription_length' => '\Plenty\AmazonSellingPartnerAPI\Models\Catalog\DecimalWithUnits',
+'system_memory_size' => '\Plenty\AmazonSellingPartnerAPI\Models\Catalog\DecimalWithUnits',
 'system_memory_type' => 'string',
 'theatrical_release_date' => 'string',
 'title' => 'string',
-'total_diamond_weight' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Catalog\DecimalWithUnits',
-'total_gem_weight' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Catalog\DecimalWithUnits',
+'total_diamond_weight' => '\Plenty\AmazonSellingPartnerAPI\Models\Catalog\DecimalWithUnits',
+'total_gem_weight' => '\Plenty\AmazonSellingPartnerAPI\Models\Catalog\DecimalWithUnits',
 'warranty' => 'string',
-'weee_tax_value' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Catalog\Price',    ];
+'weee_tax_value' => '\Plenty\AmazonSellingPartnerAPI\Models\Catalog\Price',    ];
 
     /**
      * Array of property to format mappings. Used for (de)serialization.
@@ -1116,7 +1116,7 @@ class AttributeSetListType extends Categories implements ModelInterface, ArrayAc
     /**
      * Gets cpu_speed.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Catalog\DecimalWithUnits
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Catalog\DecimalWithUnits
      */
     public function getCpuSpeed()
     {
@@ -1126,7 +1126,7 @@ class AttributeSetListType extends Categories implements ModelInterface, ArrayAc
     /**
      * Sets cpu_speed.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Catalog\DecimalWithUnits $cpu_speed cpu_speed
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Catalog\DecimalWithUnits $cpu_speed cpu_speed
      *
      * @return $this
      */
@@ -1164,7 +1164,7 @@ class AttributeSetListType extends Categories implements ModelInterface, ArrayAc
     /**
      * Gets creator.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Catalog\CreatorType[]
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Catalog\CreatorType[]
      */
     public function getCreator()
     {
@@ -1174,7 +1174,7 @@ class AttributeSetListType extends Categories implements ModelInterface, ArrayAc
     /**
      * Sets creator.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Catalog\CreatorType[] $creator the creator attributes of the item
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Catalog\CreatorType[] $creator the creator attributes of the item
      *
      * @return $this
      */
@@ -1236,7 +1236,7 @@ class AttributeSetListType extends Categories implements ModelInterface, ArrayAc
     /**
      * Gets display_size.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Catalog\DecimalWithUnits
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Catalog\DecimalWithUnits
      */
     public function getDisplaySize()
     {
@@ -1246,7 +1246,7 @@ class AttributeSetListType extends Categories implements ModelInterface, ArrayAc
     /**
      * Sets display_size.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Catalog\DecimalWithUnits $display_size display_size
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Catalog\DecimalWithUnits $display_size display_size
      *
      * @return $this
      */
@@ -1476,7 +1476,7 @@ class AttributeSetListType extends Categories implements ModelInterface, ArrayAc
     /**
      * Gets golf_club_loft.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Catalog\DecimalWithUnits
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Catalog\DecimalWithUnits
      */
     public function getGolfClubLoft()
     {
@@ -1486,7 +1486,7 @@ class AttributeSetListType extends Categories implements ModelInterface, ArrayAc
     /**
      * Sets golf_club_loft.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Catalog\DecimalWithUnits $golf_club_loft golf_club_loft
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Catalog\DecimalWithUnits $golf_club_loft golf_club_loft
      *
      * @return $this
      */
@@ -1548,7 +1548,7 @@ class AttributeSetListType extends Categories implements ModelInterface, ArrayAc
     /**
      * Gets hard_disk_size.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Catalog\DecimalWithUnits
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Catalog\DecimalWithUnits
      */
     public function getHardDiskSize()
     {
@@ -1558,7 +1558,7 @@ class AttributeSetListType extends Categories implements ModelInterface, ArrayAc
     /**
      * Sets hard_disk_size.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Catalog\DecimalWithUnits $hard_disk_size hard_disk_size
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Catalog\DecimalWithUnits $hard_disk_size hard_disk_size
      *
      * @return $this
      */
@@ -1620,7 +1620,7 @@ class AttributeSetListType extends Categories implements ModelInterface, ArrayAc
     /**
      * Gets item_dimensions.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Catalog\DimensionType
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Catalog\DimensionType
      */
     public function getItemDimensions()
     {
@@ -1630,7 +1630,7 @@ class AttributeSetListType extends Categories implements ModelInterface, ArrayAc
     /**
      * Sets item_dimensions.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Catalog\DimensionType $item_dimensions item_dimensions
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Catalog\DimensionType $item_dimensions item_dimensions
      *
      * @return $this
      */
@@ -1812,7 +1812,7 @@ class AttributeSetListType extends Categories implements ModelInterface, ArrayAc
     /**
      * Gets languages.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Catalog\LanguageType[]
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Catalog\LanguageType[]
      */
     public function getLanguages()
     {
@@ -1822,7 +1822,7 @@ class AttributeSetListType extends Categories implements ModelInterface, ArrayAc
     /**
      * Sets languages.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Catalog\LanguageType[] $languages the languages attribute of the item
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Catalog\LanguageType[] $languages the languages attribute of the item
      *
      * @return $this
      */
@@ -1860,7 +1860,7 @@ class AttributeSetListType extends Categories implements ModelInterface, ArrayAc
     /**
      * Gets list_price.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Catalog\Price
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Catalog\Price
      */
     public function getListPrice()
     {
@@ -1870,7 +1870,7 @@ class AttributeSetListType extends Categories implements ModelInterface, ArrayAc
     /**
      * Sets list_price.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Catalog\Price $list_price list_price
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Catalog\Price $list_price list_price
      *
      * @return $this
      */
@@ -1908,7 +1908,7 @@ class AttributeSetListType extends Categories implements ModelInterface, ArrayAc
     /**
      * Gets manufacturer_maximum_age.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Catalog\DecimalWithUnits
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Catalog\DecimalWithUnits
      */
     public function getManufacturerMaximumAge()
     {
@@ -1918,7 +1918,7 @@ class AttributeSetListType extends Categories implements ModelInterface, ArrayAc
     /**
      * Sets manufacturer_maximum_age.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Catalog\DecimalWithUnits $manufacturer_maximum_age manufacturer_maximum_age
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Catalog\DecimalWithUnits $manufacturer_maximum_age manufacturer_maximum_age
      *
      * @return $this
      */
@@ -1932,7 +1932,7 @@ class AttributeSetListType extends Categories implements ModelInterface, ArrayAc
     /**
      * Gets manufacturer_minimum_age.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Catalog\DecimalWithUnits
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Catalog\DecimalWithUnits
      */
     public function getManufacturerMinimumAge()
     {
@@ -1942,7 +1942,7 @@ class AttributeSetListType extends Categories implements ModelInterface, ArrayAc
     /**
      * Sets manufacturer_minimum_age.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Catalog\DecimalWithUnits $manufacturer_minimum_age manufacturer_minimum_age
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Catalog\DecimalWithUnits $manufacturer_minimum_age manufacturer_minimum_age
      *
      * @return $this
      */
@@ -2004,7 +2004,7 @@ class AttributeSetListType extends Categories implements ModelInterface, ArrayAc
     /**
      * Gets maximum_resolution.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Catalog\DecimalWithUnits
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Catalog\DecimalWithUnits
      */
     public function getMaximumResolution()
     {
@@ -2014,7 +2014,7 @@ class AttributeSetListType extends Categories implements ModelInterface, ArrayAc
     /**
      * Sets maximum_resolution.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Catalog\DecimalWithUnits $maximum_resolution maximum_resolution
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Catalog\DecimalWithUnits $maximum_resolution maximum_resolution
      *
      * @return $this
      */
@@ -2268,7 +2268,7 @@ class AttributeSetListType extends Categories implements ModelInterface, ArrayAc
     /**
      * Gets optical_zoom.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Catalog\DecimalWithUnits
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Catalog\DecimalWithUnits
      */
     public function getOpticalZoom()
     {
@@ -2278,7 +2278,7 @@ class AttributeSetListType extends Categories implements ModelInterface, ArrayAc
     /**
      * Sets optical_zoom.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Catalog\DecimalWithUnits $optical_zoom optical_zoom
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Catalog\DecimalWithUnits $optical_zoom optical_zoom
      *
      * @return $this
      */
@@ -2292,7 +2292,7 @@ class AttributeSetListType extends Categories implements ModelInterface, ArrayAc
     /**
      * Gets package_dimensions.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Catalog\DimensionType
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Catalog\DimensionType
      */
     public function getPackageDimensions()
     {
@@ -2302,7 +2302,7 @@ class AttributeSetListType extends Categories implements ModelInterface, ArrayAc
     /**
      * Sets package_dimensions.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Catalog\DimensionType $package_dimensions package_dimensions
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Catalog\DimensionType $package_dimensions package_dimensions
      *
      * @return $this
      */
@@ -2628,7 +2628,7 @@ class AttributeSetListType extends Categories implements ModelInterface, ArrayAc
     /**
      * Gets running_time.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Catalog\DecimalWithUnits
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Catalog\DecimalWithUnits
      */
     public function getRunningTime()
     {
@@ -2638,7 +2638,7 @@ class AttributeSetListType extends Categories implements ModelInterface, ArrayAc
     /**
      * Sets running_time.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Catalog\DecimalWithUnits $running_time running_time
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Catalog\DecimalWithUnits $running_time running_time
      *
      * @return $this
      */
@@ -2796,7 +2796,7 @@ class AttributeSetListType extends Categories implements ModelInterface, ArrayAc
     /**
      * Gets small_image.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Catalog\Image
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Catalog\Image
      */
     public function getSmallImage()
     {
@@ -2806,7 +2806,7 @@ class AttributeSetListType extends Categories implements ModelInterface, ArrayAc
     /**
      * Sets small_image.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Catalog\Image $small_image small_image
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Catalog\Image $small_image small_image
      *
      * @return $this
      */
@@ -2844,7 +2844,7 @@ class AttributeSetListType extends Categories implements ModelInterface, ArrayAc
     /**
      * Gets subscription_length.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Catalog\DecimalWithUnits
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Catalog\DecimalWithUnits
      */
     public function getSubscriptionLength()
     {
@@ -2854,7 +2854,7 @@ class AttributeSetListType extends Categories implements ModelInterface, ArrayAc
     /**
      * Sets subscription_length.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Catalog\DecimalWithUnits $subscription_length subscription_length
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Catalog\DecimalWithUnits $subscription_length subscription_length
      *
      * @return $this
      */
@@ -2868,7 +2868,7 @@ class AttributeSetListType extends Categories implements ModelInterface, ArrayAc
     /**
      * Gets system_memory_size.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Catalog\DecimalWithUnits
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Catalog\DecimalWithUnits
      */
     public function getSystemMemorySize()
     {
@@ -2878,7 +2878,7 @@ class AttributeSetListType extends Categories implements ModelInterface, ArrayAc
     /**
      * Sets system_memory_size.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Catalog\DecimalWithUnits $system_memory_size system_memory_size
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Catalog\DecimalWithUnits $system_memory_size system_memory_size
      *
      * @return $this
      */
@@ -2964,7 +2964,7 @@ class AttributeSetListType extends Categories implements ModelInterface, ArrayAc
     /**
      * Gets total_diamond_weight.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Catalog\DecimalWithUnits
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Catalog\DecimalWithUnits
      */
     public function getTotalDiamondWeight()
     {
@@ -2974,7 +2974,7 @@ class AttributeSetListType extends Categories implements ModelInterface, ArrayAc
     /**
      * Sets total_diamond_weight.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Catalog\DecimalWithUnits $total_diamond_weight total_diamond_weight
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Catalog\DecimalWithUnits $total_diamond_weight total_diamond_weight
      *
      * @return $this
      */
@@ -2988,7 +2988,7 @@ class AttributeSetListType extends Categories implements ModelInterface, ArrayAc
     /**
      * Gets total_gem_weight.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Catalog\DecimalWithUnits
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Catalog\DecimalWithUnits
      */
     public function getTotalGemWeight()
     {
@@ -2998,7 +2998,7 @@ class AttributeSetListType extends Categories implements ModelInterface, ArrayAc
     /**
      * Sets total_gem_weight.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Catalog\DecimalWithUnits $total_gem_weight total_gem_weight
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Catalog\DecimalWithUnits $total_gem_weight total_gem_weight
      *
      * @return $this
      */
@@ -3036,7 +3036,7 @@ class AttributeSetListType extends Categories implements ModelInterface, ArrayAc
     /**
      * Gets weee_tax_value.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Catalog\Price
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Catalog\Price
      */
     public function getWeeeTaxValue()
     {
@@ -3046,7 +3046,7 @@ class AttributeSetListType extends Categories implements ModelInterface, ArrayAc
     /**
      * Sets weee_tax_value.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Catalog\Price $weee_tax_value weee_tax_value
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Catalog\Price $weee_tax_value weee_tax_value
      *
      * @return $this
      */

@@ -15,11 +15,11 @@
  * OpenAPI spec version: v0
  */
 
-namespace Plentymarkets\AmazonSellingPartnerAPI\Models\Finances;
+namespace Plenty\AmazonSellingPartnerAPI\Models\Finances;
 
 use ArrayAccess;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
-use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plenty\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plenty\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * NetworkComminglingTransactionEvent Class Doc Comment.
@@ -47,13 +47,13 @@ class NetworkComminglingTransactionEvent implements ModelInterface, ArrayAccess
      */
     protected static $swaggerTypes = [
         'transaction_type' => 'string',
-'posted_date' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\\DateTime',
+'posted_date' => '\Plenty\AmazonSellingPartnerAPI\Models\Finances\\DateTime',
 'net_co_transaction_id' => 'string',
 'swap_reason' => 'string',
 'asin' => 'string',
 'marketplace_id' => 'string',
-'tax_exclusive_amount' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\Currency',
-'tax_amount' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\Currency',    ];
+'tax_exclusive_amount' => '\Plenty\AmazonSellingPartnerAPI\Models\Finances\Currency',
+'tax_amount' => '\Plenty\AmazonSellingPartnerAPI\Models\Finances\Currency',    ];
 
     /**
      * Array of property to format mappings. Used for (de)serialization.
@@ -252,7 +252,7 @@ class NetworkComminglingTransactionEvent implements ModelInterface, ArrayAccess
     /**
      * Gets posted_date.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\DateTime
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Finances\DateTime
      */
     public function getPostedDate()
     {
@@ -262,7 +262,7 @@ class NetworkComminglingTransactionEvent implements ModelInterface, ArrayAccess
     /**
      * Sets posted_date.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\DateTime $posted_date posted_date
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Finances\DateTime $posted_date posted_date
      *
      * @return $this
      */
@@ -372,7 +372,7 @@ class NetworkComminglingTransactionEvent implements ModelInterface, ArrayAccess
     /**
      * Gets tax_exclusive_amount.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\Currency
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Finances\Currency
      */
     public function getTaxExclusiveAmount()
     {
@@ -382,7 +382,7 @@ class NetworkComminglingTransactionEvent implements ModelInterface, ArrayAccess
     /**
      * Sets tax_exclusive_amount.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\Currency $tax_exclusive_amount tax_exclusive_amount
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Finances\Currency $tax_exclusive_amount tax_exclusive_amount
      *
      * @return $this
      */
@@ -396,7 +396,7 @@ class NetworkComminglingTransactionEvent implements ModelInterface, ArrayAccess
     /**
      * Gets tax_amount.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\Currency
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Finances\Currency
      */
     public function getTaxAmount()
     {
@@ -406,7 +406,7 @@ class NetworkComminglingTransactionEvent implements ModelInterface, ArrayAccess
     /**
      * Sets tax_amount.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\Currency $tax_amount tax_amount
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Finances\Currency $tax_amount tax_amount
      *
      * @return $this
      */

@@ -15,11 +15,11 @@
  * OpenAPI spec version: v1
  */
 
-namespace Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping;
+namespace Plenty\AmazonSellingPartnerAPI\Models\Shipping;
 
 use ArrayAccess;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
-use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plenty\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plenty\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * CreateShipmentResult Class Doc Comment.
@@ -46,8 +46,8 @@ class CreateShipmentResult implements ModelInterface, ArrayAccess
      * @var string[]
      */
     protected static $swaggerTypes = [
-        'shipment_id' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\ShipmentId',
-'eligible_rates' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\RateList',    ];
+        'shipment_id' => '\Plenty\AmazonSellingPartnerAPI\Models\Shipping\ShipmentId',
+'eligible_rates' => '\Plenty\AmazonSellingPartnerAPI\Models\Shipping\RateList',    ];
 
     /**
      * Array of property to format mappings. Used for (de)serialization.
@@ -199,7 +199,7 @@ class CreateShipmentResult implements ModelInterface, ArrayAccess
     /**
      * Gets shipment_id.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\ShipmentId
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Shipping\ShipmentId
      */
     public function getShipmentId()
     {
@@ -209,7 +209,7 @@ class CreateShipmentResult implements ModelInterface, ArrayAccess
     /**
      * Sets shipment_id.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\ShipmentId $shipment_id shipment_id
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Shipping\ShipmentId $shipment_id shipment_id
      *
      * @return $this
      */
@@ -223,7 +223,7 @@ class CreateShipmentResult implements ModelInterface, ArrayAccess
     /**
      * Gets eligible_rates.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\RateList
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Shipping\RateList
      */
     public function getEligibleRates()
     {
@@ -233,7 +233,7 @@ class CreateShipmentResult implements ModelInterface, ArrayAccess
     /**
      * Sets eligible_rates.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\RateList $eligible_rates eligible_rates
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Shipping\RateList $eligible_rates eligible_rates
      *
      * @return $this
      */

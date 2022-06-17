@@ -15,11 +15,11 @@
  * OpenAPI spec version: v1
  */
 
-namespace Plentymarkets\AmazonSellingPartnerAPI\Models\Solicitations;
+namespace Plenty\AmazonSellingPartnerAPI\Models\Solicitations;
 
 use ArrayAccess;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
-use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plenty\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plenty\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * GetSolicitationActionResponseLinks Class Doc Comment.
@@ -43,8 +43,8 @@ class GetSolicitationActionResponseLinks implements ModelInterface, ArrayAccess
      * @var string[]
      */
     protected static $swaggerTypes = [
-        'self' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Solicitations\LinkObject',
-'schema' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Solicitations\LinkObject',    ];
+        'self' => '\Plenty\AmazonSellingPartnerAPI\Models\Solicitations\LinkObject',
+'schema' => '\Plenty\AmazonSellingPartnerAPI\Models\Solicitations\LinkObject',    ];
 
     /**
      * Array of property to format mappings. Used for (de)serialization.
@@ -196,7 +196,7 @@ class GetSolicitationActionResponseLinks implements ModelInterface, ArrayAccess
     /**
      * Gets self.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Solicitations\LinkObject
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Solicitations\LinkObject
      */
     public function getSelf()
     {
@@ -206,7 +206,7 @@ class GetSolicitationActionResponseLinks implements ModelInterface, ArrayAccess
     /**
      * Sets self.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Solicitations\LinkObject $self self
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Solicitations\LinkObject $self self
      *
      * @return $this
      */
@@ -220,7 +220,7 @@ class GetSolicitationActionResponseLinks implements ModelInterface, ArrayAccess
     /**
      * Gets schema.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Solicitations\LinkObject
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Solicitations\LinkObject
      */
     public function getSchema()
     {
@@ -230,7 +230,7 @@ class GetSolicitationActionResponseLinks implements ModelInterface, ArrayAccess
     /**
      * Sets schema.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Solicitations\LinkObject $schema schema
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Solicitations\LinkObject $schema schema
      *
      * @return $this
      */

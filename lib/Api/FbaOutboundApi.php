@@ -13,26 +13,26 @@
  * OpenAPI spec version: 2020-07-01
  */
 
-namespace Plentymarkets\AmazonSellingPartnerAPI\Api;
+namespace Plenty\AmazonSellingPartnerAPI\Api;
 
-use Plentymarkets\AmazonSellingPartnerAPI\ApiException;
-use Plentymarkets\AmazonSellingPartnerAPI\Configuration;
-use Plentymarkets\AmazonSellingPartnerAPI\HeaderSelector;
-use Plentymarkets\AmazonSellingPartnerAPI\Helpers\SellingPartnerApiRequest;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\CancelFulfillmentOrderResponse;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\CreateFulfillmentOrderResponse;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\CreateFulfillmentReturnResponse;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\GetFeatureInventoryResponse;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\GetFeatureSkuResponse;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\GetFeaturesResponse;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\GetFulfillmentOrderResponse;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\GetFulfillmentPreviewResponse;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\GetPackageTrackingDetailsResponse;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\ListAllFulfillmentOrdersResponse;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\ListReturnReasonCodesResponse;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\UpdateFulfillmentOrderRequest;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\UpdateFulfillmentOrderResponse;
-use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plenty\AmazonSellingPartnerAPI\ApiException;
+use Plenty\AmazonSellingPartnerAPI\Configuration;
+use Plenty\AmazonSellingPartnerAPI\HeaderSelector;
+use Plenty\AmazonSellingPartnerAPI\Helpers\SellingPartnerApiRequest;
+use Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\CancelFulfillmentOrderResponse;
+use Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\CreateFulfillmentOrderResponse;
+use Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\CreateFulfillmentReturnResponse;
+use Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\GetFeatureInventoryResponse;
+use Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\GetFeatureSkuResponse;
+use Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\GetFeaturesResponse;
+use Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\GetFulfillmentOrderResponse;
+use Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\GetFulfillmentPreviewResponse;
+use Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\GetPackageTrackingDetailsResponse;
+use Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\ListAllFulfillmentOrdersResponse;
+use Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\ListReturnReasonCodesResponse;
+use Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\UpdateFulfillmentOrderRequest;
+use Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\UpdateFulfillmentOrderResponse;
+use Plenty\AmazonSellingPartnerAPI\ObjectSerializer;
 use GuzzleHttp\Client;
 use GuzzleHttp\ClientInterface;
 
@@ -83,7 +83,7 @@ class FbaOutboundApi
      * @throws \InvalidArgumentException
      * @throws ApiException              on non-2xx response
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\CancelFulfillmentOrderResponse
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\CancelFulfillmentOrderResponse
      */
     public function cancelFulfillmentOrder($seller_fulfillment_order_id)
     {
@@ -100,7 +100,7 @@ class FbaOutboundApi
      * @throws \InvalidArgumentException
      * @throws ApiException              on non-2xx response
      *
-     * @return array of \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\CancelFulfillmentOrderResponse, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\CancelFulfillmentOrderResponse, HTTP status code, HTTP response headers (array of strings)
      */
     public function cancelFulfillmentOrderWithHttpInfo($seller_fulfillment_order_id)
     {
@@ -182,12 +182,12 @@ class FbaOutboundApi
     /**
      * Operation createFulfillmentOrder.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\CreateFulfillmentOrderRequest $body body (required)
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\CreateFulfillmentOrderRequest $body body (required)
      *
      * @throws \InvalidArgumentException
      * @throws ApiException              on non-2xx response
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\CreateFulfillmentOrderResponse
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\CreateFulfillmentOrderResponse
      */
     public function createFulfillmentOrder($body)
     {
@@ -199,12 +199,12 @@ class FbaOutboundApi
     /**
      * Operation createFulfillmentOrderWithHttpInfo.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\CreateFulfillmentOrderRequest $body (required)
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\CreateFulfillmentOrderRequest $body (required)
      *
      * @throws \InvalidArgumentException
      * @throws ApiException              on non-2xx response
      *
-     * @return array of \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\CreateFulfillmentOrderResponse, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\CreateFulfillmentOrderResponse, HTTP status code, HTTP response headers (array of strings)
      */
     public function createFulfillmentOrderWithHttpInfo($body)
     {
@@ -216,7 +216,7 @@ class FbaOutboundApi
     /**
      * Operation createFulfillmentOrderAsync.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\CreateFulfillmentOrderRequest $body (required)
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\CreateFulfillmentOrderRequest $body (required)
      *
      * @throws \InvalidArgumentException
      *
@@ -235,7 +235,7 @@ class FbaOutboundApi
     /**
      * Operation createFulfillmentOrderAsyncWithHttpInfo.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\CreateFulfillmentOrderRequest $body (required)
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\CreateFulfillmentOrderRequest $body (required)
      *
      * @throws \InvalidArgumentException
      *
@@ -251,7 +251,7 @@ class FbaOutboundApi
     /**
      * Create request for operation 'createFulfillmentOrder'.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\CreateFulfillmentOrderRequest $body (required)
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\CreateFulfillmentOrderRequest $body (required)
      *
      * @throws \InvalidArgumentException
      *
@@ -277,13 +277,13 @@ class FbaOutboundApi
     /**
      * Operation createFulfillmentReturn.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\CreateFulfillmentReturnRequest $body                        body (required)
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\CreateFulfillmentReturnRequest $body                        body (required)
      * @param string                                                                                      $seller_fulfillment_order_id An identifier assigned by the seller to the fulfillment order at the time it was created. The seller uses their own records to find the correct SellerFulfillmentOrderId value based on the buyer&#x27;s request to return items. (required)
      *
      * @throws \InvalidArgumentException
      * @throws ApiException              on non-2xx response
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\CreateFulfillmentReturnResponse
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\CreateFulfillmentReturnResponse
      */
     public function createFulfillmentReturn($body, $seller_fulfillment_order_id)
     {
@@ -295,13 +295,13 @@ class FbaOutboundApi
     /**
      * Operation createFulfillmentReturnWithHttpInfo.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\CreateFulfillmentReturnRequest $body                        (required)
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\CreateFulfillmentReturnRequest $body                        (required)
      * @param string                                                                                      $seller_fulfillment_order_id An identifier assigned by the seller to the fulfillment order at the time it was created. The seller uses their own records to find the correct SellerFulfillmentOrderId value based on the buyer&#x27;s request to return items. (required)
      *
      * @throws \InvalidArgumentException
      * @throws ApiException              on non-2xx response
      *
-     * @return array of \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\CreateFulfillmentReturnResponse, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\CreateFulfillmentReturnResponse, HTTP status code, HTTP response headers (array of strings)
      */
     public function createFulfillmentReturnWithHttpInfo($body, $seller_fulfillment_order_id)
     {
@@ -313,7 +313,7 @@ class FbaOutboundApi
     /**
      * Operation createFulfillmentReturnAsync.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\CreateFulfillmentReturnRequest $body                        (required)
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\CreateFulfillmentReturnRequest $body                        (required)
      * @param string                                                                                      $seller_fulfillment_order_id An identifier assigned by the seller to the fulfillment order at the time it was created. The seller uses their own records to find the correct SellerFulfillmentOrderId value based on the buyer&#x27;s request to return items. (required)
      *
      * @throws \InvalidArgumentException
@@ -333,7 +333,7 @@ class FbaOutboundApi
     /**
      * Operation createFulfillmentReturnAsyncWithHttpInfo.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\CreateFulfillmentReturnRequest $body                        (required)
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\CreateFulfillmentReturnRequest $body                        (required)
      * @param string                                                                                      $seller_fulfillment_order_id An identifier assigned by the seller to the fulfillment order at the time it was created. The seller uses their own records to find the correct SellerFulfillmentOrderId value based on the buyer&#x27;s request to return items. (required)
      *
      * @throws \InvalidArgumentException
@@ -350,7 +350,7 @@ class FbaOutboundApi
     /**
      * Create request for operation 'createFulfillmentReturn'.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\CreateFulfillmentReturnRequest $body                        (required)
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\CreateFulfillmentReturnRequest $body                        (required)
      * @param string                                                                                      $seller_fulfillment_order_id An identifier assigned by the seller to the fulfillment order at the time it was created. The seller uses their own records to find the correct SellerFulfillmentOrderId value based on the buyer&#x27;s request to return items. (required)
      *
      * @throws \InvalidArgumentException
@@ -397,7 +397,7 @@ class FbaOutboundApi
      * @throws \InvalidArgumentException
      * @throws ApiException              on non-2xx response
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\GetFeatureInventoryResponse
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\GetFeatureInventoryResponse
      */
     public function getFeatureInventory($marketplace_id, $feature_name, $next_token = null)
     {
@@ -416,7 +416,7 @@ class FbaOutboundApi
      * @throws \InvalidArgumentException
      * @throws ApiException              on non-2xx response
      *
-     * @return array of \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\GetFeatureInventoryResponse, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\GetFeatureInventoryResponse, HTTP status code, HTTP response headers (array of strings)
      */
     public function getFeatureInventoryWithHttpInfo($marketplace_id, $feature_name, $next_token = null)
     {
@@ -524,7 +524,7 @@ class FbaOutboundApi
      * @throws \InvalidArgumentException
      * @throws ApiException              on non-2xx response
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\GetFeatureSkuResponse
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\GetFeatureSkuResponse
      */
     public function getFeatureSKU($marketplace_id, $feature_name, $seller_sku)
     {
@@ -543,7 +543,7 @@ class FbaOutboundApi
      * @throws \InvalidArgumentException
      * @throws ApiException              on non-2xx response
      *
-     * @return array of \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\GetFeatureSkuResponse, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\GetFeatureSkuResponse, HTTP status code, HTTP response headers (array of strings)
      */
     public function getFeatureSKUWithHttpInfo($marketplace_id, $feature_name, $seller_sku)
     {
@@ -657,7 +657,7 @@ class FbaOutboundApi
      * @throws \InvalidArgumentException
      * @throws ApiException              on non-2xx response
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\GetFeaturesResponse
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\GetFeaturesResponse
      */
     public function getFeatures($marketplace_id)
     {
@@ -674,7 +674,7 @@ class FbaOutboundApi
      * @throws \InvalidArgumentException
      * @throws ApiException              on non-2xx response
      *
-     * @return array of \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\GetFeaturesResponse, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\GetFeaturesResponse, HTTP status code, HTTP response headers (array of strings)
      */
     public function getFeaturesWithHttpInfo($marketplace_id)
     {
@@ -757,7 +757,7 @@ class FbaOutboundApi
      * @throws \InvalidArgumentException
      * @throws ApiException              on non-2xx response
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\GetFulfillmentOrderResponse
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\GetFulfillmentOrderResponse
      */
     public function getFulfillmentOrder($seller_fulfillment_order_id)
     {
@@ -774,7 +774,7 @@ class FbaOutboundApi
      * @throws \InvalidArgumentException
      * @throws ApiException              on non-2xx response
      *
-     * @return array of \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\GetFulfillmentOrderResponse, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\GetFulfillmentOrderResponse, HTTP status code, HTTP response headers (array of strings)
      */
     public function getFulfillmentOrderWithHttpInfo($seller_fulfillment_order_id)
     {
@@ -856,12 +856,12 @@ class FbaOutboundApi
     /**
      * Operation getFulfillmentPreview.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\GetFulfillmentPreviewRequest $body body (required)
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\GetFulfillmentPreviewRequest $body body (required)
      *
      * @throws \InvalidArgumentException
      * @throws ApiException              on non-2xx response
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\GetFulfillmentPreviewResponse
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\GetFulfillmentPreviewResponse
      */
     public function getFulfillmentPreview($body)
     {
@@ -873,12 +873,12 @@ class FbaOutboundApi
     /**
      * Operation getFulfillmentPreviewWithHttpInfo.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\GetFulfillmentPreviewRequest $body (required)
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\GetFulfillmentPreviewRequest $body (required)
      *
      * @throws \InvalidArgumentException
      * @throws ApiException              on non-2xx response
      *
-     * @return array of \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\GetFulfillmentPreviewResponse, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\GetFulfillmentPreviewResponse, HTTP status code, HTTP response headers (array of strings)
      */
     public function getFulfillmentPreviewWithHttpInfo($body)
     {
@@ -890,7 +890,7 @@ class FbaOutboundApi
     /**
      * Operation getFulfillmentPreviewAsync.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\GetFulfillmentPreviewRequest $body (required)
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\GetFulfillmentPreviewRequest $body (required)
      *
      * @throws \InvalidArgumentException
      *
@@ -909,7 +909,7 @@ class FbaOutboundApi
     /**
      * Operation getFulfillmentPreviewAsyncWithHttpInfo.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\GetFulfillmentPreviewRequest $body (required)
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\GetFulfillmentPreviewRequest $body (required)
      *
      * @throws \InvalidArgumentException
      *
@@ -925,7 +925,7 @@ class FbaOutboundApi
     /**
      * Create request for operation 'getFulfillmentPreview'.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\GetFulfillmentPreviewRequest $body (required)
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\GetFulfillmentPreviewRequest $body (required)
      *
      * @throws \InvalidArgumentException
      *
@@ -956,7 +956,7 @@ class FbaOutboundApi
      * @throws \InvalidArgumentException
      * @throws ApiException              on non-2xx response
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\GetPackageTrackingDetailsResponse
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\GetPackageTrackingDetailsResponse
      */
     public function getPackageTrackingDetails($package_number)
     {
@@ -973,7 +973,7 @@ class FbaOutboundApi
      * @throws \InvalidArgumentException
      * @throws ApiException              on non-2xx response
      *
-     * @return array of \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\GetPackageTrackingDetailsResponse, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\GetPackageTrackingDetailsResponse, HTTP status code, HTTP response headers (array of strings)
      */
     public function getPackageTrackingDetailsWithHttpInfo($package_number)
     {
@@ -1057,7 +1057,7 @@ class FbaOutboundApi
      * @throws \InvalidArgumentException
      * @throws ApiException              on non-2xx response
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\ListAllFulfillmentOrdersResponse
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\ListAllFulfillmentOrdersResponse
      */
     public function listAllFulfillmentOrders($query_start_date = null, $next_token = null)
     {
@@ -1075,7 +1075,7 @@ class FbaOutboundApi
      * @throws \InvalidArgumentException
      * @throws ApiException              on non-2xx response
      *
-     * @return array of \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\ListAllFulfillmentOrdersResponse, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\ListAllFulfillmentOrdersResponse, HTTP status code, HTTP response headers (array of strings)
      */
     public function listAllFulfillmentOrdersWithHttpInfo($query_start_date = null, $next_token = null)
     {
@@ -1116,7 +1116,7 @@ class FbaOutboundApi
      */
     public function listAllFulfillmentOrdersAsyncWithHttpInfo($query_start_date = null, $next_token = null)
     {
-        $returnType = '\Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\ListAllFulfillmentOrdersResponse';
+        $returnType = '\Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\ListAllFulfillmentOrdersResponse';
         $request = $this->listAllFulfillmentOrdersRequest($query_start_date, $next_token);
 
         return $this->sendRequestAsync($request, ListAllFulfillmentOrdersResponse::class);
@@ -1164,7 +1164,7 @@ class FbaOutboundApi
      * @throws \InvalidArgumentException
      * @throws ApiException              on non-2xx response
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\ListReturnReasonCodesResponse
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\ListReturnReasonCodesResponse
      */
     public function listReturnReasonCodes($seller_sku, $language, $marketplace_id = null, $seller_fulfillment_order_id = null)
     {
@@ -1184,7 +1184,7 @@ class FbaOutboundApi
      * @throws \InvalidArgumentException
      * @throws ApiException              on non-2xx response
      *
-     * @return array of \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\ListReturnReasonCodesResponse, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\ListReturnReasonCodesResponse, HTTP status code, HTTP response headers (array of strings)
      */
     public function listReturnReasonCodesWithHttpInfo($seller_sku, $language, $marketplace_id = null, $seller_fulfillment_order_id = null)
     {
@@ -1229,7 +1229,7 @@ class FbaOutboundApi
      */
     public function listReturnReasonCodesAsyncWithHttpInfo($seller_sku, $language, $marketplace_id = null, $seller_fulfillment_order_id = null)
     {
-        $returnType = '\Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\ListReturnReasonCodesResponse';
+        $returnType = '\Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\ListReturnReasonCodesResponse';
         $request = $this->listReturnReasonCodesRequest($seller_sku, $language, $marketplace_id, $seller_fulfillment_order_id);
 
         return $this->sendRequestAsync($request, ListReturnReasonCodesResponse::class);
@@ -1312,7 +1312,7 @@ class FbaOutboundApi
      * @throws \InvalidArgumentException
      * @throws ApiException              on non-2xx response
      *
-     * @return array of \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\UpdateFulfillmentOrderResponse, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\UpdateFulfillmentOrderResponse, HTTP status code, HTTP response headers (array of strings)
      */
     public function updateFulfillmentOrderWithHttpInfo($body, $seller_fulfillment_order_id)
     {

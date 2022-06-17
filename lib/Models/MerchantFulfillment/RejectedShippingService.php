@@ -15,11 +15,11 @@
  * OpenAPI spec version: v0
  */
 
-namespace Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment;
+namespace Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment;
 
 use ArrayAccess;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
-use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plenty\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plenty\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * RejectedShippingService Class Doc Comment.
@@ -48,7 +48,7 @@ class RejectedShippingService implements ModelInterface, ArrayAccess
     protected static $swaggerTypes = [
         'carrier_name' => 'string',
 'shipping_service_name' => 'string',
-'shipping_service_id' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\ShippingServiceIdentifier',
+'shipping_service_id' => '\Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\ShippingServiceIdentifier',
 'rejection_reason_code' => 'string',
 'rejection_reason_message' => 'string',    ];
 
@@ -271,7 +271,7 @@ class RejectedShippingService implements ModelInterface, ArrayAccess
     /**
      * Gets shipping_service_id.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\ShippingServiceIdentifier
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\ShippingServiceIdentifier
      */
     public function getShippingServiceId()
     {
@@ -281,7 +281,7 @@ class RejectedShippingService implements ModelInterface, ArrayAccess
     /**
      * Sets shipping_service_id.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\ShippingServiceIdentifier $shipping_service_id shipping_service_id
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\ShippingServiceIdentifier $shipping_service_id shipping_service_id
      *
      * @return $this
      */

@@ -15,11 +15,11 @@
  * OpenAPI spec version: 2020-07-01
  */
 
-namespace Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound;
+namespace Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound;
 
 use ArrayAccess;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
-use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plenty\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plenty\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * TrackingEvent Class Doc Comment.
@@ -46,9 +46,9 @@ class TrackingEvent implements ModelInterface, ArrayAccess
      * @var string[]
      */
     protected static $swaggerTypes = [
-        'event_date' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\Timestamp',
-'event_address' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\TrackingAddress',
-'event_code' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\EventCode',
+        'event_date' => '\Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\Timestamp',
+'event_address' => '\Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\TrackingAddress',
+'event_code' => '\Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\EventCode',
 'event_description' => 'string',    ];
 
     /**
@@ -217,7 +217,7 @@ class TrackingEvent implements ModelInterface, ArrayAccess
     /**
      * Gets event_date.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\Timestamp
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\Timestamp
      */
     public function getEventDate()
     {
@@ -227,7 +227,7 @@ class TrackingEvent implements ModelInterface, ArrayAccess
     /**
      * Sets event_date.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\Timestamp $event_date event_date
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\Timestamp $event_date event_date
      *
      * @return $this
      */
@@ -241,7 +241,7 @@ class TrackingEvent implements ModelInterface, ArrayAccess
     /**
      * Gets event_address.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\TrackingAddress
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\TrackingAddress
      */
     public function getEventAddress()
     {
@@ -251,7 +251,7 @@ class TrackingEvent implements ModelInterface, ArrayAccess
     /**
      * Sets event_address.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\TrackingAddress $event_address event_address
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\TrackingAddress $event_address event_address
      *
      * @return $this
      */
@@ -265,7 +265,7 @@ class TrackingEvent implements ModelInterface, ArrayAccess
     /**
      * Gets event_code.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\EventCode
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\EventCode
      */
     public function getEventCode()
     {
@@ -275,7 +275,7 @@ class TrackingEvent implements ModelInterface, ArrayAccess
     /**
      * Sets event_code.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\EventCode $event_code event_code
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\EventCode $event_code event_code
      *
      * @return $this
      */

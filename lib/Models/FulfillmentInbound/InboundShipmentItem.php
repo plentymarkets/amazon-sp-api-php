@@ -15,11 +15,11 @@
  * OpenAPI spec version: v0
  */
 
-namespace Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound;
+namespace Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound;
 
 use ArrayAccess;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
-use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plenty\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plenty\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * InboundShipmentItem Class Doc Comment.
@@ -49,11 +49,11 @@ class InboundShipmentItem implements ModelInterface, ArrayAccess
         'shipment_id' => 'string',
 'seller_sku' => 'string',
 'fulfillment_network_sku' => 'string',
-'quantity_shipped' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\Quantity',
-'quantity_received' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\Quantity',
-'quantity_in_case' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\Quantity',
-'release_date' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\DateStringType',
-'prep_details_list' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\PrepDetailsList',    ];
+'quantity_shipped' => '\Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\Quantity',
+'quantity_received' => '\Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\Quantity',
+'quantity_in_case' => '\Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\Quantity',
+'release_date' => '\Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\DateStringType',
+'prep_details_list' => '\Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\PrepDetailsList',    ];
 
     /**
      * Array of property to format mappings. Used for (de)serialization.
@@ -307,7 +307,7 @@ class InboundShipmentItem implements ModelInterface, ArrayAccess
     /**
      * Gets quantity_shipped.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\Quantity
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\Quantity
      */
     public function getQuantityShipped()
     {
@@ -317,7 +317,7 @@ class InboundShipmentItem implements ModelInterface, ArrayAccess
     /**
      * Sets quantity_shipped.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\Quantity $quantity_shipped quantity_shipped
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\Quantity $quantity_shipped quantity_shipped
      *
      * @return $this
      */
@@ -331,7 +331,7 @@ class InboundShipmentItem implements ModelInterface, ArrayAccess
     /**
      * Gets quantity_received.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\Quantity
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\Quantity
      */
     public function getQuantityReceived()
     {
@@ -341,7 +341,7 @@ class InboundShipmentItem implements ModelInterface, ArrayAccess
     /**
      * Sets quantity_received.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\Quantity $quantity_received quantity_received
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\Quantity $quantity_received quantity_received
      *
      * @return $this
      */
@@ -355,7 +355,7 @@ class InboundShipmentItem implements ModelInterface, ArrayAccess
     /**
      * Gets quantity_in_case.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\Quantity
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\Quantity
      */
     public function getQuantityInCase()
     {
@@ -365,7 +365,7 @@ class InboundShipmentItem implements ModelInterface, ArrayAccess
     /**
      * Sets quantity_in_case.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\Quantity $quantity_in_case quantity_in_case
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\Quantity $quantity_in_case quantity_in_case
      *
      * @return $this
      */
@@ -379,7 +379,7 @@ class InboundShipmentItem implements ModelInterface, ArrayAccess
     /**
      * Gets release_date.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\DateStringType
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\DateStringType
      */
     public function getReleaseDate()
     {
@@ -389,7 +389,7 @@ class InboundShipmentItem implements ModelInterface, ArrayAccess
     /**
      * Sets release_date.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\DateStringType $release_date release_date
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\DateStringType $release_date release_date
      *
      * @return $this
      */
@@ -403,7 +403,7 @@ class InboundShipmentItem implements ModelInterface, ArrayAccess
     /**
      * Gets prep_details_list.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\PrepDetailsList
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\PrepDetailsList
      */
     public function getPrepDetailsList()
     {
@@ -413,7 +413,7 @@ class InboundShipmentItem implements ModelInterface, ArrayAccess
     /**
      * Sets prep_details_list.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\PrepDetailsList $prep_details_list prep_details_list
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\PrepDetailsList $prep_details_list prep_details_list
      *
      * @return $this
      */

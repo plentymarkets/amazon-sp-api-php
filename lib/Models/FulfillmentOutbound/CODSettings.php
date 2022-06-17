@@ -15,11 +15,11 @@
  * OpenAPI spec version: 2020-07-01
  */
 
-namespace Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound;
+namespace Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound;
 
 use ArrayAccess;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
-use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plenty\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plenty\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * CODSettings Class Doc Comment.
@@ -47,10 +47,10 @@ class CODSettings implements ModelInterface, ArrayAccess
      */
     protected static $swaggerTypes = [
         'is_cod_required' => 'bool',
-'cod_charge' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\Money',
-'cod_charge_tax' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\Money',
-'shipping_charge' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\Money',
-'shipping_charge_tax' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\Money',    ];
+'cod_charge' => '\Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\Money',
+'cod_charge_tax' => '\Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\Money',
+'shipping_charge' => '\Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\Money',
+'shipping_charge_tax' => '\Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\Money',    ];
 
     /**
      * Array of property to format mappings. Used for (de)serialization.
@@ -238,7 +238,7 @@ class CODSettings implements ModelInterface, ArrayAccess
     /**
      * Gets cod_charge.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\Money
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\Money
      */
     public function getCodCharge()
     {
@@ -248,7 +248,7 @@ class CODSettings implements ModelInterface, ArrayAccess
     /**
      * Sets cod_charge.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\Money $cod_charge cod_charge
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\Money $cod_charge cod_charge
      *
      * @return $this
      */
@@ -262,7 +262,7 @@ class CODSettings implements ModelInterface, ArrayAccess
     /**
      * Gets cod_charge_tax.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\Money
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\Money
      */
     public function getCodChargeTax()
     {
@@ -272,7 +272,7 @@ class CODSettings implements ModelInterface, ArrayAccess
     /**
      * Sets cod_charge_tax.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\Money $cod_charge_tax cod_charge_tax
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\Money $cod_charge_tax cod_charge_tax
      *
      * @return $this
      */
@@ -286,7 +286,7 @@ class CODSettings implements ModelInterface, ArrayAccess
     /**
      * Gets shipping_charge.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\Money
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\Money
      */
     public function getShippingCharge()
     {
@@ -296,7 +296,7 @@ class CODSettings implements ModelInterface, ArrayAccess
     /**
      * Sets shipping_charge.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\Money $shipping_charge shipping_charge
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\Money $shipping_charge shipping_charge
      *
      * @return $this
      */
@@ -310,7 +310,7 @@ class CODSettings implements ModelInterface, ArrayAccess
     /**
      * Gets shipping_charge_tax.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\Money
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\Money
      */
     public function getShippingChargeTax()
     {
@@ -320,7 +320,7 @@ class CODSettings implements ModelInterface, ArrayAccess
     /**
      * Sets shipping_charge_tax.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\Money $shipping_charge_tax shipping_charge_tax
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\Money $shipping_charge_tax shipping_charge_tax
      *
      * @return $this
      */

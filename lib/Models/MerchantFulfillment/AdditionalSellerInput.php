@@ -15,11 +15,11 @@
  * OpenAPI spec version: v0
  */
 
-namespace Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment;
+namespace Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment;
 
 use ArrayAccess;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
-use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plenty\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plenty\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * AdditionalSellerInput Class Doc Comment.
@@ -50,11 +50,11 @@ class AdditionalSellerInput implements ModelInterface, ArrayAccess
 'value_as_string' => 'string',
 'value_as_boolean' => 'bool',
 'value_as_integer' => 'int',
-'value_as_timestamp' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\Timestamp',
-'value_as_address' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\Address',
-'value_as_weight' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\Weight',
-'value_as_dimension' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\Length',
-'value_as_currency' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\CurrencyAmount',    ];
+'value_as_timestamp' => '\Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\Timestamp',
+'value_as_address' => '\Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\Address',
+'value_as_weight' => '\Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\Weight',
+'value_as_dimension' => '\Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\Length',
+'value_as_currency' => '\Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\CurrencyAmount',    ];
 
     /**
      * Array of property to format mappings. Used for (de)serialization.
@@ -330,7 +330,7 @@ class AdditionalSellerInput implements ModelInterface, ArrayAccess
     /**
      * Gets value_as_timestamp.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\Timestamp
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\Timestamp
      */
     public function getValueAsTimestamp()
     {
@@ -340,7 +340,7 @@ class AdditionalSellerInput implements ModelInterface, ArrayAccess
     /**
      * Sets value_as_timestamp.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\Timestamp $value_as_timestamp value_as_timestamp
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\Timestamp $value_as_timestamp value_as_timestamp
      *
      * @return $this
      */
@@ -354,7 +354,7 @@ class AdditionalSellerInput implements ModelInterface, ArrayAccess
     /**
      * Gets value_as_address.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\Address
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\Address
      */
     public function getValueAsAddress()
     {
@@ -364,7 +364,7 @@ class AdditionalSellerInput implements ModelInterface, ArrayAccess
     /**
      * Sets value_as_address.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\Address $value_as_address value_as_address
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\Address $value_as_address value_as_address
      *
      * @return $this
      */
@@ -378,7 +378,7 @@ class AdditionalSellerInput implements ModelInterface, ArrayAccess
     /**
      * Gets value_as_weight.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\Weight
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\Weight
      */
     public function getValueAsWeight()
     {
@@ -388,7 +388,7 @@ class AdditionalSellerInput implements ModelInterface, ArrayAccess
     /**
      * Sets value_as_weight.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\Weight $value_as_weight value_as_weight
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\Weight $value_as_weight value_as_weight
      *
      * @return $this
      */
@@ -402,7 +402,7 @@ class AdditionalSellerInput implements ModelInterface, ArrayAccess
     /**
      * Gets value_as_dimension.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\Length
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\Length
      */
     public function getValueAsDimension()
     {
@@ -412,7 +412,7 @@ class AdditionalSellerInput implements ModelInterface, ArrayAccess
     /**
      * Sets value_as_dimension.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\Length $value_as_dimension value_as_dimension
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\Length $value_as_dimension value_as_dimension
      *
      * @return $this
      */
@@ -426,7 +426,7 @@ class AdditionalSellerInput implements ModelInterface, ArrayAccess
     /**
      * Gets value_as_currency.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\CurrencyAmount
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\CurrencyAmount
      */
     public function getValueAsCurrency()
     {
@@ -436,7 +436,7 @@ class AdditionalSellerInput implements ModelInterface, ArrayAccess
     /**
      * Sets value_as_currency.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\CurrencyAmount $value_as_currency value_as_currency
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\CurrencyAmount $value_as_currency value_as_currency
      *
      * @return $this
      */

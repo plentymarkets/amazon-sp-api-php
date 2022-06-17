@@ -15,11 +15,11 @@
  * OpenAPI spec version: v0
  */
 
-namespace Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound;
+namespace Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound;
 
 use ArrayAccess;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
-use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plenty\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plenty\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * CreateInboundShipmentPlanRequest Class Doc Comment.
@@ -46,11 +46,11 @@ class CreateInboundShipmentPlanRequest implements ModelInterface, ArrayAccess
      * @var string[]
      */
     protected static $swaggerTypes = [
-        'ship_from_address' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\Address',
-'label_prep_preference' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\LabelPrepPreference',
+        'ship_from_address' => '\Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\Address',
+'label_prep_preference' => '\Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\LabelPrepPreference',
 'ship_to_country_code' => 'string',
 'ship_to_country_subdivision_code' => 'string',
-'inbound_shipment_plan_request_items' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\InboundShipmentPlanRequestItemList',    ];
+'inbound_shipment_plan_request_items' => '\Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\InboundShipmentPlanRequestItemList',    ];
 
     /**
      * Array of property to format mappings. Used for (de)serialization.
@@ -220,7 +220,7 @@ class CreateInboundShipmentPlanRequest implements ModelInterface, ArrayAccess
     /**
      * Gets ship_from_address.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\Address
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\Address
      */
     public function getShipFromAddress()
     {
@@ -230,7 +230,7 @@ class CreateInboundShipmentPlanRequest implements ModelInterface, ArrayAccess
     /**
      * Sets ship_from_address.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\Address $ship_from_address ship_from_address
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\Address $ship_from_address ship_from_address
      *
      * @return $this
      */
@@ -244,7 +244,7 @@ class CreateInboundShipmentPlanRequest implements ModelInterface, ArrayAccess
     /**
      * Gets label_prep_preference.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\LabelPrepPreference
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\LabelPrepPreference
      */
     public function getLabelPrepPreference()
     {
@@ -254,7 +254,7 @@ class CreateInboundShipmentPlanRequest implements ModelInterface, ArrayAccess
     /**
      * Sets label_prep_preference.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\LabelPrepPreference $label_prep_preference label_prep_preference
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\LabelPrepPreference $label_prep_preference label_prep_preference
      *
      * @return $this
      */
@@ -316,7 +316,7 @@ class CreateInboundShipmentPlanRequest implements ModelInterface, ArrayAccess
     /**
      * Gets inbound_shipment_plan_request_items.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\InboundShipmentPlanRequestItemList
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\InboundShipmentPlanRequestItemList
      */
     public function getInboundShipmentPlanRequestItems()
     {
@@ -326,7 +326,7 @@ class CreateInboundShipmentPlanRequest implements ModelInterface, ArrayAccess
     /**
      * Sets inbound_shipment_plan_request_items.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\InboundShipmentPlanRequestItemList $inbound_shipment_plan_request_items inbound_shipment_plan_request_items
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentInbound\InboundShipmentPlanRequestItemList $inbound_shipment_plan_request_items inbound_shipment_plan_request_items
      *
      * @return $this
      */

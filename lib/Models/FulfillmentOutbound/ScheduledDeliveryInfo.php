@@ -15,11 +15,11 @@
  * OpenAPI spec version: 2020-07-01
  */
 
-namespace Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound;
+namespace Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound;
 
 use ArrayAccess;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
-use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plenty\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plenty\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * ScheduledDeliveryInfo Class Doc Comment.
@@ -47,7 +47,7 @@ class ScheduledDeliveryInfo implements ModelInterface, ArrayAccess
      */
     protected static $swaggerTypes = [
         'delivery_time_zone' => 'string',
-'delivery_windows' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\DeliveryWindowList',    ];
+'delivery_windows' => '\Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\DeliveryWindowList',    ];
 
     /**
      * Array of property to format mappings. Used for (de)serialization.
@@ -223,7 +223,7 @@ class ScheduledDeliveryInfo implements ModelInterface, ArrayAccess
     /**
      * Gets delivery_windows.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\DeliveryWindowList
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\DeliveryWindowList
      */
     public function getDeliveryWindows()
     {
@@ -233,7 +233,7 @@ class ScheduledDeliveryInfo implements ModelInterface, ArrayAccess
     /**
      * Sets delivery_windows.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\DeliveryWindowList $delivery_windows delivery_windows
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\DeliveryWindowList $delivery_windows delivery_windows
      *
      * @return $this
      */

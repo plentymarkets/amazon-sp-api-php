@@ -15,11 +15,11 @@
  * OpenAPI spec version: v0
  */
 
-namespace Plentymarkets\AmazonSellingPartnerAPI\Models\Finances;
+namespace Plenty\AmazonSellingPartnerAPI\Models\Finances;
 
 use ArrayAccess;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
-use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plenty\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plenty\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * ChargeInstrument Class Doc Comment.
@@ -48,7 +48,7 @@ class ChargeInstrument implements ModelInterface, ArrayAccess
     protected static $swaggerTypes = [
         'description' => 'string',
 'tail' => 'string',
-'amount' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\Currency',    ];
+'amount' => '\Plenty\AmazonSellingPartnerAPI\Models\Finances\Currency',    ];
 
     /**
      * Array of property to format mappings. Used for (de)serialization.
@@ -246,7 +246,7 @@ class ChargeInstrument implements ModelInterface, ArrayAccess
     /**
      * Gets amount.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\Currency
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Finances\Currency
      */
     public function getAmount()
     {
@@ -256,7 +256,7 @@ class ChargeInstrument implements ModelInterface, ArrayAccess
     /**
      * Sets amount.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\Currency $amount amount
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Finances\Currency $amount amount
      *
      * @return $this
      */

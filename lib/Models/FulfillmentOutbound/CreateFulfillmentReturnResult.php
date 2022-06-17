@@ -15,11 +15,11 @@
  * OpenAPI spec version: 2020-07-01
  */
 
-namespace Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound;
+namespace Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound;
 
 use ArrayAccess;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
-use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plenty\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plenty\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * CreateFulfillmentReturnResult Class Doc Comment.
@@ -43,9 +43,9 @@ class CreateFulfillmentReturnResult implements ModelInterface, ArrayAccess
      * @var string[]
      */
     protected static $swaggerTypes = [
-        'return_items' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\ReturnItemList',
-'invalid_return_items' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\InvalidReturnItemList',
-'return_authorizations' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\ReturnAuthorizationList',    ];
+        'return_items' => '\Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\ReturnItemList',
+'invalid_return_items' => '\Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\InvalidReturnItemList',
+'return_authorizations' => '\Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\ReturnAuthorizationList',    ];
 
     /**
      * Array of property to format mappings. Used for (de)serialization.
@@ -195,7 +195,7 @@ class CreateFulfillmentReturnResult implements ModelInterface, ArrayAccess
     /**
      * Gets return_items.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\ReturnItemList
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\ReturnItemList
      */
     public function getReturnItems()
     {
@@ -205,7 +205,7 @@ class CreateFulfillmentReturnResult implements ModelInterface, ArrayAccess
     /**
      * Sets return_items.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\ReturnItemList $return_items return_items
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\ReturnItemList $return_items return_items
      *
      * @return $this
      */
@@ -219,7 +219,7 @@ class CreateFulfillmentReturnResult implements ModelInterface, ArrayAccess
     /**
      * Gets invalid_return_items.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\InvalidReturnItemList
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\InvalidReturnItemList
      */
     public function getInvalidReturnItems()
     {
@@ -229,7 +229,7 @@ class CreateFulfillmentReturnResult implements ModelInterface, ArrayAccess
     /**
      * Sets invalid_return_items.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\InvalidReturnItemList $invalid_return_items invalid_return_items
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\InvalidReturnItemList $invalid_return_items invalid_return_items
      *
      * @return $this
      */
@@ -243,7 +243,7 @@ class CreateFulfillmentReturnResult implements ModelInterface, ArrayAccess
     /**
      * Gets return_authorizations.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\ReturnAuthorizationList
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\ReturnAuthorizationList
      */
     public function getReturnAuthorizations()
     {
@@ -253,7 +253,7 @@ class CreateFulfillmentReturnResult implements ModelInterface, ArrayAccess
     /**
      * Sets return_authorizations.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\ReturnAuthorizationList $return_authorizations return_authorizations
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\ReturnAuthorizationList $return_authorizations return_authorizations
      *
      * @return $this
      */

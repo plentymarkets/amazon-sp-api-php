@@ -15,11 +15,11 @@
  * OpenAPI spec version: v1
  */
 
-namespace Plentymarkets\AmazonSellingPartnerAPI\Models\Sellers;
+namespace Plenty\AmazonSellingPartnerAPI\Models\Sellers;
 
 use ArrayAccess;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
-use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plenty\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plenty\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * GetMarketplaceParticipationsResponse Class Doc Comment.
@@ -46,8 +46,8 @@ class GetMarketplaceParticipationsResponse implements ModelInterface, ArrayAcces
      * @var string[]
      */
     protected static $swaggerTypes = [
-        'payload' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Sellers\MarketplaceParticipationList',
-'errors' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Sellers\ErrorList',    ];
+        'payload' => '\Plenty\AmazonSellingPartnerAPI\Models\Sellers\MarketplaceParticipationList',
+'errors' => '\Plenty\AmazonSellingPartnerAPI\Models\Sellers\ErrorList',    ];
 
     /**
      * Array of property to format mappings. Used for (de)serialization.
@@ -192,7 +192,7 @@ class GetMarketplaceParticipationsResponse implements ModelInterface, ArrayAcces
     /**
      * Gets payload.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Sellers\MarketplaceParticipationList
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Sellers\MarketplaceParticipationList
      */
     public function getPayload()
     {
@@ -202,7 +202,7 @@ class GetMarketplaceParticipationsResponse implements ModelInterface, ArrayAcces
     /**
      * Sets payload.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Sellers\MarketplaceParticipationList $payload payload
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Sellers\MarketplaceParticipationList $payload payload
      *
      * @return $this
      */
@@ -216,7 +216,7 @@ class GetMarketplaceParticipationsResponse implements ModelInterface, ArrayAcces
     /**
      * Gets errors.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Sellers\ErrorList
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Sellers\ErrorList
      */
     public function getErrors()
     {
@@ -226,7 +226,7 @@ class GetMarketplaceParticipationsResponse implements ModelInterface, ArrayAcces
     /**
      * Sets errors.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Sellers\ErrorList $errors errors
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Sellers\ErrorList $errors errors
      *
      * @return $this
      */

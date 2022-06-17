@@ -15,11 +15,11 @@
  * OpenAPI spec version: v1
  */
 
-namespace Plentymarkets\AmazonSellingPartnerAPI\Models\Sales;
+namespace Plenty\AmazonSellingPartnerAPI\Models\Sales;
 
 use ArrayAccess;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
-use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plenty\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plenty\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * GetOrderMetricsResponse Class Doc Comment.
@@ -46,8 +46,8 @@ class GetOrderMetricsResponse implements ModelInterface, ArrayAccess
      * @var string[]
      */
     protected static $swaggerTypes = [
-        'payload' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Sales\OrderMetricsList',
-'errors' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Sales\ErrorList',    ];
+        'payload' => '\Plenty\AmazonSellingPartnerAPI\Models\Sales\OrderMetricsList',
+'errors' => '\Plenty\AmazonSellingPartnerAPI\Models\Sales\ErrorList',    ];
 
     /**
      * Array of property to format mappings. Used for (de)serialization.
@@ -192,7 +192,7 @@ class GetOrderMetricsResponse implements ModelInterface, ArrayAccess
     /**
      * Gets payload.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Sales\OrderMetricsList
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Sales\OrderMetricsList
      */
     public function getPayload()
     {
@@ -202,7 +202,7 @@ class GetOrderMetricsResponse implements ModelInterface, ArrayAccess
     /**
      * Sets payload.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Sales\OrderMetricsList $payload payload
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Sales\OrderMetricsList $payload payload
      *
      * @return $this
      */
@@ -216,7 +216,7 @@ class GetOrderMetricsResponse implements ModelInterface, ArrayAccess
     /**
      * Gets errors.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Sales\ErrorList
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Sales\ErrorList
      */
     public function getErrors()
     {
@@ -226,7 +226,7 @@ class GetOrderMetricsResponse implements ModelInterface, ArrayAccess
     /**
      * Sets errors.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Sales\ErrorList $errors errors
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Sales\ErrorList $errors errors
      *
      * @return $this
      */

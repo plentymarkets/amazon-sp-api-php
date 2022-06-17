@@ -15,11 +15,11 @@
  * OpenAPI spec version: 2020-07-01
  */
 
-namespace Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound;
+namespace Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound;
 
 use ArrayAccess;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
-use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plenty\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plenty\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * ReturnAuthorization Class Doc Comment.
@@ -48,7 +48,7 @@ class ReturnAuthorization implements ModelInterface, ArrayAccess
     protected static $swaggerTypes = [
         'return_authorization_id' => 'string',
 'fulfillment_center_id' => 'string',
-'return_to_address' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\Address',
+'return_to_address' => '\Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\Address',
 'amazon_rma_id' => 'string',
 'rma_page_url' => 'string',    ];
 
@@ -274,7 +274,7 @@ class ReturnAuthorization implements ModelInterface, ArrayAccess
     /**
      * Gets return_to_address.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\Address
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\Address
      */
     public function getReturnToAddress()
     {
@@ -284,7 +284,7 @@ class ReturnAuthorization implements ModelInterface, ArrayAccess
     /**
      * Sets return_to_address.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\Address $return_to_address return_to_address
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\Address $return_to_address return_to_address
      *
      * @return $this
      */

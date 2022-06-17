@@ -15,11 +15,11 @@
  * OpenAPI spec version: v1
  */
 
-namespace Plentymarkets\AmazonSellingPartnerAPI\Models\Solicitations;
+namespace Plenty\AmazonSellingPartnerAPI\Models\Solicitations;
 
 use ArrayAccess;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
-use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plenty\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plenty\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * GetSchemaResponseLinks Class Doc Comment.
@@ -43,7 +43,7 @@ class GetSchemaResponseLinks implements ModelInterface, ArrayAccess
      * @var string[]
      */
     protected static $swaggerTypes = [
-        'self' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Solicitations\LinkObject',    ];
+        'self' => '\Plenty\AmazonSellingPartnerAPI\Models\Solicitations\LinkObject',    ];
 
     /**
      * Array of property to format mappings. Used for (de)serialization.
@@ -187,7 +187,7 @@ class GetSchemaResponseLinks implements ModelInterface, ArrayAccess
     /**
      * Gets self.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Solicitations\LinkObject
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Solicitations\LinkObject
      */
     public function getSelf()
     {
@@ -197,7 +197,7 @@ class GetSchemaResponseLinks implements ModelInterface, ArrayAccess
     /**
      * Sets self.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Solicitations\LinkObject $self self
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Solicitations\LinkObject $self self
      *
      * @return $this
      */

@@ -15,11 +15,11 @@
  * OpenAPI spec version: v0
  */
 
-namespace Plentymarkets\AmazonSellingPartnerAPI\Models\Finances;
+namespace Plenty\AmazonSellingPartnerAPI\Models\Finances;
 
 use ArrayAccess;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
-use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plenty\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plenty\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * TaxWithheldComponent Class Doc Comment.
@@ -47,7 +47,7 @@ class TaxWithheldComponent implements ModelInterface, ArrayAccess
      */
     protected static $swaggerTypes = [
         'tax_collection_model' => 'string',
-'taxes_withheld' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\ChargeComponentList',    ];
+'taxes_withheld' => '\Plenty\AmazonSellingPartnerAPI\Models\Finances\ChargeComponentList',    ];
 
     /**
      * Array of property to format mappings. Used for (de)serialization.
@@ -216,7 +216,7 @@ class TaxWithheldComponent implements ModelInterface, ArrayAccess
     /**
      * Gets taxes_withheld.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\ChargeComponentList
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Finances\ChargeComponentList
      */
     public function getTaxesWithheld()
     {
@@ -226,7 +226,7 @@ class TaxWithheldComponent implements ModelInterface, ArrayAccess
     /**
      * Sets taxes_withheld.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\ChargeComponentList $taxes_withheld taxes_withheld
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Finances\ChargeComponentList $taxes_withheld taxes_withheld
      *
      * @return $this
      */

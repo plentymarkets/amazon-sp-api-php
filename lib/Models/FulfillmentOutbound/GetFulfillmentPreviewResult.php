@@ -15,11 +15,11 @@
  * OpenAPI spec version: 2020-07-01
  */
 
-namespace Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound;
+namespace Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound;
 
 use ArrayAccess;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
-use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plenty\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plenty\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * GetFulfillmentPreviewResult Class Doc Comment.
@@ -46,7 +46,7 @@ class GetFulfillmentPreviewResult implements ModelInterface, ArrayAccess
      * @var string[]
      */
     protected static $swaggerTypes = [
-        'fulfillment_previews' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\FulfillmentPreviewList',    ];
+        'fulfillment_previews' => '\Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\FulfillmentPreviewList',    ];
 
     /**
      * Array of property to format mappings. Used for (de)serialization.
@@ -186,7 +186,7 @@ class GetFulfillmentPreviewResult implements ModelInterface, ArrayAccess
     /**
      * Gets fulfillment_previews.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\FulfillmentPreviewList
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\FulfillmentPreviewList
      */
     public function getFulfillmentPreviews()
     {
@@ -196,7 +196,7 @@ class GetFulfillmentPreviewResult implements ModelInterface, ArrayAccess
     /**
      * Sets fulfillment_previews.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\FulfillmentPreviewList $fulfillment_previews fulfillment_previews
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\FulfillmentPreviewList $fulfillment_previews fulfillment_previews
      *
      * @return $this
      */

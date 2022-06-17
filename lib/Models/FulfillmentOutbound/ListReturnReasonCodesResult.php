@@ -15,11 +15,11 @@
  * OpenAPI spec version: 2020-07-01
  */
 
-namespace Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound;
+namespace Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound;
 
 use ArrayAccess;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
-use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plenty\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plenty\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * ListReturnReasonCodesResult Class Doc Comment.
@@ -43,7 +43,7 @@ class ListReturnReasonCodesResult implements ModelInterface, ArrayAccess
      * @var string[]
      */
     protected static $swaggerTypes = [
-        'reason_code_details' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\ReasonCodeDetailsList',    ];
+        'reason_code_details' => '\Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\ReasonCodeDetailsList',    ];
 
     /**
      * Array of property to format mappings. Used for (de)serialization.
@@ -183,7 +183,7 @@ class ListReturnReasonCodesResult implements ModelInterface, ArrayAccess
     /**
      * Gets reason_code_details.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\ReasonCodeDetailsList
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\ReasonCodeDetailsList
      */
     public function getReasonCodeDetails()
     {
@@ -193,7 +193,7 @@ class ListReturnReasonCodesResult implements ModelInterface, ArrayAccess
     /**
      * Sets reason_code_details.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\ReasonCodeDetailsList $reason_code_details reason_code_details
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\ReasonCodeDetailsList $reason_code_details reason_code_details
      *
      * @return $this
      */

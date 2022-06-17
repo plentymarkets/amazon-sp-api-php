@@ -15,11 +15,11 @@
  * OpenAPI spec version: v0
  */
 
-namespace Plentymarkets\AmazonSellingPartnerAPI\Models\Catalog;
+namespace Plenty\AmazonSellingPartnerAPI\Models\Catalog;
 
 use ArrayAccess;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
-use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plenty\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plenty\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * DimensionType Class Doc Comment.
@@ -46,10 +46,10 @@ class DimensionType extends Categories implements ModelInterface, ArrayAccess
      * @var string[]
      */
     protected static $swaggerTypes = [
-        'height' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Catalog\DecimalWithUnits',
-'length' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Catalog\DecimalWithUnits',
-'width' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Catalog\DecimalWithUnits',
-'weight' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Catalog\DecimalWithUnits',    ];
+        'height' => '\Plenty\AmazonSellingPartnerAPI\Models\Catalog\DecimalWithUnits',
+'length' => '\Plenty\AmazonSellingPartnerAPI\Models\Catalog\DecimalWithUnits',
+'width' => '\Plenty\AmazonSellingPartnerAPI\Models\Catalog\DecimalWithUnits',
+'weight' => '\Plenty\AmazonSellingPartnerAPI\Models\Catalog\DecimalWithUnits',    ];
 
     /**
      * Array of property to format mappings. Used for (de)serialization.
@@ -204,7 +204,7 @@ class DimensionType extends Categories implements ModelInterface, ArrayAccess
     /**
      * Gets height.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Catalog\DecimalWithUnits
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Catalog\DecimalWithUnits
      */
     public function getHeight()
     {
@@ -214,7 +214,7 @@ class DimensionType extends Categories implements ModelInterface, ArrayAccess
     /**
      * Sets height.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Catalog\DecimalWithUnits $height height
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Catalog\DecimalWithUnits $height height
      *
      * @return $this
      */
@@ -228,7 +228,7 @@ class DimensionType extends Categories implements ModelInterface, ArrayAccess
     /**
      * Gets length.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Catalog\DecimalWithUnits
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Catalog\DecimalWithUnits
      */
     public function getLength()
     {
@@ -238,7 +238,7 @@ class DimensionType extends Categories implements ModelInterface, ArrayAccess
     /**
      * Sets length.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Catalog\DecimalWithUnits $length length
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Catalog\DecimalWithUnits $length length
      *
      * @return $this
      */
@@ -252,7 +252,7 @@ class DimensionType extends Categories implements ModelInterface, ArrayAccess
     /**
      * Gets width.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Catalog\DecimalWithUnits
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Catalog\DecimalWithUnits
      */
     public function getWidth()
     {
@@ -262,7 +262,7 @@ class DimensionType extends Categories implements ModelInterface, ArrayAccess
     /**
      * Sets width.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Catalog\DecimalWithUnits $width width
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Catalog\DecimalWithUnits $width width
      *
      * @return $this
      */
@@ -276,7 +276,7 @@ class DimensionType extends Categories implements ModelInterface, ArrayAccess
     /**
      * Gets weight.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Catalog\DecimalWithUnits
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Catalog\DecimalWithUnits
      */
     public function getWeight()
     {
@@ -286,7 +286,7 @@ class DimensionType extends Categories implements ModelInterface, ArrayAccess
     /**
      * Sets weight.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Catalog\DecimalWithUnits $weight weight
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Catalog\DecimalWithUnits $weight weight
      *
      * @return $this
      */

@@ -15,11 +15,11 @@
  * OpenAPI spec version: v1
  */
 
-namespace Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping;
+namespace Plenty\AmazonSellingPartnerAPI\Models\Shipping;
 
 use ArrayAccess;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
-use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plenty\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plenty\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * Location Class Doc Comment.
@@ -46,10 +46,10 @@ class Location implements ModelInterface, ArrayAccess
      * @var string[]
      */
     protected static $swaggerTypes = [
-        'state_or_region' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\StateOrRegion',
-'city' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\City',
-'country_code' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\CountryCode',
-'postal_code' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\PostalCode',    ];
+        'state_or_region' => '\Plenty\AmazonSellingPartnerAPI\Models\Shipping\StateOrRegion',
+'city' => '\Plenty\AmazonSellingPartnerAPI\Models\Shipping\City',
+'country_code' => '\Plenty\AmazonSellingPartnerAPI\Models\Shipping\CountryCode',
+'postal_code' => '\Plenty\AmazonSellingPartnerAPI\Models\Shipping\PostalCode',    ];
 
     /**
      * Array of property to format mappings. Used for (de)serialization.
@@ -204,7 +204,7 @@ class Location implements ModelInterface, ArrayAccess
     /**
      * Gets state_or_region.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\StateOrRegion
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Shipping\StateOrRegion
      */
     public function getStateOrRegion()
     {
@@ -214,7 +214,7 @@ class Location implements ModelInterface, ArrayAccess
     /**
      * Sets state_or_region.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\StateOrRegion $state_or_region state_or_region
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Shipping\StateOrRegion $state_or_region state_or_region
      *
      * @return $this
      */
@@ -228,7 +228,7 @@ class Location implements ModelInterface, ArrayAccess
     /**
      * Gets city.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\City
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Shipping\City
      */
     public function getCity()
     {
@@ -238,7 +238,7 @@ class Location implements ModelInterface, ArrayAccess
     /**
      * Sets city.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\City $city city
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Shipping\City $city city
      *
      * @return $this
      */
@@ -252,7 +252,7 @@ class Location implements ModelInterface, ArrayAccess
     /**
      * Gets country_code.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\CountryCode
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Shipping\CountryCode
      */
     public function getCountryCode()
     {
@@ -262,7 +262,7 @@ class Location implements ModelInterface, ArrayAccess
     /**
      * Sets country_code.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\CountryCode $country_code country_code
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Shipping\CountryCode $country_code country_code
      *
      * @return $this
      */
@@ -276,7 +276,7 @@ class Location implements ModelInterface, ArrayAccess
     /**
      * Gets postal_code.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\PostalCode
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\Shipping\PostalCode
      */
     public function getPostalCode()
     {
@@ -286,7 +286,7 @@ class Location implements ModelInterface, ArrayAccess
     /**
      * Sets postal_code.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\PostalCode $postal_code postal_code
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\Shipping\PostalCode $postal_code postal_code
      *
      * @return $this
      */

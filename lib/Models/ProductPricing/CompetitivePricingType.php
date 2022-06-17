@@ -15,11 +15,11 @@
  * OpenAPI spec version: v0
  */
 
-namespace Plentymarkets\AmazonSellingPartnerAPI\Models\ProductPricing;
+namespace Plenty\AmazonSellingPartnerAPI\Models\ProductPricing;
 
 use ArrayAccess;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
-use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plenty\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plenty\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * CompetitivePricingType Class Doc Comment.
@@ -46,9 +46,9 @@ class CompetitivePricingType implements ModelInterface, ArrayAccess
      * @var string[]
      */
     protected static $swaggerTypes = [
-        'competitive_prices' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\ProductPricing\CompetitivePriceList',
-'number_of_offer_listings' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\ProductPricing\NumberOfOfferListingsList',
-'trade_in_value' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\ProductPricing\MoneyType',    ];
+        'competitive_prices' => '\Plenty\AmazonSellingPartnerAPI\Models\ProductPricing\CompetitivePriceList',
+'number_of_offer_listings' => '\Plenty\AmazonSellingPartnerAPI\Models\ProductPricing\NumberOfOfferListingsList',
+'trade_in_value' => '\Plenty\AmazonSellingPartnerAPI\Models\ProductPricing\MoneyType',    ];
 
     /**
      * Array of property to format mappings. Used for (de)serialization.
@@ -205,7 +205,7 @@ class CompetitivePricingType implements ModelInterface, ArrayAccess
     /**
      * Gets competitive_prices.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\ProductPricing\CompetitivePriceList
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\ProductPricing\CompetitivePriceList
      */
     public function getCompetitivePrices()
     {
@@ -215,7 +215,7 @@ class CompetitivePricingType implements ModelInterface, ArrayAccess
     /**
      * Sets competitive_prices.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\ProductPricing\CompetitivePriceList $competitive_prices competitive_prices
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\ProductPricing\CompetitivePriceList $competitive_prices competitive_prices
      *
      * @return $this
      */
@@ -229,7 +229,7 @@ class CompetitivePricingType implements ModelInterface, ArrayAccess
     /**
      * Gets number_of_offer_listings.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\ProductPricing\NumberOfOfferListingsList
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\ProductPricing\NumberOfOfferListingsList
      */
     public function getNumberOfOfferListings()
     {
@@ -239,7 +239,7 @@ class CompetitivePricingType implements ModelInterface, ArrayAccess
     /**
      * Sets number_of_offer_listings.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\ProductPricing\NumberOfOfferListingsList $number_of_offer_listings number_of_offer_listings
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\ProductPricing\NumberOfOfferListingsList $number_of_offer_listings number_of_offer_listings
      *
      * @return $this
      */
@@ -253,7 +253,7 @@ class CompetitivePricingType implements ModelInterface, ArrayAccess
     /**
      * Gets trade_in_value.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\ProductPricing\MoneyType
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\ProductPricing\MoneyType
      */
     public function getTradeInValue()
     {
@@ -263,7 +263,7 @@ class CompetitivePricingType implements ModelInterface, ArrayAccess
     /**
      * Sets trade_in_value.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\ProductPricing\MoneyType $trade_in_value trade_in_value
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\ProductPricing\MoneyType $trade_in_value trade_in_value
      *
      * @return $this
      */

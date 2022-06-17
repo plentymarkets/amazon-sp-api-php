@@ -15,11 +15,11 @@
  * OpenAPI spec version: v0
  */
 
-namespace Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment;
+namespace Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment;
 
 use ArrayAccess;
-use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
-use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plenty\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plenty\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * ItemLevelFields Class Doc Comment.
@@ -44,7 +44,7 @@ class ItemLevelFields implements ModelInterface, ArrayAccess
      */
     protected static $swaggerTypes = [
         'asin' => 'string',
-'additional_inputs' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\AdditionalInputsList',    ];
+'additional_inputs' => '\Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\AdditionalInputsList',    ];
 
     /**
      * Array of property to format mappings. Used for (de)serialization.
@@ -220,7 +220,7 @@ class ItemLevelFields implements ModelInterface, ArrayAccess
     /**
      * Gets additional_inputs.
      *
-     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\AdditionalInputsList
+     * @return \Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\AdditionalInputsList
      */
     public function getAdditionalInputs()
     {
@@ -230,7 +230,7 @@ class ItemLevelFields implements ModelInterface, ArrayAccess
     /**
      * Sets additional_inputs.
      *
-     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\AdditionalInputsList $additional_inputs additional_inputs
+     * @param \Plenty\AmazonSellingPartnerAPI\Models\MerchantFulfillment\AdditionalInputsList $additional_inputs additional_inputs
      *
      * @return $this
      */
