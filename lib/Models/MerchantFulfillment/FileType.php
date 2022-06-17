@@ -15,7 +15,7 @@
  * OpenAPI spec version: v0
  */
 
-namespace ClouSale\AmazonSellingPartnerAPI\Models\MerchantFulfillment;
+namespace Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment;
 
 /**
  * FileType Class Doc Comment.

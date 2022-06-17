@@ -15,11 +15,11 @@
  * OpenAPI spec version: 2020-07-01
  */
 
-namespace ClouSale\AmazonSellingPartnerAPI\Models\FulfillmentOutbound;
+namespace Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound;
 
 use ArrayAccess;
-use ClouSale\AmazonSellingPartnerAPI\Models\ModelInterface;
-use ClouSale\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * GetPackageTrackingDetailsResponse Class Doc Comment.
@@ -46,8 +46,8 @@ class GetPackageTrackingDetailsResponse implements ModelInterface, ArrayAccess
      * @var string[]
      */
     protected static $swaggerTypes = [
-        'payload' => '\ClouSale\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\PackageTrackingDetails',
-'errors' => '\ClouSale\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\ErrorList',    ];
+        'payload' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\PackageTrackingDetails',
+'errors' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\ErrorList',    ];
 
     /**
      * Array of property to format mappings. Used for (de)serialization.
@@ -192,7 +192,7 @@ class GetPackageTrackingDetailsResponse implements ModelInterface, ArrayAccess
     /**
      * Gets payload.
      *
-     * @return \ClouSale\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\PackageTrackingDetails
+     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\PackageTrackingDetails
      */
     public function getPayload()
     {
@@ -202,7 +202,7 @@ class GetPackageTrackingDetailsResponse implements ModelInterface, ArrayAccess
     /**
      * Sets payload.
      *
-     * @param \ClouSale\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\PackageTrackingDetails $payload payload
+     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\PackageTrackingDetails $payload payload
      *
      * @return $this
      */
@@ -216,7 +216,7 @@ class GetPackageTrackingDetailsResponse implements ModelInterface, ArrayAccess
     /**
      * Gets errors.
      *
-     * @return \ClouSale\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\ErrorList
+     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\ErrorList
      */
     public function getErrors()
     {
@@ -226,7 +226,7 @@ class GetPackageTrackingDetailsResponse implements ModelInterface, ArrayAccess
     /**
      * Sets errors.
      *
-     * @param \ClouSale\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\ErrorList $errors errors
+     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\ErrorList $errors errors
      *
      * @return $this
      */

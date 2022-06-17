@@ -15,11 +15,11 @@
  * OpenAPI spec version: v1
  */
 
-namespace ClouSale\AmazonSellingPartnerAPI\Models\Authorization;
+namespace Plentymarkets\AmazonSellingPartnerAPI\Models\Authorization;
 
 use ArrayAccess;
-use ClouSale\AmazonSellingPartnerAPI\Models\ModelInterface;
-use ClouSale\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * Error Class Doc Comment.

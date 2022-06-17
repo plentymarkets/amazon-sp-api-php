@@ -15,11 +15,11 @@
  * OpenAPI spec version: v0
  */
 
-namespace ClouSale\AmazonSellingPartnerAPI\Models\Finances;
+namespace Plentymarkets\AmazonSellingPartnerAPI\Models\Finances;
 
 use ArrayAccess;
-use ClouSale\AmazonSellingPartnerAPI\Models\ModelInterface;
-use ClouSale\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * RemovalShipmentEvent Class Doc Comment.
@@ -46,10 +46,10 @@ class RemovalShipmentEvent implements ModelInterface, ArrayAccess
      * @var string[]
      */
     protected static $swaggerTypes = [
-        'posted_date' => '\ClouSale\AmazonSellingPartnerAPI\Models\Finances\\DateTime',
+        'posted_date' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\\DateTime',
 'order_id' => 'string',
 'transaction_type' => 'string',
-'removal_shipment_item_list' => '\ClouSale\AmazonSellingPartnerAPI\Models\Finances\RemovalShipmentItemList',    ];
+'removal_shipment_item_list' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\RemovalShipmentItemList',    ];
 
     /**
      * Array of property to format mappings. Used for (de)serialization.
@@ -204,7 +204,7 @@ class RemovalShipmentEvent implements ModelInterface, ArrayAccess
     /**
      * Gets posted_date.
      *
-     * @return \ClouSale\AmazonSellingPartnerAPI\Models\Finances\DateTime
+     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\DateTime
      */
     public function getPostedDate()
     {
@@ -214,7 +214,7 @@ class RemovalShipmentEvent implements ModelInterface, ArrayAccess
     /**
      * Sets posted_date.
      *
-     * @param \ClouSale\AmazonSellingPartnerAPI\Models\Finances\DateTime $posted_date posted_date
+     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\DateTime $posted_date posted_date
      *
      * @return $this
      */
@@ -276,7 +276,7 @@ class RemovalShipmentEvent implements ModelInterface, ArrayAccess
     /**
      * Gets removal_shipment_item_list.
      *
-     * @return \ClouSale\AmazonSellingPartnerAPI\Models\Finances\RemovalShipmentItemList
+     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\RemovalShipmentItemList
      */
     public function getRemovalShipmentItemList()
     {
@@ -286,7 +286,7 @@ class RemovalShipmentEvent implements ModelInterface, ArrayAccess
     /**
      * Sets removal_shipment_item_list.
      *
-     * @param \ClouSale\AmazonSellingPartnerAPI\Models\Finances\RemovalShipmentItemList $removal_shipment_item_list removal_shipment_item_list
+     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\RemovalShipmentItemList $removal_shipment_item_list removal_shipment_item_list
      *
      * @return $this
      */

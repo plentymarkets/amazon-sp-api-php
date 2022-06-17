@@ -15,11 +15,11 @@
  * OpenAPI spec version: v0
  */
 
-namespace ClouSale\AmazonSellingPartnerAPI\Models\Catalog;
+namespace Plentymarkets\AmazonSellingPartnerAPI\Models\Catalog;
 
 use ArrayAccess;
-use ClouSale\AmazonSellingPartnerAPI\Models\ModelInterface;
-use ClouSale\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * IdentifierType Class Doc Comment.
@@ -43,8 +43,8 @@ class IdentifierType extends Categories implements ModelInterface, ArrayAccess
      * @var string[]
      */
     protected static $swaggerTypes = [
-        'marketplace_asin' => '\ClouSale\AmazonSellingPartnerAPI\Models\Catalog\ASINIdentifier',
-'sku_identifier' => '\ClouSale\AmazonSellingPartnerAPI\Models\Catalog\SellerSKUIdentifier',    ];
+        'marketplace_asin' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Catalog\ASINIdentifier',
+'sku_identifier' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Catalog\SellerSKUIdentifier',    ];
 
     /**
      * Array of property to format mappings. Used for (de)serialization.
@@ -189,7 +189,7 @@ class IdentifierType extends Categories implements ModelInterface, ArrayAccess
     /**
      * Gets marketplace_asin.
      *
-     * @return \ClouSale\AmazonSellingPartnerAPI\Models\Catalog\ASINIdentifier
+     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Catalog\ASINIdentifier
      */
     public function getMarketplaceAsin()
     {
@@ -199,7 +199,7 @@ class IdentifierType extends Categories implements ModelInterface, ArrayAccess
     /**
      * Sets marketplace_asin.
      *
-     * @param \ClouSale\AmazonSellingPartnerAPI\Models\Catalog\ASINIdentifier $marketplace_asin marketplace_asin
+     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Catalog\ASINIdentifier $marketplace_asin marketplace_asin
      *
      * @return $this
      */
@@ -213,7 +213,7 @@ class IdentifierType extends Categories implements ModelInterface, ArrayAccess
     /**
      * Gets sku_identifier.
      *
-     * @return \ClouSale\AmazonSellingPartnerAPI\Models\Catalog\SellerSKUIdentifier
+     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Catalog\SellerSKUIdentifier
      */
     public function getSkuIdentifier()
     {
@@ -223,7 +223,7 @@ class IdentifierType extends Categories implements ModelInterface, ArrayAccess
     /**
      * Sets sku_identifier.
      *
-     * @param \ClouSale\AmazonSellingPartnerAPI\Models\Catalog\SellerSKUIdentifier $sku_identifier sku_identifier
+     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Catalog\SellerSKUIdentifier $sku_identifier sku_identifier
      *
      * @return $this
      */

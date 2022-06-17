@@ -1,6 +1,6 @@
 <?php
 
-namespace ClouSale\AmazonSellingPartnerAPI;
+namespace Plentymarkets\AmazonSellingPartnerAPI;
 
 class Signature
 {

@@ -15,11 +15,11 @@
  * OpenAPI spec version: 2020-09-04
  */
 
-namespace ClouSale\AmazonSellingPartnerAPI\Models\Reports;
+namespace Plentymarkets\AmazonSellingPartnerAPI\Models\Reports;
 
 use ArrayAccess;
-use ClouSale\AmazonSellingPartnerAPI\Models\ModelInterface;
-use ClouSale\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * ReportSchedule Class Doc Comment.
@@ -49,7 +49,7 @@ class ReportSchedule implements ModelInterface, ArrayAccess
         'report_schedule_id' => 'string',
 'report_type' => 'string',
 'marketplace_ids' => 'string[]',
-'report_options' => '\ClouSale\AmazonSellingPartnerAPI\Models\Reports\ReportOptions',
+'report_options' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Reports\ReportOptions',
 'period' => 'string',
 'next_report_creation_time' => '\DateTime',    ];
 
@@ -298,7 +298,7 @@ class ReportSchedule implements ModelInterface, ArrayAccess
     /**
      * Gets report_options.
      *
-     * @return \ClouSale\AmazonSellingPartnerAPI\Models\Reports\ReportOptions
+     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Reports\ReportOptions
      */
     public function getReportOptions()
     {
@@ -308,7 +308,7 @@ class ReportSchedule implements ModelInterface, ArrayAccess
     /**
      * Sets report_options.
      *
-     * @param \ClouSale\AmazonSellingPartnerAPI\Models\Reports\ReportOptions $report_options report_options
+     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Reports\ReportOptions $report_options report_options
      *
      * @return $this
      */

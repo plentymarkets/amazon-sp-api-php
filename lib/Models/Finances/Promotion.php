@@ -15,11 +15,11 @@
  * OpenAPI spec version: v0
  */
 
-namespace ClouSale\AmazonSellingPartnerAPI\Models\Finances;
+namespace Plentymarkets\AmazonSellingPartnerAPI\Models\Finances;
 
 use ArrayAccess;
-use ClouSale\AmazonSellingPartnerAPI\Models\ModelInterface;
-use ClouSale\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * Promotion Class Doc Comment.
@@ -48,7 +48,7 @@ class Promotion implements ModelInterface, ArrayAccess
     protected static $swaggerTypes = [
         'promotion_type' => 'string',
 'promotion_id' => 'string',
-'promotion_amount' => '\ClouSale\AmazonSellingPartnerAPI\Models\Finances\Currency',    ];
+'promotion_amount' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\Currency',    ];
 
     /**
      * Array of property to format mappings. Used for (de)serialization.
@@ -246,7 +246,7 @@ class Promotion implements ModelInterface, ArrayAccess
     /**
      * Gets promotion_amount.
      *
-     * @return \ClouSale\AmazonSellingPartnerAPI\Models\Finances\Currency
+     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\Currency
      */
     public function getPromotionAmount()
     {
@@ -256,7 +256,7 @@ class Promotion implements ModelInterface, ArrayAccess
     /**
      * Sets promotion_amount.
      *
-     * @param \ClouSale\AmazonSellingPartnerAPI\Models\Finances\Currency $promotion_amount promotion_amount
+     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\Currency $promotion_amount promotion_amount
      *
      * @return $this
      */

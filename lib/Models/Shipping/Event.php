@@ -15,11 +15,11 @@
  * OpenAPI spec version: v1
  */
 
-namespace ClouSale\AmazonSellingPartnerAPI\Models\Shipping;
+namespace Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping;
 
 use ArrayAccess;
-use ClouSale\AmazonSellingPartnerAPI\Models\ModelInterface;
-use ClouSale\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * Event Class Doc Comment.
@@ -46,9 +46,9 @@ class Event implements ModelInterface, ArrayAccess
      * @var string[]
      */
     protected static $swaggerTypes = [
-        'event_code' => '\ClouSale\AmazonSellingPartnerAPI\Models\Shipping\EventCode',
+        'event_code' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\EventCode',
 'event_time' => '\DateTime',
-'location' => '\ClouSale\AmazonSellingPartnerAPI\Models\Shipping\Location',    ];
+'location' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\Location',    ];
 
     /**
      * Array of property to format mappings. Used for (de)serialization.
@@ -205,7 +205,7 @@ class Event implements ModelInterface, ArrayAccess
     /**
      * Gets event_code.
      *
-     * @return \ClouSale\AmazonSellingPartnerAPI\Models\Shipping\EventCode
+     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\EventCode
      */
     public function getEventCode()
     {
@@ -215,7 +215,7 @@ class Event implements ModelInterface, ArrayAccess
     /**
      * Sets event_code.
      *
-     * @param \ClouSale\AmazonSellingPartnerAPI\Models\Shipping\EventCode $event_code event_code
+     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\EventCode $event_code event_code
      *
      * @return $this
      */
@@ -253,7 +253,7 @@ class Event implements ModelInterface, ArrayAccess
     /**
      * Gets location.
      *
-     * @return \ClouSale\AmazonSellingPartnerAPI\Models\Shipping\Location
+     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\Location
      */
     public function getLocation()
     {
@@ -263,7 +263,7 @@ class Event implements ModelInterface, ArrayAccess
     /**
      * Sets location.
      *
-     * @param \ClouSale\AmazonSellingPartnerAPI\Models\Shipping\Location $location location
+     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\Location $location location
      *
      * @return $this
      */

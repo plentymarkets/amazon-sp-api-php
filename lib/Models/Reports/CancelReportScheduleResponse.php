@@ -15,11 +15,11 @@
  * OpenAPI spec version: 2020-09-04
  */
 
-namespace ClouSale\AmazonSellingPartnerAPI\Models\Reports;
+namespace Plentymarkets\AmazonSellingPartnerAPI\Models\Reports;
 
 use ArrayAccess;
-use ClouSale\AmazonSellingPartnerAPI\Models\ModelInterface;
-use ClouSale\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * CancelReportScheduleResponse Class Doc Comment.
@@ -46,7 +46,7 @@ class CancelReportScheduleResponse implements ModelInterface, ArrayAccess
      * @var string[]
      */
     protected static $swaggerTypes = [
-        'errors' => '\ClouSale\AmazonSellingPartnerAPI\Models\Reports\ErrorList',    ];
+        'errors' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Reports\ErrorList',    ];
 
     /**
      * Array of property to format mappings. Used for (de)serialization.
@@ -186,7 +186,7 @@ class CancelReportScheduleResponse implements ModelInterface, ArrayAccess
     /**
      * Gets errors.
      *
-     * @return \ClouSale\AmazonSellingPartnerAPI\Models\Reports\ErrorList
+     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Reports\ErrorList
      */
     public function getErrors()
     {
@@ -196,7 +196,7 @@ class CancelReportScheduleResponse implements ModelInterface, ArrayAccess
     /**
      * Sets errors.
      *
-     * @param \ClouSale\AmazonSellingPartnerAPI\Models\Reports\ErrorList $errors errors
+     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Reports\ErrorList $errors errors
      *
      * @return $this
      */

@@ -15,11 +15,11 @@
  * OpenAPI spec version: v0
  */
 
-namespace ClouSale\AmazonSellingPartnerAPI\Models\MerchantFulfillment;
+namespace Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment;
 
 use ArrayAccess;
-use ClouSale\AmazonSellingPartnerAPI\Models\ModelInterface;
-use ClouSale\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * ShipmentRequestDetails Class Doc Comment.
@@ -46,16 +46,16 @@ class ShipmentRequestDetails implements ModelInterface, ArrayAccess
      * @var string[]
      */
     protected static $swaggerTypes = [
-        'amazon_order_id' => '\ClouSale\AmazonSellingPartnerAPI\Models\MerchantFulfillment\AmazonOrderId',
-'seller_order_id' => '\ClouSale\AmazonSellingPartnerAPI\Models\MerchantFulfillment\SellerOrderId',
-'item_list' => '\ClouSale\AmazonSellingPartnerAPI\Models\MerchantFulfillment\ItemList',
-'ship_from_address' => '\ClouSale\AmazonSellingPartnerAPI\Models\MerchantFulfillment\Address',
-'package_dimensions' => '\ClouSale\AmazonSellingPartnerAPI\Models\MerchantFulfillment\PackageDimensions',
-'weight' => '\ClouSale\AmazonSellingPartnerAPI\Models\MerchantFulfillment\Weight',
-'must_arrive_by_date' => '\ClouSale\AmazonSellingPartnerAPI\Models\MerchantFulfillment\Timestamp',
-'ship_date' => '\ClouSale\AmazonSellingPartnerAPI\Models\MerchantFulfillment\Timestamp',
-'shipping_service_options' => '\ClouSale\AmazonSellingPartnerAPI\Models\MerchantFulfillment\ShippingServiceOptions',
-'label_customization' => '\ClouSale\AmazonSellingPartnerAPI\Models\MerchantFulfillment\LabelCustomization',    ];
+        'amazon_order_id' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\AmazonOrderId',
+'seller_order_id' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\SellerOrderId',
+'item_list' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\ItemList',
+'ship_from_address' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\Address',
+'package_dimensions' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\PackageDimensions',
+'weight' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\Weight',
+'must_arrive_by_date' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\Timestamp',
+'ship_date' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\Timestamp',
+'shipping_service_options' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\ShippingServiceOptions',
+'label_customization' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\LabelCustomization',    ];
 
     /**
      * Array of property to format mappings. Used for (de)serialization.
@@ -259,7 +259,7 @@ class ShipmentRequestDetails implements ModelInterface, ArrayAccess
     /**
      * Gets amazon_order_id.
      *
-     * @return \ClouSale\AmazonSellingPartnerAPI\Models\MerchantFulfillment\AmazonOrderId
+     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\AmazonOrderId
      */
     public function getAmazonOrderId()
     {
@@ -269,7 +269,7 @@ class ShipmentRequestDetails implements ModelInterface, ArrayAccess
     /**
      * Sets amazon_order_id.
      *
-     * @param \ClouSale\AmazonSellingPartnerAPI\Models\MerchantFulfillment\AmazonOrderId $amazon_order_id amazon_order_id
+     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\AmazonOrderId $amazon_order_id amazon_order_id
      *
      * @return $this
      */
@@ -283,7 +283,7 @@ class ShipmentRequestDetails implements ModelInterface, ArrayAccess
     /**
      * Gets seller_order_id.
      *
-     * @return \ClouSale\AmazonSellingPartnerAPI\Models\MerchantFulfillment\SellerOrderId
+     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\SellerOrderId
      */
     public function getSellerOrderId()
     {
@@ -293,7 +293,7 @@ class ShipmentRequestDetails implements ModelInterface, ArrayAccess
     /**
      * Sets seller_order_id.
      *
-     * @param \ClouSale\AmazonSellingPartnerAPI\Models\MerchantFulfillment\SellerOrderId $seller_order_id seller_order_id
+     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\SellerOrderId $seller_order_id seller_order_id
      *
      * @return $this
      */
@@ -307,7 +307,7 @@ class ShipmentRequestDetails implements ModelInterface, ArrayAccess
     /**
      * Gets item_list.
      *
-     * @return \ClouSale\AmazonSellingPartnerAPI\Models\MerchantFulfillment\ItemList
+     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\ItemList
      */
     public function getItemList()
     {
@@ -317,7 +317,7 @@ class ShipmentRequestDetails implements ModelInterface, ArrayAccess
     /**
      * Sets item_list.
      *
-     * @param \ClouSale\AmazonSellingPartnerAPI\Models\MerchantFulfillment\ItemList $item_list item_list
+     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\ItemList $item_list item_list
      *
      * @return $this
      */
@@ -331,7 +331,7 @@ class ShipmentRequestDetails implements ModelInterface, ArrayAccess
     /**
      * Gets ship_from_address.
      *
-     * @return \ClouSale\AmazonSellingPartnerAPI\Models\MerchantFulfillment\Address
+     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\Address
      */
     public function getShipFromAddress()
     {
@@ -341,7 +341,7 @@ class ShipmentRequestDetails implements ModelInterface, ArrayAccess
     /**
      * Sets ship_from_address.
      *
-     * @param \ClouSale\AmazonSellingPartnerAPI\Models\MerchantFulfillment\Address $ship_from_address ship_from_address
+     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\Address $ship_from_address ship_from_address
      *
      * @return $this
      */
@@ -355,7 +355,7 @@ class ShipmentRequestDetails implements ModelInterface, ArrayAccess
     /**
      * Gets package_dimensions.
      *
-     * @return \ClouSale\AmazonSellingPartnerAPI\Models\MerchantFulfillment\PackageDimensions
+     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\PackageDimensions
      */
     public function getPackageDimensions()
     {
@@ -365,7 +365,7 @@ class ShipmentRequestDetails implements ModelInterface, ArrayAccess
     /**
      * Sets package_dimensions.
      *
-     * @param \ClouSale\AmazonSellingPartnerAPI\Models\MerchantFulfillment\PackageDimensions $package_dimensions package_dimensions
+     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\PackageDimensions $package_dimensions package_dimensions
      *
      * @return $this
      */
@@ -379,7 +379,7 @@ class ShipmentRequestDetails implements ModelInterface, ArrayAccess
     /**
      * Gets weight.
      *
-     * @return \ClouSale\AmazonSellingPartnerAPI\Models\MerchantFulfillment\Weight
+     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\Weight
      */
     public function getWeight()
     {
@@ -389,7 +389,7 @@ class ShipmentRequestDetails implements ModelInterface, ArrayAccess
     /**
      * Sets weight.
      *
-     * @param \ClouSale\AmazonSellingPartnerAPI\Models\MerchantFulfillment\Weight $weight weight
+     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\Weight $weight weight
      *
      * @return $this
      */
@@ -403,7 +403,7 @@ class ShipmentRequestDetails implements ModelInterface, ArrayAccess
     /**
      * Gets must_arrive_by_date.
      *
-     * @return \ClouSale\AmazonSellingPartnerAPI\Models\MerchantFulfillment\Timestamp
+     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\Timestamp
      */
     public function getMustArriveByDate()
     {
@@ -413,7 +413,7 @@ class ShipmentRequestDetails implements ModelInterface, ArrayAccess
     /**
      * Sets must_arrive_by_date.
      *
-     * @param \ClouSale\AmazonSellingPartnerAPI\Models\MerchantFulfillment\Timestamp $must_arrive_by_date must_arrive_by_date
+     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\Timestamp $must_arrive_by_date must_arrive_by_date
      *
      * @return $this
      */
@@ -427,7 +427,7 @@ class ShipmentRequestDetails implements ModelInterface, ArrayAccess
     /**
      * Gets ship_date.
      *
-     * @return \ClouSale\AmazonSellingPartnerAPI\Models\MerchantFulfillment\Timestamp
+     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\Timestamp
      */
     public function getShipDate()
     {
@@ -437,7 +437,7 @@ class ShipmentRequestDetails implements ModelInterface, ArrayAccess
     /**
      * Sets ship_date.
      *
-     * @param \ClouSale\AmazonSellingPartnerAPI\Models\MerchantFulfillment\Timestamp $ship_date ship_date
+     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\Timestamp $ship_date ship_date
      *
      * @return $this
      */
@@ -451,7 +451,7 @@ class ShipmentRequestDetails implements ModelInterface, ArrayAccess
     /**
      * Gets shipping_service_options.
      *
-     * @return \ClouSale\AmazonSellingPartnerAPI\Models\MerchantFulfillment\ShippingServiceOptions
+     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\ShippingServiceOptions
      */
     public function getShippingServiceOptions()
     {
@@ -461,7 +461,7 @@ class ShipmentRequestDetails implements ModelInterface, ArrayAccess
     /**
      * Sets shipping_service_options.
      *
-     * @param \ClouSale\AmazonSellingPartnerAPI\Models\MerchantFulfillment\ShippingServiceOptions $shipping_service_options shipping_service_options
+     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\ShippingServiceOptions $shipping_service_options shipping_service_options
      *
      * @return $this
      */
@@ -475,7 +475,7 @@ class ShipmentRequestDetails implements ModelInterface, ArrayAccess
     /**
      * Gets label_customization.
      *
-     * @return \ClouSale\AmazonSellingPartnerAPI\Models\MerchantFulfillment\LabelCustomization
+     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\LabelCustomization
      */
     public function getLabelCustomization()
     {
@@ -485,7 +485,7 @@ class ShipmentRequestDetails implements ModelInterface, ArrayAccess
     /**
      * Sets label_customization.
      *
-     * @param \ClouSale\AmazonSellingPartnerAPI\Models\MerchantFulfillment\LabelCustomization $label_customization label_customization
+     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\LabelCustomization $label_customization label_customization
      *
      * @return $this
      */

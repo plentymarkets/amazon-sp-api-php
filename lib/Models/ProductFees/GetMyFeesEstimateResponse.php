@@ -15,11 +15,11 @@
  * OpenAPI spec version: v0
  */
 
-namespace ClouSale\AmazonSellingPartnerAPI\Models\ProductFees;
+namespace Plentymarkets\AmazonSellingPartnerAPI\Models\ProductFees;
 
 use ArrayAccess;
-use ClouSale\AmazonSellingPartnerAPI\Models\ModelInterface;
-use ClouSale\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * GetMyFeesEstimateResponse Class Doc Comment.
@@ -43,8 +43,8 @@ class GetMyFeesEstimateResponse implements ModelInterface, ArrayAccess
      * @var string[]
      */
     protected static $swaggerTypes = [
-        'payload' => '\ClouSale\AmazonSellingPartnerAPI\Models\ProductFees\GetMyFeesEstimateResult',
-'errors' => '\ClouSale\AmazonSellingPartnerAPI\Models\ProductFees\ErrorList',    ];
+        'payload' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\ProductFees\GetMyFeesEstimateResult',
+'errors' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\ProductFees\ErrorList',    ];
 
     /**
      * Array of property to format mappings. Used for (de)serialization.
@@ -189,7 +189,7 @@ class GetMyFeesEstimateResponse implements ModelInterface, ArrayAccess
     /**
      * Gets payload.
      *
-     * @return \ClouSale\AmazonSellingPartnerAPI\Models\ProductFees\GetMyFeesEstimateResult
+     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\ProductFees\GetMyFeesEstimateResult
      */
     public function getPayload()
     {
@@ -199,7 +199,7 @@ class GetMyFeesEstimateResponse implements ModelInterface, ArrayAccess
     /**
      * Sets payload.
      *
-     * @param \ClouSale\AmazonSellingPartnerAPI\Models\ProductFees\GetMyFeesEstimateResult $payload payload
+     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\ProductFees\GetMyFeesEstimateResult $payload payload
      *
      * @return $this
      */
@@ -213,7 +213,7 @@ class GetMyFeesEstimateResponse implements ModelInterface, ArrayAccess
     /**
      * Gets errors.
      *
-     * @return \ClouSale\AmazonSellingPartnerAPI\Models\ProductFees\ErrorList
+     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\ProductFees\ErrorList
      */
     public function getErrors()
     {
@@ -223,7 +223,7 @@ class GetMyFeesEstimateResponse implements ModelInterface, ArrayAccess
     /**
      * Sets errors.
      *
-     * @param \ClouSale\AmazonSellingPartnerAPI\Models\ProductFees\ErrorList $errors errors
+     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\ProductFees\ErrorList $errors errors
      *
      * @return $this
      */

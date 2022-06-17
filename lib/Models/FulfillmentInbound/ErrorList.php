@@ -15,12 +15,12 @@
  * OpenAPI spec version: v0
  */
 
-namespace ClouSale\AmazonSellingPartnerAPI\Models\FulfillmentInbound;
+namespace Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound;
 
 use ArrayAccess;
-use ClouSale\AmazonSellingPartnerAPI\Models\IterableType;
-use ClouSale\AmazonSellingPartnerAPI\Models\ModelInterface;
-use ClouSale\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plentymarkets\AmazonSellingPartnerAPI\Models\IterableType;
+use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * ErrorList Class Doc Comment.

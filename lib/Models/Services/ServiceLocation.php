@@ -15,11 +15,11 @@
  * OpenAPI spec version: v1
  */
 
-namespace ClouSale\AmazonSellingPartnerAPI\Models\Services;
+namespace Plentymarkets\AmazonSellingPartnerAPI\Models\Services;
 
 use ArrayAccess;
-use ClouSale\AmazonSellingPartnerAPI\Models\ModelInterface;
-use ClouSale\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * ServiceLocation Class Doc Comment.
@@ -47,7 +47,7 @@ class ServiceLocation implements ModelInterface, ArrayAccess
      */
     protected static $swaggerTypes = [
         'service_location_type' => 'string',
-'address' => '\ClouSale\AmazonSellingPartnerAPI\Models\Services\Address',    ];
+'address' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Services\Address',    ];
 
     /**
      * Array of property to format mappings. Used for (de)serialization.
@@ -245,7 +245,7 @@ self::SERVICE_LOCATION_TYPE_ONLINE,        ];
     /**
      * Gets address.
      *
-     * @return \ClouSale\AmazonSellingPartnerAPI\Models\Services\Address
+     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Services\Address
      */
     public function getAddress()
     {
@@ -255,7 +255,7 @@ self::SERVICE_LOCATION_TYPE_ONLINE,        ];
     /**
      * Sets address.
      *
-     * @param \ClouSale\AmazonSellingPartnerAPI\Models\Services\Address $address address
+     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Services\Address $address address
      *
      * @return $this
      */

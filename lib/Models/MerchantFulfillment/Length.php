@@ -15,11 +15,11 @@
  * OpenAPI spec version: v0
  */
 
-namespace ClouSale\AmazonSellingPartnerAPI\Models\MerchantFulfillment;
+namespace Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment;
 
 use ArrayAccess;
-use ClouSale\AmazonSellingPartnerAPI\Models\ModelInterface;
-use ClouSale\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * Length Class Doc Comment.
@@ -47,7 +47,7 @@ class Length implements ModelInterface, ArrayAccess
      */
     protected static $swaggerTypes = [
         'value' => 'float',
-'unit' => '\ClouSale\AmazonSellingPartnerAPI\Models\MerchantFulfillment\UnitOfLength',    ];
+'unit' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\UnitOfLength',    ];
 
     /**
      * Array of property to format mappings. Used for (de)serialization.
@@ -216,7 +216,7 @@ class Length implements ModelInterface, ArrayAccess
     /**
      * Gets unit.
      *
-     * @return \ClouSale\AmazonSellingPartnerAPI\Models\MerchantFulfillment\UnitOfLength
+     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\UnitOfLength
      */
     public function getUnit()
     {
@@ -226,7 +226,7 @@ class Length implements ModelInterface, ArrayAccess
     /**
      * Sets unit.
      *
-     * @param \ClouSale\AmazonSellingPartnerAPI\Models\MerchantFulfillment\UnitOfLength $unit unit
+     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\UnitOfLength $unit unit
      *
      * @return $this
      */

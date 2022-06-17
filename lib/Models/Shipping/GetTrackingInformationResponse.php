@@ -15,11 +15,11 @@
  * OpenAPI spec version: v1
  */
 
-namespace ClouSale\AmazonSellingPartnerAPI\Models\Shipping;
+namespace Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping;
 
 use ArrayAccess;
-use ClouSale\AmazonSellingPartnerAPI\Models\ModelInterface;
-use ClouSale\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * GetTrackingInformationResponse Class Doc Comment.
@@ -46,8 +46,8 @@ class GetTrackingInformationResponse implements ModelInterface, ArrayAccess
      * @var string[]
      */
     protected static $swaggerTypes = [
-        'payload' => '\ClouSale\AmazonSellingPartnerAPI\Models\Shipping\TrackingInformation',
-'errors' => '\ClouSale\AmazonSellingPartnerAPI\Models\Shipping\ErrorList',    ];
+        'payload' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\TrackingInformation',
+'errors' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\ErrorList',    ];
 
     /**
      * Array of property to format mappings. Used for (de)serialization.
@@ -192,7 +192,7 @@ class GetTrackingInformationResponse implements ModelInterface, ArrayAccess
     /**
      * Gets payload.
      *
-     * @return \ClouSale\AmazonSellingPartnerAPI\Models\Shipping\TrackingInformation
+     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\TrackingInformation
      */
     public function getPayload()
     {
@@ -202,7 +202,7 @@ class GetTrackingInformationResponse implements ModelInterface, ArrayAccess
     /**
      * Sets payload.
      *
-     * @param \ClouSale\AmazonSellingPartnerAPI\Models\Shipping\TrackingInformation $payload payload
+     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\TrackingInformation $payload payload
      *
      * @return $this
      */
@@ -216,7 +216,7 @@ class GetTrackingInformationResponse implements ModelInterface, ArrayAccess
     /**
      * Gets errors.
      *
-     * @return \ClouSale\AmazonSellingPartnerAPI\Models\Shipping\ErrorList
+     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\ErrorList
      */
     public function getErrors()
     {
@@ -226,7 +226,7 @@ class GetTrackingInformationResponse implements ModelInterface, ArrayAccess
     /**
      * Sets errors.
      *
-     * @param \ClouSale\AmazonSellingPartnerAPI\Models\Shipping\ErrorList $errors errors
+     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\ErrorList $errors errors
      *
      * @return $this
      */

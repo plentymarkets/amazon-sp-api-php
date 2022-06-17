@@ -15,11 +15,11 @@
  * OpenAPI spec version: 2020-07-01
  */
 
-namespace ClouSale\AmazonSellingPartnerAPI\Models\FulfillmentOutbound;
+namespace Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound;
 
 use ArrayAccess;
-use ClouSale\AmazonSellingPartnerAPI\Models\ModelInterface;
-use ClouSale\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * GetFulfillmentPreviewItem Class Doc Comment.
@@ -47,8 +47,8 @@ class GetFulfillmentPreviewItem implements ModelInterface, ArrayAccess
      */
     protected static $swaggerTypes = [
         'seller_sku' => 'string',
-'quantity' => '\ClouSale\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\Quantity',
-'per_unit_declared_value' => '\ClouSale\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\Money',
+'quantity' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\Quantity',
+'per_unit_declared_value' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\Money',
 'seller_fulfillment_order_item_id' => 'string',    ];
 
     /**
@@ -238,7 +238,7 @@ class GetFulfillmentPreviewItem implements ModelInterface, ArrayAccess
     /**
      * Gets quantity.
      *
-     * @return \ClouSale\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\Quantity
+     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\Quantity
      */
     public function getQuantity()
     {
@@ -248,7 +248,7 @@ class GetFulfillmentPreviewItem implements ModelInterface, ArrayAccess
     /**
      * Sets quantity.
      *
-     * @param \ClouSale\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\Quantity $quantity quantity
+     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\Quantity $quantity quantity
      *
      * @return $this
      */
@@ -262,7 +262,7 @@ class GetFulfillmentPreviewItem implements ModelInterface, ArrayAccess
     /**
      * Gets per_unit_declared_value.
      *
-     * @return \ClouSale\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\Money
+     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\Money
      */
     public function getPerUnitDeclaredValue()
     {
@@ -272,7 +272,7 @@ class GetFulfillmentPreviewItem implements ModelInterface, ArrayAccess
     /**
      * Sets per_unit_declared_value.
      *
-     * @param \ClouSale\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\Money $per_unit_declared_value per_unit_declared_value
+     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound\Money $per_unit_declared_value per_unit_declared_value
      *
      * @return $this
      */

@@ -13,7 +13,7 @@
  * OpenAPI spec version: v1
  */
 
-namespace ClouSale\AmazonSellingPartnerAPI;
+namespace Plentymarkets\AmazonSellingPartnerAPI;
 
 /**
  * Configuration Class Doc Comment.
@@ -355,7 +355,7 @@ class Configuration
      */
     public static function toDebugReport()
     {
-        $report = 'PHP SDK (ClouSale\AmazonSellingPartnerAPI) Debug Report:'.PHP_EOL;
+        $report = 'PHP SDK (Plentymarkets\AmazonSellingPartnerAPI) Debug Report:'.PHP_EOL;
         $report .= '    OS: '.php_uname().PHP_EOL;
         $report .= '    PHP Version: '.PHP_VERSION.PHP_EOL;
         $report .= '    OpenAPI Spec Version: v1'.PHP_EOL;

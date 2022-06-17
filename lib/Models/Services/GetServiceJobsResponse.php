@@ -15,11 +15,11 @@
  * OpenAPI spec version: v1
  */
 
-namespace ClouSale\AmazonSellingPartnerAPI\Models\Services;
+namespace Plentymarkets\AmazonSellingPartnerAPI\Models\Services;
 
 use ArrayAccess;
-use ClouSale\AmazonSellingPartnerAPI\Models\ModelInterface;
-use ClouSale\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * GetServiceJobsResponse Class Doc Comment.
@@ -46,8 +46,8 @@ class GetServiceJobsResponse implements ModelInterface, ArrayAccess
      * @var string[]
      */
     protected static $swaggerTypes = [
-        'payload' => '\ClouSale\AmazonSellingPartnerAPI\Models\Services\JobListing',
-'errors' => '\ClouSale\AmazonSellingPartnerAPI\Models\Services\ErrorList',    ];
+        'payload' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Services\JobListing',
+'errors' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Services\ErrorList',    ];
 
     /**
      * Array of property to format mappings. Used for (de)serialization.
@@ -192,7 +192,7 @@ class GetServiceJobsResponse implements ModelInterface, ArrayAccess
     /**
      * Gets payload.
      *
-     * @return \ClouSale\AmazonSellingPartnerAPI\Models\Services\JobListing
+     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Services\JobListing
      */
     public function getPayload()
     {
@@ -202,7 +202,7 @@ class GetServiceJobsResponse implements ModelInterface, ArrayAccess
     /**
      * Sets payload.
      *
-     * @param \ClouSale\AmazonSellingPartnerAPI\Models\Services\JobListing $payload payload
+     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Services\JobListing $payload payload
      *
      * @return $this
      */
@@ -216,7 +216,7 @@ class GetServiceJobsResponse implements ModelInterface, ArrayAccess
     /**
      * Gets errors.
      *
-     * @return \ClouSale\AmazonSellingPartnerAPI\Models\Services\ErrorList
+     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Services\ErrorList
      */
     public function getErrors()
     {
@@ -226,7 +226,7 @@ class GetServiceJobsResponse implements ModelInterface, ArrayAccess
     /**
      * Sets errors.
      *
-     * @param \ClouSale\AmazonSellingPartnerAPI\Models\Services\ErrorList $errors errors
+     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Services\ErrorList $errors errors
      *
      * @return $this
      */

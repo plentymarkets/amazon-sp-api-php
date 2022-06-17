@@ -15,11 +15,11 @@
  * OpenAPI spec version: v0
  */
 
-namespace ClouSale\AmazonSellingPartnerAPI\Models\ProductPricing;
+namespace Plentymarkets\AmazonSellingPartnerAPI\Models\ProductPricing;
 
 use ArrayAccess;
-use ClouSale\AmazonSellingPartnerAPI\Models\ModelInterface;
-use ClouSale\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * Points Class Doc Comment.
@@ -44,7 +44,7 @@ class Points implements ModelInterface, ArrayAccess
      */
     protected static $swaggerTypes = [
         'points_number' => 'int',
-'points_monetary_value' => '\ClouSale\AmazonSellingPartnerAPI\Models\ProductPricing\MoneyType',    ];
+'points_monetary_value' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\ProductPricing\MoneyType',    ];
 
     /**
      * Array of property to format mappings. Used for (de)serialization.
@@ -213,7 +213,7 @@ class Points implements ModelInterface, ArrayAccess
     /**
      * Gets points_monetary_value.
      *
-     * @return \ClouSale\AmazonSellingPartnerAPI\Models\ProductPricing\MoneyType
+     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\ProductPricing\MoneyType
      */
     public function getPointsMonetaryValue()
     {
@@ -223,7 +223,7 @@ class Points implements ModelInterface, ArrayAccess
     /**
      * Sets points_monetary_value.
      *
-     * @param \ClouSale\AmazonSellingPartnerAPI\Models\ProductPricing\MoneyType $points_monetary_value points_monetary_value
+     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\ProductPricing\MoneyType $points_monetary_value points_monetary_value
      *
      * @return $this
      */

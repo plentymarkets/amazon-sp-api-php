@@ -15,7 +15,7 @@
  * OpenAPI spec version: v0
  */
 
-namespace ClouSale\AmazonSellingPartnerAPI\Models\FulfillmentInbound;
+namespace Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound;
 
 /**
  * BoxContentsSource Class Doc Comment.

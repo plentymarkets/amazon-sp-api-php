@@ -15,11 +15,11 @@
  * OpenAPI spec version: v0
  */
 
-namespace ClouSale\AmazonSellingPartnerAPI\Models\FulfillmentInbound;
+namespace Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound;
 
 use ArrayAccess;
-use ClouSale\AmazonSellingPartnerAPI\Models\ModelInterface;
-use ClouSale\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * ASINInboundGuidance Class Doc Comment.
@@ -47,8 +47,8 @@ class ASINInboundGuidance implements ModelInterface, ArrayAccess
      */
     protected static $swaggerTypes = [
         'asin' => 'string',
-'inbound_guidance' => '\ClouSale\AmazonSellingPartnerAPI\Models\FulfillmentInbound\InboundGuidance',
-'guidance_reason_list' => '\ClouSale\AmazonSellingPartnerAPI\Models\FulfillmentInbound\GuidanceReasonList',    ];
+'inbound_guidance' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\InboundGuidance',
+'guidance_reason_list' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\GuidanceReasonList',    ];
 
     /**
      * Array of property to format mappings. Used for (de)serialization.
@@ -229,7 +229,7 @@ class ASINInboundGuidance implements ModelInterface, ArrayAccess
     /**
      * Gets inbound_guidance.
      *
-     * @return \ClouSale\AmazonSellingPartnerAPI\Models\FulfillmentInbound\InboundGuidance
+     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\InboundGuidance
      */
     public function getInboundGuidance()
     {
@@ -239,7 +239,7 @@ class ASINInboundGuidance implements ModelInterface, ArrayAccess
     /**
      * Sets inbound_guidance.
      *
-     * @param \ClouSale\AmazonSellingPartnerAPI\Models\FulfillmentInbound\InboundGuidance $inbound_guidance inbound_guidance
+     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\InboundGuidance $inbound_guidance inbound_guidance
      *
      * @return $this
      */
@@ -253,7 +253,7 @@ class ASINInboundGuidance implements ModelInterface, ArrayAccess
     /**
      * Gets guidance_reason_list.
      *
-     * @return \ClouSale\AmazonSellingPartnerAPI\Models\FulfillmentInbound\GuidanceReasonList
+     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\GuidanceReasonList
      */
     public function getGuidanceReasonList()
     {
@@ -263,7 +263,7 @@ class ASINInboundGuidance implements ModelInterface, ArrayAccess
     /**
      * Sets guidance_reason_list.
      *
-     * @param \ClouSale\AmazonSellingPartnerAPI\Models\FulfillmentInbound\GuidanceReasonList $guidance_reason_list guidance_reason_list
+     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\GuidanceReasonList $guidance_reason_list guidance_reason_list
      *
      * @return $this
      */

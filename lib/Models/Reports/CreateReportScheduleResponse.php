@@ -15,11 +15,11 @@
  * OpenAPI spec version: 2020-09-04
  */
 
-namespace ClouSale\AmazonSellingPartnerAPI\Models\Reports;
+namespace Plentymarkets\AmazonSellingPartnerAPI\Models\Reports;
 
 use ArrayAccess;
-use ClouSale\AmazonSellingPartnerAPI\Models\ModelInterface;
-use ClouSale\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * CreateReportScheduleResponse Class Doc Comment.
@@ -46,8 +46,8 @@ class CreateReportScheduleResponse implements ModelInterface, ArrayAccess
      * @var string[]
      */
     protected static $swaggerTypes = [
-        'payload' => '\ClouSale\AmazonSellingPartnerAPI\Models\Reports\CreateReportScheduleResult',
-'errors' => '\ClouSale\AmazonSellingPartnerAPI\Models\Reports\ErrorList',    ];
+        'payload' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Reports\CreateReportScheduleResult',
+'errors' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Reports\ErrorList',    ];
 
     /**
      * Array of property to format mappings. Used for (de)serialization.
@@ -192,7 +192,7 @@ class CreateReportScheduleResponse implements ModelInterface, ArrayAccess
     /**
      * Gets payload.
      *
-     * @return \ClouSale\AmazonSellingPartnerAPI\Models\Reports\CreateReportScheduleResult
+     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Reports\CreateReportScheduleResult
      */
     public function getPayload()
     {
@@ -202,7 +202,7 @@ class CreateReportScheduleResponse implements ModelInterface, ArrayAccess
     /**
      * Sets payload.
      *
-     * @param \ClouSale\AmazonSellingPartnerAPI\Models\Reports\CreateReportScheduleResult $payload payload
+     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Reports\CreateReportScheduleResult $payload payload
      *
      * @return $this
      */
@@ -216,7 +216,7 @@ class CreateReportScheduleResponse implements ModelInterface, ArrayAccess
     /**
      * Gets errors.
      *
-     * @return \ClouSale\AmazonSellingPartnerAPI\Models\Reports\ErrorList
+     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Reports\ErrorList
      */
     public function getErrors()
     {
@@ -226,7 +226,7 @@ class CreateReportScheduleResponse implements ModelInterface, ArrayAccess
     /**
      * Sets errors.
      *
-     * @param \ClouSale\AmazonSellingPartnerAPI\Models\Reports\ErrorList $errors errors
+     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Reports\ErrorList $errors errors
      *
      * @return $this
      */

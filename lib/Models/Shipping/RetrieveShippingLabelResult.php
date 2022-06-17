@@ -15,11 +15,11 @@
  * OpenAPI spec version: v1
  */
 
-namespace ClouSale\AmazonSellingPartnerAPI\Models\Shipping;
+namespace Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping;
 
 use ArrayAccess;
-use ClouSale\AmazonSellingPartnerAPI\Models\ModelInterface;
-use ClouSale\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * RetrieveShippingLabelResult Class Doc Comment.
@@ -46,8 +46,8 @@ class RetrieveShippingLabelResult implements ModelInterface, ArrayAccess
      * @var string[]
      */
     protected static $swaggerTypes = [
-        'label_stream' => '\ClouSale\AmazonSellingPartnerAPI\Models\Shipping\LabelStream',
-'label_specification' => '\ClouSale\AmazonSellingPartnerAPI\Models\Shipping\LabelSpecification',    ];
+        'label_stream' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\LabelStream',
+'label_specification' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\LabelSpecification',    ];
 
     /**
      * Array of property to format mappings. Used for (de)serialization.
@@ -199,7 +199,7 @@ class RetrieveShippingLabelResult implements ModelInterface, ArrayAccess
     /**
      * Gets label_stream.
      *
-     * @return \ClouSale\AmazonSellingPartnerAPI\Models\Shipping\LabelStream
+     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\LabelStream
      */
     public function getLabelStream()
     {
@@ -209,7 +209,7 @@ class RetrieveShippingLabelResult implements ModelInterface, ArrayAccess
     /**
      * Sets label_stream.
      *
-     * @param \ClouSale\AmazonSellingPartnerAPI\Models\Shipping\LabelStream $label_stream label_stream
+     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\LabelStream $label_stream label_stream
      *
      * @return $this
      */
@@ -223,7 +223,7 @@ class RetrieveShippingLabelResult implements ModelInterface, ArrayAccess
     /**
      * Gets label_specification.
      *
-     * @return \ClouSale\AmazonSellingPartnerAPI\Models\Shipping\LabelSpecification
+     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\LabelSpecification
      */
     public function getLabelSpecification()
     {
@@ -233,7 +233,7 @@ class RetrieveShippingLabelResult implements ModelInterface, ArrayAccess
     /**
      * Sets label_specification.
      *
-     * @param \ClouSale\AmazonSellingPartnerAPI\Models\Shipping\LabelSpecification $label_specification label_specification
+     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\LabelSpecification $label_specification label_specification
      *
      * @return $this
      */

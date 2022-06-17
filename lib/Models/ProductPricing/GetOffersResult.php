@@ -15,11 +15,11 @@
  * OpenAPI spec version: v0
  */
 
-namespace ClouSale\AmazonSellingPartnerAPI\Models\ProductPricing;
+namespace Plentymarkets\AmazonSellingPartnerAPI\Models\ProductPricing;
 
 use ArrayAccess;
-use ClouSale\AmazonSellingPartnerAPI\Models\ModelInterface;
-use ClouSale\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * GetOffersResult Class Doc Comment.
@@ -46,11 +46,11 @@ class GetOffersResult implements ModelInterface, ArrayAccess
         'marketplace_id' => 'string',
 'asin' => 'string',
 'sku' => 'string',
-'item_condition' => '\ClouSale\AmazonSellingPartnerAPI\Models\ProductPricing\ConditionType',
+'item_condition' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\ProductPricing\ConditionType',
 'status' => 'string',
-'identifier' => '\ClouSale\AmazonSellingPartnerAPI\Models\ProductPricing\ItemIdentifier',
-'summary' => '\ClouSale\AmazonSellingPartnerAPI\Models\ProductPricing\Summary',
-'offers' => '\ClouSale\AmazonSellingPartnerAPI\Models\ProductPricing\OfferDetailList',    ];
+'identifier' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\ProductPricing\ItemIdentifier',
+'summary' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\ProductPricing\Summary',
+'offers' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\ProductPricing\OfferDetailList',    ];
 
     /**
      * Array of property to format mappings. Used for (de)serialization.
@@ -316,7 +316,7 @@ class GetOffersResult implements ModelInterface, ArrayAccess
     /**
      * Gets item_condition.
      *
-     * @return \ClouSale\AmazonSellingPartnerAPI\Models\ProductPricing\ConditionType
+     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\ProductPricing\ConditionType
      */
     public function getItemCondition()
     {
@@ -326,7 +326,7 @@ class GetOffersResult implements ModelInterface, ArrayAccess
     /**
      * Sets item_condition.
      *
-     * @param \ClouSale\AmazonSellingPartnerAPI\Models\ProductPricing\ConditionType $item_condition item_condition
+     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\ProductPricing\ConditionType $item_condition item_condition
      *
      * @return $this
      */
@@ -364,7 +364,7 @@ class GetOffersResult implements ModelInterface, ArrayAccess
     /**
      * Gets identifier.
      *
-     * @return \ClouSale\AmazonSellingPartnerAPI\Models\ProductPricing\ItemIdentifier
+     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\ProductPricing\ItemIdentifier
      */
     public function getIdentifier()
     {
@@ -374,7 +374,7 @@ class GetOffersResult implements ModelInterface, ArrayAccess
     /**
      * Sets identifier.
      *
-     * @param \ClouSale\AmazonSellingPartnerAPI\Models\ProductPricing\ItemIdentifier $identifier identifier
+     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\ProductPricing\ItemIdentifier $identifier identifier
      *
      * @return $this
      */
@@ -388,7 +388,7 @@ class GetOffersResult implements ModelInterface, ArrayAccess
     /**
      * Gets summary.
      *
-     * @return \ClouSale\AmazonSellingPartnerAPI\Models\ProductPricing\Summary
+     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\ProductPricing\Summary
      */
     public function getSummary()
     {
@@ -398,7 +398,7 @@ class GetOffersResult implements ModelInterface, ArrayAccess
     /**
      * Sets summary.
      *
-     * @param \ClouSale\AmazonSellingPartnerAPI\Models\ProductPricing\Summary $summary summary
+     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\ProductPricing\Summary $summary summary
      *
      * @return $this
      */
@@ -412,7 +412,7 @@ class GetOffersResult implements ModelInterface, ArrayAccess
     /**
      * Gets offers.
      *
-     * @return \ClouSale\AmazonSellingPartnerAPI\Models\ProductPricing\OfferDetailList
+     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\ProductPricing\OfferDetailList
      */
     public function getOffers()
     {
@@ -422,7 +422,7 @@ class GetOffersResult implements ModelInterface, ArrayAccess
     /**
      * Sets offers.
      *
-     * @param \ClouSale\AmazonSellingPartnerAPI\Models\ProductPricing\OfferDetailList $offers offers
+     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\ProductPricing\OfferDetailList $offers offers
      *
      * @return $this
      */

@@ -15,11 +15,11 @@
  * OpenAPI spec version: v1
  */
 
-namespace ClouSale\AmazonSellingPartnerAPI\Models\Shipping;
+namespace Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping;
 
 use ArrayAccess;
-use ClouSale\AmazonSellingPartnerAPI\Models\ModelInterface;
-use ClouSale\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * ContainerItem Class Doc Comment.
@@ -47,8 +47,8 @@ class ContainerItem implements ModelInterface, ArrayAccess
      */
     protected static $swaggerTypes = [
         'quantity' => 'float',
-'unit_price' => '\ClouSale\AmazonSellingPartnerAPI\Models\Shipping\Currency',
-'unit_weight' => '\ClouSale\AmazonSellingPartnerAPI\Models\Shipping\Weight',
+'unit_price' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\Currency',
+'unit_weight' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\Weight',
 'title' => 'string',    ];
 
     /**
@@ -241,7 +241,7 @@ class ContainerItem implements ModelInterface, ArrayAccess
     /**
      * Gets unit_price.
      *
-     * @return \ClouSale\AmazonSellingPartnerAPI\Models\Shipping\Currency
+     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\Currency
      */
     public function getUnitPrice()
     {
@@ -251,7 +251,7 @@ class ContainerItem implements ModelInterface, ArrayAccess
     /**
      * Sets unit_price.
      *
-     * @param \ClouSale\AmazonSellingPartnerAPI\Models\Shipping\Currency $unit_price unit_price
+     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\Currency $unit_price unit_price
      *
      * @return $this
      */
@@ -265,7 +265,7 @@ class ContainerItem implements ModelInterface, ArrayAccess
     /**
      * Gets unit_weight.
      *
-     * @return \ClouSale\AmazonSellingPartnerAPI\Models\Shipping\Weight
+     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\Weight
      */
     public function getUnitWeight()
     {
@@ -275,7 +275,7 @@ class ContainerItem implements ModelInterface, ArrayAccess
     /**
      * Sets unit_weight.
      *
-     * @param \ClouSale\AmazonSellingPartnerAPI\Models\Shipping\Weight $unit_weight unit_weight
+     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\Weight $unit_weight unit_weight
      *
      * @return $this
      */

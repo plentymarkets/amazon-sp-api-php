@@ -15,11 +15,11 @@
  * OpenAPI spec version: v0
  */
 
-namespace ClouSale\AmazonSellingPartnerAPI\Models\FulfillmentInbound;
+namespace Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound;
 
 use ArrayAccess;
-use ClouSale\AmazonSellingPartnerAPI\Models\ModelInterface;
-use ClouSale\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * GetInboundGuidanceResult Class Doc Comment.
@@ -43,10 +43,10 @@ class GetInboundGuidanceResult implements ModelInterface, ArrayAccess
      * @var string[]
      */
     protected static $swaggerTypes = [
-        'sku_inbound_guidance_list' => '\ClouSale\AmazonSellingPartnerAPI\Models\FulfillmentInbound\SKUInboundGuidanceList',
-'invalid_sku_list' => '\ClouSale\AmazonSellingPartnerAPI\Models\FulfillmentInbound\InvalidSKUList',
-'asin_inbound_guidance_list' => '\ClouSale\AmazonSellingPartnerAPI\Models\FulfillmentInbound\ASINInboundGuidanceList',
-'invalid_asin_list' => '\ClouSale\AmazonSellingPartnerAPI\Models\FulfillmentInbound\InvalidASINList',    ];
+        'sku_inbound_guidance_list' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\SKUInboundGuidanceList',
+'invalid_sku_list' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\InvalidSKUList',
+'asin_inbound_guidance_list' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\ASINInboundGuidanceList',
+'invalid_asin_list' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\InvalidASINList',    ];
 
     /**
      * Array of property to format mappings. Used for (de)serialization.
@@ -201,7 +201,7 @@ class GetInboundGuidanceResult implements ModelInterface, ArrayAccess
     /**
      * Gets sku_inbound_guidance_list.
      *
-     * @return \ClouSale\AmazonSellingPartnerAPI\Models\FulfillmentInbound\SKUInboundGuidanceList
+     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\SKUInboundGuidanceList
      */
     public function getSkuInboundGuidanceList()
     {
@@ -211,7 +211,7 @@ class GetInboundGuidanceResult implements ModelInterface, ArrayAccess
     /**
      * Sets sku_inbound_guidance_list.
      *
-     * @param \ClouSale\AmazonSellingPartnerAPI\Models\FulfillmentInbound\SKUInboundGuidanceList $sku_inbound_guidance_list sku_inbound_guidance_list
+     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\SKUInboundGuidanceList $sku_inbound_guidance_list sku_inbound_guidance_list
      *
      * @return $this
      */
@@ -225,7 +225,7 @@ class GetInboundGuidanceResult implements ModelInterface, ArrayAccess
     /**
      * Gets invalid_sku_list.
      *
-     * @return \ClouSale\AmazonSellingPartnerAPI\Models\FulfillmentInbound\InvalidSKUList
+     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\InvalidSKUList
      */
     public function getInvalidSkuList()
     {
@@ -235,7 +235,7 @@ class GetInboundGuidanceResult implements ModelInterface, ArrayAccess
     /**
      * Sets invalid_sku_list.
      *
-     * @param \ClouSale\AmazonSellingPartnerAPI\Models\FulfillmentInbound\InvalidSKUList $invalid_sku_list invalid_sku_list
+     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\InvalidSKUList $invalid_sku_list invalid_sku_list
      *
      * @return $this
      */
@@ -249,7 +249,7 @@ class GetInboundGuidanceResult implements ModelInterface, ArrayAccess
     /**
      * Gets asin_inbound_guidance_list.
      *
-     * @return \ClouSale\AmazonSellingPartnerAPI\Models\FulfillmentInbound\ASINInboundGuidanceList
+     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\ASINInboundGuidanceList
      */
     public function getAsinInboundGuidanceList()
     {
@@ -259,7 +259,7 @@ class GetInboundGuidanceResult implements ModelInterface, ArrayAccess
     /**
      * Sets asin_inbound_guidance_list.
      *
-     * @param \ClouSale\AmazonSellingPartnerAPI\Models\FulfillmentInbound\ASINInboundGuidanceList $asin_inbound_guidance_list asin_inbound_guidance_list
+     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\ASINInboundGuidanceList $asin_inbound_guidance_list asin_inbound_guidance_list
      *
      * @return $this
      */
@@ -273,7 +273,7 @@ class GetInboundGuidanceResult implements ModelInterface, ArrayAccess
     /**
      * Gets invalid_asin_list.
      *
-     * @return \ClouSale\AmazonSellingPartnerAPI\Models\FulfillmentInbound\InvalidASINList
+     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\InvalidASINList
      */
     public function getInvalidAsinList()
     {
@@ -283,7 +283,7 @@ class GetInboundGuidanceResult implements ModelInterface, ArrayAccess
     /**
      * Sets invalid_asin_list.
      *
-     * @param \ClouSale\AmazonSellingPartnerAPI\Models\FulfillmentInbound\InvalidASINList $invalid_asin_list invalid_asin_list
+     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\InvalidASINList $invalid_asin_list invalid_asin_list
      *
      * @return $this
      */

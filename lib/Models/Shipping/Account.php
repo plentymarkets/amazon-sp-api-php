@@ -15,11 +15,11 @@
  * OpenAPI spec version: v1
  */
 
-namespace ClouSale\AmazonSellingPartnerAPI\Models\Shipping;
+namespace Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping;
 
 use ArrayAccess;
-use ClouSale\AmazonSellingPartnerAPI\Models\ModelInterface;
-use ClouSale\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * Account Class Doc Comment.
@@ -46,7 +46,7 @@ class Account implements ModelInterface, ArrayAccess
      * @var string[]
      */
     protected static $swaggerTypes = [
-        'account_id' => '\ClouSale\AmazonSellingPartnerAPI\Models\Shipping\AccountId',    ];
+        'account_id' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\AccountId',    ];
 
     /**
      * Array of property to format mappings. Used for (de)serialization.
@@ -190,7 +190,7 @@ class Account implements ModelInterface, ArrayAccess
     /**
      * Gets account_id.
      *
-     * @return \ClouSale\AmazonSellingPartnerAPI\Models\Shipping\AccountId
+     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\AccountId
      */
     public function getAccountId()
     {
@@ -200,7 +200,7 @@ class Account implements ModelInterface, ArrayAccess
     /**
      * Sets account_id.
      *
-     * @param \ClouSale\AmazonSellingPartnerAPI\Models\Shipping\AccountId $account_id account_id
+     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\AccountId $account_id account_id
      *
      * @return $this
      */

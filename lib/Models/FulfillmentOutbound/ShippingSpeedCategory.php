@@ -15,7 +15,7 @@
  * OpenAPI spec version: 2020-07-01
  */
 
-namespace ClouSale\AmazonSellingPartnerAPI\Models\FulfillmentOutbound;
+namespace Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentOutbound;
 
 /**
  * ShippingSpeedCategory Class Doc Comment.

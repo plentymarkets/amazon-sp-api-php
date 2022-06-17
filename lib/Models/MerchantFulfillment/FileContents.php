@@ -15,11 +15,11 @@
  * OpenAPI spec version: v0
  */
 
-namespace ClouSale\AmazonSellingPartnerAPI\Models\MerchantFulfillment;
+namespace Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment;
 
 use ArrayAccess;
-use ClouSale\AmazonSellingPartnerAPI\Models\ModelInterface;
-use ClouSale\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * FileContents Class Doc Comment.
@@ -47,7 +47,7 @@ class FileContents implements ModelInterface, ArrayAccess
      */
     protected static $swaggerTypes = [
         'contents' => 'string',
-'file_type' => '\ClouSale\AmazonSellingPartnerAPI\Models\MerchantFulfillment\FileType',
+'file_type' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\FileType',
 'checksum' => 'string',    ];
 
     /**
@@ -232,7 +232,7 @@ class FileContents implements ModelInterface, ArrayAccess
     /**
      * Gets file_type.
      *
-     * @return \ClouSale\AmazonSellingPartnerAPI\Models\MerchantFulfillment\FileType
+     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\FileType
      */
     public function getFileType()
     {
@@ -242,7 +242,7 @@ class FileContents implements ModelInterface, ArrayAccess
     /**
      * Sets file_type.
      *
-     * @param \ClouSale\AmazonSellingPartnerAPI\Models\MerchantFulfillment\FileType $file_type file_type
+     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\FileType $file_type file_type
      *
      * @return $this
      */

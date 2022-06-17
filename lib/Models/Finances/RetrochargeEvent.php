@@ -15,11 +15,11 @@
  * OpenAPI spec version: v0
  */
 
-namespace ClouSale\AmazonSellingPartnerAPI\Models\Finances;
+namespace Plentymarkets\AmazonSellingPartnerAPI\Models\Finances;
 
 use ArrayAccess;
-use ClouSale\AmazonSellingPartnerAPI\Models\ModelInterface;
-use ClouSale\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * RetrochargeEvent Class Doc Comment.
@@ -48,11 +48,11 @@ class RetrochargeEvent implements ModelInterface, ArrayAccess
     protected static $swaggerTypes = [
         'retrocharge_event_type' => 'string',
 'amazon_order_id' => 'string',
-'posted_date' => '\ClouSale\AmazonSellingPartnerAPI\Models\Finances\\DateTime',
-'base_tax' => '\ClouSale\AmazonSellingPartnerAPI\Models\Finances\Currency',
-'shipping_tax' => '\ClouSale\AmazonSellingPartnerAPI\Models\Finances\Currency',
+'posted_date' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\\DateTime',
+'base_tax' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\Currency',
+'shipping_tax' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\Currency',
 'marketplace_name' => 'string',
-'retrocharge_tax_withheld_list' => '\ClouSale\AmazonSellingPartnerAPI\Models\Finances\TaxWithheldComponentList',    ];
+'retrocharge_tax_withheld_list' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\TaxWithheldComponentList',    ];
 
     /**
      * Array of property to format mappings. Used for (de)serialization.
@@ -270,7 +270,7 @@ class RetrochargeEvent implements ModelInterface, ArrayAccess
     /**
      * Gets posted_date.
      *
-     * @return \ClouSale\AmazonSellingPartnerAPI\Models\Finances\DateTime
+     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\DateTime
      */
     public function getPostedDate()
     {
@@ -280,7 +280,7 @@ class RetrochargeEvent implements ModelInterface, ArrayAccess
     /**
      * Sets posted_date.
      *
-     * @param \ClouSale\AmazonSellingPartnerAPI\Models\Finances\DateTime $posted_date posted_date
+     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\DateTime $posted_date posted_date
      *
      * @return $this
      */
@@ -294,7 +294,7 @@ class RetrochargeEvent implements ModelInterface, ArrayAccess
     /**
      * Gets base_tax.
      *
-     * @return \ClouSale\AmazonSellingPartnerAPI\Models\Finances\Currency
+     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\Currency
      */
     public function getBaseTax()
     {
@@ -304,7 +304,7 @@ class RetrochargeEvent implements ModelInterface, ArrayAccess
     /**
      * Sets base_tax.
      *
-     * @param \ClouSale\AmazonSellingPartnerAPI\Models\Finances\Currency $base_tax base_tax
+     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\Currency $base_tax base_tax
      *
      * @return $this
      */
@@ -318,7 +318,7 @@ class RetrochargeEvent implements ModelInterface, ArrayAccess
     /**
      * Gets shipping_tax.
      *
-     * @return \ClouSale\AmazonSellingPartnerAPI\Models\Finances\Currency
+     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\Currency
      */
     public function getShippingTax()
     {
@@ -328,7 +328,7 @@ class RetrochargeEvent implements ModelInterface, ArrayAccess
     /**
      * Sets shipping_tax.
      *
-     * @param \ClouSale\AmazonSellingPartnerAPI\Models\Finances\Currency $shipping_tax shipping_tax
+     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\Currency $shipping_tax shipping_tax
      *
      * @return $this
      */
@@ -366,7 +366,7 @@ class RetrochargeEvent implements ModelInterface, ArrayAccess
     /**
      * Gets retrocharge_tax_withheld_list.
      *
-     * @return \ClouSale\AmazonSellingPartnerAPI\Models\Finances\TaxWithheldComponentList
+     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\TaxWithheldComponentList
      */
     public function getRetrochargeTaxWithheldList()
     {
@@ -376,7 +376,7 @@ class RetrochargeEvent implements ModelInterface, ArrayAccess
     /**
      * Sets retrocharge_tax_withheld_list.
      *
-     * @param \ClouSale\AmazonSellingPartnerAPI\Models\Finances\TaxWithheldComponentList $retrocharge_tax_withheld_list retrocharge_tax_withheld_list
+     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\TaxWithheldComponentList $retrocharge_tax_withheld_list retrocharge_tax_withheld_list
      *
      * @return $this
      */

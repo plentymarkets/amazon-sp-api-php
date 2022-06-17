@@ -15,11 +15,11 @@
  * OpenAPI spec version: v0
  */
 
-namespace ClouSale\AmazonSellingPartnerAPI\Models\MerchantFulfillment;
+namespace Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment;
 
 use ArrayAccess;
-use ClouSale\AmazonSellingPartnerAPI\Models\ModelInterface;
-use ClouSale\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * AvailableDeliveryExperienceOption Class Doc Comment.
@@ -46,8 +46,8 @@ class AvailableDeliveryExperienceOption implements ModelInterface, ArrayAccess
      * @var string[]
      */
     protected static $swaggerTypes = [
-        'delivery_experience_option' => '\ClouSale\AmazonSellingPartnerAPI\Models\MerchantFulfillment\DeliveryExperienceOption',
-'charge' => '\ClouSale\AmazonSellingPartnerAPI\Models\MerchantFulfillment\CurrencyAmount',    ];
+        'delivery_experience_option' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\DeliveryExperienceOption',
+'charge' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\CurrencyAmount',    ];
 
     /**
      * Array of property to format mappings. Used for (de)serialization.
@@ -199,7 +199,7 @@ class AvailableDeliveryExperienceOption implements ModelInterface, ArrayAccess
     /**
      * Gets delivery_experience_option.
      *
-     * @return \ClouSale\AmazonSellingPartnerAPI\Models\MerchantFulfillment\DeliveryExperienceOption
+     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\DeliveryExperienceOption
      */
     public function getDeliveryExperienceOption()
     {
@@ -209,7 +209,7 @@ class AvailableDeliveryExperienceOption implements ModelInterface, ArrayAccess
     /**
      * Sets delivery_experience_option.
      *
-     * @param \ClouSale\AmazonSellingPartnerAPI\Models\MerchantFulfillment\DeliveryExperienceOption $delivery_experience_option delivery_experience_option
+     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\DeliveryExperienceOption $delivery_experience_option delivery_experience_option
      *
      * @return $this
      */
@@ -223,7 +223,7 @@ class AvailableDeliveryExperienceOption implements ModelInterface, ArrayAccess
     /**
      * Gets charge.
      *
-     * @return \ClouSale\AmazonSellingPartnerAPI\Models\MerchantFulfillment\CurrencyAmount
+     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\CurrencyAmount
      */
     public function getCharge()
     {
@@ -233,7 +233,7 @@ class AvailableDeliveryExperienceOption implements ModelInterface, ArrayAccess
     /**
      * Sets charge.
      *
-     * @param \ClouSale\AmazonSellingPartnerAPI\Models\MerchantFulfillment\CurrencyAmount $charge charge
+     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\CurrencyAmount $charge charge
      *
      * @return $this
      */

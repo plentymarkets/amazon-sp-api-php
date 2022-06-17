@@ -15,11 +15,11 @@
  * OpenAPI spec version: v0
  */
 
-namespace ClouSale\AmazonSellingPartnerAPI\Models\Catalog;
+namespace Plentymarkets\AmazonSellingPartnerAPI\Models\Catalog;
 
 use ArrayAccess;
-use ClouSale\AmazonSellingPartnerAPI\Models\ModelInterface;
-use ClouSale\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * Item Class Doc Comment.
@@ -46,10 +46,10 @@ class Item extends Categories implements ModelInterface, ArrayAccess
      * @var string[]
      */
     protected static $swaggerTypes = [
-        'identifiers' => '\ClouSale\AmazonSellingPartnerAPI\Models\Catalog\IdentifierType',
-'attribute_sets' => '\ClouSale\AmazonSellingPartnerAPI\Models\Catalog\AttributeSetList',
-'relationships' => '\ClouSale\AmazonSellingPartnerAPI\Models\Catalog\RelationshipList',
-'sales_rankings' => '\ClouSale\AmazonSellingPartnerAPI\Models\Catalog\SalesRankList',    ];
+        'identifiers' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Catalog\IdentifierType',
+'attribute_sets' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Catalog\AttributeSetList',
+'relationships' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Catalog\RelationshipList',
+'sales_rankings' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Catalog\SalesRankList',    ];
 
     /**
      * Array of property to format mappings. Used for (de)serialization.
@@ -208,7 +208,7 @@ class Item extends Categories implements ModelInterface, ArrayAccess
     /**
      * Gets identifiers.
      *
-     * @return \ClouSale\AmazonSellingPartnerAPI\Models\Catalog\IdentifierType
+     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Catalog\IdentifierType
      */
     public function getIdentifiers()
     {
@@ -218,7 +218,7 @@ class Item extends Categories implements ModelInterface, ArrayAccess
     /**
      * Sets identifiers.
      *
-     * @param \ClouSale\AmazonSellingPartnerAPI\Models\Catalog\IdentifierType $identifiers identifiers
+     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Catalog\IdentifierType $identifiers identifiers
      *
      * @return $this
      */
@@ -232,7 +232,7 @@ class Item extends Categories implements ModelInterface, ArrayAccess
     /**
      * Gets attribute_sets.
      *
-     * @return \ClouSale\AmazonSellingPartnerAPI\Models\Catalog\AttributeSetList
+     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Catalog\AttributeSetList
      */
     public function getAttributeSets()
     {
@@ -242,7 +242,7 @@ class Item extends Categories implements ModelInterface, ArrayAccess
     /**
      * Sets attribute_sets.
      *
-     * @param \ClouSale\AmazonSellingPartnerAPI\Models\Catalog\AttributeSetList $attribute_sets attribute_sets
+     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Catalog\AttributeSetList $attribute_sets attribute_sets
      *
      * @return $this
      */
@@ -256,7 +256,7 @@ class Item extends Categories implements ModelInterface, ArrayAccess
     /**
      * Gets relationships.
      *
-     * @return \ClouSale\AmazonSellingPartnerAPI\Models\Catalog\RelationshipList
+     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Catalog\RelationshipList
      */
     public function getRelationships()
     {
@@ -266,7 +266,7 @@ class Item extends Categories implements ModelInterface, ArrayAccess
     /**
      * Sets relationships.
      *
-     * @param \ClouSale\AmazonSellingPartnerAPI\Models\Catalog\RelationshipList $relationships relationships
+     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Catalog\RelationshipList $relationships relationships
      *
      * @return $this
      */
@@ -280,7 +280,7 @@ class Item extends Categories implements ModelInterface, ArrayAccess
     /**
      * Gets sales_rankings.
      *
-     * @return \ClouSale\AmazonSellingPartnerAPI\Models\Catalog\SalesRankList
+     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Catalog\SalesRankList
      */
     public function getSalesRankings()
     {
@@ -290,7 +290,7 @@ class Item extends Categories implements ModelInterface, ArrayAccess
     /**
      * Sets sales_rankings.
      *
-     * @param \ClouSale\AmazonSellingPartnerAPI\Models\Catalog\SalesRankList $sales_rankings sales_rankings
+     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Catalog\SalesRankList $sales_rankings sales_rankings
      *
      * @return $this
      */

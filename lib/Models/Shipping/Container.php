@@ -15,11 +15,11 @@
  * OpenAPI spec version: v1
  */
 
-namespace ClouSale\AmazonSellingPartnerAPI\Models\Shipping;
+namespace Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping;
 
 use ArrayAccess;
-use ClouSale\AmazonSellingPartnerAPI\Models\ModelInterface;
-use ClouSale\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * Container Class Doc Comment.
@@ -47,11 +47,11 @@ class Container implements ModelInterface, ArrayAccess
      */
     protected static $swaggerTypes = [
         'container_type' => 'string',
-'container_reference_id' => '\ClouSale\AmazonSellingPartnerAPI\Models\Shipping\ContainerReferenceId',
-'value' => '\ClouSale\AmazonSellingPartnerAPI\Models\Shipping\Currency',
-'dimensions' => '\ClouSale\AmazonSellingPartnerAPI\Models\Shipping\Dimensions',
-'items' => '\ClouSale\AmazonSellingPartnerAPI\Models\Shipping\ContainerItem[]',
-'weight' => '\ClouSale\AmazonSellingPartnerAPI\Models\Shipping\Weight',    ];
+'container_reference_id' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\ContainerReferenceId',
+'value' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\Currency',
+'dimensions' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\Dimensions',
+'items' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\ContainerItem[]',
+'weight' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\Weight',    ];
 
     /**
      * Array of property to format mappings. Used for (de)serialization.
@@ -281,7 +281,7 @@ class Container implements ModelInterface, ArrayAccess
     /**
      * Gets container_reference_id.
      *
-     * @return \ClouSale\AmazonSellingPartnerAPI\Models\Shipping\ContainerReferenceId
+     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\ContainerReferenceId
      */
     public function getContainerReferenceId()
     {
@@ -291,7 +291,7 @@ class Container implements ModelInterface, ArrayAccess
     /**
      * Sets container_reference_id.
      *
-     * @param \ClouSale\AmazonSellingPartnerAPI\Models\Shipping\ContainerReferenceId $container_reference_id container_reference_id
+     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\ContainerReferenceId $container_reference_id container_reference_id
      *
      * @return $this
      */
@@ -305,7 +305,7 @@ class Container implements ModelInterface, ArrayAccess
     /**
      * Gets value.
      *
-     * @return \ClouSale\AmazonSellingPartnerAPI\Models\Shipping\Currency
+     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\Currency
      */
     public function getValue()
     {
@@ -315,7 +315,7 @@ class Container implements ModelInterface, ArrayAccess
     /**
      * Sets value.
      *
-     * @param \ClouSale\AmazonSellingPartnerAPI\Models\Shipping\Currency $value value
+     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\Currency $value value
      *
      * @return $this
      */
@@ -329,7 +329,7 @@ class Container implements ModelInterface, ArrayAccess
     /**
      * Gets dimensions.
      *
-     * @return \ClouSale\AmazonSellingPartnerAPI\Models\Shipping\Dimensions
+     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\Dimensions
      */
     public function getDimensions()
     {
@@ -339,7 +339,7 @@ class Container implements ModelInterface, ArrayAccess
     /**
      * Sets dimensions.
      *
-     * @param \ClouSale\AmazonSellingPartnerAPI\Models\Shipping\Dimensions $dimensions dimensions
+     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\Dimensions $dimensions dimensions
      *
      * @return $this
      */
@@ -353,7 +353,7 @@ class Container implements ModelInterface, ArrayAccess
     /**
      * Gets items.
      *
-     * @return \ClouSale\AmazonSellingPartnerAPI\Models\Shipping\ContainerItem[]
+     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\ContainerItem[]
      */
     public function getItems()
     {
@@ -363,7 +363,7 @@ class Container implements ModelInterface, ArrayAccess
     /**
      * Sets items.
      *
-     * @param \ClouSale\AmazonSellingPartnerAPI\Models\Shipping\ContainerItem[] $items a list of the items in the container
+     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\ContainerItem[] $items a list of the items in the container
      *
      * @return $this
      */
@@ -377,7 +377,7 @@ class Container implements ModelInterface, ArrayAccess
     /**
      * Gets weight.
      *
-     * @return \ClouSale\AmazonSellingPartnerAPI\Models\Shipping\Weight
+     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\Weight
      */
     public function getWeight()
     {
@@ -387,7 +387,7 @@ class Container implements ModelInterface, ArrayAccess
     /**
      * Sets weight.
      *
-     * @param \ClouSale\AmazonSellingPartnerAPI\Models\Shipping\Weight $weight weight
+     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Shipping\Weight $weight weight
      *
      * @return $this
      */

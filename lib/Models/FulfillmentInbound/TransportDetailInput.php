@@ -15,11 +15,11 @@
  * OpenAPI spec version: v0
  */
 
-namespace ClouSale\AmazonSellingPartnerAPI\Models\FulfillmentInbound;
+namespace Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound;
 
 use ArrayAccess;
-use ClouSale\AmazonSellingPartnerAPI\Models\ModelInterface;
-use ClouSale\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * TransportDetailInput Class Doc Comment.
@@ -46,10 +46,10 @@ class TransportDetailInput implements ModelInterface, ArrayAccess
      * @var string[]
      */
     protected static $swaggerTypes = [
-        'partnered_small_parcel_data' => '\ClouSale\AmazonSellingPartnerAPI\Models\FulfillmentInbound\PartneredSmallParcelDataInput',
-'non_partnered_small_parcel_data' => '\ClouSale\AmazonSellingPartnerAPI\Models\FulfillmentInbound\NonPartneredSmallParcelDataInput',
-'partnered_ltl_data' => '\ClouSale\AmazonSellingPartnerAPI\Models\FulfillmentInbound\PartneredLtlDataInput',
-'non_partnered_ltl_data' => '\ClouSale\AmazonSellingPartnerAPI\Models\FulfillmentInbound\NonPartneredLtlDataInput',    ];
+        'partnered_small_parcel_data' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\PartneredSmallParcelDataInput',
+'non_partnered_small_parcel_data' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\NonPartneredSmallParcelDataInput',
+'partnered_ltl_data' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\PartneredLtlDataInput',
+'non_partnered_ltl_data' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\NonPartneredLtlDataInput',    ];
 
     /**
      * Array of property to format mappings. Used for (de)serialization.
@@ -204,7 +204,7 @@ class TransportDetailInput implements ModelInterface, ArrayAccess
     /**
      * Gets partnered_small_parcel_data.
      *
-     * @return \ClouSale\AmazonSellingPartnerAPI\Models\FulfillmentInbound\PartneredSmallParcelDataInput
+     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\PartneredSmallParcelDataInput
      */
     public function getPartneredSmallParcelData()
     {
@@ -214,7 +214,7 @@ class TransportDetailInput implements ModelInterface, ArrayAccess
     /**
      * Sets partnered_small_parcel_data.
      *
-     * @param \ClouSale\AmazonSellingPartnerAPI\Models\FulfillmentInbound\PartneredSmallParcelDataInput $partnered_small_parcel_data partnered_small_parcel_data
+     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\PartneredSmallParcelDataInput $partnered_small_parcel_data partnered_small_parcel_data
      *
      * @return $this
      */
@@ -228,7 +228,7 @@ class TransportDetailInput implements ModelInterface, ArrayAccess
     /**
      * Gets non_partnered_small_parcel_data.
      *
-     * @return \ClouSale\AmazonSellingPartnerAPI\Models\FulfillmentInbound\NonPartneredSmallParcelDataInput
+     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\NonPartneredSmallParcelDataInput
      */
     public function getNonPartneredSmallParcelData()
     {
@@ -238,7 +238,7 @@ class TransportDetailInput implements ModelInterface, ArrayAccess
     /**
      * Sets non_partnered_small_parcel_data.
      *
-     * @param \ClouSale\AmazonSellingPartnerAPI\Models\FulfillmentInbound\NonPartneredSmallParcelDataInput $non_partnered_small_parcel_data non_partnered_small_parcel_data
+     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\NonPartneredSmallParcelDataInput $non_partnered_small_parcel_data non_partnered_small_parcel_data
      *
      * @return $this
      */
@@ -252,7 +252,7 @@ class TransportDetailInput implements ModelInterface, ArrayAccess
     /**
      * Gets partnered_ltl_data.
      *
-     * @return \ClouSale\AmazonSellingPartnerAPI\Models\FulfillmentInbound\PartneredLtlDataInput
+     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\PartneredLtlDataInput
      */
     public function getPartneredLtlData()
     {
@@ -262,7 +262,7 @@ class TransportDetailInput implements ModelInterface, ArrayAccess
     /**
      * Sets partnered_ltl_data.
      *
-     * @param \ClouSale\AmazonSellingPartnerAPI\Models\FulfillmentInbound\PartneredLtlDataInput $partnered_ltl_data partnered_ltl_data
+     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\PartneredLtlDataInput $partnered_ltl_data partnered_ltl_data
      *
      * @return $this
      */
@@ -276,7 +276,7 @@ class TransportDetailInput implements ModelInterface, ArrayAccess
     /**
      * Gets non_partnered_ltl_data.
      *
-     * @return \ClouSale\AmazonSellingPartnerAPI\Models\FulfillmentInbound\NonPartneredLtlDataInput
+     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\NonPartneredLtlDataInput
      */
     public function getNonPartneredLtlData()
     {
@@ -286,7 +286,7 @@ class TransportDetailInput implements ModelInterface, ArrayAccess
     /**
      * Sets non_partnered_ltl_data.
      *
-     * @param \ClouSale\AmazonSellingPartnerAPI\Models\FulfillmentInbound\NonPartneredLtlDataInput $non_partnered_ltl_data non_partnered_ltl_data
+     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\NonPartneredLtlDataInput $non_partnered_ltl_data non_partnered_ltl_data
      *
      * @return $this
      */

@@ -15,11 +15,11 @@
  * OpenAPI spec version: v0
  */
 
-namespace ClouSale\AmazonSellingPartnerAPI\Models\ProductFees;
+namespace Plentymarkets\AmazonSellingPartnerAPI\Models\ProductFees;
 
 use ArrayAccess;
-use ClouSale\AmazonSellingPartnerAPI\Models\ModelInterface;
-use ClouSale\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * FeesEstimateRequest Class Doc Comment.
@@ -45,7 +45,7 @@ class FeesEstimateRequest implements ModelInterface, ArrayAccess
     protected static $swaggerTypes = [
         'marketplace_id' => 'string',
 'is_amazon_fulfilled' => 'bool',
-'price_to_estimate_fees' => '\ClouSale\AmazonSellingPartnerAPI\Models\ProductFees\PriceToEstimateFees',
+'price_to_estimate_fees' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\ProductFees\PriceToEstimateFees',
 'identifier' => 'string',    ];
 
     /**
@@ -259,7 +259,7 @@ class FeesEstimateRequest implements ModelInterface, ArrayAccess
     /**
      * Gets price_to_estimate_fees.
      *
-     * @return \ClouSale\AmazonSellingPartnerAPI\Models\ProductFees\PriceToEstimateFees
+     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\ProductFees\PriceToEstimateFees
      */
     public function getPriceToEstimateFees()
     {
@@ -269,7 +269,7 @@ class FeesEstimateRequest implements ModelInterface, ArrayAccess
     /**
      * Sets price_to_estimate_fees.
      *
-     * @param \ClouSale\AmazonSellingPartnerAPI\Models\ProductFees\PriceToEstimateFees $price_to_estimate_fees price_to_estimate_fees
+     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\ProductFees\PriceToEstimateFees $price_to_estimate_fees price_to_estimate_fees
      *
      * @return $this
      */

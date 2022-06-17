@@ -15,11 +15,11 @@
  * OpenAPI spec version: v0
  */
 
-namespace ClouSale\AmazonSellingPartnerAPI\Models\MerchantFulfillment;
+namespace Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment;
 
 use ArrayAccess;
-use ClouSale\AmazonSellingPartnerAPI\Models\ModelInterface;
-use ClouSale\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * AdditionalSellerInputs Class Doc Comment.
@@ -47,7 +47,7 @@ class AdditionalSellerInputs implements ModelInterface, ArrayAccess
      */
     protected static $swaggerTypes = [
         'additional_input_field_name' => 'string',
-'additional_seller_input' => '\ClouSale\AmazonSellingPartnerAPI\Models\MerchantFulfillment\AdditionalSellerInput',    ];
+'additional_seller_input' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\AdditionalSellerInput',    ];
 
     /**
      * Array of property to format mappings. Used for (de)serialization.
@@ -223,7 +223,7 @@ class AdditionalSellerInputs implements ModelInterface, ArrayAccess
     /**
      * Gets additional_seller_input.
      *
-     * @return \ClouSale\AmazonSellingPartnerAPI\Models\MerchantFulfillment\AdditionalSellerInput
+     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\AdditionalSellerInput
      */
     public function getAdditionalSellerInput()
     {
@@ -233,7 +233,7 @@ class AdditionalSellerInputs implements ModelInterface, ArrayAccess
     /**
      * Sets additional_seller_input.
      *
-     * @param \ClouSale\AmazonSellingPartnerAPI\Models\MerchantFulfillment\AdditionalSellerInput $additional_seller_input additional_seller_input
+     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\MerchantFulfillment\AdditionalSellerInput $additional_seller_input additional_seller_input
      *
      * @return $this
      */

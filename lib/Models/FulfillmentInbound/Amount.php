@@ -15,11 +15,11 @@
  * OpenAPI spec version: v0
  */
 
-namespace ClouSale\AmazonSellingPartnerAPI\Models\FulfillmentInbound;
+namespace Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound;
 
 use ArrayAccess;
-use ClouSale\AmazonSellingPartnerAPI\Models\ModelInterface;
-use ClouSale\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * Amount Class Doc Comment.
@@ -46,8 +46,8 @@ class Amount implements ModelInterface, ArrayAccess
      * @var string[]
      */
     protected static $swaggerTypes = [
-        'currency_code' => '\ClouSale\AmazonSellingPartnerAPI\Models\FulfillmentInbound\CurrencyCode',
-'value' => '\ClouSale\AmazonSellingPartnerAPI\Models\FulfillmentInbound\BigDecimalType',    ];
+        'currency_code' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\CurrencyCode',
+'value' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\BigDecimalType',    ];
 
     /**
      * Array of property to format mappings. Used for (de)serialization.
@@ -199,7 +199,7 @@ class Amount implements ModelInterface, ArrayAccess
     /**
      * Gets currency_code.
      *
-     * @return \ClouSale\AmazonSellingPartnerAPI\Models\FulfillmentInbound\CurrencyCode
+     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\CurrencyCode
      */
     public function getCurrencyCode()
     {
@@ -209,7 +209,7 @@ class Amount implements ModelInterface, ArrayAccess
     /**
      * Sets currency_code.
      *
-     * @param \ClouSale\AmazonSellingPartnerAPI\Models\FulfillmentInbound\CurrencyCode $currency_code currency_code
+     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\CurrencyCode $currency_code currency_code
      *
      * @return $this
      */
@@ -223,7 +223,7 @@ class Amount implements ModelInterface, ArrayAccess
     /**
      * Gets value.
      *
-     * @return \ClouSale\AmazonSellingPartnerAPI\Models\FulfillmentInbound\BigDecimalType
+     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\BigDecimalType
      */
     public function getValue()
     {
@@ -233,7 +233,7 @@ class Amount implements ModelInterface, ArrayAccess
     /**
      * Sets value.
      *
-     * @param \ClouSale\AmazonSellingPartnerAPI\Models\FulfillmentInbound\BigDecimalType $value value
+     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\FulfillmentInbound\BigDecimalType $value value
      *
      * @return $this
      */

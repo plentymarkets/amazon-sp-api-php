@@ -15,11 +15,11 @@
  * OpenAPI spec version: 2020-09-04
  */
 
-namespace ClouSale\AmazonSellingPartnerAPI\Models\Reports;
+namespace Plentymarkets\AmazonSellingPartnerAPI\Models\Reports;
 
 use ArrayAccess;
-use ClouSale\AmazonSellingPartnerAPI\Models\ModelInterface;
-use ClouSale\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * ReportOptions Class Doc Comment.

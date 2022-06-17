@@ -15,11 +15,11 @@
  * OpenAPI spec version: v0
  */
 
-namespace ClouSale\AmazonSellingPartnerAPI\Models\Finances;
+namespace Plentymarkets\AmazonSellingPartnerAPI\Models\Finances;
 
 use ArrayAccess;
-use ClouSale\AmazonSellingPartnerAPI\Models\ModelInterface;
-use ClouSale\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * ShipmentEvent Class Doc Comment.
@@ -49,16 +49,16 @@ class ShipmentEvent implements ModelInterface, ArrayAccess
         'amazon_order_id' => 'string',
 'seller_order_id' => 'string',
 'marketplace_name' => 'string',
-'order_charge_list' => '\ClouSale\AmazonSellingPartnerAPI\Models\Finances\ChargeComponentList',
-'order_charge_adjustment_list' => '\ClouSale\AmazonSellingPartnerAPI\Models\Finances\ChargeComponentList',
-'shipment_fee_list' => '\ClouSale\AmazonSellingPartnerAPI\Models\Finances\FeeComponentList',
-'shipment_fee_adjustment_list' => '\ClouSale\AmazonSellingPartnerAPI\Models\Finances\FeeComponentList',
-'order_fee_list' => '\ClouSale\AmazonSellingPartnerAPI\Models\Finances\FeeComponentList',
-'order_fee_adjustment_list' => '\ClouSale\AmazonSellingPartnerAPI\Models\Finances\FeeComponentList',
-'direct_payment_list' => '\ClouSale\AmazonSellingPartnerAPI\Models\Finances\DirectPaymentList',
-'posted_date' => '\ClouSale\AmazonSellingPartnerAPI\Models\Finances\\DateTime',
-'shipment_item_list' => '\ClouSale\AmazonSellingPartnerAPI\Models\Finances\ShipmentItemList',
-'shipment_item_adjustment_list' => '\ClouSale\AmazonSellingPartnerAPI\Models\Finances\ShipmentItemList',    ];
+'order_charge_list' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\ChargeComponentList',
+'order_charge_adjustment_list' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\ChargeComponentList',
+'shipment_fee_list' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\FeeComponentList',
+'shipment_fee_adjustment_list' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\FeeComponentList',
+'order_fee_list' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\FeeComponentList',
+'order_fee_adjustment_list' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\FeeComponentList',
+'direct_payment_list' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\DirectPaymentList',
+'posted_date' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\\DateTime',
+'shipment_item_list' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\ShipmentItemList',
+'shipment_item_adjustment_list' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\ShipmentItemList',    ];
 
     /**
      * Array of property to format mappings. Used for (de)serialization.
@@ -330,7 +330,7 @@ class ShipmentEvent implements ModelInterface, ArrayAccess
     /**
      * Gets order_charge_list.
      *
-     * @return \ClouSale\AmazonSellingPartnerAPI\Models\Finances\ChargeComponentList
+     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\ChargeComponentList
      */
     public function getOrderChargeList()
     {
@@ -340,7 +340,7 @@ class ShipmentEvent implements ModelInterface, ArrayAccess
     /**
      * Sets order_charge_list.
      *
-     * @param \ClouSale\AmazonSellingPartnerAPI\Models\Finances\ChargeComponentList $order_charge_list order_charge_list
+     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\ChargeComponentList $order_charge_list order_charge_list
      *
      * @return $this
      */
@@ -354,7 +354,7 @@ class ShipmentEvent implements ModelInterface, ArrayAccess
     /**
      * Gets order_charge_adjustment_list.
      *
-     * @return \ClouSale\AmazonSellingPartnerAPI\Models\Finances\ChargeComponentList
+     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\ChargeComponentList
      */
     public function getOrderChargeAdjustmentList()
     {
@@ -364,7 +364,7 @@ class ShipmentEvent implements ModelInterface, ArrayAccess
     /**
      * Sets order_charge_adjustment_list.
      *
-     * @param \ClouSale\AmazonSellingPartnerAPI\Models\Finances\ChargeComponentList $order_charge_adjustment_list order_charge_adjustment_list
+     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\ChargeComponentList $order_charge_adjustment_list order_charge_adjustment_list
      *
      * @return $this
      */
@@ -378,7 +378,7 @@ class ShipmentEvent implements ModelInterface, ArrayAccess
     /**
      * Gets shipment_fee_list.
      *
-     * @return \ClouSale\AmazonSellingPartnerAPI\Models\Finances\FeeComponentList
+     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\FeeComponentList
      */
     public function getShipmentFeeList()
     {
@@ -388,7 +388,7 @@ class ShipmentEvent implements ModelInterface, ArrayAccess
     /**
      * Sets shipment_fee_list.
      *
-     * @param \ClouSale\AmazonSellingPartnerAPI\Models\Finances\FeeComponentList $shipment_fee_list shipment_fee_list
+     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\FeeComponentList $shipment_fee_list shipment_fee_list
      *
      * @return $this
      */
@@ -402,7 +402,7 @@ class ShipmentEvent implements ModelInterface, ArrayAccess
     /**
      * Gets shipment_fee_adjustment_list.
      *
-     * @return \ClouSale\AmazonSellingPartnerAPI\Models\Finances\FeeComponentList
+     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\FeeComponentList
      */
     public function getShipmentFeeAdjustmentList()
     {
@@ -412,7 +412,7 @@ class ShipmentEvent implements ModelInterface, ArrayAccess
     /**
      * Sets shipment_fee_adjustment_list.
      *
-     * @param \ClouSale\AmazonSellingPartnerAPI\Models\Finances\FeeComponentList $shipment_fee_adjustment_list shipment_fee_adjustment_list
+     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\FeeComponentList $shipment_fee_adjustment_list shipment_fee_adjustment_list
      *
      * @return $this
      */
@@ -426,7 +426,7 @@ class ShipmentEvent implements ModelInterface, ArrayAccess
     /**
      * Gets order_fee_list.
      *
-     * @return \ClouSale\AmazonSellingPartnerAPI\Models\Finances\FeeComponentList
+     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\FeeComponentList
      */
     public function getOrderFeeList()
     {
@@ -436,7 +436,7 @@ class ShipmentEvent implements ModelInterface, ArrayAccess
     /**
      * Sets order_fee_list.
      *
-     * @param \ClouSale\AmazonSellingPartnerAPI\Models\Finances\FeeComponentList $order_fee_list order_fee_list
+     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\FeeComponentList $order_fee_list order_fee_list
      *
      * @return $this
      */
@@ -450,7 +450,7 @@ class ShipmentEvent implements ModelInterface, ArrayAccess
     /**
      * Gets order_fee_adjustment_list.
      *
-     * @return \ClouSale\AmazonSellingPartnerAPI\Models\Finances\FeeComponentList
+     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\FeeComponentList
      */
     public function getOrderFeeAdjustmentList()
     {
@@ -460,7 +460,7 @@ class ShipmentEvent implements ModelInterface, ArrayAccess
     /**
      * Sets order_fee_adjustment_list.
      *
-     * @param \ClouSale\AmazonSellingPartnerAPI\Models\Finances\FeeComponentList $order_fee_adjustment_list order_fee_adjustment_list
+     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\FeeComponentList $order_fee_adjustment_list order_fee_adjustment_list
      *
      * @return $this
      */
@@ -474,7 +474,7 @@ class ShipmentEvent implements ModelInterface, ArrayAccess
     /**
      * Gets direct_payment_list.
      *
-     * @return \ClouSale\AmazonSellingPartnerAPI\Models\Finances\DirectPaymentList
+     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\DirectPaymentList
      */
     public function getDirectPaymentList()
     {
@@ -484,7 +484,7 @@ class ShipmentEvent implements ModelInterface, ArrayAccess
     /**
      * Sets direct_payment_list.
      *
-     * @param \ClouSale\AmazonSellingPartnerAPI\Models\Finances\DirectPaymentList $direct_payment_list direct_payment_list
+     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\DirectPaymentList $direct_payment_list direct_payment_list
      *
      * @return $this
      */
@@ -498,7 +498,7 @@ class ShipmentEvent implements ModelInterface, ArrayAccess
     /**
      * Gets posted_date.
      *
-     * @return \ClouSale\AmazonSellingPartnerAPI\Models\Finances\DateTime
+     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\DateTime
      */
     public function getPostedDate()
     {
@@ -508,7 +508,7 @@ class ShipmentEvent implements ModelInterface, ArrayAccess
     /**
      * Sets posted_date.
      *
-     * @param \ClouSale\AmazonSellingPartnerAPI\Models\Finances\DateTime $posted_date posted_date
+     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\DateTime $posted_date posted_date
      *
      * @return $this
      */
@@ -522,7 +522,7 @@ class ShipmentEvent implements ModelInterface, ArrayAccess
     /**
      * Gets shipment_item_list.
      *
-     * @return \ClouSale\AmazonSellingPartnerAPI\Models\Finances\ShipmentItemList
+     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\ShipmentItemList
      */
     public function getShipmentItemList()
     {
@@ -532,7 +532,7 @@ class ShipmentEvent implements ModelInterface, ArrayAccess
     /**
      * Sets shipment_item_list.
      *
-     * @param \ClouSale\AmazonSellingPartnerAPI\Models\Finances\ShipmentItemList $shipment_item_list shipment_item_list
+     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\ShipmentItemList $shipment_item_list shipment_item_list
      *
      * @return $this
      */
@@ -546,7 +546,7 @@ class ShipmentEvent implements ModelInterface, ArrayAccess
     /**
      * Gets shipment_item_adjustment_list.
      *
-     * @return \ClouSale\AmazonSellingPartnerAPI\Models\Finances\ShipmentItemList
+     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\ShipmentItemList
      */
     public function getShipmentItemAdjustmentList()
     {
@@ -556,7 +556,7 @@ class ShipmentEvent implements ModelInterface, ArrayAccess
     /**
      * Sets shipment_item_adjustment_list.
      *
-     * @param \ClouSale\AmazonSellingPartnerAPI\Models\Finances\ShipmentItemList $shipment_item_adjustment_list shipment_item_adjustment_list
+     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Finances\ShipmentItemList $shipment_item_adjustment_list shipment_item_adjustment_list
      *
      * @return $this
      */

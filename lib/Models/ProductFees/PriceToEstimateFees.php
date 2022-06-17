@@ -15,11 +15,11 @@
  * OpenAPI spec version: v0
  */
 
-namespace ClouSale\AmazonSellingPartnerAPI\Models\ProductFees;
+namespace Plentymarkets\AmazonSellingPartnerAPI\Models\ProductFees;
 
 use ArrayAccess;
-use ClouSale\AmazonSellingPartnerAPI\Models\ModelInterface;
-use ClouSale\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * PriceToEstimateFees Class Doc Comment.
@@ -46,9 +46,9 @@ class PriceToEstimateFees implements ModelInterface, ArrayAccess
      * @var string[]
      */
     protected static $swaggerTypes = [
-        'listing_price' => '\ClouSale\AmazonSellingPartnerAPI\Models\ProductFees\MoneyType',
-'shipping' => '\ClouSale\AmazonSellingPartnerAPI\Models\ProductFees\MoneyType',
-'points' => '\ClouSale\AmazonSellingPartnerAPI\Models\ProductFees\Points',    ];
+        'listing_price' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\ProductFees\MoneyType',
+'shipping' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\ProductFees\MoneyType',
+'points' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\ProductFees\Points',    ];
 
     /**
      * Array of property to format mappings. Used for (de)serialization.
@@ -202,7 +202,7 @@ class PriceToEstimateFees implements ModelInterface, ArrayAccess
     /**
      * Gets listing_price.
      *
-     * @return \ClouSale\AmazonSellingPartnerAPI\Models\ProductFees\MoneyType
+     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\ProductFees\MoneyType
      */
     public function getListingPrice()
     {
@@ -212,7 +212,7 @@ class PriceToEstimateFees implements ModelInterface, ArrayAccess
     /**
      * Sets listing_price.
      *
-     * @param \ClouSale\AmazonSellingPartnerAPI\Models\ProductFees\MoneyType $listing_price listing_price
+     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\ProductFees\MoneyType $listing_price listing_price
      *
      * @return $this
      */
@@ -226,7 +226,7 @@ class PriceToEstimateFees implements ModelInterface, ArrayAccess
     /**
      * Gets shipping.
      *
-     * @return \ClouSale\AmazonSellingPartnerAPI\Models\ProductFees\MoneyType
+     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\ProductFees\MoneyType
      */
     public function getShipping()
     {
@@ -236,7 +236,7 @@ class PriceToEstimateFees implements ModelInterface, ArrayAccess
     /**
      * Sets shipping.
      *
-     * @param \ClouSale\AmazonSellingPartnerAPI\Models\ProductFees\MoneyType $shipping shipping
+     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\ProductFees\MoneyType $shipping shipping
      *
      * @return $this
      */
@@ -250,7 +250,7 @@ class PriceToEstimateFees implements ModelInterface, ArrayAccess
     /**
      * Gets points.
      *
-     * @return \ClouSale\AmazonSellingPartnerAPI\Models\ProductFees\Points
+     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\ProductFees\Points
      */
     public function getPoints()
     {
@@ -260,7 +260,7 @@ class PriceToEstimateFees implements ModelInterface, ArrayAccess
     /**
      * Sets points.
      *
-     * @param \ClouSale\AmazonSellingPartnerAPI\Models\ProductFees\Points $points points
+     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\ProductFees\Points $points points
      *
      * @return $this
      */

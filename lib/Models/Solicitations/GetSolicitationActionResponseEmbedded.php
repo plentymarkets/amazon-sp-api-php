@@ -15,11 +15,11 @@
  * OpenAPI spec version: v1
  */
 
-namespace ClouSale\AmazonSellingPartnerAPI\Models\Solicitations;
+namespace Plentymarkets\AmazonSellingPartnerAPI\Models\Solicitations;
 
 use ArrayAccess;
-use ClouSale\AmazonSellingPartnerAPI\Models\ModelInterface;
-use ClouSale\AmazonSellingPartnerAPI\ObjectSerializer;
+use Plentymarkets\AmazonSellingPartnerAPI\Models\ModelInterface;
+use Plentymarkets\AmazonSellingPartnerAPI\ObjectSerializer;
 
 /**
  * GetSolicitationActionResponseEmbedded Class Doc Comment.
@@ -43,7 +43,7 @@ class GetSolicitationActionResponseEmbedded implements ModelInterface, ArrayAcce
      * @var string[]
      */
     protected static $swaggerTypes = [
-        'schema' => '\ClouSale\AmazonSellingPartnerAPI\Models\Solicitations\GetSchemaResponse',    ];
+        'schema' => '\Plentymarkets\AmazonSellingPartnerAPI\Models\Solicitations\GetSchemaResponse',    ];
 
     /**
      * Array of property to format mappings. Used for (de)serialization.
@@ -183,7 +183,7 @@ class GetSolicitationActionResponseEmbedded implements ModelInterface, ArrayAcce
     /**
      * Gets schema.
      *
-     * @return \ClouSale\AmazonSellingPartnerAPI\Models\Solicitations\GetSchemaResponse
+     * @return \Plentymarkets\AmazonSellingPartnerAPI\Models\Solicitations\GetSchemaResponse
      */
     public function getSchema()
     {
@@ -193,7 +193,7 @@ class GetSolicitationActionResponseEmbedded implements ModelInterface, ArrayAcce
     /**
      * Sets schema.
      *
-     * @param \ClouSale\AmazonSellingPartnerAPI\Models\Solicitations\GetSchemaResponse $schema schema
+     * @param \Plentymarkets\AmazonSellingPartnerAPI\Models\Solicitations\GetSchemaResponse $schema schema
      *
      * @return $this
      */

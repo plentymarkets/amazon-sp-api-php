@@ -1,6 +1,6 @@
 <?php
 
-namespace ClouSale\AmazonSellingPartnerAPI\Models;
+namespace Plentymarkets\AmazonSellingPartnerAPI\Models;
 
 interface IterableType
 {

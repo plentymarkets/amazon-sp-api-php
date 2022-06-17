@@ -15,7 +15,7 @@
  * OpenAPI spec version: v1
  */
 
-namespace ClouSale\AmazonSellingPartnerAPI\Models\FbaSmallAndLight;
+namespace Plentymarkets\AmazonSellingPartnerAPI\Models\FbaSmallAndLight;
 
 /**
  * SmallAndLightEnrollmentStatus Class Doc Comment.
